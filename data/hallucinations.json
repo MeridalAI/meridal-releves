@@ -1,0 +1,28 @@
+{
+ "retrieved": "2026-10-08",
+ "source": {
+  "nom": "Vectara, Hallucination Leaderboard, modèle d'évaluation HHEM-2.3",
+  "url": "https://github.com/vectara/hallucination-leaderboard",
+  "mis_a_jour": "2026-09-22",
+  "nature": "mesure indépendante d'un éditeur de logiciel de recherche, sans lien avec les modèles mesurés"
+ },
+ "methode": "Chaque modèle résume les mêmes documents en n'utilisant que leurs faits ; le modèle d'évaluation de Vectara compte les résumés qui contiennent une information absente du document. Documents et évaluation en anglais seulement. Vectara ne garde que les documents résumés par tous les modèles.",
+ "colonnes": ["modele", "editeur", "id_vectara", "taux_pct"],
+ "lignes": [
+  {"modele": "Finix S1 32B", "editeur": "Ant Group", "id_vectara": "antgroup/finix_s1_32b", "taux_pct": 1.8, "note": "le plus bas du classement"},
+  {"modele": "GPT-6 Sol", "editeur": "OpenAI", "id_vectara": "openai/gpt-6-sol", "taux_pct": 6.5},
+  {"modele": "Gemma 4 31B", "editeur": "Google", "id_vectara": "google/gemma-4-31b-it", "taux_pct": 7.4},
+  {"modele": "DeepSeek V4 Pro", "editeur": "DeepSeek", "id_vectara": "deepseek-ai/DeepSeek-V4-Pro", "taux_pct": 8.6},
+  {"modele": "GPT-6 Astra", "editeur": "OpenAI", "id_vectara": "openai/gpt-6-astra", "taux_pct": 8.7},
+  {"modele": "Claude Haiku 4.5", "editeur": "Anthropic", "id_vectara": "anthropic/claude-haiku-4-5-20251001", "taux_pct": 9.8},
+  {"modele": "Gemini 3.1 Pro, en aperçu", "editeur": "Google", "id_vectara": "google/gemini-3.1-pro-preview", "taux_pct": 10.4},
+  {"modele": "Claude Opus 4.6", "editeur": "Anthropic", "id_vectara": "anthropic/claude-opus-4-6", "taux_pct": 12.2},
+  {"modele": "GPT-5.6 Sol", "editeur": "OpenAI", "id_vectara": "openai/gpt-5.6-sol", "taux_pct": 12.4},
+  {"modele": "gpt-oss-120b", "editeur": "OpenAI", "id_vectara": "openai/gpt-oss-120b", "taux_pct": 14.2},
+  {"modele": "Grok 4.1 Fast, avec raisonnement", "editeur": "xAI", "id_vectara": "xai-org/grok-4-1-fast-reasoning", "taux_pct": 19.2},
+  {"modele": "Mistral Medium, août 2025", "editeur": "Mistral AI", "id_vectara": "mistralai/mistral-medium-2508", "taux_pct": 22.7},
+  {"modele": "Ministral 3 3B", "editeur": "Mistral AI", "id_vectara": "mistralai/ministral-3-3b-2512", "taux_pct": 24.2, "note": "le plus haut du classement"}
+ ],
+ "lacunes": ["Ni Claude Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.1, ni Gemini 3.8 Flash, ni Mistral Large 4 ne figurent au classement du 22 septembre 2026."],
+ "selection": "Treize modèles sur 109 : le plus bas, le plus haut, et les modèles des éditeurs que la rubrique compare ; chaque valeur est celle du tableau du 22 septembre 2026."
+}

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ces relevés, citez-les ainsi. Les faits relevés restent à leurs sources : citez-les aussi."
+type: dataset
+title: "Relevés de la rubrique Apprendre de Meridal"
+version: "2026-10-09"
+date-released: "2026-10-09"
+license: CC-BY-4.0
+url: "https://meridal.fr/apprendre/releves-en-telechargement/"
+repository-code: "https://github.com/MeridalAI/meridal-releves"
+abstract: >-
+  Prix des modèles d'IA et des abonnements d'équipe, notes aux classements, offres des éditeurs,
+  chemins de réglages dans leurs consoles et calendrier réglementaire, relevés à leurs sources.
+  Chaque valeur porte sa source, son adresse et la date où elle a été lue.
+authors:
+  - name: "Meridal"
+    website: "https://meridal.fr/"
+  - family-names: "Grima"
+    given-names: "Oscar"
+    affiliation: "Meridal"
+keywords:
+  - intelligence artificielle
+  - modèles de langage
+  - prix
+  - classements
+  - réglementation
+  - PME

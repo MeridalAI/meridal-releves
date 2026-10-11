@@ -1,0 +1,17 @@
+{
+  "title": "Relevés de la rubrique Apprendre de Meridal",
+  "upload_type": "dataset",
+  "description": "<p>Les relevés sur lesquels s'appuient les pages de la rubrique Apprendre de Meridal : prix des modèles d'IA et des abonnements d'équipe, notes aux classements, offres des éditeurs, chemins de réglages dans leurs consoles, calendrier réglementaire. Chaque valeur porte sa source, son adresse et la date où elle a été lue ; ce qui n'a pas été trouvé reste vide.</p><p>Les faits relevés appartiennent à leurs sources et se citent avec elles. Le choix des faits, leur mise en forme, les notes et les textes de Meridal sont sous licence CC BY 4.0.</p><p>Source canonique, à jour : https://meridal.fr/apprendre/releves-en-telechargement/</p>",
+  "creators": [
+    { "name": "Meridal" },
+    { "name": "Grima, Oscar", "affiliation": "Meridal" }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "fra",
+  "version": "2026-10-09",
+  "keywords": ["intelligence artificielle", "modèles de langage", "prix", "classements", "réglementation", "PME"],
+  "related_identifiers": [
+    { "identifier": "https://meridal.fr/apprendre/releves-en-telechargement/", "relation": "isDescribedBy", "scheme": "url" }
+  ]
+}

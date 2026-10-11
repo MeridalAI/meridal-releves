@@ -1,0 +1,2582 @@
+{
+ "retrieved": "2026-10-08",
+ "scope": "AI model market overview for SME leaders, prices in USD per million tokens unless stated",
+ "models": [
+  {
+   "name": "GPT-6 Astra",
+   "api_id": "gpt-6-astra",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2026-09-03",
+   "status": "generally available",
+   "tier": "flagship",
+   "price_input_usd_per_mtok": 10.0,
+   "price_output_usd_per_mtok": 50.0,
+   "price_cached_input_usd_per_mtok": 1.0,
+   "pricing_notes": "Cache writes $12.50. Prompts above 272K input tokens: 2x input/cache price and 1.5x output price for the full request. Batch and Flex: -50%. Fast mode: 2x. Ultrafast mode $60/$300 (limited availability). Fast mode not available with EU data residency for GPT-6 models.",
+   "context_window_tokens": 1050000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (reasoning.effort low to max; no 'none' level)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "OpenAI API EU regional processing and storage via eu.api.openai.com (Europe = EEA + Switzerland), requires sales approval, abuse-monitoring controls and a Modified Retention amendment; +10% price uplift for models released on or after 5 March 2026. Also sold on Microsoft Azure Foundry (Standard, Data Zone, Global deployments). gpt-6-astra listed for EU on /v1/responses and /v1/chat/completions; Azure Foundry lists gpt-6-astra (2026-09-03). Correction (verified 2026-10-06): on Azure AI Foundry, GPT-6 Astra is absent from the Data Zone Standard Europe table and from Standard/Regional Europe; only Global Standard and Global Provisioned (processing global).",
+   "known_for": "OpenAI's 'most capable model for the most demanding work' (complex reasoning, coding, computer use, research, document creation).",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+     "retrieved": "2026-10-08",
+     "fields": "specs, price, known_for"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/guides/your-data",
+     "retrieved": "2026-10-08",
+     "fields": "EU residency"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price tiers"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "GPT-6.1 Sol",
+   "api_id": "gpt-6.1-sol",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2026-09-29",
+   "status": "generally available",
+   "tier": "mid (near-flagship)",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 10.0,
+   "price_cached_input_usd_per_mtok": 0.1,
+   "pricing_notes": "Cache writes $2.50; cached input at 5% of input. Prompts above 272K input tokens: 2x input/cache price and 1.5x output price for the full request. Batch and Flex: -50%. Fast mode: 2x.",
+   "context_window_tokens": 1050000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (low to max; 'none' and 'minimal' not supported)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "OpenAI API EU regional processing and storage via eu.api.openai.com (Europe = EEA + Switzerland), requires sales approval, abuse-monitoring controls and a Modified Retention amendment; +10% price uplift for models released on or after 5 March 2026. Also sold on Microsoft Azure Foundry (Standard, Data Zone, Global deployments). Supports EU data residency with Standard, Flex and Batch. Azure AI Foundry (verified 2026-10-06): Data Zone Standard, EU data zone (francecentral, germanywestcentral, italynorth, polandcentral, spaincentral, swedencentral, westeurope, also norwayeast and switzerlandnorth listed).",
+   "known_for": "'Near-Astra performance for complex work at a lower cost.'",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+     "retrieved": "2026-10-08",
+     "fields": "specs, price"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/guides/your-data",
+     "retrieved": "2026-10-08",
+     "fields": "EU residency"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/models",
+     "retrieved": "2026-10-08",
+     "fields": "known_for"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "GPT-6 Sol",
+   "api_id": "gpt-6-sol",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2026-09-22",
+   "status": "generally available",
+   "tier": "mid",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 10.0,
+   "price_cached_input_usd_per_mtok": 0.2,
+   "pricing_notes": "Cache writes $2.50. Prompts above 272K input tokens: 2x input/cache price and 1.5x output price for the full request. Batch and Flex: -50%. Fast mode: 2x.",
+   "context_window_tokens": 1050000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (none to max)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "OpenAI API EU regional processing and storage via eu.api.openai.com (Europe = EEA + Switzerland), requires sales approval, abuse-monitoring controls and a Modified Retention amendment; +10% price uplift for models released on or after 5 March 2026. Also sold on Microsoft Azure Foundry (Standard, Data Zone, Global deployments). Supports EU data residency with Standard, Flex and Batch. Azure AI Foundry (verified 2026-10-06): Data Zone Standard, EU data zone.",
+   "known_for": "'Built to power complex coding and agentic workflows.'",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+     "retrieved": "2026-10-08",
+     "fields": "specs, price"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/guides/your-data",
+     "retrieved": "2026-10-08",
+     "fields": "EU residency"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/models",
+     "retrieved": "2026-10-08",
+     "fields": "known_for"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "GPT-6 Luna",
+   "api_id": "gpt-6-luna",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2026-09-22",
+   "status": "generally available",
+   "tier": "small / cheap",
+   "price_input_usd_per_mtok": 0.1,
+   "price_output_usd_per_mtok": 0.5,
+   "price_cached_input_usd_per_mtok": 0.01,
+   "pricing_notes": "Cache writes $0.125. Prompts above 272K input tokens: 2x input/cache price and 1.5x output price for the full request. Batch and Flex: -50%. Fast mode: 2x.",
+   "context_window_tokens": 1050000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (none to max)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "OpenAI API EU regional processing and storage via eu.api.openai.com (Europe = EEA + Switzerland), requires sales approval, abuse-monitoring controls and a Modified Retention amendment; +10% price uplift for models released on or after 5 March 2026. Also sold on Microsoft Azure Foundry (Standard, Data Zone, Global deployments). Supports EU data residency with Standard, Flex and Batch. Azure AI Foundry (verified 2026-10-06): Data Zone Standard, EU data zone.",
+   "known_for": "'Our most efficient model for focused, high-volume tasks.'",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+     "retrieved": "2026-10-08",
+     "fields": "specs, price"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/guides/your-data",
+     "retrieved": "2026-10-08",
+     "fields": "EU residency"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/models",
+     "retrieved": "2026-10-08",
+     "fields": "known_for"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "GPT-5.6 Sol",
+   "api_id": "gpt-5.6-sol",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2026-07-09",
+   "status": "generally available (previous generation)",
+   "tier": "flagship (previous generation)",
+   "price_input_usd_per_mtok": 4.0,
+   "price_output_usd_per_mtok": 20.0,
+   "price_cached_input_usd_per_mtok": 0.4,
+   "pricing_notes": "Price cut on 2026-08-21 (-20% input, -33% output), described as promotional pricing 'at least through November 21, 2026'. Prompts above 272K input tokens: 2x input/cache price and 1.5x output price for the full request. Batch and Flex: -50%. Fast mode: 2x. OpenRouter lists $2/$10 (contradiction, see gaps).",
+   "context_window_tokens": 1050000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (none to max)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "OpenAI API EU regional processing and storage via eu.api.openai.com (Europe = EEA + Switzerland), requires sales approval, abuse-monitoring controls and a Modified Retention amendment; +10% price uplift for models released on or after 5 March 2026. Also sold on Microsoft Azure Foundry (Standard, Data Zone, Global deployments). Azure AI Foundry (verified 2026-10-06): Data Zone Standard, EU data zone.",
+   "known_for": "'GPT-5.6 flagship model for complex professional work.'",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+     "retrieved": "2026-10-08",
+     "fields": "specs, price"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date and price change"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "cross-check price"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "GPT-5.6 Terra",
+   "api_id": "gpt-5.6-terra",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2026-07-09",
+   "status": "generally available (previous generation)",
+   "tier": "mid (previous generation)",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 12.0,
+   "price_cached_input_usd_per_mtok": 0.2,
+   "pricing_notes": "Price cut 20% on 2026-07-30. Prompts above 272K input tokens: 2x input/cache price and 1.5x output price for the full request. Batch and Flex: -50%. Fast mode: 2x.",
+   "context_window_tokens": 1050000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (none to max)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "OpenAI API EU regional processing and storage via eu.api.openai.com (Europe = EEA + Switzerland), requires sales approval, abuse-monitoring controls and a Modified Retention amendment; +10% price uplift for models released on or after 5 March 2026. Also sold on Microsoft Azure Foundry (Standard, Data Zone, Global deployments). Azure AI Foundry (verified 2026-10-06): Data Zone Standard, EU data zone.",
+   "known_for": "'GPT-5.6 model that balances intelligence and cost.'",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+     "retrieved": "2026-10-08",
+     "fields": "specs, price"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date, price cut"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "GPT-5.6 Luna",
+   "api_id": "gpt-5.6-luna",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2026-07-09",
+   "status": "generally available (previous generation)",
+   "tier": "small (previous generation)",
+   "price_input_usd_per_mtok": 0.2,
+   "price_output_usd_per_mtok": 1.2,
+   "price_cached_input_usd_per_mtok": 0.02,
+   "pricing_notes": "Price cut 80% on 2026-07-30. Prompts above 272K input tokens: 2x input/cache price and 1.5x output price for the full request. Batch and Flex: -50%. Fast mode: 2x.",
+   "context_window_tokens": 1050000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (none to max)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "OpenAI API EU regional processing and storage via eu.api.openai.com (Europe = EEA + Switzerland), requires sales approval, abuse-monitoring controls and a Modified Retention amendment; +10% price uplift for models released on or after 5 March 2026. Also sold on Microsoft Azure Foundry (Standard, Data Zone, Global deployments). Azure AI Foundry (verified 2026-10-06): Data Zone Standard, EU data zone.",
+   "known_for": "'GPT-5.6 model optimized for cost-sensitive workloads.'",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+     "retrieved": "2026-10-08",
+     "fields": "specs, price"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date, price cut"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "gpt-oss-120b",
+   "api_id": "gpt-oss-120b",
+   "provider": "OpenAI",
+   "provider_country": "US",
+   "release_date": "2025-08-04",
+   "status": "open weights (self-host or third-party hosts)",
+   "tier": "open-weight mid",
+   "price_input_usd_per_mtok": null,
+   "price_output_usd_per_mtok": null,
+   "price_cached_input_usd_per_mtok": null,
+   "pricing_notes": "No OpenAI API price listed; price depends on host.",
+   "context_window_tokens": 131072,
+   "max_output_tokens": 131072,
+   "input_modalities": [
+    "text"
+   ],
+   "reasoning": "yes (low/medium/high)",
+   "open_weights": true,
+   "licence": "Apache 2.0",
+   "eu_hosting": "Self-hosting anywhere (weights on Hugging Face); 'fits into an H100 GPU' per OpenAI.",
+   "known_for": "'Most powerful open-weight model, fits into an H100 GPU.'",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/models/gpt-oss-120b",
+     "retrieved": "2026-10-08",
+     "fields": "specs, licence"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=openai",
+     "retrieved": "2026-10-08",
+     "fields": "weights publication date (repo creation 2025-08-04)"
+    }
+   ]
+  },
+  {
+   "name": "Claude Fable 5.1",
+   "api_id": "claude-fable-5-1",
+   "provider": "Anthropic",
+   "provider_country": "US",
+   "release_date": "2026-09-01",
+   "status": "generally available",
+   "tier": "flagship (top reasoning)",
+   "price_input_usd_per_mtok": 10.0,
+   "price_output_usd_per_mtok": 50.0,
+   "price_cached_input_usd_per_mtok": 0.25,
+   "pricing_notes": "5-min cache write $12.50, 1-h $20; cache hits at 0.025x input. Full 1M context at standard price (no long-context surcharge). Batch -50%. Sibling Claude Mythos 5.1 same price, limited availability.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes, adaptive thinking always on (default effort high)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Claude API first-party: inference_geo only 'global' (default) or 'us' (x1.1 price); workspace geo 'us' only, so no EU residency first-party. Also on Amazon Bedrock, Google Cloud Vertex AI and Microsoft Foundry; on Bedrock and Google Cloud, regional and multi-region endpoints cost +10% over global. Bedrock model card for Fable 5.1 shows no eu.* geo inference ID: in European regions only Global cross-region inference is marked available (re-checked 2026-10-08). Vertex AI (verified 2026-10-06): EU multi-region endpoint. Azure AI Foundry: Global Standard only, no EU data zone.",
+   "known_for": "'For demanding reasoning and long-horizon agentic work.'",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "retrieved": "2026-10-08",
+     "fields": "id, price, context, thinking, known_for"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "cache, batch, long context"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/manage-claude/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "residency"
+    },
+    {
+     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-fable-5-1.html",
+     "retrieved": "2026-10-08",
+     "fields": "Bedrock EU check"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    }
+   ]
+  },
+  {
+   "name": "Claude Opus 5.5",
+   "api_id": "claude-opus-5-5",
+   "provider": "Anthropic",
+   "provider_country": "US",
+   "release_date": "2026-09-22",
+   "status": "generally available",
+   "tier": "flagship (recommended default)",
+   "price_input_usd_per_mtok": 4.0,
+   "price_output_usd_per_mtok": 20.0,
+   "price_cached_input_usd_per_mtok": 0.2,
+   "pricing_notes": "5-min cache write $5, 1-h $8; cache hits at 0.05x input. Fast mode $8/$40 (research preview). Full 1M context at standard price (no long-context surcharge). Batch -50%. Cheaper than Opus 5 ($5/$25).",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes, adaptive thinking always on (default effort medium)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Claude API first-party: inference_geo only 'global' (default) or 'us' (x1.1 price); workspace geo 'us' only, so no EU residency first-party. Also on Amazon Bedrock, Google Cloud Vertex AI and Microsoft Foundry; on Bedrock and Google Cloud, regional and multi-region endpoints cost +10% over global. Bedrock: EU geo cross-region inference ID eu.anthropic.claude-opus-5-5 (from EU regions incl. Frankfurt, Ireland, Milan, Spain, Stockholm, Zurich, Paris); the model card marks In-Region as available in eu-west-2 (London, UK) only among European regions. Vertex AI (verified 2026-10-06): EU multi-region endpoint. Azure AI Foundry: Global Standard only, no EU data zone.",
+   "known_for": "'For long-running agentic coding and knowledge work'; Anthropic's suggested starting model for most workloads.",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "retrieved": "2026-10-08",
+     "fields": "id, price, context, thinking, known_for"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "cache, fast mode"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/manage-claude/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "residency"
+    },
+    {
+     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html",
+     "retrieved": "2026-10-08",
+     "fields": "Bedrock EU regions"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    }
+   ]
+  },
+  {
+   "name": "Claude Sonnet 5.5",
+   "api_id": "claude-sonnet-5-5",
+   "provider": "Anthropic",
+   "provider_country": "US",
+   "release_date": "2026-09-28",
+   "status": "generally available",
+   "tier": "mid",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 10.0,
+   "price_cached_input_usd_per_mtok": 0.1,
+   "pricing_notes": "Cache reads cut from $0.20 to $0.10 (0.05x input) on 2026-10-07. 5-min cache write $2.50, 1-h $4. Full 1M context at standard price (no long-context surcharge). Batch -50%. Sonnet 5's launch price of $2/$10 became permanent (planned rise to $3/$15 on 2026-09-01 cancelled).",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes, adaptive thinking (default effort high)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Claude API first-party: inference_geo only 'global' (default) or 'us' (x1.1 price); workspace geo 'us' only, so no EU residency first-party. Also on Amazon Bedrock, Google Cloud Vertex AI and Microsoft Foundry; on Bedrock and Google Cloud, regional and multi-region endpoints cost +10% over global. Bedrock: EU geo inference ID eu.anthropic.claude-sonnet-5-5. Vertex AI (verified 2026-10-06): EU multi-region endpoint. Azure AI Foundry: Global Standard only, no EU data zone.",
+   "known_for": "'The best combination of speed and intelligence.'",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "retrieved": "2026-10-08",
+     "fields": "id, price, context, known_for"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "cache, Sonnet 5 price note"
+    },
+    {
+     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-5-5.html",
+     "retrieved": "2026-10-08",
+     "fields": "Bedrock EU"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "retrieved": "2026-10-08",
+     "fields": "cache-read price cut (2026-10-07)"
+    }
+   ]
+  },
+  {
+   "name": "Claude Haiku 5.5",
+   "api_id": "claude-haiku-5-5",
+   "provider": "Anthropic",
+   "provider_country": "US",
+   "release_date": "2026-10-07",
+   "status": "generally available",
+   "tier": "small / fast",
+   "price_input_usd_per_mtok": 0.1,
+   "price_output_usd_per_mtok": 0.5,
+   "price_cached_input_usd_per_mtok": 0.01,
+   "pricing_notes": "Prices shown for prompts up to 100,000 tokens. Prompts over 100,000 tokens: $0.50 input / $2.50 output / $0.05 cache read. 5-min cache write $0.125 ($0.625 over 100k), 1-h $0.20 ($1 over 100k). Batch -50% ($0.05/$0.25; $0.25/$1.25 over 100k). Only current Claude model with a long-prompt surcharge. Uses the newer tokenizer (about 30% more tokens than Haiku 4.5 for the same text); Anthropic says it costs 'around 75% less to run' than Haiku 4.5 on average. US-only inference x1.1.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes, adaptive thinking on by default (effort parameter, default medium); manual extended thinking (budget_tokens) returns an error",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Claude API first-party: inference_geo only 'global' (default) or 'us' (x1.1 price); workspace geo 'us' only, so no EU residency first-party. Amazon Bedrock: EU geo cross-region inference ID eu.anthropic.claude-haiku-5-5 (Frankfurt, Zurich, Stockholm, Milan, Spain, Ireland, Paris); no In-Region option in Europe; Bedrock eu-central-1 lists $0.11/$0.55 regional vs $0.10/$0.50 global (AWS Price List). Google Cloud (Gemini Enterprise Agent Platform): EU multi-region. Also on Claude Platform on AWS and Microsoft Foundry.",
+   "known_for": "'For high-volume, latency-sensitive tasks such as classification, extraction, and routing'; Anthropic calls it 'the cheapest, fastest, and most capable small model we've ever released'.",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "retrieved": "2026-10-08",
+     "fields": "line-up, price, context, output, effort, known_for"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+     "retrieved": "2026-10-08",
+     "fields": "specs, long-prompt pricing, tokenizer, batch output beta"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price, cache, batch, long-prompt rule"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-10-07, api id, platforms"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+     "retrieved": "2026-10-08",
+     "fields": "status Active, retirement not sooner than 2027-10-07"
+    },
+    {
+     "url": "https://www.anthropic.com/claude-haiku-5-5",
+     "retrieved": "2026-10-08",
+     "fields": "announcement, cost vs Haiku 4.5, availability"
+    },
+    {
+     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-5-5.html",
+     "retrieved": "2026-10-08",
+     "fields": "Bedrock EU geo inference"
+    },
+    {
+     "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrockFoundationModels/current/eu-central-1/index.json",
+     "retrieved": "2026-10-08",
+     "fields": "Bedrock Frankfurt prices"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (Google Cloud EU multi-region)"
+    }
+   ]
+  },
+  {
+   "name": "Claude Haiku 4.5",
+   "api_id": "claude-haiku-4-5-20251001",
+   "provider": "Anthropic",
+   "provider_country": "US",
+   "release_date": "2025-10-15",
+   "status": "generally available (legacy: Anthropic recommends migrating to Claude Haiku 5.5; Active on the deprecations page)",
+   "tier": "small / fast",
+   "price_input_usd_per_mtok": 1.0,
+   "price_output_usd_per_mtok": 5.0,
+   "price_cached_input_usd_per_mtok": 0.1,
+   "pricing_notes": "5-min cache write $1.25, 1-h $2. Batch -50% ($0.50/$2.50). Labelled 'Legacy' on its model page since Claude Haiku 5.5 (2026-10-07); still 'Active' on the deprecations page with retirement 'not sooner than October 15, 2026' on Anthropic platforms.",
+   "context_window_tokens": 200000,
+   "max_output_tokens": 64000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes, extended thinking (manual budget)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Claude API first-party: inference_geo only 'global' (default) or 'us' (x1.1 price); workspace geo 'us' only, so no EU residency first-party. Also on Amazon Bedrock, Google Cloud Vertex AI and Microsoft Foundry; on Bedrock and Google Cloud, regional and multi-region endpoints cost +10% over global. Bedrock: EU geo inference ID eu.anthropic.claude-haiku-4-5-20251001-v1. Vertex AI (verified 2026-10-06): EU multi-region endpoint and europe-west1 (Belgium). Azure AI Foundry: Global Standard only, no EU data zone.",
+   "known_for": "'The fastest model with near-frontier intelligence.'",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "retrieved": "2026-10-08",
+     "fields": "id, price, context, retirement"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "cache"
+    },
+    {
+     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5.html",
+     "retrieved": "2026-10-08",
+     "fields": "Bedrock EU"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+     "retrieved": "2026-10-08",
+     "fields": "status, retirement date"
+    }
+   ]
+  },
+  {
+   "name": "Gemini 4 Argon",
+   "api_id": null,
+   "provider": "Google DeepMind",
+   "provider_country": "US",
+   "release_date": "2026-09-30",
+   "status": "announced, limited rollout (trusted cyber defenders via Fairwind Program); not yet open to developers",
+   "tier": "flagship",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 10.0,
+   "price_cached_input_usd_per_mtok": 0.1,
+   "pricing_notes": "Announced 'introductory price' of $2 input / $10 output; cached input 95% off input (computed $0.10). Not on the Gemini API pricing page as of retrieval.",
+   "context_window_tokens": null,
+   "max_output_tokens": 1000000,
+   "input_modalities": null,
+   "reasoning": "yes (deep reasoning; AA lists a 'high' setting)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": null,
+   "known_for": "Frontier model for 'real-world coding, enterprise knowledge work, and cyber defense'; output limit raised to 1M tokens.",
+   "sources": [
+    {
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+     "retrieved": "2026-10-08",
+     "fields": "date, price, status, output limit"
+    },
+    {
+     "url": "https://artificialanalysis.ai/leaderboards/models",
+     "retrieved": "2026-10-08",
+     "fields": "listed with 1M context"
+    }
+   ]
+  },
+  {
+   "name": "Gemini 3.1 Pro (Preview)",
+   "api_id": "gemini-3.1-pro-preview",
+   "provider": "Google",
+   "provider_country": "US",
+   "release_date": "2026-02-19",
+   "status": "preview",
+   "tier": "flagship (current Pro on Gemini API)",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 12.0,
+   "price_cached_input_usd_per_mtok": 0.2,
+   "pricing_notes": "Prompts >200k tokens: $4 input / $18 output / $0.40 cache. Batch and Flex -50%. Priority $3.60/$21.60. Paid tier data not used to improve products.",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": 65536,
+   "input_modalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "reasoning": "yes (thinking)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Gemini API (AI Studio) has no stated EU processing option; Vertex AI offers an EU multi-region endpoint (aiplatform.eu.rep.googleapis.com) keeping ML processing within the EU; per-model EU availability not confirmed from the rendered page. Vertex AI (verified 2026-10-06): global endpoint only for this preview; no EU multi-region, no European region.",
+   "known_for": "'Our 3rd generation Pro model, built for multimodal understanding, agentic capabilities, and vibe-coding.'",
+   "sources": [
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+     "retrieved": "2026-10-08",
+     "fields": "specs (latest update February 2026)"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date = OpenRouter listing 2026-02-19"
+    },
+    {
+     "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations",
+     "retrieved": "2026-10-08",
+     "fields": "EU endpoint"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/locations",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-02-19 confirmed by Google, no shutdown date announced"
+    }
+   ]
+  },
+  {
+   "name": "Gemini 3.8 Flash",
+   "api_id": "gemini-3.8-flash",
+   "provider": "Google",
+   "provider_country": "US",
+   "release_date": "2026-09-02",
+   "status": "generally available",
+   "tier": "mid (fast workhorse)",
+   "price_input_usd_per_mtok": 0.75,
+   "price_output_usd_per_mtok": 3.75,
+   "price_cached_input_usd_per_mtok": 0.075,
+   "pricing_notes": "Price valid through 2026-12-31; from 2027-01-01: $1.50 / $7.50 / $0.15 cache. Batch and Flex -50%; Priority $1.35/$6.75. Free tier available (data used to improve products on free tier).",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": 65536,
+   "input_modalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "reasoning": "yes (thinking)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Gemini API (AI Studio) has no stated EU processing option; Vertex AI offers an EU multi-region endpoint (aiplatform.eu.rep.googleapis.com) keeping ML processing within the EU; per-model EU availability not confirmed from the rendered page. Vertex AI (verified 2026-10-06): EU multi-region endpoint (aiplatform.eu.rep.googleapis.com); no single European region.",
+   "known_for": "'Our most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows.'",
+   "sources": [
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price and scheduled increase"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+     "retrieved": "2026-10-08",
+     "fields": "specs"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "GA date"
+    },
+    {
+     "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations",
+     "retrieved": "2026-10-08",
+     "fields": "EU endpoint"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    }
+   ]
+  },
+  {
+   "name": "Gemini 3.5 Flash-Lite",
+   "api_id": "gemini-3.5-flash-lite",
+   "provider": "Google",
+   "provider_country": "US",
+   "release_date": "2026-07-21",
+   "status": "generally available",
+   "tier": "small / cheap",
+   "price_input_usd_per_mtok": 0.3,
+   "price_output_usd_per_mtok": 2.5,
+   "price_cached_input_usd_per_mtok": 0.03,
+   "pricing_notes": "Same input price for text/image/video/audio. Batch and Flex -50%.",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": 65536,
+   "input_modalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "reasoning": "yes (thinking)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Gemini API (AI Studio) has no stated EU processing option; Vertex AI offers an EU multi-region endpoint (aiplatform.eu.rep.googleapis.com) keeping ML processing within the EU; per-model EU availability not confirmed from the rendered page. Vertex AI (verified 2026-10-06): EU multi-region endpoint.",
+   "known_for": "'Low-latency, cost-effective multimodal model' for 'subagent tasks and document parsing'.",
+   "sources": [
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+     "retrieved": "2026-10-08",
+     "fields": "specs"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "GA date"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    }
+   ]
+  },
+  {
+   "name": "Gemini 3.1 Flash-Lite",
+   "api_id": "gemini-3.1-flash-lite",
+   "provider": "Google",
+   "provider_country": "US",
+   "release_date": "2026-05-07",
+   "status": "generally available (shutdown date announced: 2027-05-07; Google recommends gemini-3.5-flash-lite)",
+   "tier": "smallest / cheapest Gemini",
+   "price_input_usd_per_mtok": 0.25,
+   "price_output_usd_per_mtok": 1.5,
+   "price_cached_input_usd_per_mtok": 0.025,
+   "pricing_notes": "Audio input $0.50. Batch and Flex -50%.",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": 65536,
+   "input_modalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "reasoning": "yes (thinking_level)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Gemini API (AI Studio) has no stated EU processing option; Vertex AI offers an EU multi-region endpoint (aiplatform.eu.rep.googleapis.com) keeping ML processing within the EU; per-model EU availability not confirmed from the rendered page. Vertex AI (verified 2026-10-06): EU multi-region endpoint.",
+   "known_for": "'Optimized for high-frequency, lightweight tasks.'",
+   "sources": [
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+     "retrieved": "2026-10-08",
+     "fields": "specs (latest update May 2026)"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date = OpenRouter GA listing 2026-05-07 (preview 2026-03-03)"
+    },
+    {
+     "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification)"
+    },
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-05-07, shutdown date 2027-05-07"
+    }
+   ]
+  },
+  {
+   "name": "Gemma 4 31B",
+   "api_id": "gemma-4-31b-it",
+   "provider": "Google",
+   "provider_country": "US",
+   "release_date": "2026-04-02",
+   "status": "open weights",
+   "tier": "open-weight small/mid",
+   "price_input_usd_per_mtok": null,
+   "price_output_usd_per_mtok": null,
+   "price_cached_input_usd_per_mtok": null,
+   "pricing_notes": "Free of charge on the Gemini API free tier, no paid tier; third-party hosts charge (OpenRouter lists $0.09/$0.34).",
+   "context_window_tokens": 262144,
+   "max_output_tokens": null,
+   "input_modalities": null,
+   "reasoning": null,
+   "open_weights": true,
+   "licence": "Apache 2.0 (Hugging Face licence tag)",
+   "eu_hosting": "Self-hosting anywhere.",
+   "known_for": "'Our lightweight, state-of the art, open model built from the same technology that powers our Gemini models.'",
+   "sources": [
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "pricing, known_for"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date, context, host price"
+    },
+    {
+     "url": "https://huggingface.co/api/models/google/gemma-4-31B-it",
+     "retrieved": "2026-10-08",
+     "fields": "licence"
+    }
+   ]
+  },
+  {
+   "name": "Grok 4.7",
+   "api_id": "grok-4.7",
+   "provider": "xAI (styled 'SpaceXAI' on its own pages)",
+   "provider_country": "US",
+   "release_date": "2026-09-21",
+   "status": "generally available",
+   "tier": "flagship",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 6.0,
+   "price_cached_input_usd_per_mtok": 0.5,
+   "pricing_notes": "Long context (>=200k prompt tokens): $4 / $12 / $1 cache for all tokens. US regional endpoint +10%. No Batch API discount for grok-4.7 (only grok-4.3 and grok-4.20 models get 20%). Priority processing 2x. Grok 4.7 Fast (2x, 1.5x for long context) only in Cursor and Grok Build.",
+   "context_window_tokens": 500000,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (reasoning effort; encrypted reasoning content)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "No EU endpoint: global endpoint (routing not guaranteed) or US endpoint only.",
+   "known_for": "'Our most capable model for coding and knowledge work'; 'no text output limit'.",
+   "sources": [
+    {
+     "url": "https://docs.x.ai/docs/models",
+     "retrieved": "2026-10-08",
+     "fields": "price, context, cutoff May 2026"
+    },
+    {
+     "url": "https://docs.x.ai/developers/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "long-context and regional pricing"
+    },
+    {
+     "url": "https://docs.x.ai/developers/release-notes",
+     "retrieved": "2026-10-08",
+     "fields": "release date, modalities, output limit"
+    },
+    {
+     "url": "https://docs.x.ai/developers/advanced-api-usage/regions",
+     "retrieved": "2026-10-08",
+     "fields": "regions"
+    }
+   ]
+  },
+  {
+   "name": "Muse Spark 1.3",
+   "api_id": "muse-spark-1.3",
+   "provider": "Meta",
+   "provider_country": "US",
+   "release_date": "2026-09-02",
+   "status": "generally available",
+   "tier": "flagship (Meta, proprietary)",
+   "price_input_usd_per_mtok": 1.25,
+   "price_output_usd_per_mtok": 4.25,
+   "price_cached_input_usd_per_mtok": 0.15,
+   "pricing_notes": "Standard tier: prompts not used for training. No long-context premium. Contributor tier (muse-spark-1.3-contributor) at $0.10/$0.20 (cached $0.002) in exchange for Meta training on your prompts and completions. Web search grounding $2.50 per 1,000 queries.",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text",
+    "image",
+    "video",
+    "audio",
+    "pdf"
+   ],
+   "reasoning": "yes (reasoning effort levels, including 'max' on Standard tier only)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": null,
+   "known_for": "Meta's 'multimodal reasoning model ... for long-running agentic, multi-agent, and coding workflows' (OpenRouter description).",
+   "sources": [
+    {
+     "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+     "retrieved": "2026-10-08",
+     "fields": "price, tiers, training"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date = OpenRouter listing, context, modalities, description"
+    },
+    {
+     "url": "https://dev.meta.ai/docs/models",
+     "retrieved": "2026-10-08",
+     "fields": "modalities (audio not fully supported on 1.3), context 1,048,576, effort levels"
+    }
+   ]
+  },
+  {
+   "name": "Llama 4 Maverick",
+   "api_id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+   "provider": "Meta",
+   "provider_country": "US",
+   "release_date": null,
+   "status": "open weights, legacy (no newer Llama on Meta's meta-llama Hugging Face org; Meta's newer open-weight model is Muse Glimmer 30B, Apache 2.0, published on the meta-models org in August 2026, not listed here)",
+   "tier": "open-weight (legacy)",
+   "price_input_usd_per_mtok": null,
+   "price_output_usd_per_mtok": null,
+   "price_cached_input_usd_per_mtok": null,
+   "pricing_notes": "Hugging Face repos for Llama 4 Maverick and Scout created 2025-04-03/04; no price (self-hosted or third-party hosts).",
+   "context_window_tokens": null,
+   "max_output_tokens": null,
+   "input_modalities": null,
+   "reasoning": null,
+   "open_weights": true,
+   "licence": "Llama 4 Community License (HF tag 'llama4')",
+   "eu_hosting": "Self-hosting.",
+   "known_for": null,
+   "sources": [
+    {
+     "url": "https://huggingface.co/api/models?author=meta-llama",
+     "retrieved": "2026-10-08",
+     "fields": "latest Llama repos dated April 2025; licence tag"
+    },
+    {
+     "url": "https://dev.meta.ai/docs/muse-glimmer",
+     "retrieved": "2026-10-08",
+     "fields": "Meta's current open-weight model (Muse Glimmer)"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=meta-models",
+     "retrieved": "2026-10-08",
+     "fields": "Muse Glimmer repos created 2026-08-09"
+    }
+   ]
+  },
+  {
+   "name": "Mistral Large 4",
+   "api_id": "mistral-large-4",
+   "provider": "Mistral AI",
+   "provider_country": "France",
+   "release_date": "2026-10-06",
+   "status": "public preview (API); open weights announced but not yet published ('Open weights are coming soon')",
+   "tier": "flagship",
+   "price_input_usd_per_mtok": 0.68,
+   "price_output_usd_per_mtok": 2.09,
+   "price_cached_input_usd_per_mtok": 0.07,
+   "pricing_notes": "Launch price, 50% off list $1.36 / $4.18 / $0.14 cache, announced as 'Launch pricing: 50% off for 2 weeks' (from 2026-10-06).",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": null,
+   "open_weights": false,
+   "licence": "not published yet: Mistral describes Large 4 as open-weight but its changelog says 'Open weights are coming soon'; no Hugging Face repo publicly available on 2026-10-08; model page lists no licence",
+   "eu_hosting": "European provider (France). EU regional endpoint api.eu.mistral.ai (data centers in EU/EFTA), +10% price; Agents, Batch, Files not available regionally; model availability varies by region.",
+   "known_for": "'State-of-the-art, open-weight, general-purpose multimodal model' (granular MoE, 52B active / 1.05T total parameters, 1.6B vision encoder).",
+   "sources": [
+    {
+     "url": "https://docs.mistral.ai/models/mistral-large-4",
+     "retrieved": "2026-10-08",
+     "fields": "date, status, price, context, description"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/regional-inference",
+     "retrieved": "2026-10-08",
+     "fields": "EU endpoint"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "context listed 524,288 (contradiction)"
+    },
+    {
+     "url": "https://docs.mistral.ai/getting-started/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "open weights 'coming soon', launch pricing duration"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=mistralai",
+     "retrieved": "2026-10-08",
+     "fields": "no Mistral Large 4 repo listed"
+    }
+   ]
+  },
+  {
+   "name": "Mistral Medium 3.5",
+   "api_id": "mistral-medium-3-5-26-04",
+   "provider": "Mistral AI",
+   "provider_country": "France",
+   "release_date": "2026-04-28",
+   "status": "generally available",
+   "tier": "mid (Mistral's recommended default)",
+   "price_input_usd_per_mtok": 1.5,
+   "price_output_usd_per_mtok": 7.5,
+   "price_cached_input_usd_per_mtok": 0.15,
+   "pricing_notes": "Version 26.04. Batch -50% (pricing page).",
+   "context_window_tokens": 262144,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text",
+    "image",
+    "file"
+   ],
+   "reasoning": null,
+   "open_weights": true,
+   "licence": "Modified MIT",
+   "eu_hosting": "European provider (France). EU regional endpoint api.eu.mistral.ai (data centers in EU/EFTA), +10% price; Agents, Batch, Files not available regionally; model availability varies by region. Azure AI Foundry (verified 2026-10-06): Data Zone Standard, EU data zone.",
+   "known_for": "'Our frontier-class multimodal model optimized for agentic and coding use cases'; dense 128B.",
+   "sources": [
+    {
+     "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+     "retrieved": "2026-10-08",
+     "fields": "price, licence, known_for"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "cache price"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "context, modalities"
+    },
+    {
+     "url": "https://mistral.ai/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "'For most tasks and coding: Mistral Medium'"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    },
+    {
+     "url": "https://docs.mistral.ai/getting-started/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-04-28"
+    }
+   ]
+  },
+  {
+   "name": "Mistral Small 4",
+   "api_id": "mistral-small-2603",
+   "provider": "Mistral AI",
+   "provider_country": "France",
+   "release_date": "2026-03-16",
+   "status": "generally available",
+   "tier": "small / cheap",
+   "price_input_usd_per_mtok": 0.15,
+   "price_output_usd_per_mtok": 0.6,
+   "price_cached_input_usd_per_mtok": 0.015,
+   "pricing_notes": "Version 26.03.",
+   "context_window_tokens": 262144,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (hybrid instruct + reasoning)",
+   "open_weights": true,
+   "licence": "Apache 2.0",
+   "eu_hosting": "European provider (France). EU regional endpoint api.eu.mistral.ai (data centers in EU/EFTA), +10% price; Agents, Batch, Files not available regionally; model availability varies by region.",
+   "known_for": "'Hybrid model unifying instruct, reasoning, and coding capabilities' (119B parameters, 6.5B active).",
+   "sources": [
+    {
+     "url": "https://docs.mistral.ai/models/mistral-small-4-0-26-03",
+     "retrieved": "2026-10-08",
+     "fields": "price, description"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "cache price"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=mistralai",
+     "retrieved": "2026-10-08",
+     "fields": "licence"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "context"
+    },
+    {
+     "url": "https://docs.mistral.ai/getting-started/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-03-16"
+    }
+   ]
+  },
+  {
+   "name": "Ministral 3 14B",
+   "api_id": "ministral-14b-2512",
+   "provider": "Mistral AI",
+   "provider_country": "France",
+   "release_date": "2025-12-02",
+   "status": "generally available",
+   "tier": "edge / smallest",
+   "price_input_usd_per_mtok": 0.2,
+   "price_output_usd_per_mtok": 0.2,
+   "price_cached_input_usd_per_mtok": 0.02,
+   "pricing_notes": null,
+   "context_window_tokens": 262144,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": null,
+   "open_weights": true,
+   "licence": "Apache 2.0",
+   "eu_hosting": "European provider (France). EU regional endpoint api.eu.mistral.ai (data centers in EU/EFTA), +10% price; Agents, Batch, Files not available regionally; model availability varies by region. Small enough for on-premise deployment.",
+   "known_for": "Largest of the Ministral 3 edge family (8B at $0.15, 3B at $0.10).",
+   "sources": [
+    {
+     "url": "https://docs.mistral.ai/inference/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date, context, modalities"
+    },
+    {
+     "url": "https://docs.mistral.ai/models/ministral-3-14b-25-12",
+     "retrieved": "2026-10-08",
+     "fields": "licence, release date, GA status"
+    }
+   ]
+  },
+  {
+   "name": "DeepSeek V4.1 Flash",
+   "api_id": "deepseek-flash",
+   "provider": "DeepSeek",
+   "provider_country": "China",
+   "release_date": "2026-09-10",
+   "status": "generally available",
+   "tier": "small / cheap (reasoning)",
+   "price_input_usd_per_mtok": 0.3,
+   "price_output_usd_per_mtok": 1.2,
+   "price_cached_input_usd_per_mtok": 0.006,
+   "pricing_notes": "Peak price shown; off-peak = half ($0.15 / $0.60 / $0.003). Peak hours 01:00-04:00 and 06:00-10:00 UTC Mon-Fri.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 384000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (thinking default; non-thinking available; effort low/high/max)",
+   "open_weights": true,
+   "licence": "MIT",
+   "eu_hosting": "DeepSeek API is operated from China (no EU option stated). MIT-licensed weights allow EU self-hosting or EU-based third-party hosts.",
+   "known_for": "'Smallest model in our new architecture family, with native multimodal visual understanding.'",
+   "sources": [
+    {
+     "url": "https://api-docs.deepseek.com/quick_start/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price, context, output"
+    },
+    {
+     "url": "https://api-docs.deepseek.com/updates",
+     "retrieved": "2026-10-08",
+     "fields": "release date"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=deepseek-ai",
+     "retrieved": "2026-10-08",
+     "fields": "licence"
+    }
+   ]
+  },
+  {
+   "name": "DeepSeek V4 Pro (0813)",
+   "api_id": "deepseek-v4-pro",
+   "provider": "DeepSeek",
+   "provider_country": "China",
+   "release_date": "2026-04-24",
+   "status": "generally available",
+   "tier": "flagship (open weight)",
+   "price_input_usd_per_mtok": 1.32,
+   "price_output_usd_per_mtok": 3.96,
+   "price_cached_input_usd_per_mtok": 0.044,
+   "pricing_notes": "Peak price; off-peak half ($0.66 / $1.98 / $0.022). First released 2026-04-24, GA version 2026-08-13; service continued beyond 2026-09-14.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 384000,
+   "input_modalities": [
+    "text"
+   ],
+   "reasoning": "yes (thinking default; low/high/max)",
+   "open_weights": true,
+   "licence": "MIT",
+   "eu_hosting": "DeepSeek API is operated from China (no EU option stated). MIT-licensed weights allow EU self-hosting or EU-based third-party hosts.",
+   "known_for": "GA version 'greatly enhances agent capabilities, with particularly significant performance improvements in production environments.'",
+   "sources": [
+    {
+     "url": "https://api-docs.deepseek.com/quick_start/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price, context; vision not supported"
+    },
+    {
+     "url": "https://api-docs.deepseek.com/updates",
+     "retrieved": "2026-10-08",
+     "fields": "dates"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=deepseek-ai",
+     "retrieved": "2026-10-08",
+     "fields": "licence"
+    }
+   ]
+  },
+  {
+   "name": "Qwen3.8-Max",
+   "api_id": "qwen3.8-max",
+   "provider": "Alibaba Cloud (Qwen)",
+   "provider_country": "China",
+   "release_date": "2026-08-02",
+   "status": "generally available",
+   "tier": "flagship",
+   "price_input_usd_per_mtok": 2.0,
+   "price_output_usd_per_mtok": 6.0,
+   "price_cached_input_usd_per_mtok": 0.25,
+   "pricing_notes": "Singapore region, International deployment scope: $2 input / $6 output / $0.25 implicit cache (0-1M tokens); explicit cache creation $2.50, explicit cache read $0.17. Germany (Frankfurt), US (Virginia), Japan (Tokyo) and Hong Kong, Global scope: $1.65 / $4.951 / $0.206 implicit cache. Batch inference not supported. Snapshot qwen3.8-max-0902 (2026-09-02); 'Prime' fast mode $3.301/$9.902 (Beijing). US deployment scope added 2026-10-08.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 131072,
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "reasoning": "yes (thinking and non-thinking modes)",
+   "open_weights": null,
+   "licence": "Hugging Face hosts Qwen3.8-2.4T-A95B under a custom 'qwen3.8-max' licence; Alibaba describes it as 'the open-source version of Qwen's latest flagship series' (2026-08-12); whether it is identical to the API model is not stated",
+   "eu_hosting": "Alibaba Cloud Model Studio: Germany (Frankfurt) region, Global deployment scope, at $1.65 / $4.951.",
+   "known_for": "'A 2.4-trillion-parameter MoE flagship with a major leap in coding and office productivity.'",
+   "sources": [
+    {
+     "url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max",
+     "retrieved": "2026-10-08",
+     "fields": "specs, regions, price"
+    },
+    {
+     "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+     "retrieved": "2026-10-08",
+     "fields": "International price"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=Qwen",
+     "retrieved": "2026-10-08",
+     "fields": "weights"
+    },
+    {
+     "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+     "retrieved": "2026-10-08",
+     "fields": "release dates, open-source version, US scope"
+    }
+   ]
+  },
+  {
+   "name": "Qwen3.8-Flash",
+   "api_id": "qwen3.8-flash",
+   "provider": "Alibaba Cloud (Qwen)",
+   "provider_country": "China",
+   "release_date": "2026-08-26",
+   "status": "generally available",
+   "tier": "small / cheap",
+   "price_input_usd_per_mtok": 0.15,
+   "price_output_usd_per_mtok": 0.47,
+   "price_cached_input_usd_per_mtok": null,
+   "pricing_notes": "Singapore region, International scope, 0-1M tokens: $0.15 / $0.47. Germany (Frankfurt) and Hong Kong, Global scope: $0.113 / $0.382. US (Virginia) deployment scope added 2026-10-03.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 131072,
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "reasoning": "yes (OpenRouter: 'multimodal reasoning model')",
+   "open_weights": false,
+   "licence": null,
+   "eu_hosting": "Alibaba Cloud Model Studio lists Germany (Frankfurt), Global deployment scope, for qwen3.8-flash at $0.113 / $0.382.",
+   "known_for": "Coding assistance, agentic workflows, visual understanding, long-video analysis (OpenRouter description).",
+   "sources": [
+    {
+     "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date = OpenRouter listing, context, modalities"
+    },
+    {
+     "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-08-26 confirmed by Alibaba"
+    }
+   ]
+  },
+  {
+   "name": "Kimi K3",
+   "api_id": "kimi-k3",
+   "provider": "Moonshot AI",
+   "provider_country": "China",
+   "release_date": null,
+   "status": "generally available",
+   "tier": "flagship (open weight)",
+   "price_input_usd_per_mtok": 3.0,
+   "price_output_usd_per_mtok": 15.0,
+   "price_cached_input_usd_per_mtok": 0.3,
+   "pricing_notes": "Cache write $3 (5-min TTL) or $6 (1-h TTL). OpenRouter lists $0.62/$12.30 on 2026-10-08 (was $0.83/$14 on 2026-10-06; contradiction). Hugging Face repo created 2026-06-13; OpenRouter listing 2026-07-16.",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": 1048576,
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "reasoning": "yes, thinking always on (effort low/high/max, default max)",
+   "open_weights": true,
+   "licence": "custom 'kimi-k3' licence",
+   "eu_hosting": "Moonshot API (no EU option stated); open weights allow self-hosting.",
+   "known_for": "'Kimi's most capable flagship model to date, with 2.8 trillion parameters'; 'first open-source model to reach 2.8 trillion parameters'.",
+   "sources": [
+    {
+     "url": "https://platform.moonshot.ai/docs/pricing/chat",
+     "retrieved": "2026-10-08",
+     "fields": "price, context"
+    },
+    {
+     "url": "https://platform.moonshot.ai/docs/guide/kimi-k3-quickstart",
+     "retrieved": "2026-10-08",
+     "fields": "description, thinking, vision"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=moonshotai",
+     "retrieved": "2026-10-08",
+     "fields": "licence, repo date"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "cross-check"
+    }
+   ]
+  },
+  {
+   "name": "GLM-5.3",
+   "api_id": "glm-5.3",
+   "provider": "Z.ai (Zhipu AI)",
+   "provider_country": "China",
+   "release_date": "2026-08-18",
+   "status": "generally available",
+   "tier": "flagship (open weight)",
+   "price_input_usd_per_mtok": 1.4,
+   "price_output_usd_per_mtok": 4.4,
+   "price_cached_input_usd_per_mtok": 0.26,
+   "pricing_notes": "Cached-input storage 'limited-time free'. OpenRouter lists $0.049/$3.39 on 2026-10-08 (was $0.07/$7 on 2026-10-06; contradiction). HF repo 2026-08-25. Mistral also hosts GLM 5.3 (zai-glm-5-3) at $1.4/$4.4, cached input $0.14.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text"
+   ],
+   "reasoning": "yes, always on (low/high/max)",
+   "open_weights": true,
+   "licence": "custom 'glm-5.3' licence",
+   "eu_hosting": "Hosted in the EU by Mistral AI (listed on Mistral pricing page; EU regional availability not verified). Open weights allow self-hosting.",
+   "known_for": "'Z.ai's latest flagship model, delivering comprehensive advancements in complex software engineering and agent capabilities.'",
+   "sources": [
+    {
+     "url": "https://docs.z.ai/guides/overview/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://docs.z.ai/guides/llm/glm-5.3",
+     "retrieved": "2026-10-08",
+     "fields": "specs"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=zai-org",
+     "retrieved": "2026-10-08",
+     "fields": "licence"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Mistral hosting"
+    },
+    {
+     "url": "https://docs.z.ai/release-notes/new-released",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-08-18"
+    }
+   ]
+  },
+  {
+   "name": "GLM-5.3-Flash",
+   "api_id": "glm-5.3-flash",
+   "provider": "Z.ai (Zhipu AI)",
+   "provider_country": "China",
+   "release_date": "2026-08-26",
+   "status": "generally available",
+   "tier": "small / cheap (open weight)",
+   "price_input_usd_per_mtok": 0.15,
+   "price_output_usd_per_mtok": 0.5,
+   "price_cached_input_usd_per_mtok": 0.03,
+   "pricing_notes": "HF repo 2026-08-25. FlashX (faster) $0.37/$1.25 (cache $0.075). 320B total / 18B active parameters. Max output taken from GLM-5.3: Z.ai says 'Text parameters are consistent with GLM-5.3'.",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": 128000,
+   "input_modalities": [
+    "text",
+    "image",
+    "video",
+    "file"
+   ],
+   "reasoning": "yes, thinking always on (thinking.type only 'enabled')",
+   "open_weights": true,
+   "licence": "MIT",
+   "eu_hosting": "Open weights (MIT) allow EU self-hosting.",
+   "known_for": "'Native multimodal model ... suited for efficient coding and long-horizon agent tasks' (OpenRouter).",
+   "sources": [
+    {
+     "url": "https://docs.z.ai/guides/overview/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=zai-org",
+     "retrieved": "2026-10-08",
+     "fields": "licence"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "context, modalities"
+    },
+    {
+     "url": "https://docs.z.ai/release-notes/new-released",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-08-26"
+    },
+    {
+     "url": "https://docs.z.ai/guides/llm/glm-5.3-flash",
+     "retrieved": "2026-10-08",
+     "fields": "max output 128K, modalities, thinking"
+    }
+   ]
+  },
+  {
+   "name": "MiniMax-M3",
+   "api_id": "MiniMax-M3",
+   "provider": "MiniMax",
+   "provider_country": "China",
+   "release_date": "2026-06-01",
+   "status": "generally available",
+   "tier": "mid / cheap (open weight)",
+   "price_input_usd_per_mtok": 0.3,
+   "price_output_usd_per_mtok": 1.2,
+   "price_cached_input_usd_per_mtok": 0.06,
+   "pricing_notes": "'Permanent 50% off' prices shown (list $0.60/$2.40/$0.12 cache) for prompts up to 512k input tokens; above 512k: $0.60/$2.40/$0.12 (list $1.20/$4.80/$0.24). The second table is the Priority tier, 1.5x standard ($0.45/$1.80 up to 512k). HF repo 2026-06-02; OpenRouter 2026-05-31.",
+   "context_window_tokens": 1048576,
+   "max_output_tokens": 512000,
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "reasoning": null,
+   "open_weights": true,
+   "licence": "custom 'minimax-community' licence",
+   "eu_hosting": "Open weights allow self-hosting; no EU API option found.",
+   "known_for": "Multimodal model 'suited for long-horizon agentic work, coding' (OpenRouter).",
+   "sources": [
+    {
+     "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+     "retrieved": "2026-10-08",
+     "fields": "price"
+    },
+    {
+     "url": "https://huggingface.co/api/models?author=MiniMaxAI",
+     "retrieved": "2026-10-08",
+     "fields": "licence"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "context, modalities"
+    },
+    {
+     "url": "https://platform.minimax.io/docs/release-notes/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-06-01"
+    }
+   ]
+  },
+  {
+   "name": "Seed 2.1 Turbo",
+   "api_id": "dola-seed-2-1-turbo (BytePlus ModelArk; OpenRouter id bytedance-seed/seed-2-1-turbo)",
+   "provider": "ByteDance Seed (sold as Dola-Seed on BytePlus ModelArk)",
+   "provider_country": "China",
+   "release_date": "2026-08-12",
+   "status": "generally available",
+   "tier": "mid",
+   "price_input_usd_per_mtok": 0.5,
+   "price_output_usd_per_mtok": 2.5,
+   "price_cached_input_usd_per_mtok": 0.1,
+   "pricing_notes": "BytePlus ModelArk online inference (standard), prompts up to 256K: $0.50 input / $2.50 output / $0.10 cache hit; cache storage $0.0083 per M tokens per hour. Flex and Batch about -50% ($0.25/$1.25). OpenRouter lists the same $0.50/$2.50.",
+   "context_window_tokens": 262144,
+   "max_output_tokens": 235929,
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "reasoning": null,
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "BytePlus ModelArk console defaults to ap-southeast-1; no EU region found.",
+   "known_for": "'Multimodal model ... for coding and long-horizon agent workflows' (OpenRouter).",
+   "sources": [
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "price, context, date"
+    },
+    {
+     "url": "https://www.byteplus.com/en/product/modelark",
+     "retrieved": "2026-10-08",
+     "fields": "model listed as Dola-Seed-2.1-turbo"
+    },
+    {
+     "url": "https://docs.byteplus.com/en/docs/ModelArk/1544106",
+     "retrieved": "2026-10-08",
+     "fields": "official price, model id"
+    }
+   ]
+  },
+  {
+   "name": "Amazon Nova 2 Lite",
+   "api_id": "amazon.nova-2-lite-v1:0 (Bedrock; OpenRouter id amazon/nova-2-lite-v1)",
+   "provider": "Amazon",
+   "provider_country": "US",
+   "release_date": "2025-12-02",
+   "status": "generally available",
+   "tier": "small / cheap",
+   "price_input_usd_per_mtok": 0.3,
+   "price_output_usd_per_mtok": 2.5,
+   "price_cached_input_usd_per_mtok": 0.075,
+   "pricing_notes": "AWS Price List (us-east-1), global cross-region inference: $0.30 input / $2.50 output / $0.075 cache read, cache write $0; in-region us-east-1 $0.33 / $2.75 / $0.0825. Batch and Flex -50%; Priority +75%. Bedrock card: max output 64K, prompt caching up to 20K tokens.",
+   "context_window_tokens": 1000000,
+   "max_output_tokens": 65535,
+   "input_modalities": [
+    "text",
+    "image",
+    "video",
+    "file"
+   ],
+   "reasoning": "yes ('reasoning model')",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Amazon Bedrock: EU geo cross-region inference ID eu.amazon.nova-2-lite-v1:0 (Frankfurt, Stockholm, Milan, Spain, Ireland, Paris); no In-Region option in European regions per the model card.",
+   "known_for": "'Fast, cost-effective reasoning model for everyday workloads' (OpenRouter).",
+   "sources": [
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "price, context, date"
+    },
+    {
+     "url": "https://aws.amazon.com/nova/pricing/",
+     "retrieved": "2026-10-08",
+     "fields": "page read, text-model prices not rendered"
+    },
+    {
+     "url": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/us-east-1/index.json",
+     "retrieved": "2026-10-08",
+     "fields": "official price (AWS Price List API, published 2026-10-06)"
+    },
+    {
+     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-amazon-nova-2-lite.html",
+     "retrieved": "2026-10-08",
+     "fields": "model id, context, max output, EU geo inference"
+    }
+   ]
+  },
+  {
+   "name": "MAI-Thinking-1",
+   "api_id": "MAI-Thinking-1",
+   "provider": "Microsoft AI",
+   "provider_country": "US",
+   "release_date": null,
+   "status": "preview (Azure Foundry)",
+   "tier": "mid (reasoning)",
+   "price_input_usd_per_mtok": null,
+   "price_output_usd_per_mtok": null,
+   "price_cached_input_usd_per_mtok": null,
+   "pricing_notes": null,
+   "context_window_tokens": 256000,
+   "max_output_tokens": 64000,
+   "input_modalities": [
+    "text"
+   ],
+   "reasoning": "yes (reasoning content, encrypted chain-of-thought)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": "Azure Foundry: Global Standard only (version 2026-06-01), listed in European regions incl. francecentral, germanywestcentral, swedencentral, westeurope; no Data Zone or Regional option in Europe (re-checked 2026-10-08).",
+   "known_for": "Microsoft's own reasoning model in Foundry, OpenAI Chat Completions compatible.",
+   "sources": [
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure",
+     "retrieved": "2026-10-08",
+     "fields": "specs, status"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    }
+   ]
+  },
+  {
+   "name": "Command A+",
+   "api_id": "command-a-plus-05-2026 (OpenRouter id cohere/command-a-plus)",
+   "provider": "Cohere",
+   "provider_country": "Canada",
+   "release_date": "2026-05-20",
+   "status": "generally available",
+   "tier": "mid (enterprise, open weight)",
+   "price_input_usd_per_mtok": 0.3,
+   "price_output_usd_per_mtok": 1.5,
+   "price_cached_input_usd_per_mtok": 0.15,
+   "pricing_notes": "Price from OpenRouter only (also lists $0.15 cache read); cohere.com/pricing shows no per-token price for Command A+. Cohere: 25B active / 218B total parameters (MoE), 48 languages including all official EU languages. Context 128K input + 64K output per Cohere; OpenRouter and Artificial Analysis list 192,000.",
+   "context_window_tokens": 128000,
+   "max_output_tokens": 64000,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes (Cohere lists reasoning among its capabilities)",
+   "open_weights": true,
+   "licence": "Apache 2.0 (weights on Hugging Face as CohereLabs/command-a-plus-05-2026-w4a4)",
+   "eu_hosting": "Open weights (Apache 2.0) allow EU self-hosting. Cohere is a GPAI Code of Practice signatory. Azure Foundry: Global Standard only (Cohere-command-a-plus-05-2026), no Data Zone in Europe.",
+   "known_for": "Cohere's 'first Mixture of Experts (MoE) model', 'the last model in the Command A family', with vision, reasoning, translation and agentic tasks in one model.",
+   "sources": [
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "price, context, date, description"
+    },
+    {
+     "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure-region-availability",
+     "retrieved": "2026-10-08",
+     "fields": "eu_hosting (verification) (previous URL .../models-sold-direct returned 404 on 2026-10-08)"
+    },
+    {
+     "url": "https://docs.cohere.com/v2/docs/command-a-plus",
+     "retrieved": "2026-10-08",
+     "fields": "release date, context, max output, licence, open weights"
+    },
+    {
+     "url": "https://docs.cohere.com/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "model name, parameters, languages, licence"
+    },
+    {
+     "url": "https://docs.cohere.com/docs/models",
+     "retrieved": "2026-10-08",
+     "fields": "status Live, context 128k, output 64k"
+    }
+   ]
+  },
+  {
+   "name": "Jev 1.13",
+   "api_id": "jev-1.13.0 (alias jev-latest)",
+   "provider": "TypeSafe AI",
+   "provider_country": "US (service based on the US West Coast per its blog; HQ not verified)",
+   "release_date": null,
+   "status": "early access",
+   "tier": "specialised decision model ('System One')",
+   "price_input_usd_per_mtok": 0.042,
+   "price_output_usd_per_mtok": 0.0,
+   "price_cached_input_usd_per_mtok": null,
+   "pricing_notes": "Charged per input token only ($42 per billion tokens); output free. Endpoint POST /v1/systemone, not a chat model. OpenRouter lists 'Jev Router' since 2026-09-25.",
+   "context_window_tokens": 64000,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text"
+   ],
+   "reasoning": "no (returns typed decisions: choice, score, yes/no probability)",
+   "open_weights": false,
+   "licence": "proprietary",
+   "eu_hosting": null,
+   "known_for": "'TypeSafe's flagship model and the first System One model'; returns structured decisions instead of text; English best supported.",
+   "sources": [
+    {
+     "url": "https://docs.typesafe.ai/models",
+     "retrieved": "2026-10-08",
+     "fields": "price, context, input, data handling"
+    },
+    {
+     "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+     "retrieved": "2026-10-08",
+     "fields": "early access, cost comparison"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "Jev Router listing date"
+    }
+   ]
+  },
+  {
+   "name": "Muse Glimmer 30B",
+   "api_id": "meta-models/Muse-Glimmer-30B (Hugging Face repo)",
+   "provider": "Meta",
+   "provider_country": "US",
+   "release_date": "2026-08-10",
+   "status": "open weights (self-hosted only; not served on Meta Model API)",
+   "tier": "open-weight small/mid",
+   "price_input_usd_per_mtok": null,
+   "price_output_usd_per_mtok": null,
+   "price_cached_input_usd_per_mtok": null,
+   "pricing_notes": "No Meta API price (self-hosted). Third-party host on OpenRouter: $0.30/$1.20, cache read $0.04. Release date per Artificial Analysis; Hugging Face repo created 2026-08-09. Added on 2026-10-08: released before the previous survey but missing from it.",
+   "context_window_tokens": 131072,
+   "max_output_tokens": null,
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "reasoning": "yes ('reasons step by step before it answers')",
+   "open_weights": true,
+   "licence": "Apache 2.0",
+   "eu_hosting": "Self-hosting anywhere (weights on Hugging Face, no gated access). Meta states a default context of 128K tokens with longer contexts supported; 131,072 is OpenRouter's figure.",
+   "known_for": "Meta's '30-billion-parameter open-source multimodal model, distilled from Muse Spark and built for local agentic workflows'.",
+   "sources": [
+    {
+     "url": "https://dev.meta.ai/docs/muse-glimmer",
+     "retrieved": "2026-10-08",
+     "fields": "parameters, context, licence, known_for"
+    },
+    {
+     "url": "https://dev.meta.ai/docs/muse-glimmer/get-the-model",
+     "retrieved": "2026-10-08",
+     "fields": "Hugging Face repositories, no gated access"
+    },
+    {
+     "url": "https://huggingface.co/api/models/meta-models/Muse-Glimmer-30B",
+     "retrieved": "2026-10-08",
+     "fields": "repo date 2026-08-09, licence tag apache-2.0"
+    },
+    {
+     "url": "https://artificialanalysis.ai/leaderboards/models",
+     "retrieved": "2026-10-08",
+     "fields": "release date 2026-08-10"
+    },
+    {
+     "url": "https://openrouter.ai/api/v1/models",
+     "retrieved": "2026-10-08",
+     "fields": "context 131,072, host price"
+    }
+   ]
+  }
+ ],
+ "subscriptions": [
+  {
+   "product": "ChatGPT Business (standard seat)",
+   "vendor": "OpenAI",
+   "price_per_user_month": 20,
+   "currency": "USD",
+   "billing": "annual ($25 if billed monthly)",
+   "min_seats": 2,
+   "max_seats": 200,
+   "included": "ChatGPT, ChatGPT Work and Codex; connectors (Google Workspace, Slack, GitHub, Microsoft 365...); workspace agents; deep research; Excel/Word/PowerPoint/Sheets extensions; company knowledge",
+   "models": "GPT-6.1 Sol, GPT-6 Astra, GPT-6 Sol, GPT-6 Luna, GPT-5.6 Sol, GPT-5.6 Sol Pro, GPT-5.6 Terra, GPT-5.6 Luna, GPT-5 Thinking Mini, legacy models ('Flexible' access); since 2026-10-07 the Chat tab runs GPT-6 with Intelligent UI, powered by GPT-6 Sol",
+   "admin_sso": "SAML SSO, MFA, admin console, centralized billing; no SCIM, no RBAC",
+   "training_on_customer_data": "No (by default)",
+   "eu_data_residency": "No (data residency is Enterprise only)",
+   "notes": "Premium seat $100/month annual ($125 monthly), 5x standard usage. 'For teams of 2-200 employees.' Reasoning context 256K, Instant context 54K. The 2026-10-07 GPT-6 update applies to the Chat experience; 'The models powering Work and Codex are not changing'.",
+   "sources": [
+    {
+     "url": "https://openai.com/api/pricing/ (redirects to openai.com/business/pricing)",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    },
+    {
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
+     "retrieved": "2026-10-08",
+     "fields": "GPT-6 in Chat for Business, model used"
+    }
+   ]
+  },
+  {
+   "product": "ChatGPT Enterprise",
+   "vendor": "OpenAI",
+   "price_per_user_month": null,
+   "currency": null,
+   "billing": "annual, custom pricing (credit-based or token-based)",
+   "min_seats": null,
+   "max_seats": null,
+   "included": "All Business features plus expanded context (128K Instant), SCIM, EKM, RBAC, compliance API, IP allowlisting, 24/7 support, SLAs",
+   "models": null,
+   "admin_sso": "SAML SSO, SCIM, RBAC, EKM",
+   "training_on_customer_data": "No (by default)",
+   "eu_data_residency": "Yes: data residency in US, EU, UK, JP, CA, KR, SG, IN, AU, UAE",
+   "notes": "GPT-6 with Intelligent UI rolling out from 2026-10-07 in the Chat tab; Enterprise availability depends on workplace admin settings.",
+   "sources": [
+    {
+     "url": "https://openai.com/api/pricing/ (redirects to openai.com/business/pricing)",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    },
+    {
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
+     "retrieved": "2026-10-08",
+     "fields": "GPT-6 rollout to Enterprise"
+    }
+   ]
+  },
+  {
+   "product": "Claude Team (standard seat)",
+   "vendor": "Anthropic",
+   "price_per_user_month": 20,
+   "currency": "USD",
+   "billing": "annual ($25 if billed monthly)",
+   "min_seats": 2,
+   "max_seats": 150,
+   "included": "Enterprise search, desktop app enterprise deployment, mix of seat types",
+   "models": "Claude models incl. Opus, Haiku and Fable (Fable on premium seats: 50% of weekly limits); latest models listed: Fable 5.1, Opus 5.5, Haiku 5.5",
+   "admin_sso": "SSO yes; SCIM no",
+   "training_on_customer_data": "None by default",
+   "eu_data_residency": null,
+   "notes": "Premium seat $100 annual / $125 monthly, 5x standard usage. Since 2026-10-07 Team plans include monthly Claude API credits: $20 per standard seat, $100 per premium seat, pooled and capped at $500 per month; they cover the Claude API, Managed Agents and Agent SDK, not Claude Code or extra app usage.",
+   "sources": [
+    {
+     "url": "https://claude.com/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+     "retrieved": "2026-10-08",
+     "fields": "monthly API credits"
+    }
+   ]
+  },
+  {
+   "product": "Claude Enterprise",
+   "vendor": "Anthropic",
+   "price_per_user_month": 20,
+   "currency": "USD",
+   "billing": "annual; seat price plus usage at API rates",
+   "min_seats": null,
+   "max_seats": null,
+   "included": "All Team features plus SCIM, training and enablement; self-serve or sales-assisted",
+   "models": null,
+   "admin_sso": "SSO, SCIM",
+   "training_on_customer_data": "None by default",
+   "eu_data_residency": null,
+   "notes": "'US$20/seat/month, billed annually. Usage cost scales with model and task.' First-party API workspace geo is US-only (see API notes). Enterprise plans are not eligible for the monthly API credits introduced for Team on 2026-10-07.",
+   "sources": [
+    {
+     "url": "https://claude.com/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/manage-claude/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "workspace geo US only"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+     "retrieved": "2026-10-08",
+     "fields": "Enterprise not eligible for API credits"
+    }
+   ]
+  },
+  {
+   "product": "Google Workspace Business Starter / Standard / Plus (Gemini included)",
+   "vendor": "Google",
+   "price_per_user_month": {
+    "Starter": 7,
+    "Standard": 14,
+    "Plus": 22
+   },
+   "currency": "USD",
+   "billing": "flexible monthly prices shown; annual commitment saves 16%; US page intro prices for new customers $4.90 / $11.20 / $11 for the first 20 users, 12 months (Starter was $5.60 on 2026-10-06); new 'up to 50% off your first 3 months' offer",
+   "min_seats": null,
+   "max_seats": 300,
+   "included": "Starter: Gemini in Gmail and Gemini app chat, 30 GB pooled storage per user; Standard: Gemini in Gmail, Docs, Meet and more, Gemini Notebook, 2 TB ('65x more than Starter' refers to storage); Plus: 5 TB (2.5x Standard), Vault, eDiscovery",
+   "models": "Gemini app; Gemini in Gmail (Starter); Gemini in Gmail, Docs, Meet and more plus Gemini Notebook (Standard and up)",
+   "admin_sso": null,
+   "training_on_customer_data": null,
+   "eu_data_residency": "'Enterprise data regions' listed for Enterprise plans (not Business plans)",
+   "notes": "EUR prices read from a French connection on 2026-10-08 (excl. tax, per user per month): Starter EUR 6.80, Standard EUR 13.60, Plus EUR 21.10. Three-month promotions differ between the English page (50% / 50% / 30% off) and the French page (20% / 30% / 50% off), both for 2026-10-22 to 2027-01-22.",
+   "sources": [
+    {
+     "url": "https://workspace.google.com/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    },
+    {
+     "url": "https://workspace.google.com/intl/fr/pricing.html",
+     "retrieved": "2026-10-08",
+     "fields": "currency check"
+    }
+   ]
+  },
+  {
+   "product": "Microsoft 365 Copilot Business (add-on)",
+   "vendor": "Microsoft",
+   "price_per_user_month": 21,
+   "currency": "USD",
+   "billing": "annual; promo $18 from 2026-07-01 to 2026-12-31; $25.20 monthly billing",
+   "min_seats": null,
+   "max_seats": 300,
+   "included": "Copilot in Word, Excel, PowerPoint, Outlook, Teams; chat grounded in work data; Copilot analytics",
+   "models": "'LLM model choice'; Work IQ; agents Researcher, Analyst, Facilitator",
+   "admin_sso": "via Microsoft 365 / Entra",
+   "training_on_customer_data": "No ('never using it for AI training')",
+   "eu_data_residency": null,
+   "notes": "Requires a qualifying Microsoft 365 Business plan. Bundles (annual): Business Standard + Copilot $23.50, Business Premium + Copilot $32; without Teams $20.30 and $28.80. Monthly billing: $28.20 and $38.40.",
+   "sources": [
+    {
+     "url": "https://www.microsoft.com/en-us/microsoft-365/copilot/business",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    }
+   ]
+  },
+  {
+   "product": "Microsoft 365 Copilot (enterprise)",
+   "vendor": "Microsoft",
+   "price_per_user_month": 30,
+   "currency": "USD",
+   "billing": "annual ($31.50 if paid monthly)",
+   "min_seats": null,
+   "max_seats": null,
+   "included": "Copilot in M365 apps, SharePoint Advanced Management, Copilot Analytics",
+   "models": null,
+   "admin_sso": "via Entra",
+   "training_on_customer_data": null,
+   "eu_data_residency": null,
+   "notes": "Requires a qualifying Microsoft 365 plan. Copilot Chat is 'available at no additional cost' for Entra users with an eligible Microsoft 365 subscription.",
+   "sources": [
+    {
+     "url": "https://www.microsoft.com/en-us/microsoft-365/copilot/enterprise",
+     "retrieved": "2026-10-08",
+     "fields": "price, Copilot Chat"
+    }
+   ]
+  },
+  {
+   "product": "Mistral Vibe (formerly Le Chat) Team",
+   "vendor": "Mistral AI",
+   "price_per_user_month": 24.99,
+   "currency": "USD on the English page (24.99 USD excluding taxes); in France the page shows 29.99 EUR per user per month including taxes (mistral.ai/fr/pricing, read 2026-10-08)",
+   "billing": "monthly per user",
+   "min_seats": null,
+   "max_seats": null,
+   "included": "Up to 30GB storage per user, domain verification, data export, connectors (beta), custom MCP connectors, Vibe coding in CLI/IDE",
+   "models": null,
+   "admin_sso": "SAML SSO listed among team and enterprise features (per-plan split not legible)",
+   "training_on_customer_data": "Opt-out available (pricing table: 'Model training: Opt-out' for Pro, Team and Enterprise)",
+   "eu_data_residency": null,
+   "notes": "The '$50 /mo Users' figure next to Team is the page's seat calculator at its default of 2 users (multiplier 2 x $24.99), not a stated minimum. Pro is $14.99/month. Enterprise: custom, private deployments, SAML SSO, audit logs.",
+   "sources": [
+    {
+     "url": "https://mistral.ai/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    },
+    {
+     "url": "https://mistral.ai/fr/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "currency check"
+    }
+   ]
+  },
+  {
+   "product": "Perplexity Enterprise Pro",
+   "vendor": "Perplexity",
+   "price_per_user_month": 34,
+   "currency": "USD",
+   "billing": "annual",
+   "min_seats": null,
+   "max_seats": null,
+   "included": "Everything in Pro, 500 Computer credits per seat, latest models, permissions",
+   "models": null,
+   "admin_sso": "SSO (SCIM, audit logs and retention settings listed for Enterprise Max)",
+   "training_on_customer_data": "No ('Guaranteed no training on your data')",
+   "eu_data_residency": null,
+   "notes": "SOC 2 Type II, HIPAA, GDPR, PCI DSS. Enterprise Pro also shows 8,500 bonus credits. Enterprise Max $271/seat/month annual (15,000 monthly Computer credits per seat, 40,000 bonus credits, SCIM, audit logs, retention settings).",
+   "sources": [
+    {
+     "url": "https://www.perplexity.ai/enterprise/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "all fields"
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "topic": "2026 releases (OpenAI)",
+   "text": "OpenAI shipped GPT-5.4 (5 Mar), GPT-5.5 (24 Apr), the GPT-5.6 Sol/Terra/Luna family (9 Jul), GPT-6 Astra (3 Sep), GPT-6 Sol and Luna (22 Sep) and GPT-6.1 Sol (29 Sep). The Assistants API shut down on 26 Aug 2026 and self-serve fine-tuning is being wound down.",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "dates"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "fine-tuning wind-down"
+    }
+   ]
+  },
+  {
+   "topic": "2026 releases (Anthropic)",
+   "text": "Current Claude line-up: Fable 5.1 (1 Sep), Opus 5.5 (22 Sep), Sonnet 5.5 (28 Sep), Haiku 5.5 (7 Oct). Haiku 4.5 is now 'Legacy'; Sonnet 4.5 was deprecated on 30 Sep 2026 with retirement on 30 Nov 2026. Legacy still available: Fable 5, Opus 5, Opus 4.8, 4.7, 4.6. Claude Mythos 5 / 5.1 exist with limited availability.",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+     "retrieved": "2026-10-08",
+     "fields": "line-up"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Mythos"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "retrieved": "2026-10-08",
+     "fields": "Haiku 5.5, Sonnet 4.5 deprecation"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+     "retrieved": "2026-10-08",
+     "fields": "status table"
+    }
+   ]
+  },
+  {
+   "topic": "2026 releases (Google)",
+   "text": "Gemini 3.1 Pro (preview, Feb), 3.5 Flash-Lite and 3.6 Flash (21 Jul), 3.7 Flash (13 Aug), 3.8 Flash (2 Sep). Gemini 4 Argon announced 30 Sep 2026, first to trusted cyber defenders, at an introductory $2/$10.",
+   "sources": [
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "dates"
+    },
+    {
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+     "retrieved": "2026-10-08",
+     "fields": "Argon"
+    }
+   ]
+  },
+  {
+   "topic": "2026 releases (others)",
+   "text": "Grok 4.7 (21 Sep), DeepSeek V4 (24 Apr) then V4.1 Flash (10 Sep), Mistral Large 4 preview (6 Oct, 1.05T MoE announced as open-weight, weights 'coming soon'), Meta's proprietary Muse Spark line (1.1 to 1.3), Kimi K3 (2.8T parameters, open weights), GLM-5.3, Qwen3.8-Max, MiniMax-M3, Cohere Command A+ (open weights, May 2026) and TypeSafe's Jev decision model in early access.",
+   "sources": [
+    {
+     "url": "https://docs.x.ai/developers/release-notes",
+     "retrieved": "2026-10-08",
+     "fields": "Grok"
+    },
+    {
+     "url": "https://api-docs.deepseek.com/updates",
+     "retrieved": "2026-10-08",
+     "fields": "DeepSeek"
+    },
+    {
+     "url": "https://docs.mistral.ai/models/mistral-large-4",
+     "retrieved": "2026-10-08",
+     "fields": "Mistral"
+    },
+    {
+     "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+     "retrieved": "2026-10-08",
+     "fields": "Meta"
+    },
+    {
+     "url": "https://platform.moonshot.ai/docs/guide/kimi-k3-quickstart",
+     "retrieved": "2026-10-08",
+     "fields": "Kimi"
+    },
+    {
+     "url": "https://docs.typesafe.ai/models",
+     "retrieved": "2026-10-08",
+     "fields": "Jev"
+    },
+    {
+     "url": "https://docs.mistral.ai/getting-started/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "Large 4 weights status"
+    },
+    {
+     "url": "https://docs.cohere.com/v2/docs/command-a-plus",
+     "retrieved": "2026-10-08",
+     "fields": "Command A+"
+    }
+   ]
+  },
+  {
+   "topic": "Gated frontier models",
+   "text": "The most capable cyber-relevant models are released in stages: Claude Mythos (limited availability), OpenAI's Daybreak programme (GPT-5.6 Cyber, approval required), Google's Gemini 4 Argon via the Fairwind Program. An SME cannot buy these off the shelf today.",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Mythos"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "Daybreak, 7 Aug"
+    },
+    {
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+     "retrieved": "2026-10-08",
+     "fields": "Fairwind"
+    }
+   ]
+  },
+  {
+   "topic": "Price trend: new flagships cost less or the same",
+   "text": "Claude Opus 5.5 is $4/$20 vs $5/$25 for Opus 5; Sonnet 5's $2/$10 launch price became permanent; Claude Haiku 5.5 ($0.10/$0.50 up to 100k-token prompts) is 10x cheaper per token than Haiku 4.5 ($1/$5) and Sonnet 5.5 cache reads were halved to $0.10 (both 7 Oct); GPT-6.1 Sol ($2/$10) is sold as near-Astra at a fifth of Astra's $10/$50; GPT-5.6 Luna cut 80% and Terra 20% on 30 Jul; GPT-5.6 Sol cut on 21 Aug; DeepSeek cut prices with V4.1 Flash; MiniMax-M3 'permanent 50% off'.",
+   "sources": [
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Anthropic"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "retrieved": "2026-10-08",
+     "fields": "OpenAI cuts"
+    },
+    {
+     "url": "https://api-docs.deepseek.com/updates",
+     "retrieved": "2026-10-08",
+     "fields": "DeepSeek"
+    },
+    {
+     "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+     "retrieved": "2026-10-08",
+     "fields": "MiniMax"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/release-notes/overview",
+     "retrieved": "2026-10-08",
+     "fields": "Haiku 5.5 price, Sonnet 5.5 cache cut"
+    }
+   ]
+  },
+  {
+   "topic": "Price trend: counter-examples",
+   "text": "Gemini 3.8 Flash and 3.7/3.6 Flash prices double on 1 Jan 2027 ($0.75/$3.75 to $1.50/$7.50). OpenAI, Anthropic, xAI and Mistral all charge about +10% for regional (data residency) processing. Long prompts cost more at OpenAI (>272K: 2x input, 1.5x output), Google (>200K), xAI (>=200K), MiniMax (>512K) and now Claude Haiku 5.5 (>100K: 5x); Anthropic's other models and Meta charge no long-context premium.",
+   "sources": [
+    {
+     "url": "https://ai.google.dev/gemini-api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Gemini schedule"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "OpenAI"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Anthropic"
+    },
+    {
+     "url": "https://docs.x.ai/developers/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "xAI"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/regional-inference",
+     "retrieved": "2026-10-08",
+     "fields": "Mistral"
+    },
+    {
+     "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+     "retrieved": "2026-10-08",
+     "fields": "Meta"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Haiku 5.5 long-prompt pricing"
+    }
+   ]
+  },
+  {
+   "topic": "Price trend: new pricing levers",
+   "text": "Off-peak pricing (DeepSeek, half price outside peak UTC hours), cache-write charges (OpenAI GPT-6 at 1.25x input, Anthropic, Kimi K3), 'Fast'/'Ultrafast' premium tiers, and training-for-discount tiers (Meta Muse Spark Contributor at $0.10/$0.20 in exchange for training on your data).",
+   "sources": [
+    {
+     "url": "https://api-docs.deepseek.com/quick_start/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "DeepSeek"
+    },
+    {
+     "url": "https://developers.openai.com/api/docs/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "OpenAI"
+    },
+    {
+     "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+     "retrieved": "2026-10-08",
+     "fields": "Meta"
+    }
+   ]
+  },
+  {
+   "topic": "Chinese open-weight models",
+   "text": "The strongest open-weight models on Artificial Analysis's leaderboard are Chinese (8 Oct 2026): MiMo-V2.6-Pro 46, GLM-5.3 45, Kimi K3 44, GLM-5.3-Flash 42, Qwen3.8 2.4T A95B 40, versus 12 for gpt-oss-120b; AA lists Qwen3.8 Max (0902, 45) and Mistral Large 4 Preview (38) as not open weights. Top closed models score 52-58 (Claude Opus 5.5 at 58). They are also cheap: DeepSeek V4.1 Flash $0.30/$1.20 peak, GLM-5.3-Flash $0.15/$0.50. Licences vary (MIT for DeepSeek and GLM-5.3-Flash, custom licences for Kimi K3, GLM-5.3, MiniMax-M3).",
+   "sources": [
+    {
+     "url": "https://artificialanalysis.ai/leaderboards/models",
+     "retrieved": "2026-10-08",
+     "fields": "scores"
+    },
+    {
+     "url": "https://api-docs.deepseek.com/quick_start/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "DeepSeek price"
+    },
+    {
+     "url": "https://docs.z.ai/guides/overview/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "GLM price"
+    },
+    {
+     "url": "https://huggingface.co/api/models",
+     "retrieved": "2026-10-08",
+     "fields": "licences"
+    }
+   ]
+  },
+  {
+   "topic": "Chinese models hosted in Europe",
+   "text": "Mistral's EU platform sells Z.ai GLM 5.3 ($1.4/$4.4), and Alibaba lists Germany (Frankfurt), Global scope, for Qwen3.8-Max ($1.65/$4.951) and Qwen3.8-Flash ($0.113/$0.382), so some Chinese models can be used without sending data to China. None of DeepSeek, Alibaba, Moonshot, Zhipu or MiniMax appears on the EU GPAI Code of Practice signatory list.",
+   "sources": [
+    {
+     "url": "https://docs.mistral.ai/inference/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Mistral hosting"
+    },
+    {
+     "url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-max",
+     "retrieved": "2026-10-08",
+     "fields": "Frankfurt"
+    },
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+     "retrieved": "2026-10-08",
+     "fields": "signatories"
+    },
+    {
+     "url": "https://www.alibabacloud.com/help/en/model-studio/model-pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Frankfurt prices"
+    }
+   ]
+  },
+  {
+   "topic": "European offer",
+   "text": "Mistral AI (France) is the main European model vendor: Large 4 (preview, announced open-weight with weights 'coming soon', $0.68/$2.09 launch price), Medium 3.5 (open weights, Modified MIT), Small 4 (Apache 2.0), Ministral 3 (Apache 2.0), with an EU inference endpoint. Other European entries on the Artificial Analysis leaderboard: Multiverse Computing's Quasar 438B. EU-based signatories of the GPAI code include Aleph Alpha, Mistral, Black Forest Labs, LINAGORA, Pleias, Almawave, Fastweb, Domyn, Dweve.",
+   "sources": [
+    {
+     "url": "https://docs.mistral.ai/inference/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Mistral prices"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/regional-inference",
+     "retrieved": "2026-10-08",
+     "fields": "EU endpoint"
+    },
+    {
+     "url": "https://artificialanalysis.ai/leaderboards/models",
+     "retrieved": "2026-10-08",
+     "fields": "Quasar"
+    },
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+     "retrieved": "2026-10-08",
+     "fields": "signatories"
+    }
+   ]
+  },
+  {
+   "topic": "AI Act: GPAI providers",
+   "text": "Obligations for providers of general-purpose AI models apply since 2 Aug 2025; the Commission's enforcement powers, including fines, apply from 2 Aug 2026; models placed on the market before 2 Aug 2025 must comply by 2 Aug 2027. These obligations fall on the model provider, not on the SME that uses the model.",
+   "sources": [
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers",
+     "retrieved": "2026-10-08",
+     "fields": "timeline"
+    }
+   ]
+  },
+  {
+   "topic": "AI Act: GPAI Code of Practice signatories",
+   "text": "Signatories listed: AI Studio Delta, Aleph Alpha, Almawave, Amazon, Anthropic, Black Forest Labs, Bria AI, Cohere, Domyn, Dweve, Fastweb, Google, IBM, LINAGORA, Microsoft, Mistral AI, Open Hippo, OpenAI, Pleias, Reflection AI, ServiceNow, WRITER (Reflection AI newly listed on 2026-10-08). xAI signed only the Safety and Security chapter. Meta and the Chinese labs are absent from the list.",
+   "sources": [
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
+     "retrieved": "2026-10-08",
+     "fields": "list"
+    }
+   ]
+  },
+  {
+   "topic": "AI Act: what applies to SMEs as deployers",
+   "text": "The Act became applicable on 2 Aug 2026; AI literacy obligations and prohibited practices apply since 2 Feb 2025; transparency rules from Aug 2026; high-risk use cases (e.g. employment, education) from 2 Dec 2027 and AI in regulated products from 2 Aug 2028 after the 'AI Omnibus' simplification (proposal adopted 19 November 2025, political agreement 7 May 2026, in force since 27 July 2026); a ninth prohibition takes effect in Dec 2026.",
+   "sources": [
+    {
+     "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+     "retrieved": "2026-10-08",
+     "fields": "timeline"
+    }
+   ]
+  },
+  {
+   "topic": "Data residency in practice",
+   "text": "EU processing is available first-party from OpenAI (Enterprise / approved API projects, eu.api.openai.com) and Mistral (api.eu.mistral.ai); Anthropic's first-party API offers only global or US, so EU processing for Claude goes through Amazon Bedrock EU geo inference (Opus 5.5, Sonnet 5.5, Haiku 5.5, Haiku 4.5; not Fable 5.1) or Google Cloud's EU multi-region; xAI offers only global or US.",
+   "sources": [
+    {
+     "url": "https://developers.openai.com/api/docs/guides/your-data",
+     "retrieved": "2026-10-08",
+     "fields": "OpenAI"
+    },
+    {
+     "url": "https://docs.mistral.ai/inference/regional-inference",
+     "retrieved": "2026-10-08",
+     "fields": "Mistral"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/manage-claude/data-residency",
+     "retrieved": "2026-10-08",
+     "fields": "Anthropic"
+    },
+    {
+     "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-opus-5-5.html",
+     "retrieved": "2026-10-08",
+     "fields": "Bedrock"
+    },
+    {
+     "url": "https://docs.x.ai/developers/advanced-api-usage/regions",
+     "retrieved": "2026-10-08",
+     "fields": "xAI"
+    }
+   ]
+  },
+  {
+   "topic": "Seat prices converge",
+   "text": "Team seats now cluster at $20/user/month annual (ChatGPT Business, Claude Team standard, Claude Enterprise base seat) with $100 'premium' seats for 5x usage at both OpenAI and Anthropic; Claude Team now adds up to $500 a month of pooled API credits; Microsoft 365 Copilot Business add-on $21 (promo $18) and enterprise $30; Perplexity Enterprise Pro $34; Mistral Team $24.99 (same figure in EUR). Google Workspace Business Standard is EUR 13.60 per user per month from France.",
+   "sources": [
+    {
+     "url": "https://openai.com/api/pricing/ (redirects to openai.com/business/pricing)",
+     "retrieved": "2026-10-08",
+     "fields": "OpenAI"
+    },
+    {
+     "url": "https://claude.com/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Anthropic"
+    },
+    {
+     "url": "https://www.microsoft.com/en-us/microsoft-365/copilot/business",
+     "retrieved": "2026-10-08",
+     "fields": "Microsoft"
+    },
+    {
+     "url": "https://www.perplexity.ai/enterprise/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Perplexity"
+    },
+    {
+     "url": "https://mistral.ai/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "Mistral"
+    },
+    {
+     "url": "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+     "retrieved": "2026-10-08",
+     "fields": "Claude Team credits"
+    },
+    {
+     "url": "https://workspace.google.com/pricing",
+     "retrieved": "2026-10-08",
+     "fields": "EUR prices (French connection)"
+    }
+   ]
+  }
+ ],
+ "gaps": [
+  "EUR prices partly retrieved on 2026-10-08: Google Workspace (EUR 6.80 / 13.60 / 21.10, page served in EUR to a French connection) and Mistral Team (EUR 24.99 = USD 24.99). ChatGPT, Claude, Microsoft Copilot and Perplexity pages still rendered in USD only.",
+  "Contradictions between official pages and OpenRouter (2026-10-08): GPT-5.6 Sol $4/$20 official vs $2/$10 OpenRouter; Kimi K3 $3/$15 official vs $0.62/$12.30 (was $0.83/$14 on 2026-10-06); GLM-5.3 $1.4/$4.4 official vs $0.049/$3.39 (was $0.07/$7); Mistral Large 4 context 1M (Mistral) vs 524,288 (OpenRouter and Artificial Analysis); Command A+ context 128K (Cohere) vs 192,000 (OpenRouter, Artificial Analysis; probably input plus output). Official values kept.",
+  "Release dates now taken from vendor pages for GLM-5.3, GLM-5.3-Flash, MiniMax-M3, Qwen3.8-Max, Qwen3.8-Flash, Mistral Medium 3.5, Mistral Small 4 and Command A+ (Command A+ corrected from 2026-09-22, the OpenRouter listing date, to 2026-05-20). Still no vendor date for Kimi K3, Muse Spark 1.3 (OpenRouter proxy), MAI-Thinking-1 (Azure version string 2026-06-01 only), Jev and Llama 4 Maverick.",
+  "Prices from OpenRouter only: Cohere Command A+ (cohere.com/pricing lists no per-token price). Seed 2.1 Turbo now from BytePlus docs and Amazon Nova 2 Lite from the AWS Price List API. MAI-Thinking-1 price unknown.",
+  "Qwen3.8-Max: region mapping resolved on 2026-10-08 (Singapore International $2/$6; Frankfurt, Virginia, Tokyo, Hong Kong Global $1.65/$4.951). Whether the API model is the same as the open-source Qwen3.8-2.4T-A95B is not stated.",
+  "Mistral Large 4: announced as open-weight but weights not yet published (changelog: 'Open weights are coming soon'); open_weights set to false until a public repo exists. Model page now states 52B active parameters (the 2026-10-06 survey recorded 49B).",
+  "Google: Gemini 4 Argon still has no API id, no GA date and is absent from the Gemini API pricing page. Gemini 3.1 Pro Preview is served only on the global endpoint of Google Cloud; Gemini 3.8 Flash, 3.5 Flash-Lite and 3.1 Flash-Lite on the EU multi-region.",
+  "Azure Foundry: the page used on 2026-10-06 (.../models-sold-direct) returns 404; region availability now read from models-sold-directly-by-azure-region-availability. Claude on Foundry EU options not checked (Anthropic's pricing page mentions only a US Data Zone).",
+  "Amazon Bedrock (re-checked 2026-10-08): EU geo inference for Claude Opus 5.5, Sonnet 5.5, Haiku 5.5 and Haiku 4.5 and for Nova 2 Lite; Fable 5.1 only Global in European regions; Opus 5.5 In-Region in London (eu-west-2) only among European regions.",
+  "Subscriptions: Claude Team/Enterprise EU data residency, Google Workspace training policy, Mistral Team minimum seats and SSO split, Microsoft Copilot EU Data Boundary not confirmed from pages read. Gemini Enterprise (standalone agent platform) pricing not collected.",
+  "Meta: Muse Spark 1.3 context and modalities now from Meta's docs; release date still the OpenRouter listing; Muse Spark EU availability unknown. Meta's open-weight Muse Glimmer 30B (Apache 2.0, Hugging Face 2026-08-09) is not listed in this file.",
+  "Models found during the re-check that predate the 2026-10-06 survey and are not listed (outside the 'since last survey' scope, to decide): Meta Muse Glimmer 30B (open weights, Aug 2026), Reflection AI Beam (501B open-weight MoE announced 2026-10-05, early access, weights promised 'later this month'), Tencent Hy4 preview (open-sourced 2026-08-28).",
+  "Max output tokens unknown for several rows (Grok 4.7 states 'no text output limit'; Mistral models, Muse Spark, Gemma 4 31B not stated on pages read). Amazon Nova 2 Lite: 64K on the Bedrock card vs 65,535 on OpenRouter (OpenRouter value kept).",
+  "Microsoft's own frontier text model: only MAI-Thinking-1 (preview) found; no pricing or GA date.",
+  "Google Workspace three-month promotions differ between the English and French pricing pages for the same dates (2026-10-22 to 2027-01-22).",
+  "Seen in search results only, not checked against a primary source on 2026-10-08: Tencent Hy4 and Reflection Beam (a 501B model); not added."
+ ]
+}

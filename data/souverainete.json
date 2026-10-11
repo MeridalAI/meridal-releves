@@ -1,0 +1,390 @@
+{
+ "releve": "2026-10-08",
+ "regle": "Huit services qui font tourner des modèles d'IA en Europe, relevés le 8 octobre 2026 sur les pages des éditeurs, le catalogue SecNumCloud de l'ANSSI et l'audition de Microsoft France au Sénat (apprendre/recherches/2026-10-08-chine-europe.json). Ce que les éditeurs disent d'eux-mêmes est marqué comme tel.",
+ "etats": {
+  "bon": "Un avantage, déclaré par l'éditeur ou l'ANSSI",
+  "attention": "À savoir",
+  "inconnu": "Non relevé, ou non abordé"
+ },
+ "colonnes": [
+  {
+   "id": "calcul",
+   "nom": "Où tourne le calcul"
+  },
+  {
+   "id": "snc",
+   "nom": "SecNumCloud"
+  },
+  {
+   "id": "dit",
+   "nom": "Ce qu'il dit de vos données"
+  },
+  {
+   "id": "us",
+   "nom": "Le droit américain"
+  }
+ ],
+ "sources": {
+  "S18": {
+   "titre": "Amazon Web Services, Run open weight models on Amazon Bedrock in AWS European Sovereign Cloud",
+   "url": "https://aws.amazon.com/blogs/security/run-open-weight-models-on-aws-bedrock-in-aws-european-sovereign-cloud/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S22": {
+   "titre": "Scaleway, Generative APIs FAQ",
+   "url": "https://www.scaleway.com/en/docs/generative-apis/faq/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S23": {
+   "titre": "Scaleway, Understand the Generative APIs Privacy Policy",
+   "url": "https://www.scaleway.com/en/docs/generative-apis/reference-content/data-privacy/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S25": {
+   "titre": "OVHcloud, AI Endpoints - Features, Capabilities and Limitations",
+   "url": "https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-capabilities",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S26": {
+   "titre": "Mistral AI, In-region inference, open models, and new European infrastructure for sovereign AI.",
+   "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S59": {
+   "titre": "Mistral AI, Where do you store my data or my Organization's data?",
+   "url": "https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S60": {
+   "titre": "Mistral AI, Subprocessors - Mistral Trust Center",
+   "url": "https://trust.mistral.ai/subprocessors",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S61": {
+   "titre": "Mistral AI, Introducing Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S71": {
+   "titre": "IONOS, AI Model Hub (IONOS Cloud docs)",
+   "url": "https://docs.ionos.com/cloud/ai/ai-model-hub/ai-model-hub",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S72": {
+   "titre": "STACKIT (Schwarz Digits), STACKIT AI Model Serving FAQ",
+   "url": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/faq/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S73": {
+   "titre": "Cloud Temple, Large Language Model as a Service (LLMaaS)",
+   "url": "https://www.cloud-temple.com/en/products/large-language-model-as-a-service-llmaas/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S74": {
+   "titre": "ANSSI, Catalogue des produits, services, profils de protection et sites certifiés, qualifiés, agréés (septembre 2026)",
+   "url": "https://messervices.cyber.gouv.fr/visas/catalogue-produits-services-profils-de-protection-sites-certifies-qualifies-agrees-anssi.pdf",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S75": {
+   "titre": "ANSSI, Prestataires de services d'informatique en nuage (SecNumCloud)",
+   "url": "https://cyber.gouv.fr/prestataires-de-services-dinformatique-en-nuage-secnumcloud",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S80": {
+   "titre": "Sénat (France), Commission d'enquête sur la commande publique, audition de Microsoft France (compte rendu)",
+   "url": "https://senat.fr/compte-rendu-commissions/20250609/ce_commande_publique.html",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S81": {
+   "titre": "Microsoft, Microsoft completes landmark EU Data Boundary, offering enhanced data residency and transparency",
+   "url": "https://blogs.microsoft.com/on-the-issues/2025/02/26/microsoft-completes-landmark-eu-data-boundary-offering-enhanced-data-residency-and-transparency/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S82": {
+   "titre": "Amazon Web Services, AWS Launches AWS European Sovereign Cloud and Announces Expansion Across Europe",
+   "url": "https://press.aboutamazon.com/aws/2026/1/aws-launches-aws-european-sovereign-cloud-and-announces-expansion-across-europe",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "lignes": [
+  {
+   "id": "mistral",
+   "outil": "Mistral AI",
+   "offre": "Le Chat et l'API, fabricant et hébergeur",
+   "cases": {
+    "calcul": {
+     "texte": "En Europe par défaut ; aux États-Unis avec le point d'accès américain",
+     "etat": "bon",
+     "sources": [
+      "S59",
+      "S26"
+     ]
+    },
+    "snc": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "dit": {
+     "texte": "Parmi ses sous-traitants : Microsoft en Suède et en Norvège, Google aux Pays-Bas et en Belgique, CoreWeave, Mistral Compute",
+     "etat": "attention",
+     "sources": [
+      "S60"
+     ]
+    },
+    "us": {
+     "texte": "Dit exploiter son déploiement européen de bout en bout, sous droit européen",
+     "etat": "attention",
+     "sources": [
+      "S61"
+     ]
+    }
+   }
+  },
+  {
+   "id": "scaleway",
+   "outil": "Scaleway",
+   "offre": "Generative APIs",
+   "cases": {
+    "calcul": {
+     "texte": "À Paris, dans un centre de données d'OPCORE",
+     "etat": "bon",
+     "sources": [
+      "S22"
+     ]
+    },
+    "snc": {
+     "texte": "Qualification en cours",
+     "etat": "attention",
+     "sources": [
+      "S75"
+     ]
+    },
+    "dit": {
+     "texte": "Ne lit ni ne réutilise vos demandes ; les fabricants des modèles n'y ont pas accès",
+     "etat": "bon",
+     "sources": [
+      "S23"
+     ]
+    },
+    "us": {
+     "texte": "Se dit non soumise au CLOUD Act, en société européenne",
+     "etat": "attention",
+     "sources": [
+      "S23"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ovhcloud",
+   "outil": "OVHcloud",
+   "offre": "AI Endpoints",
+   "cases": {
+    "calcul": {
+     "texte": "À Gravelines, en France",
+     "etat": "bon",
+     "sources": [
+      "S25"
+     ]
+    },
+    "snc": {
+     "texte": "Trois services qualifiés ; AI Endpoints n'en fait pas partie",
+     "etat": "attention",
+     "sources": [
+      "S74"
+     ]
+    },
+    "dit": {
+     "texte": "Données ni gardées ni partagées, pendant ou après l'usage",
+     "etat": "bon",
+     "sources": [
+      "S25"
+     ]
+    },
+    "us": {
+     "texte": "Non abordé dans les pages lues",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "cloudtemple",
+   "outil": "Cloud Temple",
+   "offre": "LLMaaS",
+   "cases": {
+    "calcul": {
+     "texte": "En France",
+     "etat": "bon",
+     "sources": [
+      "S73"
+     ]
+    },
+    "snc": {
+     "texte": "Sur une infrastructure qualifiée SecNumCloud et certifiée HDS",
+     "etat": "bon",
+     "sources": [
+      "S73",
+      "S74"
+     ]
+    },
+    "dit": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "us": {
+     "texte": "Non abordé dans les pages lues",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "ionos",
+   "outil": "IONOS",
+   "offre": "AI Model Hub",
+   "cases": {
+    "calcul": {
+     "texte": "En Allemagne seulement",
+     "etat": "bon",
+     "sources": [
+      "S71"
+     ]
+    },
+    "snc": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "dit": {
+     "texte": "Vos demandes exclues de l'entraînement",
+     "etat": "bon",
+     "sources": [
+      "S71"
+     ]
+    },
+    "us": {
+     "texte": "Non abordé dans les pages lues",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "stackit",
+   "outil": "STACKIT",
+   "offre": "AI Model Serving, groupe Schwarz",
+   "cases": {
+    "calcul": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "snc": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "dit": {
+     "texte": "Ne garde pas vos demandes, et n'entraîne aucun modèle dessus",
+     "etat": "bon",
+     "sources": [
+      "S72"
+     ]
+    },
+    "us": {
+     "texte": "Non abordé dans les pages lues",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "microsoft",
+   "outil": "Microsoft",
+   "offre": "Microsoft 365 et Azure, frontière de données de l'Union",
+   "cases": {
+    "calcul": {
+     "texte": "Dans l'Union et l'AELE, pour Microsoft 365 et la plupart des services Azure, depuis février 2025",
+     "etat": "bon",
+     "sources": [
+      "S81"
+     ]
+    },
+    "snc": {
+     "texte": "Non ; l'offre Bleu, sur technologie Microsoft, est en cours de qualification",
+     "etat": "attention",
+     "sources": [
+      "S75"
+     ]
+    },
+    "dit": {
+     "texte": "S'engage par contrat à contester les demandes infondées",
+     "etat": "attention",
+     "sources": [
+      "S80"
+     ]
+    },
+    "us": {
+     "texte": "Sous serment, Microsoft France n'a pas pu garantir qu'aucune donnée ne serait remise aux autorités américaines",
+     "etat": "attention",
+     "sources": [
+      "S80"
+     ]
+    }
+   }
+  },
+  {
+   "id": "aws",
+   "outil": "AWS",
+   "offre": "European Sovereign Cloud",
+   "cases": {
+    "calcul": {
+     "texte": "Dans le Brandebourg, en Allemagne ; premier modèle open weight : Gemma 4, de Google",
+     "etat": "bon",
+     "sources": [
+      "S82",
+      "S18"
+     ]
+    },
+    "snc": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "dit": {
+     "texte": "Ne transmet pas vos demandes au fabricant du modèle ; rien gardé par défaut",
+     "etat": "bon",
+     "sources": [
+      "S18"
+     ]
+    },
+    "us": {
+     "texte": "Exploité par des résidents de l'Union, sous des filiales allemandes",
+     "etat": "attention",
+     "sources": [
+      "S82"
+     ]
+    }
+   }
+  }
+ ]
+}

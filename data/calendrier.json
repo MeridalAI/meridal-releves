@@ -1,0 +1,236 @@
+{
+ "retrieved": "2026-10-08",
+ "source_releve": "apprendre/recherches/2026-10-08-regles.json",
+ "regle": "Chaque date vient d'un texte officiel ou d'une page d'autorité ; « à venir » se lit au jour du relevé.",
+ "dates": [
+  {
+   "date": "2025-02-02",
+   "statut": "en vigueur",
+   "domaine": "IA",
+   "quoi": "Formation des équipes et usages interdits",
+   "texte": "Règlement (UE) 2024/1689, articles 4 et 5",
+   "source": {
+    "titre": "Règlement (UE) 2024/1689 (règlement sur l'intelligence artificielle), JO L du 12.7.2024, version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=OJ:L_202401689"
+   }
+  },
+  {
+   "date": "2025-08-02",
+   "statut": "en vigueur",
+   "domaine": "IA",
+   "quoi": "Obligations des fournisseurs de grands modèles d'IA",
+   "texte": "Règlement (UE) 2024/1689, chapitre V",
+   "source": {
+    "titre": "Règlement (UE) 2024/1689 (règlement sur l'intelligence artificielle), JO L du 12.7.2024, version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=OJ:L_202401689"
+   }
+  },
+  {
+   "date": "2025-09-12",
+   "statut": "en vigueur",
+   "domaine": "Données",
+   "quoi": "Le règlement sur les données s'applique",
+   "texte": "Règlement (UE) 2023/2854 (Data Act)",
+   "source": {
+    "titre": "Règlement (UE) 2023/2854 (règlement sur les données, Data Act), version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32023R2854"
+   }
+  },
+  {
+   "date": "2026-07-27",
+   "statut": "en vigueur",
+   "domaine": "IA",
+   "quoi": "Le règlement 2026/1744 modifie le règlement sur l'IA et son calendrier",
+   "texte": "Règlement (UE) 2026/1744",
+   "source": {
+    "titre": "AI Omnibus enters into force (news article)",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/ai-omnibus-enters-force"
+   }
+  },
+  {
+   "date": "2026-07-30",
+   "statut": "en vigueur",
+   "domaine": "Santé",
+   "quoi": "Article de déontologie médicale sur l'IA et les outils numériques",
+   "texte": "Code de la santé publique, R. 4127-13-1",
+   "source": {
+    "titre": "Décret n° 2026-691 du 27 juillet 2026 portant modification du code de déontologie médicale (JO n° 175 du 29 juillet 2026), copie PDF du JO",
+    "url": "https://www.fhf.fr/sites/default/files/2026-08/D%C3%A9cret%2027%20juillet%202026%20-%20code%20de%20d%C3%A9ontologie%20m%C3%A9dicale.pdf"
+   }
+  },
+  {
+   "date": "2026-08-02",
+   "statut": "en vigueur",
+   "domaine": "IA",
+   "quoi": "Transparence ; contrôle des usages interdits et de la formation",
+   "texte": "Règlement (UE) 2024/1689, article 50",
+   "source": {
+    "titre": "Timeline for the Implementation of the EU AI Act",
+    "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act"
+   }
+  },
+  {
+   "date": "2026-09-01",
+   "statut": "en vigueur",
+   "domaine": "Factures",
+   "quoi": "Toutes les entreprises reçoivent les factures électroniques ; les grandes et les ETI les émettent",
+   "texte": "Facturation électronique",
+   "source": {
+    "titre": "La facturation électronique est effective depuis le 1er septembre 2026 !",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A18953"
+   }
+  },
+  {
+   "date": "2026-09-11",
+   "statut": "en vigueur",
+   "domaine": "Cybersécurité",
+   "quoi": "Fabricants de produits numériques : signalement des failles exploitées",
+   "texte": "Règlement (UE) 2024/2847 (Cyber Resilience Act), article 14",
+   "source": {
+    "titre": "Règlement (UE) 2024/2847 (règlement sur la cyberrésilience), version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32024R2847"
+   }
+  },
+  {
+   "date": "2026-09-12",
+   "statut": "en vigueur",
+   "domaine": "Données",
+   "quoi": "Accès aux données des produits connectés mis sur le marché après cette date",
+   "texte": "Data Act, article 3",
+   "source": {
+    "titre": "Règlement (UE) 2023/2854 (règlement sur les données, Data Act), version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32023R2854"
+   }
+  },
+  {
+   "date": "2026-12-02",
+   "statut": "à venir",
+   "domaine": "IA",
+   "quoi": "Deux usages interdits de plus ; fin du délai de marquage des contenus pour les systèmes déjà sur le marché",
+   "texte": "Règlement (UE) 2026/1744",
+   "source": {
+    "titre": "Règlement (UE) 2026/1744 du 8 juillet 2026 (omnibus numérique sur l'IA), version FR",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1744"
+   }
+  },
+  {
+   "date": "2026-12-09",
+   "statut": "à venir",
+   "domaine": "Responsabilité",
+   "quoi": "Logiciels et systèmes d'IA couverts par la responsabilité du fait des produits, pour les produits mis sur le marché après cette date",
+   "texte": "Directive (UE) 2024/2853",
+   "source": {
+    "titre": "Directive (UE) 2024/2853 relative à la responsabilité du fait des produits défectueux, version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32024L2853"
+   }
+  },
+  {
+   "date": "2027-01-12",
+   "statut": "à venir",
+   "domaine": "Données",
+   "quoi": "Fin des frais de changement de fournisseur de nuage",
+   "texte": "Data Act",
+   "source": {
+    "titre": "Règlement (UE) 2023/2854 (règlement sur les données, Data Act), version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32023R2854"
+   }
+  },
+  {
+   "date": "2027-08-02",
+   "statut": "à venir",
+   "domaine": "IA",
+   "quoi": "Un bac à sable réglementaire par État ; mise en conformité des anciens grands modèles",
+   "texte": "Règlement (UE) 2024/1689 modifié",
+   "source": {
+    "titre": "Regulation (EU) 2026/1744 of 8 July 2026 (Digital Omnibus on AI), EN version",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1744"
+   }
+  },
+  {
+   "date": "2027-09-01",
+   "statut": "à venir",
+   "domaine": "Factures",
+   "quoi": "Les PME et les micro-entreprises émettent les factures électroniques",
+   "texte": "Facturation électronique",
+   "source": {
+    "titre": "La facturation électronique est effective depuis le 1er septembre 2026 !",
+    "url": "https://entreprendre.service-public.gouv.fr/actualites/A18953"
+   }
+  },
+  {
+   "date": "2027-12-02",
+   "statut": "à venir",
+   "domaine": "IA",
+   "quoi": "Usages à haut risque de l'annexe III : recrutement, salariés, crédit, assurance",
+   "texte": "Règlement (UE) 2024/1689, article 26 et annexe III",
+   "source": {
+    "titre": "Règlement (UE) 2026/1744 du 8 juillet 2026 (omnibus numérique sur l'IA), version FR",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1744"
+   }
+  },
+  {
+   "date": "2027-12-11",
+   "statut": "à venir",
+   "domaine": "Cybersécurité",
+   "quoi": "Le Cyber Resilience Act s'applique entièrement",
+   "texte": "Règlement (UE) 2024/2847",
+   "source": {
+    "titre": "Règlement (UE) 2024/2847 (règlement sur la cyberrésilience), version FR (PDF)",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/PDF/?uri=CELEX:32024R2847"
+   }
+  },
+  {
+   "date": "2028-08-02",
+   "statut": "à venir",
+   "domaine": "IA",
+   "quoi": "Haut risque pour l'IA intégrée aux produits réglementés (annexe I)",
+   "texte": "Règlement (UE) 2024/1689 modifié",
+   "source": {
+    "titre": "Règlement (UE) 2026/1744 du 8 juillet 2026 (omnibus numérique sur l'IA), version FR",
+    "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1744"
+   }
+  }
+ ],
+ "en_discussion": [
+  {
+   "domaine": "Cybersécurité",
+   "quoi": "Transposition de NIS2 en France : adoptée par le Sénat le 12 mars 2025, examen à l'Assemblée encore reporté début octobre 2026 ; la date limite européenne était le 17 octobre 2024",
+   "source": {
+    "titre": "Cybersécurité : l'examen du projet de loi « résilience » à nouveau repoussé, malgré l'augmentation de la menace",
+    "url": "https://www.lefigaro.fr/economie/cybersecurite-l-examen-du-projet-de-loi-resilience-a-nouveau-repousse-malgre-l-augmentation-de-la-menace-20261006"
+   }
+  },
+  {
+   "domaine": "IA",
+   "quoi": "Désignation des autorités françaises de contrôle : projet de loi adopté par le Sénat le 18 février 2026, à l'Assemblée nationale",
+   "source": {
+    "titre": "Dossier législatif : projet de loi portant diverses dispositions d'adaptation au droit de l'Union européenne (DDADUE)",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53140"
+   }
+  },
+  {
+   "domaine": "Données",
+   "quoi": "Réforme du RGPD et des cookies (omnibus des données) : mandat du Conseil examiné le 7 octobre 2026, issue non vérifiée",
+   "source": {
+    "titre": "Ireland puts forward new compromise proposals on 'Digital Omnibus' in bid to secure agreement between Member States on 7 October",
+    "url": "https://agenceurope.eu/en/bulletin/article/13952/8/ireland-puts-forward-new-compromise-proposals-on-digital-omnibus-in-bid-to-secure-agreement-between-member-states-on-7-october"
+   }
+  },
+  {
+   "domaine": "Droit d'auteur",
+   "quoi": "Présomption d'utilisation des contenus culturels par les fournisseurs d'IA : adoptée par le Sénat le 8 avril 2026",
+   "source": {
+    "titre": "Dossier législatif : proposition de loi relative à l'instauration d'une présomption d'utilisation des contenus culturels par les fournisseurs d'IA",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53359"
+   }
+  },
+  {
+   "domaine": "Droit d'auteur",
+   "quoi": "Entraînement des modèles et droit d'auteur : affaire C-250/25 devant la Cour de justice de l'Union",
+   "source": {
+    "titre": "Case C-250/25, Like Company: Request for a preliminary ruling (OJ C/2025/3039)",
+    "url": "https://eur-lex.europa.eu/eli/C/2025/3039/oj/eng"
+   }
+  }
+ ]
+}

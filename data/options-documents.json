@@ -1,0 +1,242 @@
+{
+ "releve": "2026-10-07",
+ "regle": "Faits relevés sur les pages des éditeurs le 7 octobre 2026 (apprendre/recherches/2026-10-07-rag-technique.json).",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non publié"
+ },
+ "colonnes": [
+  {
+   "id": "volume",
+   "nom": "Combien de documents"
+  },
+  {
+   "id": "a-jour",
+   "nom": "Mise à jour"
+  },
+  {
+   "id": "droits",
+   "nom": "Droits par personne"
+  },
+  {
+   "id": "cout",
+   "nom": "Coût"
+  },
+  {
+   "id": "limite",
+   "nom": "Limite"
+  }
+ ],
+ "sources": {
+  "s10": {
+   "titre": "OpenAI API docs - Model optimization (fine-tuning)",
+   "url": "https://platform.openai.com/docs/guides/model-optimization",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07"
+  },
+  "s11": {
+   "titre": "OpenAI API docs - Deprecations",
+   "url": "https://platform.openai.com/docs/deprecations",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07"
+  },
+  "s12": {
+   "titre": "OpenAI API docs - GPT-6 Astra model page",
+   "url": "https://platform.openai.com/docs/models/gpt-6-astra",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s19": {
+   "titre": "Mistral docs - Fine-tuning (deprecated)",
+   "url": "https://docs.mistral.ai/capabilities/finetuning/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s29": {
+   "titre": "Gemini API docs - Long context",
+   "url": "https://ai.google.dev/gemini-api/docs/long-context",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s43": {
+   "titre": "Anthropic - Introducing Contextual Retrieval",
+   "url": "https://www.anthropic.com/news/contextual-retrieval",
+   "date_page": "2024-09-19",
+   "lue": "2026-10-07"
+  },
+  "s44": {
+   "titre": "Claude API docs - Models overview (.md)",
+   "url": "https://platform.claude.com/docs/en/models/overview",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s45": {
+   "titre": "Claude API docs - Context windows",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/context-windows",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s46": {
+   "titre": "Claude API docs - Prompt caching",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/prompt-caching",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s51": {
+   "titre": "Claude Help Center - Retrieval augmented generation (RAG) for projects",
+   "url": "https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07"
+  },
+  "s53": {
+   "titre": "OpenAI Help Center - File Uploads FAQ",
+   "url": "https://help.openai.com/en/articles/8555545",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s9": {
+   "titre": "OpenAI API docs - File search tool",
+   "url": "https://platform.openai.com/docs/guides/tools-file-search",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "sp-agents": {
+   "titre": "Frequently asked questions about agents in SharePoint and the rich text editor",
+   "url": "https://support.microsoft.com/en-us/sharepoint/copilot-in-sharepoint/frequently-asked-questions-about-copilot-in-sharepoint",
+   "date_page": null,
+   "lue": "2026-10-07"
+  }
+ },
+ "lignes": [
+  {
+   "id": "projet",
+   "outil": "Un projet, ou tout dans la demande",
+   "offre": "le modèle lit tous les documents à chaque question",
+   "cases": {
+    "volume": {
+     "texte": "Jusqu'à la fenêtre de contexte : 1 million de tokens chez Claude Opus 5.5, 1,05 million chez GPT-6 Astra, environ 1 million chez Gemini 3.8 Flash",
+     "etat": null,
+     "sources": [
+      "s44",
+      "s12",
+      "s29"
+     ]
+    },
+    "a-jour": {
+     "texte": "Il suffit de remplacer le document",
+     "etat": null,
+     "sources": [
+      "s53"
+     ]
+    },
+    "droits": {
+     "texte": "Tous les documents du projet, pour tous ses membres",
+     "etat": "attention",
+     "sources": [
+      "s53"
+     ]
+    },
+    "cout": {
+     "texte": "Tout est relu à chaque question ; la mise en cache réduit le coût des relectures",
+     "etat": null,
+     "sources": [
+      "s46",
+      "s29"
+     ]
+    },
+    "limite": {
+     "texte": "La précision baisse quand le contexte s'allonge, et quand plusieurs faits sont à trouver",
+     "etat": "attention",
+     "sources": [
+      "s45",
+      "s29"
+     ]
+    }
+   }
+  },
+  {
+   "id": "rag",
+   "outil": "Un RAG",
+   "offre": "une recherche choisit les passages, le modèle répond à partir d'eux",
+   "cases": {
+    "volume": {
+     "texte": "Bien au-delà de la fenêtre de contexte : seuls les passages retenus sont lus",
+     "etat": null,
+     "sources": [
+      "s43"
+     ]
+    },
+    "a-jour": {
+     "texte": "Un document changé se remplace dans l'index",
+     "etat": null,
+     "sources": [
+      "s9"
+     ]
+    },
+    "droits": {
+     "texte": "Peut ne servir à chacun que ce qu'il a le droit de lire, comme les agents SharePoint",
+     "etat": "bon",
+     "sources": [
+      "sp-agents"
+     ]
+    },
+    "cout": {
+     "texte": "Un index à tenir, et une recherche à régler ; peu de texte lu par question",
+     "etat": null,
+     "sources": [
+      "s43"
+     ]
+    },
+    "limite": {
+     "texte": "Une réponse ne vaut que ce que la recherche a trouvé",
+     "etat": "attention",
+     "sources": [
+      "s43"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ajustement",
+   "outil": "Un ajustement du modèle",
+   "offre": "le modèle est réentraîné sur des exemples",
+   "cases": {
+    "volume": {
+     "texte": "Des exemples de questions et de réponses, pas des documents",
+     "etat": null,
+     "sources": [
+      "s10"
+     ]
+    },
+    "a-jour": {
+     "texte": "Un nouvel entraînement à chaque changement",
+     "etat": "attention",
+     "sources": [
+      "s10"
+     ]
+    },
+    "droits": {
+     "texte": "Aucun droit par document : le modèle ajusté répond de la même façon à tous",
+     "etat": "attention",
+     "sources": []
+    },
+    "cout": {
+     "texte": "Entraînement payé au token, puis un modèle à part",
+     "etat": null,
+     "sources": [
+      "s10"
+     ]
+    },
+    "limite": {
+     "texte": "OpenAI le ferme aux nouveaux clients, et à tous le 6 janvier 2027 ; Mistral l'a abandonné",
+     "etat": "attention",
+     "sources": [
+      "s11",
+      "s19"
+     ]
+    }
+   }
+  }
+ ]
+}

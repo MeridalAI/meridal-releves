@@ -1,0 +1,6791 @@
+{
+ "releve": "2026-10-07",
+ "regle": "Chaque chemin vient d'une page d'aide de l'éditeur lue le jour du relevé : les libellés français de la documentation française de l'éditeur (souvent traduite par machine), les libellés anglais de la page anglaise. Un segment entre accolades est à choisir par le lecteur. Les relevés bruts, avec les citations, sont dans apprendre/recherches/.",
+ "sources": {
+  "ms-acheter": {
+   "titre": "Try or buy a Microsoft 365 for business subscription",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/commerce/buy-another-subscription",
+   "date_page": "2026-04-23",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/commerce/try-or-buy-microsoft-365",
+   "date_page_fr": "2026-04-23",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-mise-en-place": {
+   "titre": "Set up Microsoft Copilot and assign licenses",
+   "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-setup",
+   "date_page": "2026-08-18",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/copilot/microsoft-365-copilot-setup",
+   "date_page_fr": "2026-05-19",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-licences-utilisateurs": {
+   "titre": "Assign or unassign licenses for users in the Microsoft 365 admin center",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users",
+   "date_page": "2026-02-21",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/admin/manage/assign-licenses-to-users",
+   "date_page_fr": "2026-02-19",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-roles": {
+   "titre": "Assign admin roles in the Microsoft 365 admin center",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/assign-admin-roles",
+   "date_page": null,
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/admin/add-users/assign-admin-roles",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-rapport-usage": {
+   "titre": "Microsoft Copilot usage report",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+   "date_page": "2026-08-18",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage",
+   "date_page_fr": "2026-07-14",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-tableau-de-bord": {
+   "titre": "Microsoft Copilot Dashboard in Viva Insights",
+   "url": "https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard",
+   "date_page": "2026-09-29",
+   "url_fr": "https://learn.microsoft.com/fr-fr/viva/insights/org-team-insights/copilot-dashboard",
+   "date_page_fr": "2026-09-29",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-retirer-licences": {
+   "titre": "Buy or remove licenses for a Microsoft business subscription",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/commerce/licenses/buy-licenses",
+   "date_page": "2025-07-08",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/commerce/licenses/buy-licenses",
+   "date_page_fr": "2025-07-08",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-annuler": {
+   "titre": "Cancel your subscription in the Microsoft 365 admin center",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/commerce/subscriptions/cancel-your-subscription",
+   "date_page": "2026-07-08",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/commerce/subscriptions/cancel-your-subscription",
+   "date_page_fr": "2026-07-02",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-bouton-manquant": {
+   "titre": "How to find and enable missing Copilot button in Microsoft 365 apps",
+   "url": "https://support.microsoft.com/en-us/office/how-to-find-and-enable-missing-copilot-button-in-microsoft-365-apps-c8482b93-4b96-4bb8-8ec9-5148f4d42441",
+   "date_page": "2026-07",
+   "url_fr": "https://support.microsoft.com/fr-fr/office/foundations-experiences/how-to-find-and-enable-missing-copilot-button-in-microsoft-365-apps",
+   "date_page_fr": "2026-07-16",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-recherche-web": {
+   "titre": "Data, privacy, and security for web search in Microsoft Copilot and Microsoft Copilot Chat",
+   "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/manage-public-web-access",
+   "date_page": "2026-08-18",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/copilot/manage-public-web-access",
+   "date_page_fr": "2026-08-18",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-anthropic": {
+   "titre": "Anthropic models in Microsoft Online Services",
+   "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor",
+   "date_page": "2026-09-18",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/copilot/connect-to-ai-subprocessor",
+   "date_page_fr": "2026-09-18",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-openai": {
+   "titre": "OpenAI as a subprocessor in Microsoft Online Services",
+   "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/openai-subprocessor",
+   "date_page": "2026-09-30",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/copilot/openai-subprocessor",
+   "date_page_fr": "2026-09-30",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-anthropic-applis": {
+   "titre": "Copilot in Microsoft 365 apps with Anthropic models",
+   "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/copilot-anthropic-apps",
+   "date_page": "2026-09-03",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/copilot/copilot-anthropic-apps",
+   "date_page_fr": "2026-09-03",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-routage-flexible": {
+   "titre": "Flex routing (EU and EFTA)",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-flex-routing",
+   "date_page": "2026-09-29",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/copilot/copilot-flex-routing",
+   "date_page_fr": "2026-09-29",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-memoire": {
+   "titre": "Manage Copilot Memory in Microsoft Copilot",
+   "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/manage-copilot-memory-in-microsoft-365-copilot",
+   "date_page": "2026-09-14",
+   "url_fr": "https://support.microsoft.com/fr-fr/microsoft-365-copilot/manage-copilot-memory-in-microsoft-365-copilot",
+   "date_page_fr": "2026-09-11",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-agents": {
+   "titre": "Agent settings in Microsoft 365 admin center",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-settings",
+   "date_page": "2026-09-30",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/admin/manage/agent-settings",
+   "date_page_fr": "2026-09-03",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-connecteurs": {
+   "titre": "Deploy connectors in the Microsoft 365 admin center",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/connectors/deployment-overview",
+   "date_page": "2026-04-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-commentaires": {
+   "titre": "Manage Microsoft feedback for your organization",
+   "url": "https://learn.microsoft.com/en-us/privacy/microsoft-365/feedback/feedback-manage",
+   "date_page": "2026-10-06",
+   "url_fr": "https://learn.microsoft.com/fr-fr/privacy/microsoft-365/feedback/feedback-manage",
+   "date_page_fr": "2026-08-27",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-teams-reunions": {
+   "titre": "Manage Microsoft Copilot in Teams meetings and events",
+   "url": "https://learn.microsoft.com/en-us/microsoftteams/copilot-teams-transcription",
+   "date_page": "2026-08-11",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoftteams/copilot-teams-transcription",
+   "date_page_fr": "2026-08-11",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-parametres-copilot": {
+   "titre": "Manage Microsoft Copilot settings in the Microsoft 365 admin center",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-page",
+   "date_page": "2026-09-25",
+   "url_fr": "https://learn.microsoft.com/fr-fr/microsoft-365/copilot/microsoft-365-copilot-page",
+   "date_page_fr": "2026-09-25",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-retention": {
+   "titre": "Automatically retain or delete content by using retention policies",
+   "url": "https://learn.microsoft.com/en-us/purview/create-retention-policies",
+   "date_page": "2026-06-09",
+   "url_fr": "https://learn.microsoft.com/fr-fr/purview/create-retention-policies",
+   "date_page_fr": "2026-06-09",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-audit": {
+   "titre": "Search the audit log",
+   "url": "https://learn.microsoft.com/en-us/purview/audit-search",
+   "date_page": "2026-06-19",
+   "url_fr": "https://learn.microsoft.com/fr-fr/purview/audit-search",
+   "date_page_fr": "2026-06-19",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-dag": {
+   "titre": "Data access governance reports for SharePoint sites",
+   "url": "https://learn.microsoft.com/en-us/sharepoint/data-access-governance-reports",
+   "date_page": "2026-07-30",
+   "url_fr": "https://learn.microsoft.com/fr-fr/sharepoint/data-access-governance-reports",
+   "date_page_fr": "2026-07-09",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-rcd": {
+   "titre": "Restrict discovery of SharePoint sites and content",
+   "url": "https://learn.microsoft.com/en-us/sharepoint/restricted-content-discovery",
+   "date_page": "2026-09-22",
+   "url_fr": "https://learn.microsoft.com/fr-fr/sharepoint/restricted-content-discovery",
+   "date_page_fr": "2026-09-22",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ms-historique": {
+   "titre": "Delete your Microsoft Copilot activity history",
+   "url": "https://support.microsoft.com/en-us/privacy/delete-your-microsoft-365-copilot-activity-history",
+   "date_page": "2026-08-18",
+   "url_fr": "https://support.microsoft.com/fr-fr/privacy/delete-your-microsoft-365-copilot-activity-history",
+   "date_page_fr": "2026-08-07",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-application": {
+   "titre": "Turn the Gemini App on or off",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-the-gemini-app-on-or-off",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-historique-ws-admin": {
+   "titre": "Manage Gemini in Workspace conversation history settings",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/manage-gemini-in-workspace-conversation-history-settings",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-partage": {
+   "titre": "Turn conversation sharing on or off",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-conversation-sharing-on-or-off",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-regions": {
+   "titre": "Choose a geographic location for your data (data regions)",
+   "url": "https://knowledge.workspace.google.com/admin/compliance/choose-a-geographic-location-for-your-data",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-notes-auto": {
+   "titre": "Manage automatic note-taking for Meet",
+   "url": "https://knowledge.workspace.google.com/admin/meet/upcoming-changes-to-automatic-note-taking",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-fonctionnalites": {
+   "titre": "Manage Google Workspace smart features for your users",
+   "url": "https://knowledge.workspace.google.com/admin/security/manage-google-workspace-smart-features-for-your-users",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-perso": {
+   "titre": "Gemini Apps Privacy Hub",
+   "url": "https://support.google.com/gemini/answer/13594961?hl=fr",
+   "date_page": "2026-09-24",
+   "url_fr": "https://support.google.com/gemini/answer/13594961?hl=fr",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-controles": {
+   "titre": "Data controls in ChatGPT",
+   "url": "https://help.openai.com/en/articles/7730893-data-controls-faq",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-memoire": {
+   "titre": "Memory in ChatGPT",
+   "url": "https://help.openai.com/en/articles/8590148",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-liens": {
+   "titre": "Shared links",
+   "url": "https://help.openai.com/en/articles/7925741",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-temporaire": {
+   "titre": "Temporary chat in ChatGPT",
+   "url": "https://help.openai.com/en/articles/8914046",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-applis-admin": {
+   "titre": "Admin controls, security, and compliance for plugins and apps",
+   "url": "https://help.openai.com/en/articles/11509118",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-residence": {
+   "titre": "Data residency and inference residency for ChatGPT",
+   "url": "https://help.openai.com/en/articles/9903489",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-ameliorer": {
+   "titre": "How do I change my model improvement privacy settings?",
+   "url": "https://privacy.claude.com/en/articles/12109829-how-do-i-change-my-model-improvement-privacy-settings",
+   "date_page": "2026-08-03",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-memoire": {
+   "titre": "Use Claude's chat search and memory",
+   "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-partage": {
+   "titre": "Share and unshare chats",
+   "url": "https://support.claude.com/en/articles/10593882-share-and-unshare-chats",
+   "date_page": "2026-06-15",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-incognito": {
+   "titre": "Use incognito chats",
+   "url": "https://support.claude.com/en/articles/12260368-use-incognito-chats",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-projets": {
+   "titre": "Control project sharing for your organization",
+   "url": "https://support.claude.com/en/articles/9927533-control-project-sharing-for-your-organization",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-entrainement": {
+   "titre": "Is my data used for model training?",
+   "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "date_page": "2026-08-18",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-connecteurs": {
+   "titre": "Use connectors to extend Claude's capabilities",
+   "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-retention": {
+   "titre": "Configure custom data retention controls for Enterprise plans",
+   "url": "https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "mis-desactiver": {
+   "titre": "Can I opt out of my input or output data being used for training?",
+   "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+   "date_page": "2026-09-03",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "mis-espaces": {
+   "titre": "Workspaces in Vibe",
+   "url": "https://docs.mistral.ai/admin/workspaces/workspaces-in-vibe",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "mis-connecteurs": {
+   "titre": "Connectors (Admin)",
+   "url": "https://docs.mistral.ai/admin/identity-access/connectors",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ppx-collecte": {
+   "titre": "Data Collection at Perplexity",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ppx-retention-entreprise": {
+   "titre": "Data Retention for Enterprise",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11652701-data-retention-for-enterprise",
+   "date_page": "2026-09-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ppx-roles": {
+   "titre": "Enterprise roles and permissions",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11187754-enterprise-roles-and-permissions",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ppx-memoire": {
+   "titre": "Memory",
+   "url": "https://www.perplexity.ai/help-center/en/articles/10968016-memory",
+   "date_page": "2026-09-14",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ol-resume": {
+   "titre": "Summarize an email thread with Copilot in Outlook",
+   "url": "https://support.microsoft.com/en-us/office/summarize-an-email-thread-with-copilot-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/office/summarize-an-email-thread-with-copilot-in-outlook-a79873f2-396b-46dc-b852-7fe5947ab640",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ol-brouillon": {
+   "titre": "Draft an email message with Copilot in Outlook",
+   "url": "https://support.microsoft.com/en-us/office/draft-an-email-message-with-copilot-in-outlook-3eb1d053-89b8-491c-8a6e-746015238d9b",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/office/draft-an-email-message-with-copilot-in-outlook-3eb1d053-89b8-491c-8a6e-746015238d9b",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ol-coaching": {
+   "titre": "Get email coaching with Copilot in Outlook",
+   "url": "https://support.microsoft.com/en-us/outlook/copilot-pages/get-email-coaching-with-copilot-in-outlook",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ol-faq": {
+   "titre": "Frequently asked questions about Copilot in Outlook",
+   "url": "https://support.microsoft.com/en-us/outlook/frequently-asked-questions-about-copilot-in-outlook",
+   "date_page": "2026-08",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ol-discuter": {
+   "titre": "Chat with Copilot in Outlook",
+   "url": "https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ol-ordre-du-jour": {
+   "titre": "Create a meeting agenda with Copilot in Outlook",
+   "url": "https://support.microsoft.com/en-gb/office/create-a-meeting-agenda-with-copilot-in-outlook-31a44dfa-62bb-4751-82c4-14327a26759f",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ol-hierarchiser": {
+   "titre": "Prioritize my inbox",
+   "url": "https://support.microsoft.com/en-us/topic/prioritize-my-inbox-65e37040-2c90-4ee3-86d9-e95d5ba0e3cb",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/topic/prioritize-my-inbox-65e37040-2c90-4ee3-86d9-e95d5ba0e3cb",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "xl-bouton": {
+   "titre": "The Copilot Dynamic Action Button in Word, Excel and PowerPoint",
+   "url": "https://support.microsoft.com/en-us/office/foundations-experiences/copilot-dab/the-copilot-dynamic-action-button-in-word-excel-and-powerpoint",
+   "date_page": "2026-06",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "xl-sources": {
+   "titre": "Copilot in Excel data sources",
+   "url": "https://support.microsoft.com/en-us/excel/copilot/copilot-in-excel-data-sources",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "xl-conseils": {
+   "titre": "Copilot in Excel tips",
+   "url": "https://support.microsoft.com/en-us/excel/copilot/copilot-in-excel-tips",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "xl-analyse": {
+   "titre": "Get direct answers to your data analysis questions",
+   "url": "https://support.microsoft.com/en-us/excel/get-direct-answers-to-your-data-analysis-questions",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "xl-prise-en-main": {
+   "titre": "Get started with Copilot in Excel",
+   "url": "https://support.microsoft.com/en-us/excel/copilot/get-started-with-copilot-in-excel",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/excel/copilot/get-started-with-copilot-in-excel",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-rattraper": {
+   "titre": "Catch up on meetings with Microsoft Copilot in Teams",
+   "url": "https://support.microsoft.com/en-us/teams/copilot/catch-up-on-meetings-with-microsoft-365-copilot-in-teams",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/teams/copilot/catch-up-on-meetings-with-microsoft-365-copilot-in-teams",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-sans-transcription": {
+   "titre": "Use Copilot without transcribing or recording a Teams meeting or call",
+   "url": "https://support.microsoft.com/en-us/teams/copilot/use-copilot-without-transcribing-or-recording-a-teams-meeting-or-call",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/teams/copilot/use-copilot-without-transcribing-or-recording-a-teams-meeting-or-call",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-facilitateur": {
+   "titre": "Facilitator in Microsoft Teams meetings",
+   "url": "https://support.microsoft.com/en-us/teams/copilot/facilitator-in-microsoft-teams-meetings",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/teams/copilot/facilitator-in-microsoft-teams-meetings",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-facilitateur-admin": {
+   "titre": "Set up Facilitator in Microsoft Teams",
+   "url": "https://learn.microsoft.com/en-us/microsoftteams/facilitator-teams",
+   "date_page": "2026-08-18",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-conversations": {
+   "titre": "How to use Microsoft Copilot in Teams chats and channels",
+   "url": "https://support.microsoft.com/en-us/teams/copilot/how-to-use-microsoft-365-copilot-in-teams-chats-and-channels",
+   "date_page": null,
+   "url_fr": "https://support.microsoft.com/fr-fr/teams/copilot/how-to-use-microsoft-365-copilot-in-teams-chats-and-channels",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-transcription": {
+   "titre": "Manage transcription and captions for Teams meetings",
+   "url": "https://learn.microsoft.com/en-us/microsoftteams/meeting-transcription-captions",
+   "date_page": "2026-08-18",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-enregistrement": {
+   "titre": "Manage Teams recording policies for meetings and events",
+   "url": "https://learn.microsoft.com/en-us/microsoftteams/meeting-recording",
+   "date_page": "2026-08-18",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-expiration": {
+   "titre": "Manage Teams recording expiration policy",
+   "url": "https://learn.microsoft.com/en-us/microsoftteams/manage-teams-recording-expiration-policy",
+   "date_page": "2026-08-31",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "tm-accord": {
+   "titre": "Manage participant agreement for recording and transcription",
+   "url": "https://learn.microsoft.com/en-us/microsoftteams/participant-agreement-recording-transcription",
+   "date_page": "2026-05-11",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-agent-builder": {
+   "titre": "Build agents in Agent Builder",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-build-agents",
+   "date_page": "2026-09-30",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-creer": {
+   "titre": "Create and delete agents, Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-first-bot",
+   "date_page": "2026-09-01",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-agent-copilot": {
+   "titre": "Extend Microsoft Copilot with the Copilot chat harness",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/microsoft-365-copilot-extend-with-agents",
+   "date_page": "2026-10-01",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-sharepoint": {
+   "titre": "Add SharePoint as a knowledge source",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-add-sharepoint",
+   "date_page": "2026-10-05",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-authentification": {
+   "titre": "Configure user authentication in Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication",
+   "date_page": "2026-05-01",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-publier": {
+   "titre": "Key concepts, publish and deploy your agent",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-fundamentals-publish-channels",
+   "date_page": "2026-10-01",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-teams": {
+   "titre": "Connect and configure an agent for Teams and Microsoft Copilot",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams",
+   "date_page": "2026-10-03",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-demandes": {
+   "titre": "Agent Requests in Microsoft 365 Admin Center",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-requests",
+   "date_page": "2026-08-21",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-donnees": {
+   "titre": "Configure data policies for agents",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention",
+   "date_page": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-environnements": {
+   "titre": "Work with Power Platform environments, Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/environments-first-run-experience",
+   "date_page": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-capacite": {
+   "titre": "Manage Copilot Credits and capacity for Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/power-platform/admin/manage-copilot-studio-copilot-credits-capacity",
+   "date_page": "2026-10-03",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "cs-suivi": {
+   "titre": "Monitor overview, Microsoft Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-overview",
+   "date_page": "2026-08-25",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-membres": {
+   "titre": "Managing members, seat types, and roles in ChatGPT Business (OpenAI Help Center)",
+   "url": "https://help.openai.com/en/articles/8542216",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-sso": {
+   "titre": "Setting up single sign-on for ChatGPT Business (OpenAI Help Center)",
+   "url": "https://help.openai.com/en/articles/11489188",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-organisation": {
+   "titre": "Set up single sign-on (SSO) - Claude Help Center",
+   "url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "g-rapports": {
+   "titre": "Review Gemini usage in your organization",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/review-gemini-usage-in-your-organization",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "doc-s1": {
+   "titre": "Get started with Microsoft Copilot Notebooks",
+   "url": "https://support.microsoft.com/en-US/Microsoft-365-Copilot/get-started-with-microsoft-365-copilot-notebooks",
+   "date_page": null,
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "doc-s9": {
+   "titre": "Create an agent in SharePoint",
+   "url": "https://support.microsoft.com/en-us/SharePoint/copilot-in-sharepoint/create-an-agent-in-sharepoint",
+   "date_page": null,
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "doc-s35": {
+   "titre": "Create a notebook in Gemini Notebook",
+   "url": "https://support.google.com/gemininotebook/answer/16206563?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "doc-s40": {
+   "titre": "Use Gems in Gemini Apps",
+   "url": "https://support.google.com/gemini/answer/15146780?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "doc-s46": {
+   "titre": "Projects in ChatGPT",
+   "url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "doc-s59": {
+   "titre": "How can I create and manage projects?",
+   "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+   "date_page": "2026-09-30",
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "doc-s67": {
+   "titre": "Add context with Libraries (Mistral Docs, Vibe Work)",
+   "url": "https://docs.mistral.ai/vibe/work/libraries",
+   "date_page": null,
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "doc-s73": {
+   "titre": "What are Projects? (Perplexity Help Center)",
+   "url": "https://www.perplexity.ai/help-center/en/articles/10352961-what-are-projects",
+   "date_page": null,
+   "lue": "2026-10-07",
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur"
+  },
+  "oai-production": {
+   "titre": "Production best practices (OpenAI API docs)",
+   "url": "https://developers.openai.com/api/docs/guides/production-best-practices",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "oai-plafonds": {
+   "titre": "Spend limits (OpenAI API docs)",
+   "url": "https://developers.openai.com/api/docs/guides/spend-limits",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-cle-api": {
+   "titre": "Get your Claude API key (Claude docs)",
+   "url": "https://platform.claude.com/docs/en/get-api-key",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "ant-plafonds": {
+   "titre": "Rate limits and spend limits (Claude API docs)",
+   "url": "https://platform.claude.com/docs/en/api/rate-limits",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "mis-cle-api": {
+   "titre": "Activate Studio and generate an API key (Mistral docs)",
+   "url": "https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "mis-plafonds": {
+   "titre": "Workspace usage and limits (Mistral docs)",
+   "url": "https://docs.mistral.ai/admin/workspaces/usage-limits",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "sp-partage": {
+   "titre": "Gérer le partage externe pour SharePoint et OneDrive",
+   "url": "https://learn.microsoft.com/en-us/sharepoint/turn-external-sharing-on-or-off",
+   "date_page": "2026-06-30",
+   "url_fr": "https://learn.microsoft.com/fr-fr/sharepoint/turn-external-sharing-on-or-off",
+   "date_page_fr": "2026-06-30",
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  },
+  "gw-S02": {
+   "titre": "Gérer l'accès aux fonctionnalités Gemini dans les services Workspace",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/manage-access-to-gemini-features-in-workspace-services?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S04": {
+   "titre": "Activer ou désactiver l'application Gemini",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-the-gemini-app-on-or-off?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S34": {
+   "titre": "Contrôler les discussions temporaires et la suppression des discussions dans l'application Gemini",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/enable-temporary-chats-in-gemini-app?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S06": {
+   "titre": "Contrôler l'accès de l'application Gemini aux services Workspace",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-google-apps-in-gemini-on-or-off?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S08": {
+   "titre": "Activer ou désactiver le partage de Gems",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-gem-sharing-on-or-off?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S20": {
+   "titre": "Gérer les fonctionnalités intelligentes Google Workspace pour vos utilisateurs",
+   "url": "https://knowledge.workspace.google.com/admin/security/manage-google-workspace-smart-features-for-your-users?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/07/16",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S18": {
+   "titre": "Contrôler Workspace Intelligence pour les fonctionnalités d'IA générative",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/workspace-intelligence/control-workspace-intelligence?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S16": {
+   "titre": "Activer ou désactiver l'accès à Google Workspace avec Gemini (bêta)",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/turn-access-to-google-workspace-with-gemini-beta-on-or-off?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S22": {
+   "titre": "Gérer les paramètres de l'historique des conversations Gemini dans Workspace",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/manage-gemini-in-workspace-conversation-history-settings?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S12": {
+   "titre": "Vérifier l'utilisation de Gemini dans votre organisation",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/review-gemini-usage-in-your-organization?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S24": {
+   "titre": "Centre de contrôle de l'IA",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/explore-the-ai-control-center?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S36": {
+   "titre": "Événements de journaux Gemini pour Workspace",
+   "url": "https://knowledge.workspace.google.com/admin/reports/gemini-for-workspace-log-events?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S73": {
+   "titre": "Activer ou désactiver Gemini Notebook pour les utilisateurs",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-notebook/turn-gemini-notebook-on-or-off-for-users?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S75": {
+   "titre": "Gérer les paramètres de partage de Gemini Notebook",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-notebook/manage-gemini-notebook-sharing-settings?hl=fr",
+   "date_page": "footer: Dernière mise à jour le 2026/10/07",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S55": {
+   "titre": "En savoir plus sur les fonctionnalités et commandes intelligentes pour Google Workspace et d'autres produits Google",
+   "url": "https://support.google.com/mail/answer/15604322?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S47": {
+   "titre": "Rédiger des e-mails avec Gemini dans Gmail (Ordinateur)",
+   "url": "https://support.google.com/mail/answer/13955415?co=GENIE.Platform%3DDesktop&hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S50": {
+   "titre": "Reprenez le fil de vos e-mails grâce aux résumés de conversations de l'aperçu IA (Ordinateur)",
+   "url": "https://support.google.com/mail/answer/16561387?co=GENIE.Platform%3DDesktop&hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S45": {
+   "titre": "Collaborer avec Gemini dans Gmail (Ordinateur)",
+   "url": "https://support.google.com/mail/answer/14355636?co=GENIE.Platform%3DDesktop&hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S52": {
+   "titre": "Obtenir un Aperçu IA dans la recherche Gmail (Ordinateur)",
+   "url": "https://support.google.com/mail/answer/16789526?co=GENIE.Platform%3DDesktop&hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S48": {
+   "titre": "Use Suggested Replies in Gmail (Computer)",
+   "url": "https://support.google.com/mail/answer/15464729?co=GENIE.Platform%3DDesktop&hl=en",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S59": {
+   "titre": "Collaborer avec Gemini dans Google Docs (Ordinateur)",
+   "url": "https://support.google.com/docs/answer/14206696?co=GENIE.Platform%3DDesktop&hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S57": {
+   "titre": "Écrire et modifier du texte avec Gemini dans Docs",
+   "url": "https://support.google.com/docs/answer/13951448?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S63": {
+   "titre": "Découvrir comment utiliser des sources avec Google Workspace avec Gemini",
+   "url": "https://support.google.com/docs/answer/16813283?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S61": {
+   "titre": "Créer des documents personnalisés avec Gemini dans Google Docs",
+   "url": "https://support.google.com/docs/answer/15541879?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S65": {
+   "titre": "Retrouver et gérer l'historique de vos conversations Gemini dans Workspace",
+   "url": "https://support.google.com/a/users/answer/16880047?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S69": {
+   "titre": "Utiliser la fonction AI dans Google Sheets",
+   "url": "https://support.google.com/docs/answer/15877199?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S67": {
+   "titre": "Collaborer avec Gemini dans Google Sheets",
+   "url": "https://support.google.com/docs/answer/14356410?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S81": {
+   "titre": "Créer un notebook dans Gemini Notebook",
+   "url": "https://support.google.com/gemininotebook/answer/16206563?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S79": {
+   "titre": "Ajouter ou découvrir de nouvelles sources pour votre notebook (Ordinateur)",
+   "url": "https://support.google.com/gemininotebook/answer/16215270?co=GENIE.Platform%3DDesktop&hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S83": {
+   "titre": "Générer un résumé audio dans Gemini Notebook",
+   "url": "https://support.google.com/gemininotebook/answer/16212820?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S85": {
+   "titre": "Générer des résumés vidéo dans Gemini Notebook",
+   "url": "https://support.google.com/gemininotebook/answer/16454555?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "gw-S93": {
+   "titre": "Utiliser les applications Gemini avec un compte Google professionnel ou scolaire",
+   "url": "https://support.google.com/gemini/answer/14620100?hl=fr",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C8f": {
+   "titre": "Commencer avec le plan Team",
+   "url": "https://support.claude.com/fr/articles/9267247-commencer-avec-le-plan-team",
+   "date_page": "shown as 'Mis à jour il y a plus d'une semaine'",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C6": {
+   "titre": "Acheter et gérer les sièges sur les plans Team",
+   "url": "https://support.claude.com/fr/articles/12004354-acheter-et-gerer-les-sieges-sur-les-plans-team",
+   "date_page": "2026-09-02",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C11": {
+   "titre": "Gérer les membres sur les plans Team et Enterprise",
+   "url": "https://support.claude.com/fr/articles/13133750-gerer-les-membres-sur-les-plans-team-et-enterprise",
+   "date_page": "2026-08-21",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C13": {
+   "titre": "Configurer l'authentification unique (SSO)",
+   "url": "https://support.claude.com/fr/articles/13132885-configurer-l-authentification-unique-sso",
+   "date_page": "2026-09-02",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C15": {
+   "titre": "Configurer l'approvisionnement JIT ou SCIM",
+   "url": "https://support.claude.com/fr/articles/13133195-configurer-l-approvisionnement-jit-ou-scim",
+   "date_page": "shown as 'Mis à jour il y a plus de 3 semaines'",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C23": {
+   "titre": "Configurer les contrôles de rétention de données personnalisés pour les plans Enterprise",
+   "url": "https://support.claude.com/fr/articles/10440198-configurer-les-controles-de-retention-de-donnees-personnalises-pour-les-plans-enterprise",
+   "date_page": "shown as 'Mis à jour aujourd'hui' (2026-10-08)",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C37f": {
+   "titre": "Gérer les paramètres de retours utilisateur sur les plans Team et Enterprise",
+   "url": "https://support.claude.com/fr/articles/10504844-gerer-les-parametres-de-retours-utilisateur-sur-les-plans-team-et-enterprise",
+   "date_page": "2026-03-12",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C35": {
+   "titre": "Contrôler le partage de projets pour votre organisation",
+   "url": "https://support.claude.com/fr/articles/9927533-controler-le-partage-de-projets-pour-votre-organisation",
+   "date_page": "shown as 'Mis à jour il y a plus de 2 semaines'",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C40": {
+   "titre": "Utiliser les connecteurs pour étendre les capacités de Claude",
+   "url": "https://support.claude.com/fr/articles/11176164-utiliser-les-connecteurs-pour-etendre-les-capacites-de-claude",
+   "date_page": "shown as 'Mis à jour cette semaine'",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C42": {
+   "titre": "Configurer le connecteur Microsoft 365",
+   "url": "https://support.claude.com/fr/articles/12542951-configurer-le-connecteur-microsoft-365",
+   "date_page": "shown as 'Mis à jour hier' (2026-10-07)",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C46": {
+   "titre": "Provisionner et gérer les compétences de votre organisation",
+   "url": "https://support.claude.com/fr/articles/13119606-provisionner-et-gerer-les-competences-de-votre-organisation",
+   "date_page": "shown as 'Mis à jour cette semaine'",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C48": {
+   "titre": "Guide d'administration des artefacts pour les plans Team et Enterprise",
+   "url": "https://support.claude.com/fr/articles/16994751-guide-d-administration-des-artefacts-pour-les-plans-team-et-enterprise",
+   "date_page": "shown as 'Mis à jour aujourd'hui' (2026-10-08)",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C21f": {
+   "titre": "Utiliser Claude Code avec votre plan Team ou Enterprise",
+   "url": "https://support.claude.com/fr/articles/11845131-utiliser-claude-code-avec-votre-plan-team-ou-enterprise",
+   "date_page": "shown as 'Mis à jour cette semaine'",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C29": {
+   "titre": "Afficher les analyses d'utilisation pour les plans Team et Enterprise",
+   "url": "https://support.claude.com/fr/articles/12883420-afficher-les-analyses-d-utilisation-pour-les-plans-team-et-enterprise",
+   "date_page": "shown as 'Mis à jour il y a plus d'une semaine'",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C36f": {
+   "titre": "Exporter les données de votre organisation",
+   "url": "https://support.claude.com/fr/articles/13346720-exporter-les-donnees-de-votre-organisation",
+   "date_page": "2026-06-12",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C27f": {
+   "titre": "Passer votre plan Team de la facturation mensuelle à annuelle",
+   "url": "https://support.claude.com/fr/articles/12083917-passer-votre-plan-team-de-la-facturation-mensuelle-a-annuelle",
+   "date_page": "2026-08-06",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C25": {
+   "titre": "Annuler l'abonnement au plan Team de votre organisation",
+   "url": "https://support.claude.com/fr/articles/9267323-annuler-l-abonnement-au-plan-team-de-votre-organisation",
+   "date_page": "2026-08-21",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C31": {
+   "titre": "Accéder aux journaux d'audit",
+   "url": "https://support.claude.com/fr/articles/9970975-acceder-aux-journaux-d-audit",
+   "date_page": "2026-06-15",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-C33": {
+   "titre": "Activer l'inférence réservée aux États-Unis pour votre organisation",
+   "url": "https://support.claude.com/fr/articles/15422948-activer-l-inference-reservee-aux-etats-unis-pour-votre-organisation",
+   "date_page": "2026-06-15",
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O4": {
+   "titre": "Gérer la facturation et les licences dans ChatGPT Business",
+   "url": "https://help.openai.com/fr-fr/articles/8792536",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O6": {
+   "titre": "Gestion des membres, des types de licences et des rôles dans ChatGPT Business",
+   "url": "https://help.openai.com/fr-fr/articles/8542216",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O10": {
+   "titre": "Configurer l'authentification unique (SSO) pour ChatGPT Business",
+   "url": "https://help.openai.com/fr-fr/articles/11489188",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O20": {
+   "titre": "Contrôles administratifs, sécurité et conformité pour les plugins et les applications",
+   "url": "https://help.openai.com/fr-fr/articles/11509118",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O18": {
+   "titre": "Connaissances de l'entreprise dans ChatGPT",
+   "url": "https://help.openai.com/fr-fr/articles/12628342",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O22": {
+   "titre": "Application SharePoint et configuration dans ChatGPT",
+   "url": "https://help.openai.com/fr-fr/articles/12143177",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O23f": {
+   "titre": "Partage et publication de GPT",
+   "url": "https://help.openai.com/fr-fr/articles/8798878",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O26": {
+   "titre": "Projets dans ChatGPT",
+   "url": "https://help.openai.com/fr-fr/articles/10169521",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O16": {
+   "titre": "Gérer les données, le partage et la confidentialité dans ChatGPT Business",
+   "url": "https://help.openai.com/fr-fr/articles/8798634",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O39": {
+   "titre": "Gérez les crédits et les contrôles de dépenses dans ChatGPT Business",
+   "url": "https://help.openai.com/fr-fr/articles/20001155",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "ce-O41": {
+   "titre": "Annuler votre abonnement ChatGPT (French)",
+   "url": "https://help.openai.com/fr-fr/articles/7232927",
+   "date_page": null,
+   "nature": "éditeur",
+   "lue": "2026-10-08"
+  },
+  "mis-membres": {
+   "titre": "User management (Mistral Docs, Admin)",
+   "url": "https://docs.mistral.ai/admin/identity-access/user-management",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-09"
+  },
+  "mis-domaine": {
+   "titre": "Verify your domain (Mistral Docs, Admin)",
+   "url": "https://docs.mistral.ai/admin/set-up-organization/verify-domain",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-09"
+  },
+  "mis-domaine-auth": {
+   "titre": "Email domain authentication (Mistral Docs, Admin)",
+   "url": "https://docs.mistral.ai/admin/set-up-organization/sign-in-method/email-domain-authentication",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-09"
+  },
+  "mis-organisation": {
+   "titre": "Create your organization (Mistral Docs, quickstart Admin)",
+   "url": "https://docs.mistral.ai/getting-started/quickstarts/admin/create-organization",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-09"
+  },
+  "mis-abonnement": {
+   "titre": "Subscriptions (Mistral Docs, Admin)",
+   "url": "https://docs.mistral.ai/admin/billing-usage/subscriptions",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-09"
+  },
+  "ppx-membres-fr": {
+   "titre": "Gestion des utilisateurs pour les organisations Enterprise (Perplexity, centre d'aide)",
+   "url": "https://www.perplexity.ai/help-center/fr/articles/10352978",
+   "date_page": null,
+   "url_fr": "https://www.perplexity.ai/help-center/fr/articles/10352978",
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-09"
+  },
+  "ppx-sso": {
+   "titre": "SSO Integration: Getting Started (Perplexity Help Center)",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11200832-sso-integration-getting-started",
+   "date_page": null,
+   "url_fr": null,
+   "date_page_fr": null,
+   "nature": "éditeur",
+   "lue": "2026-10-07"
+  }
+ },
+ "reglages": {
+  "m365.vos-produits": {
+   "outil": "Microsoft 365",
+   "nom": "Abonnements de l'organisation",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Facturation",
+    "Vos produits"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Billing",
+    "Your products"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de facturation",
+   "source": "ms-annuler",
+   "releve": "2026-10-07",
+   "note": "En vue simplifiée : Facturation › Abonnements.",
+   "langue": "fr"
+  },
+  "poste.canal": {
+   "outil": "Microsoft 365",
+   "nom": "Canal de mise à jour d'un poste",
+   "lieu": "Word, Excel ou Outlook, sur Windows",
+   "chemin": [
+    "Fichier",
+    "Compte",
+    "Informations sur le produit"
+   ],
+   "lieu_en": "Word, Excel or Outlook, on Windows",
+   "chemin_en": [
+    "File",
+    "Account",
+    "Product Information"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ms-bouton-manquant",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.gerer-roles": {
+   "outil": "Microsoft 365",
+   "nom": "Rôle d'administrateur d'une personne",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Utilisateurs",
+    "Utilisateurs actifs",
+    "{la personne}",
+    "Gérer les rôles"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Users",
+    "Active users",
+    "{the person}",
+    "Manage roles"
+   ],
+   "defaut": null,
+   "qui": "Administrateur général",
+   "source": "ms-roles",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "sharepoint.dag": {
+   "outil": "Microsoft 365",
+   "nom": "Rapports de gouvernance de l'accès aux données",
+   "lieu": "Centre d'administration SharePoint",
+   "chemin": [
+    "Rapports",
+    "Gouvernance de l'accès aux données"
+   ],
+   "lieu_en": "SharePoint admin center",
+   "chemin_en": [
+    "Reports",
+    "Data access governance"
+   ],
+   "defaut": null,
+   "qui": "Administrateur SharePoint",
+   "source": "ms-dag",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "sharepoint.restreindre-copilot": {
+   "outil": "Microsoft 365",
+   "nom": "Retirer un site des réponses de Copilot",
+   "lieu": "Centre d'administration SharePoint",
+   "chemin": [
+    "Sites",
+    "Sites actifs",
+    "{le site}",
+    "Paramètres",
+    "Restreindre le contenu de Microsoft Copilot"
+   ],
+   "lieu_en": "SharePoint admin center",
+   "chemin_en": [
+    "Sites",
+    "Active sites",
+    "{the site}",
+    "Settings",
+    "Restrict content from Microsoft Copilot"
+   ],
+   "defaut": null,
+   "qui": "Administrateur SharePoint",
+   "source": "ms-rcd",
+   "releve": "2026-10-07",
+   "note": "Exige au moins une licence Copilot dans l'organisation.",
+   "langue": "fr"
+  },
+  "m365.marketplace": {
+   "outil": "Microsoft 365",
+   "nom": "Achat d'une offre",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Place de marché"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Marketplace"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de facturation",
+   "source": "ms-acheter",
+   "releve": "2026-10-07",
+   "note": "En vue simplifiée : Facturation › Ajouter d'autres produits.",
+   "langue": "fr"
+  },
+  "m365.libre-service": {
+   "outil": "Microsoft 365",
+   "nom": "Achats en libre-service de Copilot",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Copilot",
+    "Paramètres",
+    "Accès utilisateur",
+    "Achats en libre-service Microsoft Copilot"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Copilot",
+    "Settings",
+    "User access",
+    "Microsoft Copilot self-service purchases"
+   ],
+   "defaut": null,
+   "qui": "Administrateur IA",
+   "source": "ms-parametres-copilot",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.attribuer-licences": {
+   "outil": "Microsoft 365",
+   "nom": "Attribution des licences Copilot",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Facturation",
+    "Licences",
+    "Microsoft Copilot",
+    "Attribuer des licences"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Billing",
+    "Licenses",
+    "Microsoft Copilot",
+    "Assign licenses"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de licences",
+   "source": "ms-mise-en-place",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.licences-utilisateur": {
+   "outil": "Microsoft 365",
+   "nom": "Licences d'une personne",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Utilisateurs",
+    "Utilisateurs actifs",
+    "{la personne}",
+    "Licences et applications"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Users",
+    "Active users",
+    "{the person}",
+    "Licenses and apps"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de licences",
+   "source": "ms-licences-utilisateurs",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.routage-flexible": {
+   "outil": "Microsoft 365",
+   "nom": "Routage flexible aux heures de pointe",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Copilot",
+    "Paramètres",
+    "Afficher tout",
+    "Routage Flex pendant les périodes de pointe de charge"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Copilot",
+    "Settings",
+    "View all",
+    "Flex routing during peak load periods"
+   ],
+   "defaut": "activé pour les organisations européennes créées après le 25 mars 2026",
+   "qui": "Administrateur IA",
+   "source": "ms-routage-flexible",
+   "releve": "2026-10-07",
+   "note": "Pour une organisation plus ancienne, Microsoft demande de vérifier la valeur.",
+   "langue": "fr"
+  },
+  "m365.openai": {
+   "outil": "Microsoft 365",
+   "nom": "Modèles exploités par OpenAI",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Copilot",
+    "Paramètres",
+    "Afficher tout",
+    "Fournisseurs d'IA opérant en tant que sous-traitants Microsoft",
+    "OpenAI"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Copilot",
+    "Settings",
+    "View all",
+    "AI providers operating as Microsoft subprocessors",
+    "OpenAI"
+   ],
+   "defaut": "tous les utilisateurs, depuis le 24 juillet 2026",
+   "qui": "Administrateur IA",
+   "source": "ms-openai",
+   "releve": "2026-10-07",
+   "note": "La documentation française écrit aussi « agissant » ou « fonctionnant » en tant que sous-traitants.",
+   "langue": "fr"
+  },
+  "m365.anthropic": {
+   "outil": "Microsoft 365",
+   "nom": "Modèles d'Anthropic",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Copilot",
+    "Paramètres",
+    "Afficher tout",
+    "Fournisseurs d'IA opérant en tant que sous-traitants Microsoft",
+    "Anthropic"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Copilot",
+    "Settings",
+    "View all",
+    "AI providers operating as Microsoft subprocessors",
+    "Anthropic"
+   ],
+   "defaut": "aucun utilisateur, dans l'Union européenne",
+   "qui": "Administrateur IA",
+   "source": "ms-anthropic",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.anthropic-applis": {
+   "outil": "Microsoft 365",
+   "nom": "Copilot dans Word, Excel et PowerPoint avec les modèles d'Anthropic",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Copilot",
+    "Paramètres",
+    "Afficher tout",
+    "Fournisseurs d'IA opérant en tant que sous-traitants Microsoft"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Copilot",
+    "Settings",
+    "View all",
+    "AI providers operating as Microsoft subprocessors"
+   ],
+   "defaut": "activé pour les organisations européennes créées après le 25 mars 2026",
+   "qui": "Administrateur IA",
+   "source": "ms-anthropic-applis",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "cloud.recherche-web": {
+   "outil": "Microsoft 365",
+   "nom": "Recherche web dans Copilot",
+   "lieu": "Centre d'administration de Microsoft 365 Apps",
+   "chemin": [
+    "Stratégies Office",
+    "Accéder à la stratégie cloud Microsoft 365",
+    "Créer",
+    "Autoriser la recherche web dans Copilot"
+   ],
+   "lieu_en": "Microsoft 365 Apps admin center",
+   "chemin_en": [
+    "Office policies",
+    "Go to Microsoft 365 Cloud Policy",
+    "Create",
+    "Allow web search in Copilot"
+   ],
+   "defaut": "permise, tant que la stratégie n'est pas configurée",
+   "qui": "Administrateur d'applications Office",
+   "source": "ms-recherche-web",
+   "releve": "2026-10-07",
+   "note": "Raccourci : Centre d'administration Microsoft 365 › Copilot › Paramètres › Accès aux données › Recherche web.",
+   "langue": "fr"
+  },
+  "m365.agents-acces": {
+   "outil": "Microsoft 365",
+   "nom": "Accès des utilisateurs aux agents",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Agents",
+    "Paramètres",
+    "Accès utilisateur"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Agents",
+    "Settings",
+    "User access"
+   ],
+   "defaut": "tous les utilisateurs",
+   "qui": "Administrateur IA",
+   "source": "ms-agents",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.connecteurs": {
+   "outil": "Microsoft 365",
+   "nom": "Ajout d'un connecteur Copilot",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Copilot",
+    "Connectors",
+    "Gallery"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Copilot",
+    "Connectors",
+    "Gallery"
+   ],
+   "defaut": null,
+   "qui": "Administrateur IA",
+   "source": "ms-connecteurs",
+   "releve": "2026-10-07",
+   "note": "La documentation n'existe qu'en anglais : les intitulés français ne sont pas publiés.",
+   "langue": "fr"
+  },
+  "cloud.commentaires-journaux": {
+   "outil": "Microsoft 365",
+   "nom": "Journaux et exemples de contenu joints aux commentaires",
+   "lieu": "Service de stratégie cloud pour Microsoft 365",
+   "chemin": [
+    "Rechercher « commentaires »",
+    "Autoriser les utilisateurs à inclure des fichiers journaux et des exemples de contenu pertinents lorsque des commentaires sont envoyés à Microsoft"
+   ],
+   "lieu_en": "Cloud Policy service for Microsoft 365",
+   "chemin_en": [
+    "Search “feedback”",
+    "Allow users to include log files and relevant content samples when feedback is submitted to Microsoft"
+   ],
+   "defaut": "permis, tant que la stratégie n'est pas configurée",
+   "qui": "Administrateur d'applications Office",
+   "source": "ms-commentaires",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "teams.copilot-reunion": {
+   "outil": "Microsoft 365",
+   "nom": "Copilot dans les réunions Teams",
+   "lieu": "Centre d'administration Teams",
+   "chemin": [
+    "Réunions",
+    "Stratégies de réunion",
+    "{la stratégie}",
+    "Enregistrement & transcription",
+    "Copilot"
+   ],
+   "lieu_en": "Teams admin center",
+   "chemin_en": [
+    "Meetings",
+    "Meeting policies",
+    "{the policy}",
+    "Recording & transcription",
+    "Copilot"
+   ],
+   "defaut": "activé, avec transcription enregistrée exigée",
+   "qui": "Administrateur Teams",
+   "source": "ms-teams-reunions",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "purview.retention": {
+   "outil": "Microsoft 365",
+   "nom": "Rétention des échanges avec Copilot",
+   "lieu": "Portail Microsoft Purview",
+   "chemin": [
+    "Solutions",
+    "Gestion du cycle de vie des données",
+    "Stratégies",
+    "Stratégies de rétention",
+    "Nouvelle stratégie de rétention",
+    "Microsoft Copilot expériences"
+   ],
+   "lieu_en": "Microsoft Purview portal",
+   "chemin_en": [
+    "Solutions",
+    "Data Lifecycle Management",
+    "Policies",
+    "Retention policies",
+    "New retention policy",
+    "Microsoft Copilot experiences"
+   ],
+   "defaut": "aucune stratégie",
+   "qui": null,
+   "source": "ms-retention",
+   "releve": "2026-10-07",
+   "note": "Certaines pages françaises écrivent « Stratégies de conservation ».",
+   "langue": "fr"
+  },
+  "purview.audit": {
+   "outil": "Microsoft 365",
+   "nom": "Journal d'audit des échanges",
+   "lieu": "Portail Microsoft Purview",
+   "chemin": [
+    "Audit",
+    "Recherche"
+   ],
+   "lieu_en": "Microsoft Purview portal",
+   "chemin_en": [
+    "Audit",
+    "Search"
+   ],
+   "defaut": "actif, 180 jours",
+   "qui": "Journaux d'audit, ou Journaux d'audit en lecture seule",
+   "source": "ms-audit",
+   "releve": "2026-10-07",
+   "note": "Opération à rechercher : CopilotInteraction.",
+   "langue": "fr"
+  },
+  "copilot.memoire": {
+   "outil": "Microsoft 365",
+   "nom": "Mémoire de Copilot",
+   "lieu": "Copilot Chat",
+   "chemin": [
+    "Paramètres et plus",
+    "Paramètres de Chat",
+    "Personnalisation",
+    "Souvenirs enregistrés"
+   ],
+   "lieu_en": "Copilot Chat",
+   "chemin_en": [
+    "Settings and more",
+    "Chat settings",
+    "Personalization",
+    "Saved memories"
+   ],
+   "defaut": "activée",
+   "qui": "chaque utilisateur",
+   "source": "ms-memoire",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.rapport-usage": {
+   "outil": "Microsoft 365",
+   "nom": "Rapport d'usage de Copilot",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Rapports",
+    "Utilisation",
+    "Microsoft Copilot"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Reports",
+    "Usage",
+    "Microsoft Copilot"
+   ],
+   "defaut": null,
+   "qui": null,
+   "source": "ms-rapport-usage",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "viva.tableau-de-bord": {
+   "outil": "Microsoft 365",
+   "nom": "Tableau de bord Copilot",
+   "lieu": "Viva Insights, application web",
+   "chemin": [
+    "Tableau de bord Copilot"
+   ],
+   "lieu_en": "Viva Insights web app",
+   "chemin_en": [
+    "Copilot Dashboard"
+   ],
+   "defaut": null,
+   "qui": "Administrateur général",
+   "source": "ms-tableau-de-bord",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "poste.mettre-a-jour-licence": {
+   "outil": "Microsoft 365",
+   "nom": "Mise à jour de la licence sur un poste",
+   "lieu": "Word, Excel ou Outlook, sur Windows",
+   "chemin": [
+    "Fichier",
+    "Compte",
+    "Mettre à jour la licence"
+   ],
+   "lieu_en": "Word, Excel or Outlook, on Windows",
+   "chemin_en": [
+    "File",
+    "Account",
+    "Update License"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ms-bouton-manquant",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "poste.confidentialite": {
+   "outil": "Microsoft 365",
+   "nom": "Expériences connectées d'un poste",
+   "lieu": "Word, Excel ou Outlook, sur Windows",
+   "chemin": [
+    "Fichier",
+    "Compte",
+    "Confidentialité du compte",
+    "Gérer les paramètres"
+   ],
+   "lieu_en": "Word, Excel or Outlook, on Windows",
+   "chemin_en": [
+    "File",
+    "Account",
+    "Account Privacy",
+    "Manage Settings"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur, si l'administrateur le permet",
+   "source": "ms-bouton-manquant",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.desattribuer": {
+   "outil": "Microsoft 365",
+   "nom": "Retrait des licences Copilot",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Facturation",
+    "Licences",
+    "Microsoft Copilot",
+    "{cocher les personnes}",
+    "Annuler l'attribution de licences"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Billing",
+    "Licenses",
+    "Microsoft Copilot",
+    "{select people}",
+    "Unassign licenses"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de licences",
+   "source": "ms-licences-utilisateurs",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "m365.supprimer-licences": {
+   "outil": "Microsoft 365",
+   "nom": "Réduction du nombre de licences",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Facturation",
+    "Vos produits",
+    "{l'abonnement}",
+    "Supprimer les licences"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Billing",
+    "Your products",
+    "{the subscription}",
+    "Remove licenses"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de facturation",
+   "source": "ms-retirer-licences",
+   "releve": "2026-10-07",
+   "note": "En vue simplifiée : Facturation › Abonnements.",
+   "langue": "fr"
+  },
+  "m365.annuler": {
+   "outil": "Microsoft 365",
+   "nom": "Annulation d'un abonnement",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Facturation",
+    "Vos produits",
+    "{l'abonnement}",
+    "Paramètres de facturation",
+    "État de l'abonnement",
+    "Annuler l'abonnement"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Billing",
+    "Your products",
+    "{the subscription}",
+    "Billing settings",
+    "Subscription status",
+    "Cancel subscription"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de facturation",
+   "source": "ms-annuler",
+   "releve": "2026-10-07",
+   "note": "Chemin des comptes sous contrat client Microsoft ; en vue simplifiée : Facturation › Abonnements.",
+   "langue": "fr"
+  },
+  "compte.historique": {
+   "outil": "Microsoft 365",
+   "nom": "Historique d'activité Copilot",
+   "lieu": "Mon compte (myaccount.microsoft.com)",
+   "chemin": [
+    "Data and Privacy",
+    "Data options",
+    "Historique des activités Copilot",
+    "Supprimer"
+   ],
+   "lieu_en": "My Account (myaccount.microsoft.com)",
+   "chemin_en": [
+    "Data and Privacy",
+    "Data options",
+    "Copilot activity history",
+    "Delete"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ms-historique",
+   "releve": "2026-10-07",
+   "note": "Deux intitulés de Mon compte ne sont pas traduits dans la documentation française.",
+   "langue": "fr"
+  },
+  "g.historique-app": {
+   "outil": "Google Workspace",
+   "nom": "Historique des conversations de l'application Gemini",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Historique des conversations Gemini"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "Gemini conversation history"
+   ],
+   "defaut": "activé, 18 mois (3, 18 ou 36 mois, ou désactivé)",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "g-application",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "g.suppression-ws": {
+   "outil": "Google Workspace",
+   "nom": "Suppression automatique de l'historique dans Gmail, Docs et Sheets",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Gemini pour Workspace",
+    "Historique des conversations et suppression",
+    "Suppression automatique"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini for Workspace",
+    "Conversation history and deletion",
+    "Automatic deletion"
+   ],
+   "defaut": "pas de suppression automatique",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "g-historique-ws-admin",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "g.acces-sans-licence": {
+   "outil": "Google Workspace",
+   "nom": "Accès à l'application Gemini sans licence éligible",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Accès des utilisateurs"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "User access"
+   ],
+   "defaut": null,
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "g-application",
+   "releve": "2026-10-07",
+   "note": "Un utilisateur sans licence éligible relève alors des conditions grand public de Google : ses échanges peuvent être relus.",
+   "langue": "fr"
+  },
+  "g.partage-lien": {
+   "outil": "Google Workspace",
+   "nom": "Partage des conversations Gemini par lien",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Partage",
+    "Partage des conversations"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "Sharing",
+    "Conversation sharing"
+   ],
+   "defaut": "lien public désactivé ; partage par Drive activé",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "g-partage",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "g.regions": {
+   "outil": "Google Workspace",
+   "nom": "Régions de données",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "Données",
+    "Conformité",
+    "Régions de données"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Data",
+    "Compliance",
+    "Data regions"
+   ],
+   "defaut": "aucune préférence",
+   "qui": "Administrateur avec le droit sur les régions de données",
+   "source": "g-regions",
+   "releve": "2026-10-07",
+   "note": "Inclus dans Business Standard et Business Plus pour les données au repos.",
+   "langue": "fr"
+  },
+  "g.notes-meet-auto": {
+   "outil": "Google Workspace",
+   "nom": "Prise de notes automatique dans Meet",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "Applications",
+    "Google Workspace",
+    "Google Meet",
+    "Paramètres Gemini",
+    "Prise de notes automatique"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Apps",
+    "Google Workspace",
+    "Google Meet",
+    "Gemini settings",
+    "Automatic note-taking"
+   ],
+   "defaut": "activée depuis le 21 septembre 2026 pour les réunions programmées d'au moins trois invités (Business Standard et Plus)",
+   "qui": "Administrateur avec le droit sur Google Meet",
+   "source": "g-notes-auto",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "g.fonctionnalites-intelligentes": {
+   "outil": "Google Workspace",
+   "nom": "Fonctionnalités intelligentes de Google Workspace",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "Compte",
+    "Paramètres du compte",
+    "Fonctionnalités intelligentes pour Google Workspace"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Account",
+    "Account settings",
+    "Smart features for Google Workspace"
+   ],
+   "defaut": "désactivées par défaut dans l'Espace économique européen",
+   "qui": "Super-administrateur",
+   "source": "g-fonctionnalites",
+   "releve": "2026-10-07",
+   "note": "Gemini dans Gmail, Docs et Sheets en a besoin.",
+   "langue": "fr"
+  },
+  "g.conserver-activite": {
+   "outil": "Gemini, compte personnel",
+   "nom": "Conserver l'activité",
+   "lieu": "myactivity.google.com",
+   "chemin": [
+    "Activité dans les applications Gemini",
+    "Conserver l'activité"
+   ],
+   "lieu_en": "myactivity.google.com",
+   "chemin_en": [
+    "Gemini Apps Activity",
+    "Keep Activity"
+   ],
+   "defaut": "activé",
+   "qui": "chaque utilisateur",
+   "source": "g-perso",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "oai.ameliorer": {
+   "outil": "ChatGPT, compte personnel",
+   "nom": "Améliorer le modèle pour tous",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Paramètres",
+    "Contrôles des données",
+    "Améliorer le modèle pour tous"
+   ],
+   "lieu_en": "ChatGPT",
+   "chemin_en": [
+    "Settings",
+    "Data controls",
+    "Improve the model for everyone"
+   ],
+   "defaut": "activé",
+   "qui": "chaque utilisateur",
+   "source": "oai-controles",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "oai.memoire": {
+   "outil": "ChatGPT",
+   "nom": "Mémoire",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Paramètres",
+    "Personnalisation",
+    "Mémoire"
+   ],
+   "lieu_en": "ChatGPT",
+   "chemin_en": [
+    "Settings",
+    "Personalization",
+    "Memory"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur ; l'administrateur dans un espace d'équipe",
+   "source": "oai-memoire",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "oai.liens-partages": {
+   "outil": "ChatGPT",
+   "nom": "Liens partagés",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Paramètres",
+    "Contrôles des données",
+    "Liens partagés",
+    "Gérer"
+   ],
+   "lieu_en": "ChatGPT",
+   "chemin_en": [
+    "Settings",
+    "Data controls",
+    "Shared links",
+    "Manage"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "oai-liens",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "oai.temporaire": {
+   "outil": "ChatGPT",
+   "nom": "Discussion temporaire",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Nouvelle discussion",
+    "Temporaire"
+   ],
+   "lieu_en": "ChatGPT",
+   "chemin_en": [
+    "New chat",
+    "Temporary"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "oai-temporaire",
+   "releve": "2026-10-07",
+   "note": "Ni historique, ni mémoire, ni entraînement ; une copie gardée jusqu'à 30 jours pour la sécurité.",
+   "langue": "fr"
+  },
+  "oai.applis-admin": {
+   "outil": "ChatGPT Business et Enterprise",
+   "nom": "Applications connectées de l'espace",
+   "lieu": "Console d'administration de ChatGPT (admin.openai.com)",
+   "chemin": [
+    "Plugins"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Plugins"
+   ],
+   "defaut": "activées en Business ; la plupart désactivées en Enterprise",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "oai-applis-admin",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "oai.partage-entreprise": {
+   "outil": "ChatGPT Enterprise",
+   "nom": "Partage des conversations dans l'espace",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Workspace settings",
+    "Permissions & roles",
+    "Share chats and scheduled tasks in the workspace"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Workspace settings",
+    "Permissions & roles",
+    "Share chats and scheduled tasks in the workspace"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "oai-liens",
+   "releve": "2026-10-07",
+   "note": "Réglage d'Enterprise seulement : en Business, les liens partagés ne se désactivent pas.",
+   "langue": "en"
+  },
+  "oai.residence": {
+   "outil": "ChatGPT Enterprise",
+   "nom": "Région de résidence des données",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Workspace settings",
+    "General",
+    "Data Residency Region"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Workspace settings",
+    "General",
+    "Data Residency Region"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "oai-residence",
+   "releve": "2026-10-07",
+   "note": "Lecture seule : la région se choisit à la création de l'espace, avec OpenAI.",
+   "langue": "en"
+  },
+  "ant.ameliorer": {
+   "outil": "Claude, compte personnel",
+   "nom": "Aider à améliorer nos modèles d'IA",
+   "lieu": "Claude",
+   "chemin": [
+    "Paramètres",
+    "Confidentialité",
+    "Aider à améliorer nos modèles d'IA"
+   ],
+   "lieu_en": "Claude",
+   "chemin_en": [
+    "Settings",
+    "Privacy",
+    "Help Improve our AI models"
+   ],
+   "defaut": "choisi à l'inscription",
+   "qui": "chaque utilisateur",
+   "source": "ant-ameliorer",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "ant.memoire": {
+   "outil": "Claude",
+   "nom": "Mémoire",
+   "lieu": "Claude",
+   "chemin": [
+    "Paramètres",
+    "Mémoire",
+    "Générer une mémoire à partir des chats"
+   ],
+   "lieu_en": "Claude",
+   "chemin_en": [
+    "Settings",
+    "Memory",
+    "Generate memory from chats"
+   ],
+   "defaut": "activée sur Free, Pro et Max ; désactivée pour chaque membre en Team et Enterprise",
+   "qui": "chaque utilisateur",
+   "source": "ant-memoire",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "ant.conversations-partagees": {
+   "outil": "Claude, compte personnel",
+   "nom": "Conversations partagées",
+   "lieu": "Claude",
+   "chemin": [
+    "Paramètres",
+    "Confidentialité",
+    "Conversations partagées",
+    "Gérer"
+   ],
+   "lieu_en": "Claude",
+   "chemin_en": [
+    "Settings",
+    "Privacy",
+    "Shared chats",
+    "Manage"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ant-partage",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "ant.incognito": {
+   "outil": "Claude",
+   "nom": "Conversation incognito",
+   "lieu": "Claude",
+   "chemin": [
+    "Nouvelle conversation",
+    "icône fantôme"
+   ],
+   "lieu_en": "Claude",
+   "chemin_en": [
+    "New chat",
+    "ghost icon"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ant-incognito",
+   "releve": "2026-10-07",
+   "note": "Ni historique, ni mémoire, ni entraînement ; gardée 30 jours.",
+   "langue": "fr"
+  },
+  "ant.projets-partage": {
+   "outil": "Claude Team et Enterprise",
+   "nom": "Partage des projets",
+   "lieu": "Claude",
+   "chemin": [
+    "Organization settings",
+    "Data and privacy",
+    "Sharing",
+    "Share projects"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization settings",
+    "Data and privacy",
+    "Sharing",
+    "Share projects"
+   ],
+   "defaut": "activé, projets ouverts à toute l'organisation compris",
+   "qui": "Propriétaire de l'organisation",
+   "source": "ant-projets",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "ant.noter": {
+   "outil": "Claude Team et Enterprise",
+   "nom": "Avis des membres sur les réponses",
+   "lieu": "Claude",
+   "chemin": [
+    "Organization settings",
+    "Data and Privacy",
+    "Rate chats"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization settings",
+    "Data and Privacy",
+    "Rate chats"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire de l'organisation",
+   "source": "ant-entrainement",
+   "releve": "2026-10-07",
+   "note": "Un avis envoie la conversation entière à Anthropic, gardée jusqu'à 5 ans.",
+   "langue": "en"
+  },
+  "ant.connecteurs-org": {
+   "outil": "Claude Team et Enterprise",
+   "nom": "Connecteurs de l'organisation",
+   "lieu": "Claude",
+   "chemin": [
+    "Organization settings",
+    "Connectors"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization settings",
+    "Connectors"
+   ],
+   "defaut": "aucun tant qu'un propriétaire ne l'ajoute",
+   "qui": "Propriétaire de l'organisation",
+   "source": "ant-connecteurs",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "ant.retention": {
+   "outil": "Claude Enterprise",
+   "nom": "Durée de conservation",
+   "lieu": "Claude",
+   "chemin": [
+    "Organization settings",
+    "Data and Privacy",
+    "Data retention period"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization settings",
+    "Data and Privacy",
+    "Data retention period"
+   ],
+   "defaut": "sans limite (30 jours au moins si l'on en fixe une)",
+   "qui": "Propriétaire principal ou propriétaire",
+   "source": "ant-retention",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "mis.entrainement": {
+   "outil": "Mistral Vibe",
+   "nom": "Entraînement sur vos échanges",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin panel",
+    "Manage",
+    "Vibe",
+    "Privacy",
+    "Allow your interactions to be used to train our models"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin panel",
+    "Manage",
+    "Vibe",
+    "Privacy",
+    "Allow your interactions to be used to train our models"
+   ],
+   "defaut": "activé sur Free et Pro ; désactivé en Enterprise",
+   "qui": "chaque utilisateur ; l'administrateur en Team et Enterprise",
+   "source": "mis-desactiver",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "mis.mobile": {
+   "outil": "Mistral Vibe, application mobile",
+   "nom": "Partage des données depuis le téléphone",
+   "lieu": "Mistral Vibe (iOS, Android)",
+   "chemin": [
+    "Settings",
+    "Account",
+    "Data & Account Controls",
+    "Enable data sharing"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Settings",
+    "Account",
+    "Data & Account Controls",
+    "Enable data sharing"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "mis-desactiver",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "mis.retention-espace": {
+   "outil": "Mistral Vibe Team et Enterprise",
+   "nom": "Conservation des conversations d'un espace",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Administration",
+    "Workspaces",
+    "{the workspace}",
+    "Chat Retention Policy"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Administration",
+    "Workspaces",
+    "{the workspace}",
+    "Chat Retention Policy"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-espaces",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "mis.connecteurs": {
+   "outil": "Mistral Vibe Team et Enterprise",
+   "nom": "Connecteurs de l'organisation",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Administration",
+    "Connectors",
+    "{the connector}",
+    "Permissions"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Administration",
+    "Connectors",
+    "{the connector}",
+    "Permissions"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-connecteurs",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "ppx.ai-data-retention": {
+   "outil": "Perplexity, compte personnel",
+   "nom": "Usage des données pour l'IA",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Account",
+    "Preferences",
+    "AI data retention"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Account",
+    "Preferences",
+    "AI data retention"
+   ],
+   "defaut": "activé",
+   "qui": "chaque utilisateur",
+   "source": "ppx-collecte",
+   "releve": "2026-10-07",
+   "note": "Une autre page d'aide de Perplexity nomme ce réglage « AI Data Usage ».",
+   "langue": "en"
+  },
+  "ppx.memoire": {
+   "outil": "Perplexity",
+   "nom": "Mémoire",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Settings",
+    "Memory"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Settings",
+    "Memory"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ppx-memoire",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "ppx.retention": {
+   "outil": "Perplexity Enterprise",
+   "nom": "Conservation des sessions",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Organization Settings",
+    "Data and privacy",
+    "Data Retention",
+    "Set data retention for sessions"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization Settings",
+    "Data and privacy",
+    "Data Retention",
+    "Set data retention for sessions"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "ppx-retention-entreprise",
+   "releve": "2026-10-07",
+   "note": "À partir de 50 postes, ou avec un utilisateur Enterprise Max.",
+   "langue": "en"
+  },
+  "ppx.incognito-impose": {
+   "outil": "Perplexity Enterprise",
+   "nom": "Mode incognito imposé",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Organization Settings",
+    "Data and privacy",
+    "Data Retention",
+    "Enforce Incognito Mode"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization Settings",
+    "Data and privacy",
+    "Data Retention",
+    "Enforce Incognito Mode"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "ppx-retention-entreprise",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "ppx.partage-public": {
+   "outil": "Perplexity Enterprise",
+   "nom": "Partage public des sessions et des pages",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Organization Settings",
+    "Data and privacy",
+    "Allow public session sharing"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization Settings",
+    "Data and privacy",
+    "Allow public session sharing"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "ppx-roles",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "outlook.resume": {
+   "outil": "Outlook",
+   "nom": "Résumer un fil",
+   "lieu": "Outlook",
+   "chemin": [
+    "{ouvrir la conversation}",
+    "Résumé par Copilot"
+   ],
+   "lieu_en": "Outlook",
+   "chemin_en": [
+    "{open the conversation}",
+    "Summary by Copilot"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-resume",
+   "releve": "2026-10-07",
+   "note": "Selon la version, le bouton s'appelle aussi « Résumer » ; sur téléphone, c'est l'icône Copilot de la barre de la conversation.",
+   "langue": "fr"
+  },
+  "outlook.brouillon": {
+   "outil": "Outlook",
+   "nom": "Écrire un brouillon (nouvel Outlook, web)",
+   "lieu": "Outlook",
+   "chemin": [
+    "Accueil",
+    "Nouveau courrier",
+    "icône Copilot",
+    "Brouillon",
+    "{votre demande}",
+    "Générer",
+    "Conserver"
+   ],
+   "lieu_en": "Outlook",
+   "chemin_en": [
+    "Home",
+    "New mail",
+    "Copilot icon",
+    "Draft",
+    "{your prompt}",
+    "Generate",
+    "Keep it"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-brouillon",
+   "releve": "2026-10-07",
+   "note": "Raccourci : taper « / » dans le message.",
+   "langue": "fr"
+  },
+  "outlook.brouillon-classique": {
+   "outil": "Outlook",
+   "nom": "Écrire un brouillon (Outlook classique)",
+   "lieu": "Outlook classique, sur Windows",
+   "chemin": [
+    "Accueil",
+    "Nouveau courrier",
+    "icône Copilot",
+    "Brouillon avec Copilot",
+    "{votre demande}",
+    "Générer",
+    "Conserver"
+   ],
+   "lieu_en": "Classic Outlook, on Windows",
+   "chemin_en": [
+    "Home",
+    "New Email",
+    "Copilot icon",
+    "Draft with Copilot",
+    "{your prompt}",
+    "Generate",
+    "Keep"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-brouillon",
+   "releve": "2026-10-07",
+   "note": "Avant de conserver : « Ajuster » change le ton ou la longueur, « Régénérer » propose un autre texte.",
+   "langue": "fr"
+  },
+  "outlook.html": {
+   "outil": "Outlook",
+   "nom": "Format HTML des messages",
+   "lieu": "Nouvel Outlook ou Outlook sur le web",
+   "chemin": [
+    "Paramètres",
+    "Courrier",
+    "Compose",
+    "HTML"
+   ],
+   "lieu_en": "New Outlook or Outlook on the web",
+   "chemin_en": [
+    "Settings",
+    "Mail",
+    "Compose and reply",
+    "HTML"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-brouillon",
+   "releve": "2026-10-07",
+   "note": "La documentation française laisse « Compose » en anglais ; l'intitulé complet est « Compose and reply ».",
+   "langue": "fr"
+  },
+  "outlook.coaching": {
+   "outil": "Outlook",
+   "nom": "Faire relire un brouillon",
+   "lieu": "Outlook",
+   "chemin": [
+    "Accueil",
+    "Nouveau courrier",
+    "{écrire le message}",
+    "icône Copilot",
+    "Coaching par Copilot",
+    "Appliquer toutes les suggestions"
+   ],
+   "lieu_en": "Outlook",
+   "chemin_en": [
+    "Home",
+    "New mail",
+    "{type the message}",
+    "Copilot icon",
+    "Coaching by Copilot",
+    "Apply all suggestions"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-coaching",
+   "releve": "2026-10-07",
+   "note": "Sur téléphone, il faut au moins 100 caractères.",
+   "langue": "fr"
+  },
+  "outlook.hierarchiser": {
+   "outil": "Outlook",
+   "nom": "Hiérarchiser la boîte de réception (Windows)",
+   "lieu": "Outlook",
+   "chemin": [
+    "bouton Copilot (flèche)",
+    "Hiérarchiser"
+   ],
+   "lieu_en": "Outlook",
+   "chemin_en": [
+    "Copilot button (arrow)",
+    "Prioritize"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-hierarchiser",
+   "releve": "2026-10-07",
+   "note": "Sur Mac : Nouveautés › Hiérarchiser votre courrier › Essayer. Déploiement progressif : si l'option manque, réessayer quelques jours plus tard.",
+   "langue": "fr"
+  },
+  "outlook.hierarchiser-reglages": {
+   "outil": "Outlook",
+   "nom": "Dire à Copilot ce qui est prioritaire",
+   "lieu": "Outlook",
+   "chemin": [
+    "Paramètres",
+    "Copilot",
+    "Prioriser"
+   ],
+   "lieu_en": "Outlook",
+   "chemin_en": [
+    "Settings",
+    "Copilot",
+    "Prioritize"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-hierarchiser",
+   "releve": "2026-10-07",
+   "note": "La documentation française écrit « Hiérarchiser » à un endroit et « Prioriser » à l'autre.",
+   "langue": "fr"
+  },
+  "outlook.planifier": {
+   "outil": "Outlook",
+   "nom": "Planifier une réunion depuis un fil",
+   "lieu": "Outlook",
+   "chemin": [
+    "{ouvrir la conversation}",
+    "Planifier avec Copilot",
+    "Insérer",
+    "Envoyer"
+   ],
+   "lieu_en": "Outlook",
+   "chemin_en": [
+    "{open the conversation}",
+    "Schedule with Copilot",
+    "Insert",
+    "Send"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-ordre-du-jour",
+   "releve": "2026-10-07",
+   "note": "Nouvel Outlook ; demande la licence Copilot.",
+   "langue": "fr"
+  },
+  "outlook.ordre-du-jour": {
+   "outil": "Outlook",
+   "nom": "Rédiger l'ordre du jour d'une réunion",
+   "lieu": "Outlook",
+   "chemin": [
+    "Créez une réunion",
+    "{description de la réunion}",
+    "bouton Copilot (Alt+i)",
+    "Rédiger automatiquement un ordre du jour",
+    "Conserver"
+   ],
+   "lieu_en": "Outlook",
+   "chemin_en": [
+    "New meeting",
+    "{meeting description}",
+    "Copilot button (Alt+i)",
+    "Auto draft an agenda",
+    "Keep it"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "ol-ordre-du-jour",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "excel.ouvrir": {
+   "outil": "Excel",
+   "nom": "Ouvrir Copilot dans Excel",
+   "lieu": "Excel",
+   "chemin": [
+    "bouton Action dynamique Copilot (coin inférieur droit)"
+   ],
+   "lieu_en": "Excel",
+   "chemin_en": [
+    "Copilot Dynamic Action Button (lower-right corner)"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "xl-bouton",
+   "releve": "2026-10-07",
+   "note": "Au clavier : Alt + C (Windows et web), Cmd + Ctrl + I (Mac), F6 partout.",
+   "langue": "fr"
+  },
+  "excel.ruban": {
+   "outil": "Excel",
+   "nom": "Remettre Copilot dans le ruban",
+   "lieu": "Excel",
+   "chemin": [
+    "clic droit sur le bouton Action dynamique Copilot",
+    "Déplacer vers le ruban"
+   ],
+   "lieu_en": "Excel",
+   "chemin_en": [
+    "right-click the Copilot Dynamic Action Button",
+    "Move to ribbon"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "xl-bouton",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "excel.sources": {
+   "outil": "Excel",
+   "nom": "Choisir les sources de Copilot",
+   "lieu": "Excel",
+   "chemin": [
+    "volet Copilot",
+    "champ de conversation",
+    "Sélectionner les sources",
+    "{Web, Travail ou connecteur}"
+   ],
+   "lieu_en": "Excel",
+   "chemin_en": [
+    "Copilot pane",
+    "chat field",
+    "Select sources",
+    "{Web, Work or connector}"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "xl-sources",
+   "releve": "2026-10-07",
+   "note": "La source « Travail » (documents et conversations de l'entreprise) demande la licence Copilot.",
+   "langue": "fr"
+  },
+  "excel.modele": {
+   "outil": "Excel",
+   "nom": "Choisir le modèle",
+   "lieu": "Excel",
+   "chemin": [
+    "volet Copilot",
+    "sélecteur de modèle (coin supérieur droit)",
+    "Auto"
+   ],
+   "lieu_en": "Excel",
+   "chemin_en": [
+    "Copilot pane",
+    "model picker (upper right)",
+    "Auto"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "xl-conseils",
+   "releve": "2026-10-07",
+   "note": "Changer de modèle demande la licence Copilot. Les modèles d'Anthropic exigent que l'administrateur les ait ouverts.",
+   "langue": "fr"
+  },
+  "excel.analyse-avancee": {
+   "outil": "Excel",
+   "nom": "Passer en analyse avancée",
+   "lieu": "Excel",
+   "chemin": [
+    "volet Copilot",
+    "{votre question}",
+    "Obtenez des résultats plus approfondis à l'aide du mode d'analyse avancée"
+   ],
+   "lieu_en": "Excel",
+   "chemin_en": [
+    "Copilot pane",
+    "{your question}",
+    "Get deeper results using advanced analysis mode"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "xl-analyse",
+   "releve": "2026-10-07",
+   "note": "Pour sortir : « Arrêter l'analyse avancée ».",
+   "langue": "fr"
+  },
+  "teams.option-reunion": {
+   "outil": "Teams",
+   "nom": "Copilot dans une réunion que vous organisez",
+   "lieu": "Teams",
+   "chemin": [
+    "Calendrier",
+    "{la réunion}",
+    "Options",
+    "Copilot et d'autres IA",
+    "{Pendant et après la réunion, Uniquement pendant la réunion, ou Éteint}"
+   ],
+   "lieu_en": "Teams",
+   "chemin_en": [
+    "Calendar",
+    "{the meeting}",
+    "Options",
+    "Copilot and other AI",
+    "{During and after the meeting, Only during the meeting, or Off}"
+   ],
+   "defaut": null,
+   "qui": "l'organisateur, même sans licence",
+   "source": "tm-sans-transcription",
+   "releve": "2026-10-07",
+   "note": "« Éteint » coupe aussi l'enregistrement et la transcription de la réunion.",
+   "langue": "fr"
+  },
+  "teams.lancer": {
+   "outil": "Teams",
+   "nom": "Lancer Copilot pendant la réunion",
+   "lieu": "Teams",
+   "chemin": [
+    "contrôles de réunion",
+    "Copilot",
+    "Activer"
+   ],
+   "lieu_en": "Teams",
+   "chemin_en": [
+    "meeting controls",
+    "Copilot",
+    "Turn on"
+   ],
+   "defaut": null,
+   "qui": "un participant avec la licence Copilot",
+   "source": "tm-sans-transcription",
+   "releve": "2026-10-07",
+   "note": "En mode « Pendant et après la réunion », Copilot démarre avec la transcription.",
+   "langue": "fr"
+  },
+  "teams.apres": {
+   "outil": "Teams",
+   "nom": "Interroger Copilot après la réunion",
+   "lieu": "Teams",
+   "chemin": [
+    "Chat",
+    "{la conversation de la réunion}",
+    "Ouvrir Copilot"
+   ],
+   "lieu_en": "Teams",
+   "chemin_en": [
+    "Chat",
+    "{the meeting chat}",
+    "Open Copilot"
+   ],
+   "defaut": null,
+   "qui": "un participant avec la licence Copilot",
+   "source": "tm-rattraper",
+   "releve": "2026-10-07",
+   "note": "Aussi depuis l'onglet « Récapitulatif » de la réunion, s'il y a une transcription.",
+   "langue": "fr"
+  },
+  "teams.conversation": {
+   "outil": "Teams",
+   "nom": "Copilot dans une conversation",
+   "lieu": "Teams",
+   "chemin": [
+    "Chat",
+    "{la conversation}",
+    "Ouvrir Copilot"
+   ],
+   "lieu_en": "Teams",
+   "chemin_en": [
+    "Chat",
+    "{the chat}",
+    "Open Copilot"
+   ],
+   "defaut": null,
+   "qui": "un utilisateur avec la licence Copilot",
+   "source": "tm-conversations",
+   "releve": "2026-10-07",
+   "note": "Copilot lit les 30 derniers jours de la conversation, sauf si vous demandez une autre période.",
+   "langue": "fr"
+  },
+  "teams.fil": {
+   "outil": "Teams",
+   "nom": "Résumer un fil de canal",
+   "lieu": "Teams",
+   "chemin": [
+    "Teams",
+    "{le canal}",
+    "{le message}",
+    "Autres actions",
+    "Résumer le thread"
+   ],
+   "lieu_en": "Teams",
+   "chemin_en": [
+    "Teams",
+    "{the channel}",
+    "{the post}",
+    "More actions",
+    "Summarize thread"
+   ],
+   "defaut": null,
+   "qui": "un utilisateur avec la licence Copilot",
+   "source": "tm-conversations",
+   "releve": "2026-10-07",
+   "note": "Il faut au moins 1 000 caractères de texte dans le fil.",
+   "langue": "fr"
+  },
+  "teams.facilitateur": {
+   "outil": "Teams",
+   "nom": "Activer le Facilitateur pendant une réunion",
+   "lieu": "Teams",
+   "chemin": [
+    "contrôles de réunion",
+    "Autres actions",
+    "Activer le Facilitateur"
+   ],
+   "lieu_en": "Teams",
+   "chemin_en": [
+    "meeting controls",
+    "More actions",
+    "Turn on Facilitator"
+   ],
+   "defaut": null,
+   "qui": "l'organisateur ou un présentateur, avec la licence Copilot",
+   "source": "tm-facilitateur",
+   "releve": "2026-10-07",
+   "note": "Réunions programmées seulement, sur Teams pour ordinateur ou sur le web.",
+   "langue": "fr"
+  },
+  "teams.transcription": {
+   "outil": "Teams",
+   "nom": "Transcription des réunions",
+   "lieu": "Centre d'administration Teams",
+   "chemin": [
+    "Réunions",
+    "Stratégies de réunion",
+    "{la stratégie}",
+    "Transcription"
+   ],
+   "lieu_en": "Teams admin center",
+   "chemin_en": [
+    "Meetings",
+    "Meeting policies",
+    "{the policy}",
+    "Transcription"
+   ],
+   "defaut": "activée pour une nouvelle stratégie",
+   "qui": "Administrateur Teams",
+   "source": "tm-transcription",
+   "releve": "2026-10-07",
+   "note": "L'organisateur et la personne qui lance la transcription doivent tous deux y avoir droit.",
+   "langue": "fr"
+  },
+  "teams.enregistrement": {
+   "outil": "Teams",
+   "nom": "Enregistrement des réunions",
+   "lieu": "Centre d'administration Teams",
+   "chemin": [
+    "Réunions",
+    "Stratégies de réunion",
+    "{la stratégie}",
+    "Enregistrement de la réunion"
+   ],
+   "lieu_en": "Teams admin center",
+   "chemin_en": [
+    "Meetings",
+    "Meeting policies",
+    "{the policy}",
+    "Meeting recording"
+   ],
+   "defaut": null,
+   "qui": "Administrateur Teams",
+   "source": "tm-enregistrement",
+   "releve": "2026-10-07",
+   "note": "Les fichiers vont dans le OneDrive de l'organisateur, ou dans le SharePoint du canal.",
+   "langue": "fr"
+  },
+  "teams.expiration": {
+   "outil": "Teams",
+   "nom": "Expiration des enregistrements et transcriptions",
+   "lieu": "Centre d'administration Teams",
+   "chemin": [
+    "Réunions",
+    "Stratégies de réunion",
+    "Enregistrement & transcription",
+    "Les enregistrements et les transcriptions expirent automatiquement"
+   ],
+   "lieu_en": "Teams admin center",
+   "chemin_en": [
+    "Meetings",
+    "Meeting policies",
+    "Recording & transcription",
+    "Recordings and transcriptions automatically expire"
+   ],
+   "defaut": "120 jours, puis la corbeille",
+   "qui": "Administrateur Teams",
+   "source": "tm-expiration",
+   "releve": "2026-10-07",
+   "note": "De 1 à 99 999 jours.",
+   "langue": "fr"
+  },
+  "teams.accord": {
+   "outil": "Teams",
+   "nom": "Accord des participants avant l'enregistrement",
+   "lieu": "Centre d'administration Teams",
+   "chemin": [
+    "Réunions",
+    "Stratégies de réunion",
+    "{la stratégie}",
+    "Enregistrement & transcription",
+    "Exiger un accord de participant pour l'enregistrement et la transcription"
+   ],
+   "lieu_en": "Teams admin center",
+   "chemin_en": [
+    "Meetings",
+    "Meeting policies",
+    "{the policy}",
+    "Recording & transcription",
+    "Require participant agreement for recording and transcription"
+   ],
+   "defaut": "désactivé",
+   "qui": "Administrateur Teams",
+   "source": "tm-accord",
+   "releve": "2026-10-07",
+   "note": "Activé, chaque participant reste muet, caméra et partage coupés, jusqu'à ce qu'il réponde.",
+   "langue": "fr"
+  },
+  "teams.facilitateur-admin": {
+   "outil": "Teams",
+   "nom": "Autoriser ou bloquer le Facilitateur",
+   "lieu": "Centre d'administration Teams",
+   "chemin": [
+    "Applications Teams",
+    "Gérer les applications",
+    "{rechercher Facilitator}",
+    "Facilitator",
+    "{Autoriser ou Bloquer}"
+   ],
+   "lieu_en": "Teams admin center",
+   "chemin_en": [
+    "Teams apps",
+    "Manage apps",
+    "{search Facilitator}",
+    "Facilitator",
+    "{Allow or Block}"
+   ],
+   "defaut": "autorisé",
+   "qui": "Administrateur Teams",
+   "source": "tm-facilitateur-admin",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "studio.agent-builder": {
+   "outil": "Copilot Studio",
+   "nom": "Créer un agent dans Microsoft Copilot (Agent Builder)",
+   "lieu": "Microsoft Copilot",
+   "chemin": [
+    "Nouvel agent",
+    "{décrire l'agent, ou Ignorer pour configurer}",
+    "Configurer",
+    "Essayer"
+   ],
+   "lieu_en": "Microsoft Copilot",
+   "chemin_en": [
+    "New agent",
+    "{describe the agent, or Skip to configure}",
+    "Configure",
+    "Try it"
+   ],
+   "defaut": null,
+   "qui": "un utilisateur avec la licence Copilot",
+   "source": "cs-agent-builder",
+   "releve": "2026-10-07",
+   "note": "Sur microsoft365.com/chat ou dans Teams pour ordinateur et web ; pas sur téléphone.",
+   "langue": "fr"
+  },
+  "studio.creer": {
+   "outil": "Copilot Studio",
+   "nom": "Créer un agent dans Copilot Studio",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "Agents",
+    "Créer un agent vide",
+    "{nom}",
+    "Créer"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "Agents",
+    "Create blank agent",
+    "{name}",
+    "Create"
+   ],
+   "defaut": null,
+   "qui": "un créateur avec la licence Copilot ou une licence Copilot Studio",
+   "source": "cs-creer",
+   "releve": "2026-10-07",
+   "note": "Ou décrire l'agent sur la page d'accueil, en 1 024 caractères au plus. La langue principale ne se change plus après la création.",
+   "langue": "fr"
+  },
+  "studio.agent-copilot": {
+   "outil": "Copilot Studio",
+   "nom": "Créer un agent pour Microsoft Copilot",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "Agents",
+    "Microsoft Copilot",
+    "carte Agents",
+    "Ajouter"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "Agents",
+    "Microsoft Copilot",
+    "Agents card",
+    "Add"
+   ],
+   "defaut": null,
+   "qui": "un créateur avec la licence Copilot",
+   "source": "cs-agent-copilot",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "studio.sharepoint": {
+   "outil": "Copilot Studio",
+   "nom": "Ajouter un site SharePoint comme source",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "{l'agent}",
+    "Connaissances",
+    "Ajouter des connaissances",
+    "Featured",
+    "SharePoint",
+    "{adresse du site}",
+    "Ajouter à l'agent"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "{the agent}",
+    "Knowledge",
+    "Add knowledge",
+    "Featured",
+    "SharePoint",
+    "{site address}",
+    "Add to agent"
+   ],
+   "defaut": null,
+   "qui": "le créateur de l'agent",
+   "source": "cs-sharepoint",
+   "releve": "2026-10-07",
+   "note": "La documentation française laisse « Featured » en anglais. L'agent cherche dans l'adresse donnée et ses sous-dossiers, jamais au-dessus.",
+   "langue": "fr"
+  },
+  "studio.authentification": {
+   "outil": "Copilot Studio",
+   "nom": "Authentification de l'agent",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "Paramètres",
+    "Sécurité",
+    "Authentification",
+    "Authentifier avec Microsoft"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "Settings",
+    "Security",
+    "Authentication",
+    "Authenticate with Microsoft"
+   ],
+   "defaut": "Authentifier avec Microsoft",
+   "qui": "le créateur de l'agent",
+   "source": "cs-authentification",
+   "releve": "2026-10-07",
+   "note": "« Aucune authentification » laisse quiconque a le lien parler à l'agent.",
+   "langue": "fr"
+  },
+  "studio.publier": {
+   "outil": "Copilot Studio",
+   "nom": "Publier l'agent",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "Publier",
+    "Publier"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "Publish",
+    "Publish"
+   ],
+   "defaut": null,
+   "qui": "le créateur de l'agent",
+   "source": "cs-publier",
+   "releve": "2026-10-07",
+   "note": "À refaire après chaque modification ; dans Teams, une mise à jour peut mettre une heure à apparaître.",
+   "langue": "fr"
+  },
+  "studio.teams": {
+   "outil": "Copilot Studio",
+   "nom": "Rendre l'agent disponible dans Teams et Microsoft Copilot",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "Canaux",
+    "Teams et Microsoft Copilot",
+    "Rendre l'agent disponible dans Microsoft Copilot",
+    "Ajouter un canal"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "Channels",
+    "Teams and Microsoft Copilot",
+    "Make agent available in Microsoft Copilot",
+    "Add channel"
+   ],
+   "defaut": null,
+   "qui": "le créateur de l'agent",
+   "source": "cs-teams",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "studio.toute-organisation": {
+   "outil": "Copilot Studio",
+   "nom": "Proposer l'agent à toute l'entreprise",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "Canaux",
+    "Teams et Microsoft Copilot",
+    "Options de disponibilité",
+    "Afficher à tous les membres de mon organisation",
+    "Envoyer pour approbation par l'administrateur"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "Channels",
+    "Teams and Microsoft Copilot",
+    "Availability options",
+    "Show to everyone in my org",
+    "Submit for admin approval"
+   ],
+   "defaut": null,
+   "qui": "le créateur de l'agent",
+   "source": "cs-teams",
+   "releve": "2026-10-07",
+   "note": "Un changement de contenu ne demande pas de nouvelle approbation ; un changement du nom, de l'icône ou de la description, si.",
+   "langue": "fr"
+  },
+  "studio.approuver": {
+   "outil": "Copilot Studio",
+   "nom": "Approuver un agent pour toute l'entreprise",
+   "lieu": "Centre d'administration Microsoft 365",
+   "chemin": [
+    "Agents",
+    "Tous les agents",
+    "Demandes",
+    "{l'agent}",
+    "Publier dans le magasin"
+   ],
+   "lieu_en": "Microsoft 365 admin center",
+   "chemin_en": [
+    "Agents",
+    "All agents",
+    "Requests",
+    "{the agent}",
+    "Publish to store"
+   ],
+   "defaut": null,
+   "qui": "Administrateur IA ou administrateur général",
+   "source": "cs-demandes",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "studio.strategie-donnees": {
+   "outil": "Copilot Studio",
+   "nom": "Stratégie de données des agents",
+   "lieu": "Centre d'administration Power Platform",
+   "chemin": [
+    "Sécurité",
+    "Données et confidentialité",
+    "Stratégie de données",
+    "Nouvelle stratégie"
+   ],
+   "lieu_en": "Power Platform admin center",
+   "chemin_en": [
+    "Security",
+    "Data and privacy",
+    "Data policy",
+    "New Policy"
+   ],
+   "defaut": null,
+   "qui": "Administrateur général ou administrateur d'environnement",
+   "source": "cs-donnees",
+   "releve": "2026-10-07",
+   "note": "Bloquer le connecteur « Chat without Microsoft Entra ID authentication in Copilot Studio » oblige chaque agent à demander une connexion.",
+   "langue": "fr"
+  },
+  "studio.environnement": {
+   "outil": "Copilot Studio",
+   "nom": "Créer un environnement de production",
+   "lieu": "Centre d'administration Power Platform",
+   "chemin": [
+    "Gérer",
+    "Environnements",
+    "Nouveau"
+   ],
+   "lieu_en": "Power Platform admin center",
+   "chemin_en": [
+    "Manage",
+    "Environments",
+    "New"
+   ],
+   "defaut": null,
+   "qui": "Administrateur général ou administrateur Power Platform",
+   "source": "cs-environnements",
+   "releve": "2026-10-07",
+   "note": "Microsoft conseille un environnement de production à part, plutôt que l'environnement par défaut. Un environnement d'essai est supprimé après 30 jours, avec ses agents.",
+   "langue": "fr"
+  },
+  "studio.capacite": {
+   "outil": "Copilot Studio",
+   "nom": "Crédits et capacité",
+   "lieu": "Centre d'administration Power Platform",
+   "chemin": [
+    "Licences",
+    "Copilot Studio",
+    "Gérer les crédits Copilot"
+   ],
+   "lieu_en": "Power Platform admin center",
+   "chemin_en": [
+    "Licensing",
+    "Copilot Studio",
+    "Manage Copilot credits"
+   ],
+   "defaut": null,
+   "qui": "Administrateur général ou administrateur Power Platform",
+   "source": "cs-capacite",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "studio.suivi": {
+   "outil": "Copilot Studio",
+   "nom": "Suivre l'usage d'un agent",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "{l'agent}",
+    "Monitor"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "{the agent}",
+    "Monitor"
+   ],
+   "defaut": null,
+   "qui": "le créateur de l'agent",
+   "source": "cs-suivi",
+   "releve": "2026-10-07",
+   "note": "Données gardées 360 jours, transcriptions 28 jours. Un agent pour Microsoft Copilot n'alimente pas cette page.",
+   "langue": "fr"
+  },
+  "studio.supprimer": {
+   "outil": "Copilot Studio",
+   "nom": "Supprimer un agent",
+   "lieu": "Copilot Studio",
+   "chemin": [
+    "Agents",
+    "{l'agent}",
+    "…",
+    "Supprimer",
+    "{taper le nom de l'agent}",
+    "Supprimer l'agent"
+   ],
+   "lieu_en": "Copilot Studio",
+   "chemin_en": [
+    "Agents",
+    "{the agent}",
+    "…",
+    "Delete",
+    "{type the agent name}",
+    "Delete agent"
+   ],
+   "defaut": null,
+   "qui": "le créateur de l'agent",
+   "source": "cs-creer",
+   "releve": "2026-10-07",
+   "note": "Les données de l'agent sont supprimées définitivement après quelques minutes.",
+   "langue": "fr"
+  },
+  "oai.inviter": {
+   "outil": "ChatGPT Business et Enterprise",
+   "nom": "Inviter un membre de l'espace",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Workspace settings",
+    "Members",
+    "Invite member"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Workspace settings",
+    "Members",
+    "Invite member"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "oai-membres",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "oai.sso": {
+   "outil": "ChatGPT Business",
+   "nom": "Domaine vérifié et connexion unique",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Workspace settings",
+    "Identity & access",
+    "Identity & provisioning",
+    "Verified Domains"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Workspace settings",
+    "Identity & access",
+    "Identity & provisioning",
+    "Verified Domains"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire de l'espace",
+   "source": "oai-sso",
+   "releve": "2026-10-07",
+   "note": "Puis « Single Sign-On (SSO) › Set up SSO » pour la connexion avec les comptes de l'entreprise.",
+   "langue": "en"
+  },
+  "ant.domaines": {
+   "outil": "Claude Team et Enterprise",
+   "nom": "Domaine de l'entreprise et connexion unique",
+   "lieu": "Claude (claude.ai/admin-settings/organization)",
+   "chemin": [
+    "Organization and access settings",
+    "Domains",
+    "Add or edit domains"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization and access settings",
+    "Domains",
+    "Add or edit domains"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ant-organisation",
+   "releve": "2026-10-07",
+   "note": "Puis « Authentication › Setup SSO » ; « Security › Restrict organization creation » empêche les salariés d'ouvrir leur propre organisation.",
+   "langue": "en"
+  },
+  "g.rapports": {
+   "outil": "Google Workspace",
+   "nom": "Rapports d'usage de Gemini",
+   "lieu": "Console d'administration Google",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Rapports Gemini",
+    "Utilisation au niveau de l'organisation"
+   ],
+   "lieu_en": "Google Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini reports",
+    "Org-level usage"
+   ],
+   "defaut": null,
+   "qui": "Administrateur avec accès aux rapports",
+   "source": "g-rapports",
+   "releve": "2026-10-07",
+   "note": "Utilisateurs actifs, licences, adoption par application ; 28 derniers jours par défaut.",
+   "langue": "fr"
+  },
+  "docs.copilot-notebook": {
+   "outil": "Microsoft 365",
+   "nom": "Créer un bloc-notes Copilot",
+   "lieu": "Microsoft Copilot (m365.cloud.microsoft)",
+   "chemin": [
+    "Blocs-notes",
+    "Tous les blocs-notes",
+    "Nouveau bloc-notes",
+    "{nom}",
+    "Ajouter des références"
+   ],
+   "lieu_en": "Microsoft Copilot (m365.cloud.microsoft)",
+   "chemin_en": [
+    "Notebooks",
+    "All notebooks",
+    "New notebook",
+    "{name}",
+    "Add references"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s1",
+   "releve": "2026-10-07",
+   "note": "Les références s'ajoutent par recherche (sites et dossiers SharePoint compris), envoi, lien ou OneDrive.",
+   "langue": "fr"
+  },
+  "docs.agent-sharepoint": {
+   "outil": "Microsoft 365",
+   "nom": "Créer un agent SharePoint",
+   "lieu": "SharePoint",
+   "chemin": [
+    "{la bibliothèque de documents}",
+    "Copilot",
+    "Créer un agent",
+    "Sources",
+    "Créer"
+   ],
+   "lieu_en": "SharePoint",
+   "chemin_en": [
+    "{the document library}",
+    "Copilot",
+    "Create an agent",
+    "Sources",
+    "Create"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s9",
+   "releve": "2026-10-07",
+   "note": "Ou sélectionner des fichiers, clic droit, « Créer un agent ».",
+   "langue": "fr"
+  },
+  "docs.gemini-notebook": {
+   "outil": "Google Workspace",
+   "nom": "Créer un notebook Gemini",
+   "lieu": "notebook.google.com",
+   "chemin": [
+    "Créer un notebook",
+    "Importer une source",
+    "{importer, Drive, Web ou recherche}"
+   ],
+   "lieu_en": "notebook.google.com",
+   "chemin_en": [
+    "Create new notebook",
+    "Upload a source",
+    "{upload, Drive, web or search}"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s35",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "docs.gem": {
+   "outil": "Google Workspace",
+   "nom": "Créer un Gem avec des fichiers",
+   "lieu": "gemini.google.com",
+   "chemin": [
+    "Gems",
+    "Nouveau Gem",
+    "{nom et instructions}",
+    "Connaissances",
+    "Ajouter des fichiers"
+   ],
+   "lieu_en": "gemini.google.com",
+   "chemin_en": [
+    "Gems",
+    "New Gem",
+    "{name and instructions}",
+    "Knowledge",
+    "Add files"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s40",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "docs.chatgpt-projet": {
+   "outil": "ChatGPT",
+   "nom": "Créer un projet ChatGPT",
+   "lieu": "ChatGPT",
+   "chemin": [
+    "Barre latérale",
+    "Nouveau projet",
+    "{nom}",
+    "{ajouter des fichiers aux sources}",
+    "Paramètres du projet"
+   ],
+   "lieu_en": "ChatGPT",
+   "chemin_en": [
+    "Sidebar",
+    "New project",
+    "{name}",
+    "{add files to project sources}",
+    "Project settings"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s46",
+   "releve": "2026-10-07",
+   "note": "Les instructions du projet se règlent dans « Paramètres du projet ».",
+   "langue": "fr"
+  },
+  "docs.claude-projet": {
+   "outil": "Claude",
+   "nom": "Créer un projet Claude",
+   "lieu": "claude.ai/projects",
+   "chemin": [
+    "Nouveau projet",
+    "{nom, description}",
+    "Base de connaissances",
+    "+"
+   ],
+   "lieu_en": "claude.ai/projects",
+   "chemin_en": [
+    "New Project",
+    "{name, description}",
+    "Project knowledge",
+    "+"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s59",
+   "releve": "2026-10-07",
+   "note": "En Team et Enterprise, la visibilité du projet se choisit à la création.",
+   "langue": "fr"
+  },
+  "docs.mistral-bibliotheque": {
+   "outil": "Mistral Vibe",
+   "nom": "Créer une bibliothèque",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Bibliothèques",
+    "Nouvelle bibliothèque",
+    "{nom}",
+    "Importer"
+   ],
+   "lieu_en": "Mistral Vibe",
+   "chemin_en": [
+    "Libraries",
+    "New Library",
+    "{name}",
+    "Upload"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s67",
+   "releve": "2026-10-07",
+   "note": "Dans une conversation : « + » › Bibliothèques, pour s'en servir.",
+   "langue": "fr"
+  },
+  "docs.perplexity-projet": {
+   "outil": "Perplexity",
+   "nom": "Créer un projet",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Projects",
+    "New project",
+    "{title, description, instructions}"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Projects",
+    "New project",
+    "{title, description, instructions}"
+   ],
+   "defaut": null,
+   "qui": "chaque utilisateur",
+   "source": "doc-s73",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "dev.oai-cle": {
+   "outil": "API d'OpenAI",
+   "nom": "Créer une clé d'API",
+   "lieu": "Plateforme d'OpenAI (platform.openai.com)",
+   "chemin": [
+    "Settings",
+    "Organization",
+    "API keys"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Settings",
+    "Organization",
+    "API keys"
+   ],
+   "defaut": null,
+   "qui": null,
+   "source": "oai-production",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "dev.oai-plafond": {
+   "outil": "API d'OpenAI",
+   "nom": "Plafond de dépense mensuel",
+   "lieu": "Plateforme d'OpenAI (platform.openai.com)",
+   "chemin": [
+    "Organization limits",
+    "Spend",
+    "Edit spend limit",
+    "Monthly spend limit",
+    "Enforce a hard limit",
+    "Save"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization limits",
+    "Spend",
+    "Edit spend limit",
+    "Monthly spend limit",
+    "Enforce a hard limit",
+    "Save"
+   ],
+   "defaut": null,
+   "qui": null,
+   "source": "oai-plafonds",
+   "releve": "2026-10-07",
+   "note": "Les alertes de dépense préviennent sans rien bloquer. Le plafond fait échouer les appels (erreur 429), avec un léger décalage : la dépense peut le dépasser un peu.",
+   "langue": "en"
+  },
+  "dev.ant-cle": {
+   "outil": "API de Claude",
+   "nom": "Créer une clé d'API",
+   "lieu": "Console de Claude (platform.claude.com)",
+   "chemin": [
+    "Settings",
+    "API keys",
+    "Create key"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Settings",
+    "API keys",
+    "Create key"
+   ],
+   "defaut": null,
+   "qui": null,
+   "source": "ant-cle-api",
+   "releve": "2026-10-07",
+   "note": "La clé commence par sk-ant- et ne s'affiche qu'une fois : copiez-la tout de suite.",
+   "langue": "en"
+  },
+  "dev.ant-plafond": {
+   "outil": "API de Claude",
+   "nom": "Plafond de dépense mensuel",
+   "lieu": "Console de Claude (platform.claude.com)",
+   "chemin": [
+    "Settings",
+    "Billing",
+    "Spend limits",
+    "Adjust limit"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Settings",
+    "Billing",
+    "Spend limits",
+    "Adjust limit"
+   ],
+   "defaut": "le plafond du palier : 500 $ par mois au palier Start",
+   "qui": null,
+   "source": "ant-plafonds",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "en"
+  },
+  "dev.mis-cle": {
+   "outil": "API de Mistral",
+   "nom": "Créer une clé d'API",
+   "lieu": "Mistral Studio (console.mistral.ai)",
+   "chemin": [
+    "API Keys",
+    "Create new key"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "API Keys",
+    "Create new key"
+   ],
+   "defaut": null,
+   "qui": null,
+   "source": "mis-cle-api",
+   "releve": "2026-10-07",
+   "note": "La clé complète ne s'affiche qu'une fois : copiez-la tout de suite.",
+   "langue": "en"
+  },
+  "dev.mis-plafond": {
+   "outil": "API de Mistral",
+   "nom": "Plafond de dépense mensuel",
+   "lieu": "Console d'administration de Mistral (admin.mistral.ai)",
+   "chemin": [
+    "Administration",
+    "Workspaces",
+    "{espace de travail}",
+    "Settings",
+    "Monthly spending limit",
+    "Save"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Administration",
+    "Workspaces",
+    "{espace de travail}",
+    "Settings",
+    "Monthly spending limit",
+    "Save"
+   ],
+   "defaut": "aucun plafond",
+   "qui": null,
+   "source": "mis-plafonds",
+   "releve": "2026-10-07",
+   "note": "Atteint, le plafond suspend l'API de l'espace de travail jusqu'au mois suivant.",
+   "langue": "en"
+  },
+  "sharepoint.liens-defaut": {
+   "outil": "Microsoft 365",
+   "nom": "Type de lien de partage par défaut",
+   "lieu": "Centre d'administration SharePoint",
+   "chemin": [
+    "Stratégies",
+    "Partage",
+    "Liens de fichiers et dossiers"
+   ],
+   "lieu_en": "SharePoint admin center",
+   "chemin_en": [
+    "Policies",
+    "Sharing",
+    "File and folder links"
+   ],
+   "defaut": null,
+   "qui": "Administrateur SharePoint",
+   "source": "sp-partage",
+   "releve": "2026-10-07",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-feature-access": {
+   "outil": "Google Workspace",
+   "nom": "Accès aux fonctionnalités Gemini, service par service",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Gemini pour Workspace",
+    "Accès aux fonctionnalités",
+    "{unité organisationnelle ou groupe de configuration}",
+    "Modifier (à côté du service)",
+    "Activé / Désactivé",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini for Workspace",
+    "Feature access",
+    "{organizational unit or configuration group}",
+    "Edit (next to the service)",
+    "On / Off",
+    "Save"
+   ],
+   "defaut": "activé",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini ; offres Enterprise Standard et Plus seulement",
+   "source": "gw-S02",
+   "releve": "2026-10-08",
+   "note": "Absent des offres Business Starter, Standard et Plus.",
+   "langue": "fr"
+  },
+  "gw.admin-gemini-app-status": {
+   "outil": "Google Workspace",
+   "nom": "État du service de l'application Gemini",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "État du service",
+    "Activé pour tous / Désactivé pour tous",
+    "{unité organisationnelle ou groupe}",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "Service status",
+    "On for everyone / Off for everyone",
+    "{organizational unit or group}",
+    "Save"
+   ],
+   "defaut": "activé pour les utilisateurs de 18 ans et plus qui ont une licence",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S04",
+   "releve": "2026-10-08",
+   "note": "Jusqu'à 24 heures pour s'appliquer.",
+   "langue": "fr"
+  },
+  "gw.admin-gemini-app-user-access": {
+   "outil": "Google Workspace",
+   "nom": "Accès à l'application Gemini sans licence éligible",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Accès des utilisateurs",
+    "Autoriser tous les utilisateurs à accéder à l'application Gemini, quelle que soit leur licence",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "User access",
+    "Allow all users to access the Gemini app, regardless of license",
+    "Save"
+   ],
+   "defaut": null,
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S04",
+   "releve": "2026-10-08",
+   "note": "Un utilisateur sans licence éligible relève des conditions grand public de Google.",
+   "langue": "fr"
+  },
+  "gw.admin-gemini-app-history": {
+   "outil": "Google Workspace",
+   "nom": "Historique des conversations de l'application Gemini, et durée de conservation",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Historique des conversations Gemini",
+    "Activer l'historique des conversations Gemini",
+    "Conservation des conversations : 3, 18 ou 36 mois",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "Gemini conversation history",
+    "Enable Gemini conversation history",
+    "Conversation retention: 3, 18, or 36 months",
+    "Save"
+   ],
+   "defaut": "activé, 18 mois",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S04",
+   "releve": "2026-10-08",
+   "note": "Jusqu'à 72 heures pour s'appliquer ; sans historique, les applications Workspace ne fonctionnent plus dans Gemini.",
+   "langue": "fr"
+  },
+  "gw.admin-gemini-app-temp-chats": {
+   "outil": "Google Workspace",
+   "nom": "Discussions temporaires et suppression des conversations",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Historique des conversations Gemini",
+    "Autoriser les discussions temporaires",
+    "Autoriser les utilisateurs à supprimer les conversations",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "Gemini conversation history",
+    "Allow temporary chats",
+    "Allow users to delete conversations",
+    "Save"
+   ],
+   "defaut": "autorisées sans Vault pour Gemini, interdites avec",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S34",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-gemini-app-connected-apps": {
+   "outil": "Google Workspace",
+   "nom": "Applications que l'application Gemini peut utiliser",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Applications",
+    "Applications Workspace / Application Classroom / Autres applications Google",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "Apps",
+    "Workspace apps / Classroom app / Other Google apps",
+    "Save"
+   ],
+   "defaut": "applications Workspace : activé",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S06",
+   "releve": "2026-10-08",
+   "note": "Chaque utilisateur peut aussi les déconnecter dans ses paramètres.",
+   "langue": "fr"
+  },
+  "gw.admin-gem-sharing": {
+   "outil": "Google Workspace",
+   "nom": "Partage des Gems",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Application Gemini",
+    "Partage de Gem",
+    "Autoriser les utilisateurs à partager des Gems",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini app",
+    "Gem sharing",
+    "Allow users to share Gems",
+    "Save"
+   ],
+   "defaut": null,
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S08",
+   "releve": "2026-10-08",
+   "note": "Valeur par défaut non publiée.",
+   "langue": "fr"
+  },
+  "gw.admin-smart-features": {
+   "outil": "Google Workspace",
+   "nom": "Fonctionnalités intelligentes de Google Workspace, valeur par défaut de l'organisation",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "Compte",
+    "Paramètres du compte",
+    "Fonctionnalités intelligentes pour Google Workspace",
+    "Ne pas définir de règle par défaut / Définir une règle par défaut",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Account",
+    "Account settings",
+    "Smart features for Google Workspace",
+    "Don't set a default experience / Set a default",
+    "Save"
+   ],
+   "defaut": "désactivé par défaut dans l'Espace économique européen ; chaque utilisateur peut changer",
+   "qui": "Super administrateur",
+   "source": "gw-S20",
+   "releve": "2026-10-08",
+   "note": "Nécessaires à Gemini dans les applications Workspace.",
+   "langue": "fr"
+  },
+  "gw.admin-workspace-intelligence": {
+   "outil": "Google Workspace",
+   "nom": "Services où Gemini peut chercher du contexte : Gmail, Drive et Docs, Agenda, Chat",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Gemini pour Workspace",
+    "Workspace Intelligence",
+    "{unité organisationnelle ou groupe}",
+    "Modifier (à côté du service)",
+    "Activé / Désactivé",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini for Workspace",
+    "Workspace Intelligence",
+    "{organizational unit or group}",
+    "Edit (next to the service)",
+    "On / Off",
+    "Save"
+   ],
+   "defaut": "activé pour chaque service",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S18",
+   "releve": "2026-10-08",
+   "note": "Jusqu'à 48 heures pour s'appliquer ; seul moyen, dans les offres Business, de restreindre ce que Gemini consulte.",
+   "langue": "fr"
+  },
+  "gw.admin-gemini-beta": {
+   "outil": "Google Workspace",
+   "nom": "Fonctionnalités Gemini en bêta",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Gemini pour Workspace",
+    "Fonctionnalités Gemini bêta",
+    "Utilisateurs / Groupes / Unités organisationnelles",
+    "Activé",
+    "{instructions à l'écran}"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini for Workspace",
+    "Gemini Beta features",
+    "Users / Groups / Organizational units",
+    "On",
+    "{on-screen prompts}"
+   ],
+   "defaut": "désactivé",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S16",
+   "releve": "2026-10-08",
+   "note": "Tout ou rien ; conditions des préversions.",
+   "langue": "fr"
+  },
+  "gw.admin-ws-history-manual": {
+   "outil": "Google Workspace",
+   "nom": "Suppression des conversations de Gemini dans Workspace par les utilisateurs",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Gemini pour Workspace",
+    "Historique des conversations et suppression",
+    "Suppression manuelle",
+    "Activé / Désactivé",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini for Workspace",
+    "Conversation history & deletion",
+    "Manual deletion",
+    "On / Off",
+    "Save"
+   ],
+   "defaut": "activé",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S22",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-ws-history-auto": {
+   "outil": "Google Workspace",
+   "nom": "Suppression automatique des conversations inactives de Gemini dans Workspace",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Gemini pour Workspace",
+    "Historique des conversations et suppression",
+    "Suppression automatique",
+    "Autoriser les utilisateurs à choisir leur propre paramètre / Supprimer après 90, 540 ou 1 080 jours / Ne pas supprimer automatiquement",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini for Workspace",
+    "Conversation history & deletion",
+    "Auto-deletion",
+    "Let users choose their own setting / Delete after 90, 540 or 1080 days / Don't automatically delete",
+    "Save"
+   ],
+   "defaut": "conservées sans limite tant qu'aucune durée n'est fixée",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S22",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-reports-org": {
+   "outil": "Google Workspace",
+   "nom": "Rapports d'adoption de Gemini pour l'organisation",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Rapports Gemini",
+    "Utilisation au niveau de l'organisation",
+    "{Unité organisationnelle / Filtre de groupe / 7, 28 ou 90 derniers jours}",
+    "Télécharger"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini reports",
+    "Org-level usage",
+    "{Organizational unit / Group filter / Last 7, 28 or 90 days}",
+    "Download"
+   ],
+   "defaut": "28 derniers jours",
+   "qui": "Non précisé sur la page",
+   "source": "gw-S12",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-reports-user": {
+   "outil": "Google Workspace",
+   "nom": "Rapports d'usage de Gemini par utilisateur",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Rapports Gemini",
+    "Utilisation au niveau de l'utilisateur",
+    "Télécharger le tableau / Télécharger les statistiques d'utilisation"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini reports",
+    "User-level usage",
+    "Download table / Download usage counts",
+    "Upgrade users"
+   ],
+   "defaut": "28 derniers jours",
+   "qui": "Non précisé sur la page",
+   "source": "gw-S12",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-ai-control-center": {
+   "outil": "Google Workspace",
+   "nom": "Centre de contrôle de l'IA",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Centre de contrôle de l'IA"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "AI control center"
+   ],
+   "defaut": null,
+   "qui": "Super administrateur ; offres Enterprise Standard et Plus seulement",
+   "source": "gw-S24",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-audit-gemini-logs": {
+   "outil": "Google Workspace",
+   "nom": "Journaux d'événements de Gemini pour Workspace",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "Reporting",
+    "Audit et enquête",
+    "Événements de journaux Gemini pour Workspace",
+    "Ajouter un filtre",
+    "Rechercher"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Reporting",
+    "Audit and investigation",
+    "Gemini for Workspace log events",
+    "Add a filter",
+    "Search"
+   ],
+   "defaut": "7 derniers jours",
+   "qui": "Administrateur avec le droit d'audit et d'enquête",
+   "source": "gw-S36",
+   "releve": "2026-10-08",
+   "note": "L'aide française garde « Reporting » en anglais.",
+   "langue": "fr"
+  },
+  "gw.admin-security-investigation": {
+   "outil": "Google Workspace",
+   "nom": "Enquête sur les événements de Gemini dans l'outil d'investigation",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "Sécurité",
+    "Centre de sécurité",
+    "Outil d'investigation",
+    "Source de données : Événements de journaux Gemini pour Workspace",
+    "Ajouter une condition",
+    "Rechercher"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Security",
+    "Security center",
+    "Investigation tool",
+    "Data source: Gemini for Workspace log events",
+    "Add Condition",
+    "Search"
+   ],
+   "defaut": null,
+   "qui": "Administrateur du centre de sécurité ; offres Enterprise Standard et Plus",
+   "source": "gw-S36",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.admin-notebook-status": {
+   "outil": "Google Workspace",
+   "nom": "État du service Gemini Notebook",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Notebook Gemini",
+    "État du service",
+    "Activé pour tous / Désactivé pour tous",
+    "{unité organisationnelle : Remplacer / Hériter}",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini Notebook",
+    "Service status",
+    "On for everyone / Off for everyone",
+    "{organizational unit: Override / Inherit}",
+    "Save"
+   ],
+   "defaut": "activé pour les utilisateurs d'un compte Workspace",
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S73",
+   "releve": "2026-10-08",
+   "note": "La page française écrit « Notebook Gemini » dans les étapes, « Gemini Notebook » ailleurs.",
+   "langue": "fr"
+  },
+  "gw.admin-notebook-sharing": {
+   "outil": "Google Workspace",
+   "nom": "Partage des notebooks hors de l'organisation",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "Menu",
+    "IA générative",
+    "Notebook Gemini",
+    "{unité organisationnelle : Remplacer}",
+    "Partage en dehors de [nom de votre organisation]",
+    "Désactivé / Domaines ajoutés à la liste d'autorisation / Activé",
+    "Partage public (facultatif)",
+    "Enregistrer"
+   ],
+   "lieu_en": "Admin console",
+   "chemin_en": [
+    "Menu",
+    "Generative AI",
+    "Gemini Notebook",
+    "{organizational unit: Override}",
+    "Sharing outside of [your organization name]",
+    "Off / Allowlisted domains / On",
+    "Public Sharing (optional)",
+    "Save"
+   ],
+   "defaut": null,
+   "qui": "Administrateur avec le droit sur les paramètres Gemini",
+   "source": "gw-S75",
+   "releve": "2026-10-08",
+   "note": "Valeur par défaut non publiée ; jusqu'à 24 heures pour s'appliquer.",
+   "langue": "fr"
+  },
+  "gw.gmail-smart-features-gcm": {
+   "outil": "Google Workspace",
+   "nom": "Fonctionnalités intelligentes dans Gmail, Chat et Meet",
+   "lieu": "Gmail",
+   "chemin": [
+    "Paramètres",
+    "Voir tous les paramètres",
+    "Général",
+    "Fonctionnalités intelligentes",
+    "Activer les fonctionnalités intelligentes dans Gmail, Chat et Meet"
+   ],
+   "lieu_en": "Gmail",
+   "chemin_en": [
+    "Settings",
+    "See all settings",
+    "General",
+    "Smart features",
+    "Turn on smart features in Gmail, Chat, and Meet"
+   ],
+   "defaut": "désactivé dans l'Espace économique européen",
+   "qui": "Chaque utilisateur",
+   "source": "gw-S55",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.gmail-smart-features-workspace": {
+   "outil": "Google Workspace",
+   "nom": "Fonctionnalités intelligentes dans Google Workspace, nécessaires à Gemini dans Gmail et Docs",
+   "lieu": "Gmail",
+   "chemin": [
+    "Paramètres",
+    "Voir tous les paramètres",
+    "Général",
+    "Fonctionnalités intelligentes dans Google Workspace",
+    "Gérer les paramètres des fonctionnalités intelligentes Workspace",
+    "Fonctionnalités intelligentes dans Google Workspace",
+    "Enregistrer"
+   ],
+   "lieu_en": "Gmail",
+   "chemin_en": [
+    "Settings",
+    "See all settings",
+    "General",
+    "Google Workspace smart features",
+    "Manage Workspace smart feature settings",
+    "Smart features in Google Workspace",
+    "Save"
+   ],
+   "defaut": "désactivé dans l'Espace économique européen",
+   "qui": "Chaque utilisateur, sauf valeur fixée par l'administrateur",
+   "source": "gw-S55",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.gmail-help-me-write": {
+   "outil": "Google Workspace",
+   "nom": "Rédiger ou retoucher un courriel avec Gemini",
+   "lieu": "Gmail (ordinateur)",
+   "chemin": [
+    "Nouveau message (ou répondre / ouvrir un brouillon)",
+    "Barre de prompt en bas (sinon : Aide-moi à écrire)",
+    "Saisir le prompt",
+    "Créer",
+    "Affiner : Rendre plus formel / Amical / Raccourcir"
+   ],
+   "lieu_en": "Gmail (computer)",
+   "chemin_en": [
+    "Compose (or reply / open a draft)",
+    "Prompt bar at the bottom (else: Help me write)",
+    "Enter prompt",
+    "Create",
+    "Refine: Formalize / Friendly / Shorten"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur, à partir de Business Starter",
+   "source": "gw-S47",
+   "releve": "2026-10-08",
+   "note": "Libellé français variable selon les pages : « Aide-moi à écrire » ou « M'aider à écrire ».",
+   "langue": "fr"
+  },
+  "gw.gmail-summary": {
+   "outil": "Google Workspace",
+   "nom": "Résumer une conversation dans Gmail",
+   "lieu": "Gmail (ordinateur)",
+   "chemin": [
+    "Ouvrir un fil de discussion",
+    "Résumer cet e-mail",
+    "{Réduire / M'envoyer un rappel}"
+   ],
+   "lieu_en": "Gmail (computer)",
+   "chemin_en": [
+    "Open an email thread",
+    "Summarize this email",
+    "{Minimize / Remind me}"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur ; les deux réglages de fonctionnalités intelligentes activés",
+   "source": "gw-S50",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.gmail-side-panel": {
+   "outil": "Google Workspace",
+   "nom": "Ouvrir Gemini dans le panneau latéral de Gmail",
+   "lieu": "Gmail (ordinateur)",
+   "chemin": [
+    "Demander à Gemini (en haut à droite)",
+    "Champ du prompt",
+    "Envoyer"
+   ],
+   "lieu_en": "Gmail (computer)",
+   "chemin_en": [
+    "Ask Gemini (top right)",
+    "Prompt box",
+    "Submit"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur d'une offre éligible",
+   "source": "gw-S45",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.gmail-side-history-gems": {
+   "outil": "Google Workspace",
+   "nom": "Historique, Gems et paramètres depuis le panneau de Gmail",
+   "lieu": "Gmail",
+   "chemin": [
+    "Demander à Gemini",
+    "Autres options / Plus d'options (en haut à gauche)",
+    "Historique / Gems / Paramètres"
+   ],
+   "lieu_en": "Gmail",
+   "chemin_en": [
+    "Ask Gemini",
+    "More options (top left)",
+    "History / Gems / Settings"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur",
+   "source": "gw-S45",
+   "releve": "2026-10-08",
+   "note": "La même page française dit « Autres options » et « Plus d'options ».",
+   "langue": "fr"
+  },
+  "gw.gmail-search-overview": {
+   "outil": "Google Workspace",
+   "nom": "Poser une question dans la recherche de Gmail",
+   "lieu": "Gmail (ordinateur)",
+   "chemin": [
+    "Champ de recherche",
+    "Question en langage naturel",
+    "Entrée"
+   ],
+   "lieu_en": "Gmail (computer)",
+   "chemin_en": [
+    "Search box",
+    "Natural language question or key phrase",
+    "Enter"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur ; Gmail en anglais seulement",
+   "source": "gw-S52",
+   "releve": "2026-10-08",
+   "note": "En anglais seulement ; la page française garde les étapes en anglais.",
+   "langue": "fr"
+  },
+  "gw.gmail-suggested-replies": {
+   "outil": "Google Workspace",
+   "nom": "Réponses suggérées",
+   "lieu": "Gmail (computer)",
+   "chemin": [
+    "Open an email",
+    "Click the suggested reply at the bottom",
+    "Edit",
+    "Send"
+   ],
+   "lieu_en": "Gmail (computer)",
+   "chemin_en": [
+    "Open an email",
+    "Click the suggested reply at the bottom",
+    "Edit",
+    "Send"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur ; compte en anglais",
+   "source": "gw-S48",
+   "releve": "2026-10-08",
+   "note": "Pas d'article en français ; fonction en anglais seulement.",
+   "langue": "en"
+  },
+  "gw.docs-side-panel": {
+   "outil": "Google Workspace",
+   "nom": "Ouvrir Gemini dans le panneau latéral de Docs",
+   "lieu": "Google Docs (ordinateur)",
+   "chemin": [
+    "Demander à Gemini (en haut à droite)",
+    "Suggestion ou prompt",
+    "Entrée",
+    "Insérer"
+   ],
+   "lieu_en": "Google Docs (computer)",
+   "chemin_en": [
+    "Ask Gemini (top right)",
+    "Suggestion or prompt",
+    "Enter",
+    "Insert"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur, à partir de Business Standard",
+   "source": "gw-S59",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.docs-refine": {
+   "outil": "Google Workspace",
+   "nom": "Réécrire un passage sélectionné dans Docs",
+   "lieu": "Google Docs",
+   "chemin": [
+    "Sélectionner le texte",
+    "Affiner (barre flottante)",
+    "Reformuler / Raccourcir / Plus : Développer, Plus formel, Plus décontracté, Liste à puces, Résumer",
+    "Accepter la suggestion / Tout accepter / Tout refuser"
+   ],
+   "lieu_en": "Google Docs",
+   "chemin_en": [
+    "Select text",
+    "Refine (floating bar)",
+    "Rephrase / Shorten / More: Elaborate, More formal, More casual, Bulletize, Summarize",
+    "Accept suggestion / Accept all / Reject all"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur d'une offre éligible",
+   "source": "gw-S57",
+   "releve": "2026-10-08",
+   "note": "Fait partie de la nouvelle expérience d'édition de Docs, en bêta.",
+   "langue": "fr"
+  },
+  "gw.docs-add-sources": {
+   "outil": "Google Workspace",
+   "nom": "Ajouter des fichiers de Drive comme sources de Gemini dans Docs",
+   "lieu": "Google Docs",
+   "chemin": [
+    "Barre inférieure",
+    "Sources",
+    "Ajouter depuis Drive ou un autre emplacement (ou taper @)",
+    "Ajouter"
+   ],
+   "lieu_en": "Google Docs",
+   "chemin_en": [
+    "Bottom bar",
+    "Sources",
+    "Add from Drive or other location (or type @)",
+    "Add"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur qui peut lire le fichier",
+   "source": "gw-S57",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.docs-search-settings": {
+   "outil": "Google Workspace",
+   "nom": "Où Gemini cherche : Drive, Gmail, Chat, Web",
+   "lieu": "Demander à Gemini",
+   "chemin": [
+    "Ajouter des sources",
+    "Paramètres de recherche Gemini",
+    "Recherche Drive / Recherche Gmail / Recherche Chat / Recherche sur le Web"
+   ],
+   "lieu_en": "Ask Gemini",
+   "chemin_en": [
+    "Add sources",
+    "Gemini search settings",
+    "Drive search / Gmail search / Chat search / Web search"
+   ],
+   "defaut": "recherche sur le Web désactivée",
+   "qui": "Chaque utilisateur",
+   "source": "gw-S63",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.docs-writing-style": {
+   "outil": "Google Workspace",
+   "nom": "Reprendre le style d'écriture d'un autre document",
+   "lieu": "Google Docs",
+   "chemin": [
+    "Barre inférieure",
+    "Outils",
+    "Style d'écriture",
+    "Ajouter un document depuis Drive",
+    "Ajouter",
+    "Confirmer"
+   ],
+   "lieu_en": "Google Docs",
+   "chemin_en": [
+    "Bottom bar",
+    "Tools",
+    "Writing style",
+    "Add doc from Drive",
+    "Add",
+    "Confirm"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur ; 5 fois par mois en Business Standard et Plus",
+   "source": "gw-S61",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.docs-match-format": {
+   "outil": "Google Workspace",
+   "nom": "Créer un document au format d'un autre",
+   "lieu": "Google Docs (onglet vide)",
+   "chemin": [
+    "Adapter le format du document (au-dessus de la barre inférieure)",
+    "Choisir le fichier",
+    "Ajouter",
+    "Prompt",
+    "Entrée"
+   ],
+   "lieu_en": "Google Docs (empty tab)",
+   "chemin_en": [
+    "Match doc format (above the bottom bar)",
+    "Select file",
+    "Add",
+    "Prompt",
+    "Enter"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur ; 5 fois par mois en Business Standard et Plus",
+   "source": "gw-S61",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.ws-history-user": {
+   "outil": "Google Workspace",
+   "nom": "Retrouver, renommer ou supprimer une conversation de Gemini dans Workspace",
+   "lieu": "Application Workspace",
+   "chemin": [
+    "Demander à Gemini",
+    "Plus d'options (en haut à gauche)",
+    "Historique",
+    "Afficher toutes les conversations",
+    "Plus",
+    "Renommer / Supprimer"
+   ],
+   "lieu_en": "Workspace app",
+   "chemin_en": [
+    "Ask Gemini",
+    "More options (top left)",
+    "History",
+    "View all conversations",
+    "More",
+    "Rename / Delete"
+   ],
+   "defaut": "conservées sans limite, sauf durée fixée par l'administrateur",
+   "qui": "Chaque utilisateur, si l'administrateur permet la suppression",
+   "source": "gw-S65",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.sheets-ai-function": {
+   "outil": "Google Workspace",
+   "nom": "Insérer la fonction IA dans Sheets",
+   "lieu": "Google Sheets",
+   "chemin": [
+    "Insérer",
+    "Fonction",
+    "AI (ou saisir =AI() / =Gemini())",
+    "Sélectionner la ou les cellules",
+    "Générer et insérer",
+    "{Actualiser et insérer}"
+   ],
+   "lieu_en": "Google Sheets",
+   "chemin_en": [
+    "Insert",
+    "Function",
+    "AI (or type =AI() / =Gemini())",
+    "Select the cell(s)",
+    "Generate and Insert",
+    "{Refresh and Insert}"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur, à partir de Business Standard",
+   "source": "gw-S69",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.sheets-ai-column": {
+   "outil": "Google Workspace",
+   "nom": "Ajouter une colonne IA à un tableau Sheets",
+   "lieu": "Google Sheets (tableau)",
+   "chemin": [
+    "Insérer une colonne IA à droite (en haut à droite de la dernière colonne)"
+   ],
+   "lieu_en": "Google Sheets (table)",
+   "chemin_en": [
+    "Insert AI column right (top right of last column)"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur",
+   "source": "gw-S69",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.sheets-side-panel": {
+   "outil": "Google Workspace",
+   "nom": "Demander à Gemini un tableau, une formule, une analyse ou un graphique dans Sheets",
+   "lieu": "Google Sheets",
+   "chemin": [
+    "Demander à Gemini (en haut à droite)",
+    "Prompt",
+    "Entrée",
+    "Insérer / Étapes de l'analyse / Exporter vers Docs"
+   ],
+   "lieu_en": "Google Sheets",
+   "chemin_en": [
+    "Ask Gemini (top right)",
+    "Prompt",
+    "Enter",
+    "Insert / Analysis steps / Export to Docs"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur, à partir de Business Standard",
+   "source": "gw-S67",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.sheets-actions": {
+   "outil": "Google Workspace",
+   "nom": "Laisser Gemini appliquer une action dans Sheets",
+   "lieu": "Google Sheets",
+   "chemin": [
+    "Demander à Gemini",
+    "Prompt décrivant l'action",
+    "Fiche d'aperçu de l'action",
+    "Appliquer",
+    "{Annuler}"
+   ],
+   "lieu_en": "Google Sheets",
+   "chemin_en": [
+    "Ask Gemini",
+    "Prompt describing the action",
+    "Action preview card",
+    "Apply",
+    "{Undo}"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur",
+   "source": "gw-S67",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.sheets-fix-formula": {
+   "outil": "Google Workspace",
+   "nom": "Corriger une formule en erreur avec Gemini",
+   "lieu": "Google Sheets",
+   "chemin": [
+    "Cellule en erreur (pointer)",
+    "Corriger",
+    "{Arrêter}"
+   ],
+   "lieu_en": "Google Sheets",
+   "chemin_en": [
+    "Error cell (hover)",
+    "Fix",
+    "{Stop}"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur",
+   "source": "gw-S67",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.sheets-xlsx": {
+   "outil": "Google Workspace",
+   "nom": "Convertir un fichier Excel avant d'utiliser Gemini",
+   "lieu": "Google Sheets",
+   "chemin": [
+    "Fichier",
+    "Enregistrer au format Google Sheets"
+   ],
+   "lieu_en": "Google Sheets",
+   "chemin_en": [
+    "File",
+    "Save as Google Sheets"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur",
+   "source": "gw-S67",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.nb-create": {
+   "outil": "Google Workspace",
+   "nom": "Créer un notebook et y ajouter une première source",
+   "lieu": "Gemini Notebook",
+   "chemin": [
+    "Créer un notebook",
+    "Importer une source"
+   ],
+   "lieu_en": "Gemini Notebook",
+   "chemin_en": [
+    "Create new notebook",
+    "Upload a source"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur",
+   "source": "gw-S81",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.nb-add-sources": {
+   "outil": "Google Workspace",
+   "nom": "Ajouter ou découvrir des sources : Drive, Web, recherche approfondie",
+   "lieu": "Gemini Notebook",
+   "chemin": [
+    "Ouvrir un notebook",
+    "Ajouter des sources (à gauche)",
+    "Recherche : Web ou Drive (Fast Research / Deep Research)",
+    "Sélectionner",
+    "Importer"
+   ],
+   "lieu_en": "Gemini Notebook",
+   "chemin_en": [
+    "Open a notebook",
+    "Add sources (left)",
+    "Search: Web or Drive (Fast Research / Deep Research)",
+    "Select",
+    "Import"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou éditeur du notebook",
+   "source": "gw-S79",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.nb-audio": {
+   "outil": "Google Workspace",
+   "nom": "Créer un résumé audio",
+   "lieu": "Gemini Notebook",
+   "chemin": [
+    "Panneau Studio",
+    "Résumé audio",
+    "Format : Analyse approfondie / Briefing / Critique / Débat",
+    "Langue",
+    "Longueur",
+    "Prompt (facultatif)"
+   ],
+   "lieu_en": "Gemini Notebook",
+   "chemin_en": [
+    "Studio panel",
+    "Audio Overview",
+    "Format: Deep Dive / The Brief / The Critique / The Debate",
+    "Language",
+    "Length",
+    "Prompt (optional)"
+   ],
+   "defaut": null,
+   "qui": "Toute personne qui peut modifier le notebook",
+   "source": "gw-S83",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.nb-video": {
+   "outil": "Google Workspace",
+   "nom": "Créer un résumé vidéo",
+   "lieu": "Gemini Notebook",
+   "chemin": [
+    "Panneau Studio",
+    "Résumé vidéo",
+    "Format : Cinématique / Explicatif / Court",
+    "Langue",
+    "Style visuel",
+    "Générer"
+   ],
+   "lieu_en": "Gemini Notebook",
+   "chemin_en": [
+    "Studio panel",
+    "Video Overview",
+    "Format: Cinematic / Explainer / Short",
+    "Language",
+    "Visual Style",
+    "Generate"
+   ],
+   "defaut": null,
+   "qui": "Toute personne qui peut modifier le notebook ; format cinématique pour les 18 ans et plus",
+   "source": "gw-S85",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.nb-share": {
+   "outil": "Google Workspace",
+   "nom": "Partager un notebook",
+   "lieu": "Gemini Notebook",
+   "chemin": [
+    "Ouvrir un notebook",
+    "Partager",
+    "Adresse e-mail",
+    "Lecteur / Éditeur",
+    "{Autoriser les copies}",
+    "Copier le lien"
+   ],
+   "lieu_en": "Gemini Notebook",
+   "chemin_en": [
+    "Open a notebook",
+    "Share",
+    "Email address",
+    "Viewer / Editor",
+    "{Allow copies}",
+    "Copy link"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou éditeur, dans les limites fixées par l'administrateur",
+   "source": "gw-S81",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.gemini-app-limits-view": {
+   "outil": "Google Workspace",
+   "nom": "Voir ses limites d'utilisation de l'application Gemini",
+   "lieu": "gemini.google.com",
+   "chemin": [
+    "Paramètres (en bas à gauche)",
+    "Limites d'utilisation"
+   ],
+   "lieu_en": "gemini.google.com",
+   "chemin_en": [
+    "Settings (bottom left)",
+    "Usage Limits"
+   ],
+   "defaut": null,
+   "qui": "Chaque utilisateur",
+   "source": "gw-S93",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gw.gemini-app-activity": {
+   "outil": "Google Workspace",
+   "nom": "Retrouver son activité dans l'application Gemini",
+   "lieu": "gemini.google.com",
+   "chemin": [
+    "Activité"
+   ],
+   "lieu_en": "gemini.google.com",
+   "chemin_en": [
+    "Activity"
+   ],
+   "defaut": "Conserver l'activité activé, réglé par l'administrateur",
+   "qui": "Chaque utilisateur",
+   "source": "gw-S93",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.buy-team": {
+   "outil": "Claude",
+   "nom": "Souscrire Claude Team",
+   "lieu": "claude.ai/login",
+   "chemin": [
+    "adresse e-mail professionnelle",
+    "invites d'intégration",
+    "sélectionnez le plan Team"
+   ],
+   "lieu_en": "claude.ai/login",
+   "chemin_en": [
+    "enter your work email address",
+    "follow the onboarding prompts",
+    "select the Team plan"
+   ],
+   "defaut": "intervalle de facturation choisi à l'inscription, mensuel ou annuel",
+   "qui": "Créateur du compte, avec une adresse professionnelle",
+   "source": "ce-C8f",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.upgrade-team": {
+   "outil": "Claude",
+   "nom": "Passer un compte personnel à Team",
+   "lieu": "claude.ai/upgrade",
+   "chemin": [
+    "case Garder votre compte personnel séparé (si affichée)"
+   ],
+   "lieu_en": "claude.ai/upgrade",
+   "chemin_en": [
+    "checkbox Keep your personal account separate (if shown)"
+   ],
+   "defaut": "passage sur place, sauf si « Garder votre compte personnel séparé » est coché",
+   "qui": "Titulaire du compte",
+   "source": "ce-C8f",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.add-seats": {
+   "outil": "Claude",
+   "nom": "Ajouter des sièges Standard ou Premium",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Organisation et accès",
+    "Gérer sous Sièges totaux",
+    "Ajouter ou modifier les sièges",
+    "+",
+    "Suivant",
+    "case de confirmation",
+    "Confirmer et acheter"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Organization and access",
+    "Manage under Total seats",
+    "Add or change seats",
+    "+",
+    "Next",
+    "confirmation box",
+    "Confirm & purchase"
+   ],
+   "defaut": "facturés au prorata, tout de suite",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.reduce-seats": {
+   "outil": "Claude",
+   "nom": "Réduire le nombre de sièges",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Organisation et accès",
+    "Gérer sous Sièges totaux",
+    "Ajouter ou modifier les sièges",
+    "-",
+    "Suivant",
+    "Confirmer et acheter"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Organization and access",
+    "Manage under Total seats",
+    "Add or change seats",
+    "-",
+    "Next",
+    "Confirm & purchase"
+   ],
+   "defaut": "au renouvellement suivant, sans remboursement au prorata",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.seat-tier": {
+   "outil": "Claude",
+   "nom": "Changer le type de siège d'un membre",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Membres",
+    "liste déroulante Niveau",
+    "Standard ou Premium"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Members",
+    "Tier dropdown",
+    "Standard or Premium"
+   ],
+   "defaut": "Standard vers Premium tout de suite ; Premium vers Standard au renouvellement",
+   "qui": "Administrateur et au-dessus",
+   "source": "ce-C6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.invite": {
+   "outil": "Claude",
+   "nom": "Inviter des membres",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Membres",
+    "Ajouter un membre",
+    "e-mail",
+    "type de siège",
+    "rôle",
+    "Ajouter des membres (plusieurs : Ajout en masse)"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Members",
+    "Add member",
+    "email",
+    "seat type",
+    "role",
+    "Add members (several: Bulk add)"
+   ],
+   "defaut": "invitation valable 21 jours ; elle occupe un siège tout de suite",
+   "qui": "Administrateur et au-dessus",
+   "source": "ce-C11",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.invite-link": {
+   "outil": "Claude",
+   "nom": "Lien d'invitation",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Organisation et accès"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Organization and access"
+   ],
+   "defaut": "activé pour les nouvelles organisations Team",
+   "qui": "Administrateur et au-dessus",
+   "source": "ce-C11",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.remove-member": {
+   "outil": "Claude",
+   "nom": "Retirer un membre",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Membres",
+    "bouton de menu à droite du membre",
+    "Supprimer de l'équipe"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Members",
+    "menu button to the right of the member",
+    "Remove from team"
+   ],
+   "defaut": "le siège se libère, le nombre de sièges payés ne baisse pas",
+   "qui": "Administrateur et au-dessus",
+   "source": "ce-C11",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.verify-domain": {
+   "outil": "Claude",
+   "nom": "Vérifier le domaine de l'entreprise",
+   "lieu": "Organisation et accès (claude.ai/admin-settings/organization)",
+   "chemin": [
+    "section Domaines",
+    "Ajouter ou modifier des domaines",
+    "+",
+    "Enregistrer",
+    "Vérifier",
+    "Continuer",
+    "enregistrement TXT",
+    "Actualiser"
+   ],
+   "lieu_en": "Organization and access (claude.ai/admin-settings/organization)",
+   "chemin_en": [
+    "Domains",
+    "Add or edit domains",
+    "+",
+    "Save",
+    "Verify",
+    "Continue",
+    "add TXT record",
+    "Refresh"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C13",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.restrict-org-creation": {
+   "outil": "Claude",
+   "nom": "Empêcher la création d'organisations Claude sur le domaine",
+   "lieu": "Organisation et accès",
+   "chemin": [
+    "Sécurité",
+    "Restreindre la création d'organisation"
+   ],
+   "lieu_en": "Organization and access",
+   "chemin_en": [
+    "Security",
+    "Restrict organization creation"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C13",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.sso": {
+   "outil": "Claude",
+   "nom": "Configurer la connexion unique (SSO)",
+   "lieu": "Organisation et accès",
+   "chemin": [
+    "Authentification",
+    "Configurer SSO (ou Gérer SSO)"
+   ],
+   "lieu_en": "Organization and access",
+   "chemin_en": [
+    "Authentication",
+    "Setup SSO (or Manage SSO)"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C13",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.require-sso": {
+   "outil": "Claude",
+   "nom": "Exiger la connexion unique",
+   "lieu": "Organisation et accès",
+   "chemin": [
+    "Authentification",
+    "Exiger SSO pour Claude"
+   ],
+   "lieu_en": "Organization and access",
+   "chemin_en": [
+    "Authentication",
+    "Require SSO for Claude"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C13",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.provisioning-mode": {
+   "outil": "Claude",
+   "nom": "Mode d'arrivée des membres",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Organisation et accès",
+    "Approvisionnement des utilisateurs",
+    "Invitation uniquement | Juste-à-temps (JIT) | Synchronisation d'annuaire SCIM"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Organization and access",
+    "User provisioning",
+    "Invite only | Just-in-time (JIT) | SCIM directory sync"
+   ],
+   "defaut": "Invitation uniquement",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C15",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.retention": {
+   "outil": "Claude",
+   "nom": "Durée de conservation des données",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Données et confidentialité",
+    "période de rétention (minimum 30 jours)",
+    "Enregistrez vos modifications"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Data and Privacy",
+    "set retention period (minimum 30 days)",
+    "Save"
+   ],
+   "defaut": "sans limite ; 30 jours au moins si fixée",
+   "qui": "Propriétaire ou propriétaire principal ; Enterprise seulement",
+   "source": "ce-C23",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.rate-chats": {
+   "outil": "Claude",
+   "nom": "Avis des membres sur les réponses",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Données et confidentialité",
+    "Évaluer les conversations"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Data and Privacy",
+    "Rate chats"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C37f",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.project-sharing": {
+   "outil": "Claude",
+   "nom": "Partage des projets et projets publics",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Données et confidentialité",
+    "Partage",
+    "Partager les projets / Projets publics"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Data and privacy",
+    "Sharing",
+    "Share projects / Public projects"
+   ],
+   "defaut": "les deux activés",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C35",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.connector-enable": {
+   "outil": "Claude",
+   "nom": "Rendre un connecteur disponible pour l'organisation",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Connecteurs",
+    "Parcourir les connecteurs",
+    "Ajouter à votre équipe"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Connectors",
+    "Browse connectors",
+    "Add to your team"
+   ],
+   "defaut": "indisponible tant qu'il n'est pas activé",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C40",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.connector-tools": {
+   "outil": "Claude",
+   "nom": "Restreindre ce qu'un connecteur peut faire",
+   "lieu": "Personnaliser",
+   "chemin": [
+    "Connecteurs",
+    "connecteur",
+    "permissions",
+    "Toujours autoriser | Approbation requise | Bloqué"
+   ],
+   "lieu_en": "Customize",
+   "chemin_en": [
+    "Connectors",
+    "select connector",
+    "Tool permissions",
+    "Always allow | Needs approval | Blocked"
+   ],
+   "defaut": null,
+   "qui": "Chaque membre, pour ses connecteurs",
+   "source": "ce-C40",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.m365": {
+   "outil": "Claude",
+   "nom": "Connecteur Microsoft 365",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Connecteurs",
+    "+ Ajouter",
+    "Tous les éléments disponibles",
+    "Microsoft 365",
+    "Ajouter à votre équipe"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Connectors",
+    "+ Add",
+    "All available",
+    "Microsoft 365",
+    "Add to your team"
+   ],
+   "defaut": "lecture seule ; l'écriture se débloque",
+   "qui": "Propriétaire ou propriétaire principal, et un administrateur général Microsoft Entra",
+   "source": "ce-C42",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.skills-provision": {
+   "outil": "Claude",
+   "nom": "Mettre une compétence à disposition de tous",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Plugins et compétences",
+    "Ajouter",
+    "Télécharger une compétence ou Créer une compétence"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Plugins & skills",
+    "Add",
+    "Upload a skill or Create a skill"
+   ],
+   "defaut": "activée pour tous",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C46",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.skills-user-created": {
+   "outil": "Claude",
+   "nom": "Compétences créées par les membres",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Plugins et compétences",
+    "onglet Politique",
+    "Compétences créées par l'utilisateur"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Plugins & skills",
+    "Policy tab",
+    "User-created skills"
+   ],
+   "defaut": "autorisées",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C46",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.artifacts": {
+   "outil": "Claude",
+   "nom": "Exécution de code, création de fichiers et artefacts",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Capacités",
+    "Exécution de code cloud et création de fichiers ; puis Paramètres de l'organisation",
+    "Artefacts",
+    "Artefacts / Partage externe"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Capabilities",
+    "Cloud code execution and file creation; then Organization settings",
+    "Artifacts",
+    "Artifacts / External sharing"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C48",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.claude-code-login": {
+   "outil": "Claude",
+   "nom": "Relier Claude Code au siège Team ou Enterprise",
+   "lieu": "Terminal: claude",
+   "chemin": [
+    "Compte Claude avec abonnement",
+    "choisir le plan Team ou Enterprise",
+    "Autoriser"
+   ],
+   "lieu_en": "terminal: claude",
+   "chemin_en": [
+    "Claude account with subscription",
+    "select your Team or Enterprise plan",
+    "Authorize"
+   ],
+   "defaut": "compris dans chaque siège",
+   "qui": "Chaque membre",
+   "source": "ce-C21f",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.analytics": {
+   "outil": "Claude",
+   "nom": "Statistiques d'usage et rapport de dépenses",
+   "lieu": "Paramètres",
+   "chemin": [
+    "Analytics",
+    "Exporter le rapport de dépenses",
+    "période",
+    "Télécharger"
+   ],
+   "lieu_en": "Settings",
+   "chemin_en": [
+    "Analytics",
+    "How much is Claude costing?",
+    "Export spend report",
+    "period",
+    "Download"
+   ],
+   "defaut": "rapport sur 90 jours au plus",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C29",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.export-data": {
+   "outil": "Claude",
+   "nom": "Exporter les données de l'organisation",
+   "lieu": "Initiales en bas à gauche",
+   "chemin": [
+    "Paramètres d'organisation",
+    "Données et confidentialité",
+    "Exporter les données"
+   ],
+   "lieu_en": "initials in the lower left",
+   "chemin_en": [
+    "Organization settings",
+    "Data and privacy",
+    "Export Data"
+   ],
+   "defaut": "lien valable 24 heures",
+   "qui": "Propriétaire principal",
+   "source": "ce-C36f",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.annual": {
+   "outil": "Claude",
+   "nom": "Passer de la facturation mensuelle à l'annuelle",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Facturation",
+    "Passer à l'annuel",
+    "Confirmer l'abonnement"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Billing",
+    "Switch to Annual",
+    "Confirm subscription"
+   ],
+   "defaut": "immédiat, mois non utilisé crédité",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C27f",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.cancel-team": {
+   "outil": "Claude",
+   "nom": "Résilier Claude Team",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Facturation"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Billing"
+   ],
+   "defaut": "accès jusqu'à la fin de la période payée",
+   "qui": "Propriétaire ou propriétaire principal",
+   "source": "ce-C25",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.audit-logs": {
+   "outil": "Claude",
+   "nom": "Exporter les journaux d'audit",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Données et confidentialité",
+    "Exporter les journaux"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Data and Privacy",
+    "Export logs"
+   ],
+   "defaut": "180 derniers jours ; lien valable 24 heures",
+   "qui": "Propriétaire principal ; Enterprise seulement",
+   "source": "ce-C31",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "cl.us-inference": {
+   "outil": "Claude",
+   "nom": "Calcul réservé aux États-Unis",
+   "lieu": "Paramètres de l'organisation",
+   "chemin": [
+    "Données et confidentialité",
+    "inférence réservée aux États-Unis"
+   ],
+   "lieu_en": "Organization settings",
+   "chemin_en": [
+    "Data and privacy",
+    "US-only inference"
+   ],
+   "defaut": "désactivé",
+   "qui": "Enterprise à l'usage seulement",
+   "source": "ce-C33",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.manage-seats": {
+   "outil": "ChatGPT",
+   "nom": "Ajouter des sièges ou programmer une réduction",
+   "lieu": "Espace de travail",
+   "chemin": [
+    "Membres",
+    "utilisateurs",
+    "Gérer les licences"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Members",
+    "Users",
+    "Manage seats"
+   ],
+   "defaut": "sièges ajoutés facturés au prorata, tout de suite",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O4",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.invite": {
+   "outil": "ChatGPT",
+   "nom": "Inviter des membres",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "membres",
+    "Inviter un membre",
+    "CSV ou adresses e-mail"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Members",
+    "Invite member",
+    "import CSV or enter email addresses"
+   ],
+   "defaut": "une invitation ne réserve pas de siège",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.role": {
+   "outil": "ChatGPT",
+   "nom": "Changer le rôle d'un membre",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "membres",
+    "colonne Rôle"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Members",
+    "Role column"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.seat-type": {
+   "outil": "ChatGPT",
+   "nom": "Changer le type de licence d'un membre",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "membres",
+    "colonne Type de licence"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Members",
+    "Seat type column"
+   ],
+   "defaut": "Standard",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.default-seat": {
+   "outil": "ChatGPT",
+   "nom": "Type de licence par défaut des nouveaux membres",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "Facturation",
+    "Préférences de licence"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Billing",
+    "Seat preferences"
+   ],
+   "defaut": "Standard",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.remove-member": {
+   "outil": "ChatGPT",
+   "nom": "Retirer un membre",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "membres",
+    "menu (•••)",
+    "Supprimer le membre"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Members",
+    "more options menu (•••)",
+    "Remove member"
+   ],
+   "defaut": "le siège reste facturé jusqu'à sa réduction",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.discovery": {
+   "outil": "ChatGPT",
+   "nom": "Découverte de l'espace par les collègues du domaine",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "Identité et accès",
+    "User Provisioning (Provisionnement des utilisateurs)",
+    "Enable workspace discovery (Activer la découverte de lespace de travail) ; option Accepter automatiquement les demandes dadhésion"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Identity & access",
+    "User Provisioning",
+    "Enable workspace discovery; optional Automatically accept join requests"
+   ],
+   "defaut": "activé en Business",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O6",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.sso": {
+   "outil": "ChatGPT",
+   "nom": "Vérifier le domaine et configurer la connexion unique",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "Identité et accès",
+    "Identité et provisionnement",
+    "Domaines vérifiés",
+    "Authentification unique (SSO)",
+    "Configurer le SSO"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Identity & access",
+    "Identity & provisioning",
+    "Verified Domains",
+    "Single Sign-On (SSO)",
+    "Set up SSO"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire de l'espace",
+   "source": "ce-O10",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.auto-account": {
+   "outil": "ChatGPT",
+   "nom": "Création automatique des comptes du domaine vérifié",
+   "lieu": "Activer la création automatique de compte",
+   "chemin": [
+    "Activer la création automatique de compte"
+   ],
+   "lieu_en": "Enable automatic account creation",
+   "chemin_en": [
+    "Enable automatic account creation"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire de l'espace",
+   "source": "ce-O10",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.plugins-apps": {
+   "outil": "ChatGPT",
+   "nom": "Applications et connecteurs de l'espace",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "Plugins ; Paramètres de l'espace de travail",
+    "Applications"
+   ],
+   "lieu_en": "Admin Console",
+   "chemin_en": [
+    "select the ChatGPT workspace",
+    "Plugins (legacy apps: Plugins",
+    "Manage Legacy Apps, or Workspace settings",
+    "Apps)"
+   ],
+   "defaut": "applications activées en Business",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O20",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.app-actions": {
+   "outil": "ChatGPT",
+   "nom": "Actions de lecture ou d'écriture d'une application",
+   "lieu": "Admin",
+   "chemin": [
+    "Plugins",
+    "plugin",
+    "Actions",
+    "Actions de lecture / Actions d'écriture ; Nouvelles actions"
+   ],
+   "lieu_en": "Admin Console",
+   "chemin_en": [
+    "Plugins",
+    "plugin",
+    "Actions",
+    "Read actions / Write actions; New actions: Enable all new actions | Only enable new read actions | Disable new actions"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O20",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.company-knowledge": {
+   "outil": "ChatGPT",
+   "nom": "Connaissances de l'entreprise",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "espace de travail",
+    "Plugins",
+    "Connaissances de l'entreprise",
+    "Politique d'installation",
+    "Installé"
+   ],
+   "lieu_en": "Admin Console",
+   "chemin_en": [
+    "workspace",
+    "Plugins",
+    "Company Knowledge",
+    "Installation policy",
+    "Installed"
+   ],
+   "defaut": "applications activées par défaut en Business",
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O18",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.sharepoint": {
+   "outil": "ChatGPT",
+   "nom": "Autorisations Microsoft pour SharePoint, Outlook et Teams",
+   "lieu": "Console d'administration",
+   "chemin": [
+    "espace de travail",
+    "Plugins",
+    "Configurer les autorisations Microsoft",
+    "consentement Microsoft Entra"
+   ],
+   "lieu_en": "Admin Console",
+   "chemin_en": [
+    "workspace",
+    "Plugins",
+    "Configure Microsoft permissions",
+    "Microsoft Entra consent (legacy: Workspace settings",
+    "Apps",
+    "SharePoint",
+    "Microsoft permissions)"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'espace, et consentement d'un administrateur Microsoft",
+   "source": "ce-O22",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.gpt-share": {
+   "outil": "ChatGPT",
+   "nom": "Partager un GPT",
+   "lieu": "Ouvrez le GPT dans l'éditeur",
+   "chemin": [
+    "Partager",
+    "niveau de partage",
+    "niveau d'autorisation",
+    "Enregistrer"
+   ],
+   "lieu_en": "Open the GPT in the editor",
+   "chemin_en": [
+    "Share",
+    "sharing level",
+    "permission level",
+    "Save"
+   ],
+   "defaut": null,
+   "qui": "Créateur du GPT",
+   "source": "ce-O23f",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.projects-rbac": {
+   "outil": "ChatGPT",
+   "nom": "Qui peut créer ou partager des projets",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "Autorisations et rôles",
+    "Créer et gérer des projets / Partager des projets"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Permissions & roles",
+    "Projects",
+    "Create and manage projects / Share projects"
+   ],
+   "defaut": null,
+   "qui": "Propriétaire ou administrateur de l'espace",
+   "source": "ce-O26",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.shared-links": {
+   "outil": "ChatGPT",
+   "nom": "Supprimer un lien de conversation partagée",
+   "lieu": "Paramètres",
+   "chemin": [
+    "contrôles des données",
+    "Liens partagés",
+    "Gérer",
+    "Supprimer le lien partagé"
+   ],
+   "lieu_en": "Settings",
+   "chemin_en": [
+    "Data controls",
+    "Shared links",
+    "Manage",
+    "Delete shared link"
+   ],
+   "defaut": null,
+   "qui": "Chaque membre",
+   "source": "ce-O16",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.credits": {
+   "outil": "ChatGPT",
+   "nom": "Crédits, rechargement automatique et plafonds de dépense",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "Facturation",
+    "ajouter des crédits ; type de licence",
+    "Ajouter ; remplacement par utilisateur",
+    "Gérer",
+    "Ajouter"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Billing",
+    "add credits; Automatic reload; seat type",
+    "Add; Per user override",
+    "Manage",
+    "Add"
+   ],
+   "defaut": "aucun plafond",
+   "qui": "Propriétaire de l'espace",
+   "source": "ce-O39",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.billing-cadence": {
+   "outil": "ChatGPT",
+   "nom": "Passer de la facturation mensuelle à l'annuelle",
+   "lieu": "Facturation",
+   "chemin": [
+    "Gérer la licence",
+    "calendrier de facturation"
+   ],
+   "lieu_en": "Billing",
+   "chemin_en": [
+    "Manage license",
+    "Billing schedule",
+    "Continue",
+    "Confirm"
+   ],
+   "defaut": "au renouvellement",
+   "qui": "Propriétaire de l'espace",
+   "source": "ce-O4",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "gpt.cancel": {
+   "outil": "ChatGPT",
+   "nom": "Résilier ChatGPT Business",
+   "lieu": "Paramètres de l'espace de travail",
+   "chemin": [
+    "Facturation",
+    "Gérer l'abonnement",
+    "Annuler l'abonnement"
+   ],
+   "lieu_en": "Workspace settings",
+   "chemin_en": [
+    "Billing",
+    "Manage plan",
+    "Cancel subscription"
+   ],
+   "defaut": "accès jusqu'à la fin de la période payée",
+   "qui": "Propriétaire de l'espace",
+   "source": "ce-O41",
+   "releve": "2026-10-08",
+   "note": null,
+   "langue": "fr"
+  },
+  "mis.membres": {
+   "outil": "Mistral Vibe Team et Enterprise",
+   "nom": "Inviter des membres",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Administration",
+    "Members",
+    "Invite members"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Administration",
+    "Members",
+    "Invite members"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-membres",
+   "releve": "2026-10-09",
+   "note": "Rôle à choisir : Admin, Billing ou Member ; puis les sièges.",
+   "langue": "en"
+  },
+  "mis.domaine": {
+   "outil": "Mistral Vibe Team et Enterprise",
+   "nom": "Vérifier le domaine",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Administration",
+    "Access",
+    "Domain Ownership",
+    "Add Domain"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Administration",
+    "Access",
+    "Domain Ownership",
+    "Add Domain"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-domaine",
+   "releve": "2026-10-09",
+   "note": "Puis Verify domain, et l'enregistrement TXT chez votre hébergeur de nom de domaine.",
+   "langue": "en"
+  },
+  "mis.domaine-decouvrable": {
+   "outil": "Mistral Vibe Team et Enterprise",
+   "nom": "Laisser les adresses du domaine rejoindre l'organisation",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Administration",
+    "Access",
+    "Domain Ownership",
+    "Discoverable"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Administration",
+    "Access",
+    "Domain Ownership",
+    "Discoverable"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-domaine-auth",
+   "releve": "2026-10-09",
+   "note": null,
+   "langue": "en"
+  },
+  "mis.espace-fonctions": {
+   "outil": "Mistral Vibe Team et Enterprise",
+   "nom": "Fonctions d'un espace de travail",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Administration",
+    "Workspaces",
+    "{the workspace}"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Administration",
+    "Workspaces",
+    "{the workspace}"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-espaces",
+   "releve": "2026-10-09",
+   "note": "Work mode, Agents, Canvas, Code Interpreter, Deep Research, Image Generation, Memories, Thinking Mode, Web Search.",
+   "langue": "en"
+  },
+  "mis.abonnement": {
+   "outil": "Mistral Vibe",
+   "nom": "Formule, sièges et paiement à l'usage",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Subscription"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Subscription"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-abonnement",
+   "releve": "2026-10-09",
+   "note": null,
+   "langue": "en"
+  },
+  "mis.plafond": {
+   "outil": "Mistral Vibe",
+   "nom": "Plafond de dépense mensuel",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Admin Panel",
+    "Subscriptions",
+    "Billing",
+    "Monthly spending limit"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Admin Panel",
+    "Subscriptions",
+    "Billing",
+    "Monthly spending limit"
+   ],
+   "defaut": null,
+   "qui": "Administrateur de l'organisation",
+   "source": "mis-organisation",
+   "releve": "2026-10-09",
+   "note": null,
+   "langue": "en"
+  },
+  "mis.bibliotheque-partage": {
+   "outil": "Mistral Vibe",
+   "nom": "Partager une bibliothèque",
+   "lieu": "Mistral Vibe",
+   "chemin": [
+    "Libraries",
+    "{the library}",
+    "Share"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Libraries",
+    "{the library}",
+    "Share"
+   ],
+   "defaut": "privée",
+   "qui": "le propriétaire de la bibliothèque",
+   "source": "doc-s67",
+   "releve": "2026-10-09",
+   "note": "Collaborator ou Viewer, pour des personnes nommées ou Entire organization.",
+   "langue": "en"
+  },
+  "ppx.membres": {
+   "outil": "Perplexity Enterprise",
+   "nom": "Inviter des membres",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Paramètres de l'organisation",
+    "Membres",
+    "Inviter de nouveaux membres"
+   ],
+   "lieu_en": "Perplexity",
+   "chemin_en": [
+    "Organization settings",
+    "Members"
+   ],
+   "defaut": null,
+   "qui": "Administrateur",
+   "source": "ppx-membres-fr",
+   "releve": "2026-10-09",
+   "note": "Choisir Enterprise Pro ou Enterprise Max, puis « + ». En anglais, le bouton d'invitation n'a pas été relevé.",
+   "langue": "fr"
+  },
+  "ppx.sso": {
+   "outil": "Perplexity Enterprise",
+   "nom": "Connexion unique d'entreprise",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Organization settings",
+    "Identity",
+    "Enable SSO"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization settings",
+    "Identity",
+    "Enable SSO"
+   ],
+   "defaut": null,
+   "qui": "Administrateur",
+   "source": "ppx-sso",
+   "releve": "2026-10-07",
+   "note": "Domaines vérifiés par un enregistrement DNS TXT ; un seul fournisseur d'identité.",
+   "langue": "en"
+  },
+  "ppx.connecteurs": {
+   "outil": "Perplexity Enterprise",
+   "nom": "Connecteurs de l'organisation",
+   "lieu": "Perplexity",
+   "chemin": [
+    "Organization Settings",
+    "Connectors"
+   ],
+   "lieu_en": null,
+   "chemin_en": [
+    "Organization Settings",
+    "Connectors"
+   ],
+   "defaut": null,
+   "qui": "Administrateur, ou le rôle Manage connector defaults",
+   "source": "ppx-roles",
+   "releve": "2026-10-07",
+   "note": "Activer ou couper chaque connecteur, et décider si les nouveaux sont activés par défaut.",
+   "langue": "en"
+  }
+ }
+}

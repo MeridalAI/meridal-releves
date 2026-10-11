@@ -1,0 +1,2202 @@
+{
+  "name": "meridal-apprendre-releves",
+  "title": "Relevés de la rubrique Apprendre de Meridal",
+  "description": "Les relevés sur lesquels s'appuient les pages de la rubrique Apprendre : modèles, prix, classements, offres, réglages, calendrier réglementaire. Chaque valeur porte sa source, son adresse et sa date de lecture ; ce qui n'a pas été trouvé reste vide, jamais estimé. Les faits relevés appartiennent à leurs sources et se citent avec elles ; la sélection, la mise en forme et les notes de Meridal sont sous licence CC BY 4.0.",
+  "homepage": "https://meridal.fr/apprendre/releves-en-telechargement/",
+  "version": "2026-10-09",
+  "created": "2026-10-09",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/deed.fr",
+      "title": "Creative Commons Attribution 4.0 International"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Meridal",
+      "role": "author",
+      "path": "https://meridal.fr/"
+    }
+  ],
+  "keywords": [
+    "intelligence artificielle",
+    "modèles de langage",
+    "prix",
+    "classements",
+    "réglementation",
+    "PME"
+  ],
+  "resources": [
+    {
+      "name": "marche",
+      "path": "data/marche.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Marché des modèles et abonnements",
+      "description": "Les modèles du marché et les abonnements d'équipe : prix par million de tokens, contexte, pays, licence, prix par utilisateur. Clés en anglais.",
+      "bytes": 109081,
+      "hash": "sha256:ac63fa3b9acf56c200024ca7ff9391736a11f41720c947a0f69625ada38700e7"
+    },
+    {
+      "name": "marche-models",
+      "path": "data/marche-models.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Marché des modèles et abonnements : tableau models",
+      "description": "Le tableau « marche-models » du relevé marche.json, une ligne par entrée.",
+      "bytes": 57648,
+      "hash": "sha256:836398b18fdf396473b262ec2332d8a56f8f77fdc7f7157375350fe7ed489b03",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "api_id",
+            "type": "string"
+          },
+          {
+            "name": "provider",
+            "type": "string"
+          },
+          {
+            "name": "provider_country",
+            "type": "string"
+          },
+          {
+            "name": "release_date",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "tier",
+            "type": "string"
+          },
+          {
+            "name": "price_input_usd_per_mtok",
+            "type": "number"
+          },
+          {
+            "name": "price_output_usd_per_mtok",
+            "type": "number"
+          },
+          {
+            "name": "price_cached_input_usd_per_mtok",
+            "type": "number"
+          },
+          {
+            "name": "pricing_notes",
+            "type": "string"
+          },
+          {
+            "name": "context_window_tokens",
+            "type": "integer"
+          },
+          {
+            "name": "max_output_tokens",
+            "type": "integer"
+          },
+          {
+            "name": "input_modalities",
+            "type": "string"
+          },
+          {
+            "name": "reasoning",
+            "type": "string"
+          },
+          {
+            "name": "open_weights",
+            "type": "boolean"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "eu_hosting",
+            "type": "string"
+          },
+          {
+            "name": "known_for",
+            "type": "string"
+          },
+          {
+            "name": "sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "marche-subscriptions",
+      "path": "data/marche-subscriptions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Marché des modèles et abonnements : tableau subscriptions",
+      "description": "Le tableau « marche-subscriptions » du relevé marche.json, une ligne par entrée.",
+      "bytes": 8019,
+      "hash": "sha256:db001f2fcbdf6e9c5dc984376d6d2b719c0d5ba06204e0febbe62bb5f960face",
+      "schema": {
+        "fields": [
+          {
+            "name": "product",
+            "type": "string"
+          },
+          {
+            "name": "vendor",
+            "type": "string"
+          },
+          {
+            "name": "price_per_user_month",
+            "type": "string"
+          },
+          {
+            "name": "currency",
+            "type": "string"
+          },
+          {
+            "name": "billing",
+            "type": "string"
+          },
+          {
+            "name": "min_seats",
+            "type": "integer"
+          },
+          {
+            "name": "max_seats",
+            "type": "integer"
+          },
+          {
+            "name": "included",
+            "type": "string"
+          },
+          {
+            "name": "models",
+            "type": "string"
+          },
+          {
+            "name": "admin_sso",
+            "type": "string"
+          },
+          {
+            "name": "training_on_customer_data",
+            "type": "string"
+          },
+          {
+            "name": "eu_data_residency",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "marche-notes",
+      "path": "data/marche-notes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Marché des modèles et abonnements : tableau notes",
+      "description": "Le tableau « marche-notes » du relevé marche.json, une ligne par entrée.",
+      "bytes": 14433,
+      "hash": "sha256:a040b5de32cba989be87e641ea0085d9c0ca97884b0a7cbc95179ad3574a639d",
+      "schema": {
+        "fields": [
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "text",
+            "type": "string"
+          },
+          {
+            "name": "sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "classements",
+      "path": "data/classements.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Classements des modèles",
+      "description": "Les tests, les modèles et les notes de chaque modèle à chaque test, chaque note avec sa source, son adresse et sa date, puis les lacunes et les réserves de lecture. Clés en anglais.",
+      "bytes": 168333,
+      "hash": "sha256:6e388d49bbc1dc6c94811fbca588367bdb906d9cef0c1600e46f07c536205031"
+    },
+    {
+      "name": "classements-scores",
+      "path": "data/classements-scores.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Classements des modèles : tableau scores",
+      "description": "Le tableau « classements-scores » du relevé classements.json, une ligne par entrée.",
+      "bytes": 88046,
+      "hash": "sha256:3da94057fa4295d27b8866c5f7811e8217526be3aa117043af7ef24da7eb399a",
+      "schema": {
+        "fields": [
+          {
+            "name": "model",
+            "type": "string"
+          },
+          {
+            "name": "test",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "number"
+          },
+          {
+            "name": "unit",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "classements-tests",
+      "path": "data/classements-tests.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Classements des modèles : tableau tests",
+      "description": "Le tableau « classements-tests » du relevé classements.json, une ligne par entrée.",
+      "bytes": 12059,
+      "hash": "sha256:a20562a260ecb508ca9f12b8d114a00ebb0a8cebfb748385a828a0983e45a72e",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "creator",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "measures",
+            "type": "string"
+          },
+          {
+            "name": "items",
+            "type": "string"
+          },
+          {
+            "name": "format",
+            "type": "string"
+          },
+          {
+            "name": "unit",
+            "type": "string"
+          },
+          {
+            "name": "human_baseline",
+            "type": "string"
+          },
+          {
+            "name": "saturation",
+            "type": "string"
+          },
+          {
+            "name": "known_issues",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "classements-models",
+      "path": "data/classements-models.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Classements des modèles : tableau models",
+      "description": "Le tableau « classements-models » du relevé classements.json, une ligne par entrée.",
+      "bytes": 2854,
+      "hash": "sha256:639c66c190cd93224b7845e2e765f2c05d3f4e248d841b09c9abaaf5c8c0f9d5",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "provider",
+            "type": "string"
+          },
+          {
+            "name": "release_date",
+            "type": "string"
+          },
+          {
+            "name": "open_weights",
+            "type": "boolean"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "offres",
+      "path": "data/offres.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Offres et prix des éditeurs",
+      "description": "Les offres d'abonnement relevées sur les pages françaises des éditeurs, en euros hors taxe ; une promotion est à part, avec ses dates et ses conditions.",
+      "bytes": 18502,
+      "hash": "sha256:5296559c4481574a08467f8cfe091eb9ea5c8132eb0d928f038bcf0a01e9bde1"
+    },
+    {
+      "name": "offres",
+      "path": "data/offres.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Offres et prix des éditeurs : tableau",
+      "description": "Le tableau « offres » du relevé offres.json, une ligne par entrée.",
+      "bytes": 6730,
+      "hash": "sha256:a3b3ab3132b55e3d4b4e12d3100c44e4b5f452f69a2c8ecc7f7d4d0dade8d9ce",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "nom",
+            "type": "string"
+          },
+          {
+            "name": "ancien_nom",
+            "type": "string"
+          },
+          {
+            "name": "editeur",
+            "type": "string"
+          },
+          {
+            "name": "nature",
+            "type": "string"
+          },
+          {
+            "name": "montant",
+            "type": "number"
+          },
+          {
+            "name": "devise",
+            "type": "string"
+          },
+          {
+            "name": "taxe",
+            "type": "string"
+          },
+          {
+            "name": "engagement",
+            "type": "string"
+          },
+          {
+            "name": "libelle",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "releve",
+            "type": "string"
+          },
+          {
+            "name": "conditions",
+            "type": "string"
+          },
+          {
+            "name": "contredit",
+            "type": "string"
+          },
+          {
+            "name": "unite",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "reglages",
+      "path": "data/reglages.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Réglages des consoles",
+      "description": "Les chemins de réglages dans les consoles des éditeurs, en libellés français et anglais, avec le rôle qui les change, leur valeur par défaut et leur source.",
+      "bytes": 194517,
+      "hash": "sha256:167aea40157f2eab512845d940d90297a7d7748789ad8ce37e53dbea1118caa9"
+    },
+    {
+      "name": "reglages",
+      "path": "data/reglages.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Réglages des consoles : tableau",
+      "description": "Le tableau « reglages » du relevé reglages.json, une ligne par entrée.",
+      "bytes": 86992,
+      "hash": "sha256:c7d5e77d73c41634bb18b92e37f434813511e4fcdecfee498f3e48f61cd69b1b",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "nom",
+            "type": "string"
+          },
+          {
+            "name": "lieu",
+            "type": "string"
+          },
+          {
+            "name": "chemin",
+            "type": "string"
+          },
+          {
+            "name": "lieu_en",
+            "type": "string"
+          },
+          {
+            "name": "chemin_en",
+            "type": "string"
+          },
+          {
+            "name": "defaut",
+            "type": "string"
+          },
+          {
+            "name": "qui",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "releve",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          },
+          {
+            "name": "langue",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "calendrier",
+      "path": "data/calendrier.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Calendrier réglementaire",
+      "description": "Les dates d'application de la réglementation sur l'IA et les sujets en discussion, chacun avec son texte officiel.",
+      "bytes": 9853,
+      "hash": "sha256:443dcf5938a2a2eb952e011df92240b7961b25341a09b9ee89ffc23fd1374102"
+    },
+    {
+      "name": "calendrier-dates",
+      "path": "data/calendrier-dates.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Calendrier réglementaire : tableau dates",
+      "description": "Le tableau « calendrier-dates » du relevé calendrier.json, une ligne par entrée.",
+      "bytes": 5147,
+      "hash": "sha256:05087230f1ca1913ca5e623a0c0f9be58bfcd01084d6ff4afb24000b521982bd",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "statut",
+            "type": "string"
+          },
+          {
+            "name": "domaine",
+            "type": "string"
+          },
+          {
+            "name": "quoi",
+            "type": "string"
+          },
+          {
+            "name": "texte",
+            "type": "string"
+          },
+          {
+            "name": "source_titre",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "calendrier-en-discussion",
+      "path": "data/calendrier-en-discussion.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Calendrier réglementaire : tableau en-discussion",
+      "description": "Le tableau « calendrier-en-discussion » du relevé calendrier.json, une ligne par entrée.",
+      "bytes": 2019,
+      "hash": "sha256:8acfbb40c312e71bdd0950c856c2af0b871f5ac9996585ed978474705e719b8b",
+      "schema": {
+        "fields": [
+          {
+            "name": "domaine",
+            "type": "string"
+          },
+          {
+            "name": "quoi",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "hallucinations",
+      "path": "data/hallucinations.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Taux d'hallucination",
+      "description": "Le taux d'hallucination de chaque modèle sur le résumé de documents, d'après l'évaluation de Vectara.",
+      "bytes": 2659,
+      "hash": "sha256:6697e1c10890ef655fa91cc30ac4f7332140afa7a8eaae53e1c3ba6435a6e9e7"
+    },
+    {
+      "name": "hallucinations",
+      "path": "data/hallucinations.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Taux d'hallucination : tableau",
+      "description": "Le tableau « hallucinations » du relevé hallucinations.json, une ligne par entrée.",
+      "bytes": 830,
+      "hash": "sha256:029825df0fd8f1d3ca5e7aa20253e388d15e87f2f9ae6e3fb1ba281077bc90a6",
+      "schema": {
+        "fields": [
+          {
+            "name": "modele",
+            "type": "string"
+          },
+          {
+            "name": "editeur",
+            "type": "string"
+          },
+          {
+            "name": "id_vectara",
+            "type": "string"
+          },
+          {
+            "name": "taux_pct",
+            "type": "number"
+          },
+          {
+            "name": "note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "spreadsheetbench",
+      "path": "data/spreadsheetbench.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Tâches de tableur",
+      "description": "Les scores des modèles sur un banc d'essai de tâches de tableur, en deux versions.",
+      "bytes": 7386,
+      "hash": "sha256:39fa300dd85825920493eddeeb80b039761a243b82817b6e58447cbdf635d2a9"
+    },
+    {
+      "name": "spreadsheetbench-v1",
+      "path": "data/spreadsheetbench-v1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Tâches de tableur : tableau v1",
+      "description": "Le tableau « spreadsheetbench-v1 » du relevé spreadsheetbench.json, une ligne par entrée.",
+      "bytes": 1017,
+      "hash": "sha256:a1ef0accf5cf84c6de7f741cde4073915f33fffd2b44a336dbe992e52256f7b1",
+      "schema": {
+        "fields": [
+          {
+            "name": "model",
+            "type": "string"
+          },
+          {
+            "name": "organization",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "verified",
+            "type": "boolean"
+          },
+          {
+            "name": "score",
+            "type": "number"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "spreadsheetbench-v2",
+      "path": "data/spreadsheetbench-v2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Tâches de tableur : tableau v2",
+      "description": "Le tableau « spreadsheetbench-v2 » du relevé spreadsheetbench.json, une ligne par entrée.",
+      "bytes": 1842,
+      "hash": "sha256:e9e47e2dd615956e3cd4153f49c02f4fce24f2d160f9716a5314c4ceb958ebb4",
+      "schema": {
+        "fields": [
+          {
+            "name": "model",
+            "type": "string"
+          },
+          {
+            "name": "scaffold",
+            "type": "string"
+          },
+          {
+            "name": "organization",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "verified",
+            "type": "boolean"
+          },
+          {
+            "name": "score",
+            "type": "number"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "subscores",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "assistants-code",
+      "path": "data/assistants-code.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Assistants de code",
+      "description": "Seize assistants de code, relevés les 8 et 9 octobre 2026 sur les pages de prix, de données et de documentation des éditeurs, et sur GitHub. Prix en dollars, hors taxes sauf mention, par personne et par mois.",
+      "bytes": 31490,
+      "hash": "sha256:27bf4601ce0f792796ca3f972496b820b9a310ae8de4e97a873b679e68f0cd4a"
+    },
+    {
+      "name": "assistants-code",
+      "path": "data/assistants-code.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Assistants de code : tableau",
+      "description": "Le tableau « assistants-code » du relevé assistants-code.json, une ligne par entrée.",
+      "bytes": 10735,
+      "hash": "sha256:9cc4b99147a68b0f649f5aedb4828ffbb04d023441c09320b36f2a87d1db4331",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "forme",
+            "type": "string"
+          },
+          {
+            "name": "forme_etat",
+            "type": "string"
+          },
+          {
+            "name": "forme_sources",
+            "type": "string"
+          },
+          {
+            "name": "equipe",
+            "type": "string"
+          },
+          {
+            "name": "equipe_etat",
+            "type": "string"
+          },
+          {
+            "name": "equipe_sources",
+            "type": "string"
+          },
+          {
+            "name": "donnees",
+            "type": "string"
+          },
+          {
+            "name": "donnees_etat",
+            "type": "string"
+          },
+          {
+            "name": "donnees_sources",
+            "type": "string"
+          },
+          {
+            "name": "europe",
+            "type": "string"
+          },
+          {
+            "name": "europe_etat",
+            "type": "string"
+          },
+          {
+            "name": "europe_sources",
+            "type": "string"
+          },
+          {
+            "name": "contexte",
+            "type": "string"
+          },
+          {
+            "name": "contexte_etat",
+            "type": "string"
+          },
+          {
+            "name": "contexte_sources",
+            "type": "string"
+          },
+          {
+            "name": "defaut",
+            "type": "string"
+          },
+          {
+            "name": "defaut_etat",
+            "type": "string"
+          },
+          {
+            "name": "defaut_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "automatisation-service",
+      "path": "data/automatisation-service.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Automatisation : arrêts, reprises, alertes",
+      "description": "Ce qui arrête une automatisation, ses nouvelles tentatives, son historique et ses alertes, outil par outil, relevés le 8 octobre 2026 dans la documentation des éditeurs.",
+      "bytes": 8176,
+      "hash": "sha256:0a0481a28fab1069c8852aa8a9a0cc9ee7cb253a024c62f114058c3513ff1034"
+    },
+    {
+      "name": "automatisation-service",
+      "path": "data/automatisation-service.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Automatisation : arrêts, reprises, alertes : tableau",
+      "description": "Le tableau « automatisation-service » du relevé automatisation-service.json, une ligne par entrée.",
+      "bytes": 3179,
+      "hash": "sha256:c4cd209736eba2162d8a4cf6f726eb1965bef61bbbabe531369d44a68397278b",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "arret",
+            "type": "string"
+          },
+          {
+            "name": "arret_etat",
+            "type": "string"
+          },
+          {
+            "name": "arret_sources",
+            "type": "string"
+          },
+          {
+            "name": "essais",
+            "type": "string"
+          },
+          {
+            "name": "essais_etat",
+            "type": "string"
+          },
+          {
+            "name": "essais_sources",
+            "type": "string"
+          },
+          {
+            "name": "histo",
+            "type": "string"
+          },
+          {
+            "name": "histo_etat",
+            "type": "string"
+          },
+          {
+            "name": "histo_sources",
+            "type": "string"
+          },
+          {
+            "name": "alerte",
+            "type": "string"
+          },
+          {
+            "name": "alerte_etat",
+            "type": "string"
+          },
+          {
+            "name": "alerte_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bibliotheques-agents",
+      "path": "data/bibliotheques-agents.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Bibliothèques pour agents",
+      "description": "Dix bibliothèques pour construire un agent, relevées le 8 octobre 2026 sur leurs dépôts, leur documentation et les registres PyPI et npm.",
+      "bytes": 14894,
+      "hash": "sha256:188ff53115ac289019090c1d64af016eac1c2cafdf7b1da6520d082253a716aa"
+    },
+    {
+      "name": "bibliotheques-agents",
+      "path": "data/bibliotheques-agents.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Bibliothèques pour agents : tableau",
+      "description": "Le tableau « bibliotheques-agents » du relevé bibliotheques-agents.json, une ligne par entrée.",
+      "bytes": 5278,
+      "hash": "sha256:fb84d043291034f74f128405a11886e83426bc17f8bffdae98d20b329f9652f6",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "quoi",
+            "type": "string"
+          },
+          {
+            "name": "quoi_etat",
+            "type": "string"
+          },
+          {
+            "name": "quoi_sources",
+            "type": "string"
+          },
+          {
+            "name": "lang",
+            "type": "string"
+          },
+          {
+            "name": "lang_etat",
+            "type": "string"
+          },
+          {
+            "name": "lang_sources",
+            "type": "string"
+          },
+          {
+            "name": "version",
+            "type": "string"
+          },
+          {
+            "name": "version_etat",
+            "type": "string"
+          },
+          {
+            "name": "version_sources",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "licence_etat",
+            "type": "string"
+          },
+          {
+            "name": "licence_sources",
+            "type": "string"
+          },
+          {
+            "name": "etat",
+            "type": "string"
+          },
+          {
+            "name": "etat_etat",
+            "type": "string"
+          },
+          {
+            "name": "etat_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "cache-lots",
+      "path": "data/cache-lots.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Cache et traitement par lots",
+      "description": "Règles du cache et des lots, relevées sur les pages des éditeurs les 7 et 8 octobre 2026.",
+      "bytes": 5539,
+      "hash": "sha256:936f4d2d1c4fb6281ebbfb9d518cdc6081d976e36c8a2f50661b29604e75d2a6"
+    },
+    {
+      "name": "cache-lots",
+      "path": "data/cache-lots.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Cache et traitement par lots : tableau",
+      "description": "Le tableau « cache-lots » du relevé cache-lots.json, une ligne par entrée.",
+      "bytes": 2577,
+      "hash": "sha256:651e7c9f4c3706ccc8459e13bfb173a46cc4d98646b628e17aae1c66cb196493",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "auto",
+            "type": "string"
+          },
+          {
+            "name": "auto_etat",
+            "type": "string"
+          },
+          {
+            "name": "auto_sources",
+            "type": "string"
+          },
+          {
+            "name": "min",
+            "type": "string"
+          },
+          {
+            "name": "min_etat",
+            "type": "string"
+          },
+          {
+            "name": "min_sources",
+            "type": "string"
+          },
+          {
+            "name": "lecture",
+            "type": "string"
+          },
+          {
+            "name": "lecture_etat",
+            "type": "string"
+          },
+          {
+            "name": "lecture_sources",
+            "type": "string"
+          },
+          {
+            "name": "duree",
+            "type": "string"
+          },
+          {
+            "name": "duree_etat",
+            "type": "string"
+          },
+          {
+            "name": "duree_sources",
+            "type": "string"
+          },
+          {
+            "name": "lots",
+            "type": "string"
+          },
+          {
+            "name": "lots_etat",
+            "type": "string"
+          },
+          {
+            "name": "lots_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "lecture-documents",
+      "path": "data/lecture-documents.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Ce que chaque outil lit",
+      "description": "Ce que chaque outil lit dans un fichier, relevé sur les pages d'aide des éditeurs le 7 octobre 2026. « Non publié » : l'éditeur ne le dit pas dans les pages lues ; à essayer avant de compter dessus.",
+      "bytes": 8867,
+      "hash": "sha256:bfd66a656a319afbe4c36579f00a13c8b8a0f1f3d0e07f2b9b3d0943c70101dd"
+    },
+    {
+      "name": "lecture-documents",
+      "path": "data/lecture-documents.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Ce que chaque outil lit : tableau",
+      "description": "Le tableau « lecture-documents » du relevé lecture-documents.json, une ligne par entrée.",
+      "bytes": 3695,
+      "hash": "sha256:851c06043806c08748f7391ada5363968537bdd476ad1f15b9dc3db1e58dd09a",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "images",
+            "type": "string"
+          },
+          {
+            "name": "images_etat",
+            "type": "string"
+          },
+          {
+            "name": "images_sources",
+            "type": "string"
+          },
+          {
+            "name": "scans",
+            "type": "string"
+          },
+          {
+            "name": "scans_etat",
+            "type": "string"
+          },
+          {
+            "name": "scans_sources",
+            "type": "string"
+          },
+          {
+            "name": "tableaux",
+            "type": "string"
+          },
+          {
+            "name": "tableaux_etat",
+            "type": "string"
+          },
+          {
+            "name": "tableaux_sources",
+            "type": "string"
+          },
+          {
+            "name": "proteges",
+            "type": "string"
+          },
+          {
+            "name": "proteges_etat",
+            "type": "string"
+          },
+          {
+            "name": "proteges_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "confidentialite",
+      "path": "data/confidentialite.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Confidentialité des assistants",
+      "description": "Chaque case résume des faits relevés à la source, avec ses sources ; une case vide n'a pas été relevée ou n'est pas publiée. L'état d'une case : bon (ce qu'une PME souhaite par défaut), attention (à régler ou à savoir), inconnu (non publié ou contradictoire).",
+      "bytes": 19470,
+      "hash": "sha256:10f58c04c980c23c65d67b975eaccf1b71d463d10ba372ec9970b67040c9a38c"
+    },
+    {
+      "name": "confidentialite",
+      "path": "data/confidentialite.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Confidentialité des assistants : tableau",
+      "description": "Le tableau « confidentialite » du relevé confidentialite.json, une ligne par entrée.",
+      "bytes": 8961,
+      "hash": "sha256:f49f8c6816d2fb9132dcf7c4ac895c966b77b6777cf467250a3f4d989960be16",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "onglet",
+            "type": "string"
+          },
+          {
+            "name": "entrainement",
+            "type": "string"
+          },
+          {
+            "name": "entrainement_etat",
+            "type": "string"
+          },
+          {
+            "name": "entrainement_sources",
+            "type": "string"
+          },
+          {
+            "name": "conservation",
+            "type": "string"
+          },
+          {
+            "name": "conservation_etat",
+            "type": "string"
+          },
+          {
+            "name": "conservation_sources",
+            "type": "string"
+          },
+          {
+            "name": "lieu",
+            "type": "string"
+          },
+          {
+            "name": "lieu_etat",
+            "type": "string"
+          },
+          {
+            "name": "lieu_sources",
+            "type": "string"
+          },
+          {
+            "name": "partage",
+            "type": "string"
+          },
+          {
+            "name": "partage_etat",
+            "type": "string"
+          },
+          {
+            "name": "partage_sources",
+            "type": "string"
+          },
+          {
+            "name": "commentaires",
+            "type": "string"
+          },
+          {
+            "name": "commentaires_etat",
+            "type": "string"
+          },
+          {
+            "name": "commentaires_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "documents-outils",
+      "path": "data/documents-outils.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Documents : limites des outils",
+      "description": "Limites et conditions relevées sur les pages d'aide des éditeurs le 7 octobre 2026. Une case vide n'est pas publiée sur les pages lues.",
+      "bytes": 13277,
+      "hash": "sha256:7bfe59f60c021cdad93bc8f3ef9053ad2aa34d9595a30372c6f825ae5e670053"
+    },
+    {
+      "name": "documents-outils",
+      "path": "data/documents-outils.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Documents : limites des outils : tableau",
+      "description": "Le tableau « documents-outils » du relevé documents-outils.json, une ligne par entrée.",
+      "bytes": 5875,
+      "hash": "sha256:7aea52c9eccf61a0963d7cd7918ee3e10532acc74276877ac289580efb539280",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "documents",
+            "type": "string"
+          },
+          {
+            "name": "documents_etat",
+            "type": "string"
+          },
+          {
+            "name": "documents_sources",
+            "type": "string"
+          },
+          {
+            "name": "taille",
+            "type": "string"
+          },
+          {
+            "name": "taille_etat",
+            "type": "string"
+          },
+          {
+            "name": "taille_sources",
+            "type": "string"
+          },
+          {
+            "name": "a-jour",
+            "type": "string"
+          },
+          {
+            "name": "a-jour_etat",
+            "type": "string"
+          },
+          {
+            "name": "a-jour_sources",
+            "type": "string"
+          },
+          {
+            "name": "droits",
+            "type": "string"
+          },
+          {
+            "name": "droits_etat",
+            "type": "string"
+          },
+          {
+            "name": "droits_sources",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "offre_etat",
+            "type": "string"
+          },
+          {
+            "name": "offre_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "extraction",
+      "path": "data/extraction.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Extraction de documents : prix",
+      "description": "Prix catalogue pour 1 000 pages, hors taxe, relevés sur les pages des éditeurs le 7 octobre 2026. Une case vide n'est pas publiée sur les pages lues.",
+      "bytes": 9578,
+      "hash": "sha256:1e271d9cb98c33beaaffe5fb8ecebb4a191db02056f06d152fc290fa0aa04b9f"
+    },
+    {
+      "name": "extraction",
+      "path": "data/extraction.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Extraction de documents : prix : tableau",
+      "description": "Le tableau « extraction » du relevé extraction.json, une ligne par entrée.",
+      "bytes": 3848,
+      "hash": "sha256:71c00e8cd3dc623363bdef35066d3ea7c09c8721850ec585ccd5eb19cb16e04a",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "prix",
+            "type": "string"
+          },
+          {
+            "name": "prix_etat",
+            "type": "string"
+          },
+          {
+            "name": "prix_sources",
+            "type": "string"
+          },
+          {
+            "name": "francais",
+            "type": "string"
+          },
+          {
+            "name": "francais_etat",
+            "type": "string"
+          },
+          {
+            "name": "francais_sources",
+            "type": "string"
+          },
+          {
+            "name": "europe",
+            "type": "string"
+          },
+          {
+            "name": "europe_etat",
+            "type": "string"
+          },
+          {
+            "name": "europe_sources",
+            "type": "string"
+          },
+          {
+            "name": "controle",
+            "type": "string"
+          },
+          {
+            "name": "controle_etat",
+            "type": "string"
+          },
+          {
+            "name": "controle_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "hebergeurs",
+      "path": "data/hebergeurs.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Hébergeurs d'une application",
+      "description": "Hébergeurs d'une application Python, relevés le 7 octobre 2026 sur les pages des éditeurs, de l'ANSSI (catalogue du 15 septembre 2026) et du Sénat. Prix hors taxe quand l'éditeur le dit ; sinon tels qu'affichés.",
+      "bytes": 13847,
+      "hash": "sha256:16688316915495d9e3168f612dfa2359e8f906403a3ef4d70f6abe67fd52d6c2"
+    },
+    {
+      "name": "hebergeurs",
+      "path": "data/hebergeurs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Hébergeurs d'une application : tableau",
+      "description": "Le tableau « hebergeurs » du relevé hebergeurs.json, une ligne par entrée.",
+      "bytes": 5687,
+      "hash": "sha256:7d5e115ba72d7a6fb7061d72f0c2131be390d816b0f3ca456cf793f94d506422",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "siege",
+            "type": "string"
+          },
+          {
+            "name": "siege_etat",
+            "type": "string"
+          },
+          {
+            "name": "siege_sources",
+            "type": "string"
+          },
+          {
+            "name": "region",
+            "type": "string"
+          },
+          {
+            "name": "region_etat",
+            "type": "string"
+          },
+          {
+            "name": "region_sources",
+            "type": "string"
+          },
+          {
+            "name": "depart",
+            "type": "string"
+          },
+          {
+            "name": "depart_etat",
+            "type": "string"
+          },
+          {
+            "name": "depart_sources",
+            "type": "string"
+          },
+          {
+            "name": "snc",
+            "type": "string"
+          },
+          {
+            "name": "snc_etat",
+            "type": "string"
+          },
+          {
+            "name": "snc_sources",
+            "type": "string"
+          },
+          {
+            "name": "savoir",
+            "type": "string"
+          },
+          {
+            "name": "savoir_etat",
+            "type": "string"
+          },
+          {
+            "name": "savoir_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "modeles-chinois",
+      "path": "data/modeles-chinois.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Modèles chinois et données",
+      "description": "Où vont vos données selon la façon de se servir d'un modèle chinois, relevé le 8 octobre 2026 sur les politiques de confidentialité et conditions des éditeurs, les catalogues des hébergeurs et les fiches de Hugging Face. Une case vide de source : la page n'a pas été lue.",
+      "bytes": 10667,
+      "hash": "sha256:ba036cebca6761e0d606a79e716851b736121b8c9c134a49c59f203211ed7471"
+    },
+    {
+      "name": "modeles-chinois",
+      "path": "data/modeles-chinois.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Modèles chinois et données : tableau",
+      "description": "Le tableau « modeles-chinois » du relevé modeles-chinois.json, une ligne par entrée.",
+      "bytes": 4688,
+      "hash": "sha256:badf69290d2b90c0e4a1c3bdfe02238c4580e4461dcbb55c32d367cb6d580350",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "app",
+            "type": "string"
+          },
+          {
+            "name": "app_etat",
+            "type": "string"
+          },
+          {
+            "name": "app_sources",
+            "type": "string"
+          },
+          {
+            "name": "api",
+            "type": "string"
+          },
+          {
+            "name": "api_etat",
+            "type": "string"
+          },
+          {
+            "name": "api_sources",
+            "type": "string"
+          },
+          {
+            "name": "heb",
+            "type": "string"
+          },
+          {
+            "name": "heb_etat",
+            "type": "string"
+          },
+          {
+            "name": "heb_sources",
+            "type": "string"
+          },
+          {
+            "name": "local",
+            "type": "string"
+          },
+          {
+            "name": "local_etat",
+            "type": "string"
+          },
+          {
+            "name": "local_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "embeddings",
+      "path": "data/embeddings.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Modèles d'embeddings",
+      "description": "Modèles d'embeddings relevés le 7 octobre 2026 sur les pages des éditeurs, de Hugging Face et du classement MTEB. Prix en dollars, hors taxe, par million de tokens lus.",
+      "bytes": 11457,
+      "hash": "sha256:0106d42d0cb6647c512e6478f4b3d2b82da7d3529f268dda98d8d3b913cceba7"
+    },
+    {
+      "name": "embeddings",
+      "path": "data/embeddings.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Modèles d'embeddings : tableau",
+      "description": "Le tableau « embeddings » du relevé embeddings.json, une ligne par entrée.",
+      "bytes": 4692,
+      "hash": "sha256:8a7564bda8daa340c6138a61fcdaa7e76dc22a05ea1df15bf912eb9f610a66a9",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "dims",
+            "type": "string"
+          },
+          {
+            "name": "dims_etat",
+            "type": "string"
+          },
+          {
+            "name": "dims_sources",
+            "type": "string"
+          },
+          {
+            "name": "ctx",
+            "type": "string"
+          },
+          {
+            "name": "ctx_etat",
+            "type": "string"
+          },
+          {
+            "name": "ctx_sources",
+            "type": "string"
+          },
+          {
+            "name": "prix",
+            "type": "string"
+          },
+          {
+            "name": "prix_etat",
+            "type": "string"
+          },
+          {
+            "name": "prix_sources",
+            "type": "string"
+          },
+          {
+            "name": "ou",
+            "type": "string"
+          },
+          {
+            "name": "ou_etat",
+            "type": "string"
+          },
+          {
+            "name": "ou_sources",
+            "type": "string"
+          },
+          {
+            "name": "savoir",
+            "type": "string"
+          },
+          {
+            "name": "savoir_etat",
+            "type": "string"
+          },
+          {
+            "name": "savoir_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "observabilite",
+      "path": "data/observabilite.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Observabilité des appels",
+      "description": "Cinq outils pour garder les traces des appels à un modèle, relevés le 8 octobre 2026 sur leurs pages de prix, leur documentation et leurs dépôts. Prix en dollars, tels qu'affichés ; chaque outil compte une unité différente.",
+      "bytes": 6832,
+      "hash": "sha256:4a3358b477efd2aa669ef61e2aa4c8aca96f67235b6abfb04d2e33e9c6fb155a"
+    },
+    {
+      "name": "observabilite",
+      "path": "data/observabilite.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Observabilité des appels : tableau",
+      "description": "Le tableau « observabilite » du relevé observabilite.json, une ligne par entrée.",
+      "bytes": 2568,
+      "hash": "sha256:aa659f50cc58f0541180a3d60453ec3772d1b4b726884d805a3edec7b1098c87",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "licence",
+            "type": "string"
+          },
+          {
+            "name": "licence_etat",
+            "type": "string"
+          },
+          {
+            "name": "licence_sources",
+            "type": "string"
+          },
+          {
+            "name": "ou",
+            "type": "string"
+          },
+          {
+            "name": "ou_etat",
+            "type": "string"
+          },
+          {
+            "name": "ou_sources",
+            "type": "string"
+          },
+          {
+            "name": "gratuit",
+            "type": "string"
+          },
+          {
+            "name": "gratuit_etat",
+            "type": "string"
+          },
+          {
+            "name": "gratuit_sources",
+            "type": "string"
+          },
+          {
+            "name": "prix",
+            "type": "string"
+          },
+          {
+            "name": "prix_etat",
+            "type": "string"
+          },
+          {
+            "name": "prix_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "options-documents",
+      "path": "data/options-documents.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Options pour les documents",
+      "description": "Faits relevés sur les pages des éditeurs le 7 octobre 2026.",
+      "bytes": 6225,
+      "hash": "sha256:563f556661d400125ba2af52848fab11b271f782ae28e08040e70e4d385fac4d"
+    },
+    {
+      "name": "options-documents",
+      "path": "data/options-documents.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Options pour les documents : tableau",
+      "description": "Le tableau « options-documents » du relevé options-documents.json, une ligne par entrée.",
+      "bytes": 2713,
+      "hash": "sha256:2198cd36e6d02936fca9c979a54ec9330c3d4e4e0e671506a23e69192a775489",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "volume",
+            "type": "string"
+          },
+          {
+            "name": "volume_etat",
+            "type": "string"
+          },
+          {
+            "name": "volume_sources",
+            "type": "string"
+          },
+          {
+            "name": "a-jour",
+            "type": "string"
+          },
+          {
+            "name": "a-jour_etat",
+            "type": "string"
+          },
+          {
+            "name": "a-jour_sources",
+            "type": "string"
+          },
+          {
+            "name": "droits",
+            "type": "string"
+          },
+          {
+            "name": "droits_etat",
+            "type": "string"
+          },
+          {
+            "name": "droits_sources",
+            "type": "string"
+          },
+          {
+            "name": "cout",
+            "type": "string"
+          },
+          {
+            "name": "cout_etat",
+            "type": "string"
+          },
+          {
+            "name": "cout_sources",
+            "type": "string"
+          },
+          {
+            "name": "limite",
+            "type": "string"
+          },
+          {
+            "name": "limite_etat",
+            "type": "string"
+          },
+          {
+            "name": "limite_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "automatisation-outils",
+      "path": "data/automatisation-outils.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Outils d'automatisation",
+      "description": "Dix outils d'automatisation, relevés le 8 octobre 2026 sur leurs pages de prix et leur documentation. Prix tels qu'affichés depuis la France, dans la devise de la page, hors taxe quand la page le dit ; aucune conversion.",
+      "bytes": 18169,
+      "hash": "sha256:1ee8f7f0aaf1ca94d539d3e99195329b50582c72921e1d69a87115f25b80393e"
+    },
+    {
+      "name": "automatisation-outils",
+      "path": "data/automatisation-outils.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Outils d'automatisation : tableau",
+      "description": "Le tableau « automatisation-outils » du relevé automatisation-outils.json, une ligne par entrée.",
+      "bytes": 6706,
+      "hash": "sha256:25753c1b6a1a816f7f2a06d20c48a92d45f1c6b95390781224d335fdc10d778d",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "prix",
+            "type": "string"
+          },
+          {
+            "name": "prix_etat",
+            "type": "string"
+          },
+          {
+            "name": "prix_sources",
+            "type": "string"
+          },
+          {
+            "name": "ia",
+            "type": "string"
+          },
+          {
+            "name": "ia_etat",
+            "type": "string"
+          },
+          {
+            "name": "ia_sources",
+            "type": "string"
+          },
+          {
+            "name": "ue",
+            "type": "string"
+          },
+          {
+            "name": "ue_etat",
+            "type": "string"
+          },
+          {
+            "name": "ue_sources",
+            "type": "string"
+          },
+          {
+            "name": "serveurs",
+            "type": "string"
+          },
+          {
+            "name": "serveurs_etat",
+            "type": "string"
+          },
+          {
+            "name": "serveurs_sources",
+            "type": "string"
+          },
+          {
+            "name": "validation",
+            "type": "string"
+          },
+          {
+            "name": "validation_etat",
+            "type": "string"
+          },
+          {
+            "name": "validation_sources",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "souverainete",
+      "path": "data/souverainete.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "title": "Services d'IA en Europe",
+      "description": "Huit services qui font tourner des modèles d'IA en Europe, relevés le 8 octobre 2026 sur les pages des éditeurs, le catalogue SecNumCloud de l'ANSSI et l'audition de Microsoft France au Sénat. Ce que les éditeurs disent d'eux-mêmes est marqué comme tel.",
+      "bytes": 10216,
+      "hash": "sha256:ba8c0ae1439729bcce03198727b1a520c22c3938a7b216f6ec85f42e15280415"
+    },
+    {
+      "name": "souverainete",
+      "path": "data/souverainete.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "title": "Services d'IA en Europe : tableau",
+      "description": "Le tableau « souverainete » du relevé souverainete.json, une ligne par entrée.",
+      "bytes": 4550,
+      "hash": "sha256:862e67a75ee6e78bb3390a1296e90e9cb00c2d6f2ff94bbc5e9fdbf227cdb421",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string"
+          },
+          {
+            "name": "outil",
+            "type": "string"
+          },
+          {
+            "name": "offre",
+            "type": "string"
+          },
+          {
+            "name": "calcul",
+            "type": "string"
+          },
+          {
+            "name": "calcul_etat",
+            "type": "string"
+          },
+          {
+            "name": "calcul_sources",
+            "type": "string"
+          },
+          {
+            "name": "snc",
+            "type": "string"
+          },
+          {
+            "name": "snc_etat",
+            "type": "string"
+          },
+          {
+            "name": "snc_sources",
+            "type": "string"
+          },
+          {
+            "name": "dit",
+            "type": "string"
+          },
+          {
+            "name": "dit_etat",
+            "type": "string"
+          },
+          {
+            "name": "dit_sources",
+            "type": "string"
+          },
+          {
+            "name": "us",
+            "type": "string"
+          },
+          {
+            "name": "us_etat",
+            "type": "string"
+          },
+          {
+            "name": "us_sources",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+ "releve": "2026-10-07",
+ "regle": "Modèles d'embeddings relevés le 7 octobre 2026 sur les pages des éditeurs, de Hugging Face et du classement MTEB (apprendre/recherches/2026-10-07-rag-technique.json). Prix en dollars, hors taxe, par million de tokens lus.",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non mesuré"
+ },
+ "colonnes": [
+  {
+   "id": "dims",
+   "nom": "Dimensions"
+  },
+  {
+   "id": "ctx",
+   "nom": "Texte lu d'un coup"
+  },
+  {
+   "id": "prix",
+   "nom": "Prix"
+  },
+  {
+   "id": "ou",
+   "nom": "Où il tourne"
+  },
+  {
+   "id": "savoir",
+   "nom": "À savoir"
+  }
+ ],
+ "sources": {
+  "s1": {
+   "titre": "OpenAI API docs - Vector embeddings",
+   "url": "https://platform.openai.com/docs/guides/embeddings",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s4": {
+   "titre": "OpenAI API docs - Pricing (HTML and .md version)",
+   "url": "https://developers.openai.com/api/docs/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s5": {
+   "titre": "OpenAI API docs - Data controls in the OpenAI platform (data residency)",
+   "url": "https://developers.openai.com/api/docs/guides/your-data",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s13": {
+   "titre": "Mistral docs - Text Embeddings (.md)",
+   "url": "https://docs.mistral.ai/studio/knowledge-rag/embeddings/text_embeddings",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s14": {
+   "titre": "Mistral docs - Search Toolkit, Embedders (.md)",
+   "url": "https://docs.mistral.ai/studio/search/search-toolkit/ingestion/embedders",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s15": {
+   "titre": "Mistral docs - Mistral Embed model card",
+   "url": "https://docs.mistral.ai/models/mistral-embed-23-12",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s23": {
+   "titre": "Mistral docs - Regional inference (.md)",
+   "url": "https://docs.mistral.ai/inference/regional-inference",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s24": {
+   "titre": "Mistral Help Center - Where do you store my data or my Organization's data?",
+   "url": "https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s27": {
+   "titre": "Gemini API docs - Embeddings",
+   "url": "https://ai.google.dev/gemini-api/docs/embeddings",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s28": {
+   "titre": "Gemini Developer API pricing",
+   "url": "https://ai.google.dev/gemini-api/docs/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s34": {
+   "titre": "Cohere docs - Cohere's Embed Models",
+   "url": "https://docs.cohere.com/docs/cohere-embed",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s35": {
+   "titre": "Cohere - Pricing",
+   "url": "https://cohere.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s36": {
+   "titre": "Cohere blog - Introducing Embed 5",
+   "url": "https://cohere.com/blog/embed-5",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s39": {
+   "titre": "Voyage AI docs - Text Embeddings",
+   "url": "https://docs.voyageai.com/docs/embeddings",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s40": {
+   "titre": "Voyage AI docs - Pricing",
+   "url": "https://docs.voyageai.com/docs/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s42": {
+   "titre": "Claude API docs - Embeddings",
+   "url": "https://docs.claude.com/en/docs/build-with-claude/embeddings",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s54": {
+   "titre": "MTEB Leaderboard - MTEB(Multilingual, v2) and MTEB(fra, v1), page and its public backend API (/v1/benchmarks/{name}/scores)",
+   "url": "https://leaderboard.mteb.org/benchmark/MTEB(Multilingual%2C%20v2)",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s56": {
+   "titre": "Hugging Face - Qwen/Qwen3-Embedding-0.6B model card (+ HF API metadata)",
+   "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s57": {
+   "titre": "Hugging Face - microsoft/harrier-oss-v1-0.6b model card (+ HF API metadata)",
+   "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s59": {
+   "titre": "Hugging Face model API metadata (license field) for intfloat/multilingual-e5-large-instruct, BAAI/bge-m3, google/embeddinggemma-300m",
+   "url": "https://huggingface.co/api/models/intfloat/multilingual-e5-large-instruct",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s65": {
+   "titre": "pgvector README (GitHub master) + META.json",
+   "url": "https://github.com/pgvector/pgvector",
+   "date_page": null,
+   "lue": "2026-10-07"
+  }
+ },
+ "lignes": [
+  {
+   "id": "oai-small",
+   "outil": "OpenAI",
+   "offre": "text-embedding-3-small",
+   "cases": {
+    "dims": {
+     "texte": "1 536, réductibles",
+     "etat": null,
+     "sources": [
+      "s1"
+     ]
+    },
+    "ctx": {
+     "texte": "8 192 tokens",
+     "etat": null,
+     "sources": [
+      "s1"
+     ]
+    },
+    "prix": {
+     "texte": "0,02 $ le million de tokens",
+     "etat": null,
+     "sources": [
+      "s4"
+     ]
+    },
+    "ou": {
+     "texte": "API d'OpenAI ; région Europe sur accord commercial, 10 % plus cher",
+     "etat": "attention",
+     "sources": [
+      "s5"
+     ]
+    },
+    "savoir": {
+     "texte": "Ne connaît pas les faits postérieurs à septembre 2021",
+     "etat": "attention",
+     "sources": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "oai-large",
+   "outil": "OpenAI",
+   "offre": "text-embedding-3-large",
+   "cases": {
+    "dims": {
+     "texte": "3 072, réductibles",
+     "etat": null,
+     "sources": [
+      "s1"
+     ]
+    },
+    "ctx": {
+     "texte": "8 192 tokens",
+     "etat": null,
+     "sources": [
+      "s1"
+     ]
+    },
+    "prix": {
+     "texte": "0,13 $ le million de tokens",
+     "etat": null,
+     "sources": [
+      "s4"
+     ]
+    },
+    "ou": {
+     "texte": "API d'OpenAI ; région Europe sur accord commercial, 10 % plus cher",
+     "etat": "attention",
+     "sources": [
+      "s5"
+     ]
+    },
+    "savoir": {
+     "texte": "Au-delà de 2 000 dimensions, pgvector ne peut plus l'indexer tel quel",
+     "etat": "attention",
+     "sources": [
+      "s65"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mistral",
+   "outil": "Mistral",
+   "offre": "mistral-embed",
+   "cases": {
+    "dims": {
+     "texte": "1 024 ; variantes à 256 et 128",
+     "etat": null,
+     "sources": [
+      "s13",
+      "s14"
+     ]
+    },
+    "ctx": {
+     "texte": "8 000 tokens environ",
+     "etat": null,
+     "sources": [
+      "s15"
+     ]
+    },
+    "prix": {
+     "texte": "0,1 $ le million de tokens",
+     "etat": null,
+     "sources": [
+      "s15"
+     ]
+    },
+    "ou": {
+     "texte": "Données hébergées en Europe par défaut ; calcul garanti en Europe par le point d'accès européen, 1,1 fois le prix",
+     "etat": "bon",
+     "sources": [
+      "s24",
+      "s23"
+     ]
+    },
+    "savoir": {
+     "texte": "Absent du classement MTEB multilingue",
+     "etat": "inconnu",
+     "sources": [
+      "s54"
+     ]
+    }
+   }
+  },
+  {
+   "id": "gemini",
+   "outil": "Google",
+   "offre": "gemini-embedding-2",
+   "cases": {
+    "dims": {
+     "texte": "3 072 par défaut, de 128 à 3 072",
+     "etat": null,
+     "sources": [
+      "s27"
+     ]
+    },
+    "ctx": {
+     "texte": "8 192 tokens",
+     "etat": null,
+     "sources": [
+      "s27"
+     ]
+    },
+    "prix": {
+     "texte": "0,20 $ le million de tokens ; 0,10 $ en lot",
+     "etat": null,
+     "sources": [
+      "s28"
+     ]
+    },
+    "ou": {
+     "texte": "API de Google ; offre gratuite pour essayer",
+     "etat": "attention",
+     "sources": [
+      "s28"
+     ]
+    },
+    "savoir": {
+     "texte": "Plusieurs textes passés ensemble rendent un seul vecteur : un objet par texte",
+     "etat": "attention",
+     "sources": [
+      "s27"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cohere",
+   "outil": "Cohere",
+   "offre": "Embed 5 Pro",
+   "cases": {
+    "dims": {
+     "texte": "De 256 à 2 048",
+     "etat": null,
+     "sources": [
+      "s34"
+     ]
+    },
+    "ctx": {
+     "texte": "128 000 tokens",
+     "etat": null,
+     "sources": [
+      "s34"
+     ]
+    },
+    "prix": {
+     "texte": "0,12 $ le million de tokens",
+     "etat": null,
+     "sources": [
+      "s36"
+     ]
+    },
+    "ou": {
+     "texte": "API de Cohere ; instance dédiée possible",
+     "etat": "attention",
+     "sources": [
+      "s35"
+     ]
+    },
+    "savoir": {
+     "texte": "Cohere annonce 61 en recherche en français, sur ses propres tests",
+     "etat": "attention",
+     "sources": [
+      "s36"
+     ]
+    }
+   }
+  },
+  {
+   "id": "voyage",
+   "outil": "Voyage AI",
+   "offre": "voyage-4-large",
+   "cases": {
+    "dims": {
+     "texte": "1 024 par défaut ; 256 à 2 048",
+     "etat": null,
+     "sources": [
+      "s39"
+     ]
+    },
+    "ctx": {
+     "texte": "32 000 tokens",
+     "etat": null,
+     "sources": [
+      "s39"
+     ]
+    },
+    "prix": {
+     "texte": "0,12 $ le million de tokens ; 200 millions offerts",
+     "etat": null,
+     "sources": [
+      "s40"
+     ]
+    },
+    "ou": {
+     "texte": "API de Voyage ; c'est vers elle que renvoie Anthropic, qui n'a pas de modèle d'embeddings",
+     "etat": "attention",
+     "sources": [
+      "s42"
+     ]
+    },
+    "savoir": {
+     "texte": "Les vecteurs de tous les modèles voyage-4 sont compatibles entre eux",
+     "etat": "bon",
+     "sources": [
+      "s39"
+     ]
+    }
+   }
+  },
+  {
+   "id": "qwen",
+   "outil": "Qwen (open weight)",
+   "offre": "Qwen3-Embedding-0.6B",
+   "cases": {
+    "dims": {
+     "texte": "Jusqu'à 1 024",
+     "etat": null,
+     "sources": [
+      "s56"
+     ]
+    },
+    "ctx": {
+     "texte": "32 000 tokens",
+     "etat": null,
+     "sources": [
+      "s56"
+     ]
+    },
+    "prix": {
+     "texte": "Gratuit : tourne sur vos machines",
+     "etat": null,
+     "sources": [
+      "s56"
+     ]
+    },
+    "ou": {
+     "texte": "Chez vous ; licence Apache 2.0",
+     "etat": "bon",
+     "sources": [
+      "s56"
+     ]
+    },
+    "savoir": {
+     "texte": "20e au classement MTEB multilingue",
+     "etat": null,
+     "sources": [
+      "s54"
+     ]
+    }
+   }
+  },
+  {
+   "id": "harrier",
+   "outil": "Microsoft (open weight)",
+   "offre": "harrier-oss-v1-0.6b",
+   "cases": {
+    "dims": {
+     "texte": "1 024",
+     "etat": null,
+     "sources": [
+      "s57"
+     ]
+    },
+    "ctx": {
+     "texte": "32 768 tokens",
+     "etat": null,
+     "sources": [
+      "s57"
+     ]
+    },
+    "prix": {
+     "texte": "Gratuit : tourne sur vos machines",
+     "etat": null,
+     "sources": [
+      "s57"
+     ]
+    },
+    "ou": {
+     "texte": "Chez vous ; licence MIT",
+     "etat": "bon",
+     "sources": [
+      "s57"
+     ]
+    },
+    "savoir": {
+     "texte": "10e au classement MTEB multilingue, avec 69,0",
+     "etat": "bon",
+     "sources": [
+      "s54"
+     ]
+    }
+   }
+  },
+  {
+   "id": "e5",
+   "outil": "Microsoft Research (open weight)",
+   "offre": "multilingual-e5-large-instruct",
+   "cases": {
+    "prix": {
+     "texte": "Gratuit : tourne sur vos machines",
+     "etat": null,
+     "sources": [
+      "s59"
+     ]
+    },
+    "ou": {
+     "texte": "Chez vous ; licence MIT",
+     "etat": "bon",
+     "sources": [
+      "s59"
+     ]
+    },
+    "savoir": {
+     "texte": "14e au classement MTEB en français, avec 64,6",
+     "etat": "bon",
+     "sources": [
+      "s54"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "releve": "2026-10-08",
+ "regle": "Règles du cache et des lots, relevées sur les pages des éditeurs les 7 et 8 octobre 2026 (apprendre/recherches/2026-10-07-dev-appels-modeles.json, et les pages des lots relues le 8 octobre).",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non publié"
+ },
+ "colonnes": [
+  {
+   "id": "auto",
+   "nom": "Cache automatique"
+  },
+  {
+   "id": "min",
+   "nom": "Taille minimale"
+  },
+  {
+   "id": "lecture",
+   "nom": "Prix d'une relecture"
+  },
+  {
+   "id": "duree",
+   "nom": "Durée du cache"
+  },
+  {
+   "id": "lots",
+   "nom": "Traitement par lots"
+  }
+ ],
+ "sources": {
+  "s8": {
+   "titre": "OpenAI API - Prompt caching",
+   "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s31": {
+   "titre": "Claude API Docs - Prompt caching",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s53": {
+   "titre": "Gemini API - Context caching (Interactions API)",
+   "url": "https://ai.google.dev/gemini-api/docs/caching",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s54": {
+   "titre": "Gemini API - Context caching (generateContent)",
+   "url": "https://ai.google.dev/gemini-api/docs/generate-content/caching",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s74": {
+   "titre": "Mistral Docs - Prompt caching",
+   "url": "https://docs.mistral.ai/studio/conversations/advanced/prompt-caching",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "oai-batch": {
+   "titre": "OpenAI API, Batch API",
+   "url": "https://developers.openai.com/api/docs/guides/batch",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "ant-batch": {
+   "titre": "Claude API Docs, Batch processing",
+   "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "g-batch": {
+   "titre": "Gemini API, Batch API",
+   "url": "https://ai.google.dev/gemini-api/docs/batch-api",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "m-batch": {
+   "titre": "Mistral Docs, Batch Processing",
+   "url": "https://docs.mistral.ai/studio/batch-processing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "lignes": [
+  {
+   "id": "openai",
+   "outil": "OpenAI",
+   "offre": "GPT-5.6 et suivants",
+   "cases": {
+    "auto": {
+     "texte": "Oui, par défaut",
+     "etat": "bon",
+     "sources": [
+      "s8"
+     ]
+    },
+    "min": {
+     "texte": "1 024 tokens",
+     "etat": null,
+     "sources": [
+      "s8"
+     ]
+    },
+    "lecture": {
+     "texte": "10 % du prix d'entrée ; 5 % sur GPT-6.1 Sol ; écriture à 125 %",
+     "etat": null,
+     "sources": [
+      "s8"
+     ]
+    },
+    "duree": {
+     "texte": "Au moins 30 minutes après le dernier usage",
+     "etat": null,
+     "sources": [
+      "s8"
+     ]
+    },
+    "lots": {
+     "texte": "Moitié prix, rendu sous 24 heures",
+     "etat": null,
+     "sources": [
+      "oai-batch"
+     ]
+    }
+   }
+  },
+  {
+   "id": "anthropic",
+   "outil": "Anthropic",
+   "offre": "Claude 5.5",
+   "cases": {
+    "auto": {
+     "texte": "Oui, avec un seul repère en tête de demande ; ou repères posés à la main",
+     "etat": "bon",
+     "sources": [
+      "s31"
+     ]
+    },
+    "min": {
+     "texte": "512 tokens ; en dessous, pas de cache, sans erreur",
+     "etat": "attention",
+     "sources": [
+      "s31"
+     ]
+    },
+    "lecture": {
+     "texte": "10 % du prix d'entrée, 5 % sur Opus 5.5 ; écriture à 125 % (5 minutes) ou 200 % (1 heure)",
+     "etat": null,
+     "sources": [
+      "s31"
+     ]
+    },
+    "duree": {
+     "texte": "5 minutes, prolongées à chaque usage ; 1 heure en option",
+     "etat": null,
+     "sources": [
+      "s31"
+     ]
+    },
+    "lots": {
+     "texte": "Moitié prix ; la plupart des lots finis en moins d'une heure, 24 heures au plus",
+     "etat": null,
+     "sources": [
+      "ant-batch"
+     ]
+    }
+   }
+  },
+  {
+   "id": "google",
+   "outil": "Google",
+   "offre": "Gemini 3.x",
+   "cases": {
+    "auto": {
+     "texte": "Implicite, par défaut, sans économie garantie ; explicite, avec garantie, hors API Interactions",
+     "etat": "attention",
+     "sources": [
+      "s53",
+      "s54"
+     ]
+    },
+    "min": {
+     "texte": "4 096 tokens pour Gemini 3.x Flash et 3.1 Pro",
+     "etat": null,
+     "sources": [
+      "s53"
+     ]
+    },
+    "lecture": {
+     "texte": "10 % du prix d'entrée sur Gemini 3.8 Flash, plus un stockage à l'heure en cache explicite",
+     "etat": null,
+     "sources": [
+      "s54"
+     ]
+    },
+    "duree": {
+     "texte": "1 heure par défaut en cache explicite",
+     "etat": null,
+     "sources": [
+      "s54"
+     ]
+    },
+    "lots": {
+     "texte": "Moitié prix, rendu visé sous 24 heures",
+     "etat": null,
+     "sources": [
+      "g-batch"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mistral",
+   "outil": "Mistral",
+   "offre": "API de Mistral",
+   "cases": {
+    "auto": {
+     "texte": "Oui ; une clé de cache augmente les chances, sans garantie",
+     "etat": "attention",
+     "sources": [
+      "s74"
+     ]
+    },
+    "min": {
+     "texte": "Blocs de 64 tokens ; rien en dessous",
+     "etat": null,
+     "sources": [
+      "s74"
+     ]
+    },
+    "lecture": {
+     "texte": "10 % du prix d'entrée",
+     "etat": null,
+     "sources": [
+      "s74"
+     ]
+    },
+    "lots": {
+     "texte": "Moitié prix",
+     "etat": null,
+     "sources": [
+      "m-batch"
+     ]
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,636 @@
+{
+ "releve": "2026-10-07",
+ "marche": "France, prix affichés par les éditeurs : hors taxe sauf mention, en dollars quand l'éditeur n'affiche pas d'euros",
+ "regle": "Chaque prix vient d'une page lue le jour du relevé ; une promotion est à part, avec ses dates et ses conditions, jamais présentée comme le prix courant. Les relevés bruts, avec les citations, sont dans apprendre/recherches/.",
+ "sources": {
+  "ms-fr-copilot-business": {
+   "titre": "Microsoft 365 Copilot pour les PME, prix",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365/copilot/business",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ms-fr-copilot-entreprise": {
+   "titre": "L'IA pour la productivité d'entreprise, tarifs",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365/copilot/enterprise",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ms-fr-business-comparer": {
+   "titre": "Comparez toutes les offres Microsoft 365 Business",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365/business/compare-all-microsoft-365-business-products",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ms-fr-business-standard": {
+   "titre": "Microsoft 365 Business Standard",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365/business/microsoft-365-business-standard",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ms-fr-business-premium": {
+   "titre": "Microsoft 365 Business Premium",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365/business/microsoft-365-business-premium",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ms-fr-entreprise-offres": {
+   "titre": "Microsoft 365 Entreprise : comparez les offres et les prix",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365/enterprise/microsoft365-plans-and-pricing",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ms-fr-copilot-studio": {
+   "titre": "Microsoft Copilot Studio, tarifs",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365-copilot/pricing/copilot-studio",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ms-copilot-business-faq": {
+   "titre": "Microsoft Copilot Business FAQ",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-business-faq",
+   "nature": "éditeur",
+   "date_page": "2026-08-25",
+   "lue": "2026-10-07"
+  },
+  "ms-copilot-chat-gerer": {
+   "titre": "Manage Microsoft Copilot Chat",
+   "url": "https://learn.microsoft.com/en-us/copilot/manage",
+   "nature": "éditeur",
+   "date_page": "2026-10-01",
+   "lue": "2026-10-07"
+  },
+  "ms-studio-tarifs": {
+   "titre": "Billing rates and management, Microsoft Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/requirements-messages-management",
+   "nature": "éditeur",
+   "date_page": "2026-10-01",
+   "lue": "2026-10-07"
+  },
+  "ms-studio-licences": {
+   "titre": "Standard harness licensing, Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/billing-licensing",
+   "nature": "éditeur",
+   "date_page": "2026-10-01",
+   "lue": "2026-10-07"
+  },
+  "azure-prix-studio-fr": {
+   "titre": "Azure Retail Prices, Microsoft Copilot Studio, France Central, en euros",
+   "url": "https://prices.azure.com/api/retail/prices?currencyCode='EUR'&$filter=productName eq 'Microsoft Copilot Studio' and armRegionName eq 'francecentral'",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "gw-fr-tarifs": {
+   "titre": "Comparer les options des forfaits modulables, Google Workspace",
+   "url": "https://workspace.google.com/intl/fr/pricing",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "oai-fr-business": {
+   "titre": "Tarifs Business, OpenAI",
+   "url": "https://openai.com/fr-FR/business/chatgpt-pricing/",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "oai-fr-chatgpt-tarifs": {
+   "titre": "Tarification, ChatGPT, onglet Professionnels et entreprises",
+   "url": "https://chatgpt.com/fr-FR/pricing/?type=team",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "ant-fr-tarifs": {
+   "titre": "Plans et tarifs, Claude",
+   "url": "https://claude.com/fr-fr/pricing",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "mis-fr-tarifs": {
+   "titre": "Tarification, Mistral",
+   "url": "https://mistral.ai/fr/pricing",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "ppx-tarifs": {
+   "titre": "Tarifs Perplexity, onglet Enterprise",
+   "url": "https://www.perplexity.ai/hub/pricing?p=enterprise",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "ppx-faq-facturation": {
+   "titre": "Tarification et facturation Enterprise, foire aux questions",
+   "url": "https://www.perplexity.ai/help-center/fr/articles/10352986-tarification-et-facturation-enterprise-foire-aux-questions",
+   "nature": "éditeur",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "offres": {
+  "ms-copilot-chat": {
+   "nom": "Microsoft Copilot Chat",
+   "ancien_nom": "Microsoft 365 Copilot Chat",
+   "editeur": "Microsoft",
+   "nature": "compris dans les abonnements Microsoft 365 éligibles",
+   "prix": [
+    {
+     "montant": 0,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": null,
+     "libelle": "sans supplément",
+     "source": "ms-copilot-chat-gerer",
+     "releve": "2026-10-07"
+    }
+   ],
+   "conditions": "Compte professionnel Microsoft Entra et abonnement éligible, dont Business Basic, Business Standard et Business Premium."
+  },
+  "ms-copilot-business": {
+   "nom": "Microsoft 365 Copilot Business",
+   "ancien_nom": null,
+   "editeur": "Microsoft",
+   "nature": "module complémentaire d'un abonnement Microsoft 365 Business",
+   "prix": [
+    {
+     "montant": 18.2,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "ms-fr-copilot-business",
+     "releve": "2026-10-07"
+    },
+    {
+     "montant": 21.84,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "en abonnement mensuel",
+     "source": "ms-fr-copilot-business",
+     "releve": "2026-10-07",
+     "contredit": "La FAQ de Microsoft (ms-copilot-business-faq, 25 août 2026) dit qu'il n'existe pas de contrat mois par mois pour Copilot Business."
+    }
+   ],
+   "promotion": {
+    "montant": 15.6,
+    "devise": "EUR",
+    "taxe": "HT",
+    "du": "2026-07-01",
+    "au": "2026-12-31",
+    "conditions": "première année, engagement annuel, réservée aux clients Microsoft 365 Business existants, pas sur les essais, non cumulable, annulation sous 7 jours au prorata",
+    "source": "ms-fr-copilot-business",
+    "releve": "2026-10-07"
+   },
+   "plafond_utilisateurs": 300,
+   "licences_requises": [
+    "Microsoft 365 Business Basic",
+    "Microsoft 365 Business Standard",
+    "Microsoft 365 Business Premium"
+   ],
+   "essai": "un mois gratuit, carte bancaire exigée, passe en payant automatiquement"
+  },
+  "ms-business-standard-copilot": {
+   "nom": "Microsoft 365 Business Standard et Microsoft 365 Copilot Business",
+   "editeur": "Microsoft",
+   "nature": "offre groupée",
+   "prix": [
+    {
+     "montant": 20.36,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "ms-fr-copilot-business",
+     "releve": "2026-10-07"
+    },
+    {
+     "montant": 24.43,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "en abonnement mensuel",
+     "source": "ms-fr-copilot-business",
+     "releve": "2026-10-07"
+    }
+   ],
+   "plafond_utilisateurs": 300
+  },
+  "ms-business-premium-copilot": {
+   "nom": "Microsoft 365 Business Premium et Microsoft 365 Copilot Business",
+   "editeur": "Microsoft",
+   "nature": "offre groupée",
+   "prix": [
+    {
+     "montant": 27.73,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "ms-fr-copilot-business",
+     "releve": "2026-10-07"
+    },
+    {
+     "montant": 33.28,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "en abonnement mensuel",
+     "source": "ms-fr-copilot-business",
+     "releve": "2026-10-07"
+    }
+   ],
+   "plafond_utilisateurs": 300
+  },
+  "ms-business-basic": {
+   "nom": "Microsoft 365 Business Basic",
+   "editeur": "Microsoft",
+   "nature": "abonnement de base",
+   "prix": [
+    {
+     "montant": 6.07,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "ms-fr-business-comparer",
+     "releve": "2026-10-07"
+    }
+   ],
+   "plafond_utilisateurs": 300
+  },
+  "ms-business-standard": {
+   "nom": "Microsoft 365 Business Standard",
+   "editeur": "Microsoft",
+   "nature": "abonnement de base",
+   "prix": [
+    {
+     "montant": 12.13,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "ms-fr-business-standard",
+     "releve": "2026-10-07"
+    },
+    {
+     "montant": 14.56,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "en abonnement mensuel",
+     "source": "ms-fr-business-standard",
+     "releve": "2026-10-07"
+    }
+   ],
+   "plafond_utilisateurs": 300
+  },
+  "ms-business-premium": {
+   "nom": "Microsoft 365 Business Premium",
+   "editeur": "Microsoft",
+   "nature": "abonnement de base",
+   "prix": [
+    {
+     "montant": 19.06,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "ms-fr-business-premium",
+     "releve": "2026-10-07"
+    },
+    {
+     "montant": 22.87,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "en abonnement mensuel",
+     "source": "ms-fr-business-premium",
+     "releve": "2026-10-07"
+    }
+   ],
+   "plafond_utilisateurs": 300
+  },
+  "ms-copilot-entreprise": {
+   "nom": "Microsoft 365 Copilot",
+   "ancien_nom": null,
+   "editeur": "Microsoft",
+   "nature": "module complémentaire des abonnements Entreprise (E3, E5) et des organisations de plus de 300 utilisateurs",
+   "prix": [
+    {
+     "montant": 26.0,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel, payé à l'année",
+     "source": "ms-fr-copilot-entreprise",
+     "releve": "2026-10-07"
+    },
+    {
+     "montant": 27.3,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel, payé au mois",
+     "source": "ms-fr-copilot-entreprise",
+     "releve": "2026-10-07"
+    }
+   ]
+  },
+  "ms-365-e7": {
+   "nom": "Microsoft 365 E7",
+   "editeur": "Microsoft",
+   "nature": "abonnement Entreprise qui comprend Microsoft 365 Copilot",
+   "prix": [
+    {
+     "montant": 91.92,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "ms-fr-entreprise-offres",
+     "releve": "2026-10-07"
+    }
+   ]
+  },
+  "ms-copilot-studio-pack": {
+   "nom": "Microsoft Copilot Studio, pack de 25 000 crédits",
+   "editeur": "Microsoft",
+   "nature": "licence d'organisation, par mois",
+   "prix": [
+    {
+     "montant": 173.3,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": null,
+     "libelle": "pour 25 000 crédits",
+     "unite": "par mois",
+     "source": "ms-fr-copilot-studio",
+     "releve": "2026-10-07"
+    }
+   ]
+  },
+  "ms-copilot-studio-credits": {
+   "nom": "Microsoft Copilot Studio, crédits Copilot",
+   "editeur": "Microsoft",
+   "nature": "consommation des agents, au crédit",
+   "prix": [
+    {
+     "montant": 0.0088,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": null,
+     "libelle": "facturé à l'usage sur un abonnement Azure",
+     "unite": "par crédit",
+     "source": "azure-prix-studio-fr",
+     "releve": "2026-10-07"
+    }
+   ],
+   "pack": {
+    "credits": 25000,
+    "montant": 173.3,
+    "devise": "EUR",
+    "taxe": "HT",
+    "periode": "mois",
+    "report": false,
+    "source": "ms-fr-copilot-studio",
+    "releve": "2026-10-07"
+   },
+   "taux": {
+    "classique": 1,
+    "generative": 2,
+    "action": 5,
+    "graphe": 10
+   },
+   "taux_noms": {
+    "classique": "réponse classique (sujet écrit à l'avance)",
+    "generative": "réponse générative",
+    "action": "action de l'agent",
+    "graphe": "recherche dans les données Microsoft 365 de l'entreprise"
+   },
+   "gratuit_avec_licence": [
+    "classique",
+    "generative",
+    "graphe"
+   ],
+   "taux_source": "ms-studio-tarifs",
+   "conditions": "Les crédits d'un pack valent pour le mois et ne se reportent pas ; au-delà de 125 % de la capacité prépayée, les agents personnalisés sont coupés. Pour les titulaires de la licence Microsoft 365 Copilot qui utilisent un agent dans les applications Microsoft 365, réponses classiques, génératives et recherches dans les données de l'entreprise ne sont pas décomptées."
+  },
+  "gw-business-starter": {
+   "nom": "Google Workspace Business Starter",
+   "editeur": "Google",
+   "nature": "suite bureautique, Gemini compris",
+   "prix": [
+    {
+     "montant": 6.8,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "gw-fr-tarifs",
+     "releve": "2026-10-08"
+    },
+    {
+     "montant": 8.1,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "sans engagement (forfait flexible)",
+     "source": "gw-fr-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "plafond_utilisateurs": 300,
+   "essai": "14 jours, jusqu'à 10 utilisateurs"
+  },
+  "gw-business-standard": {
+   "nom": "Google Workspace Business Standard",
+   "editeur": "Google",
+   "nature": "suite bureautique, Gemini compris",
+   "prix": [
+    {
+     "montant": 13.6,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "gw-fr-tarifs",
+     "releve": "2026-10-08"
+    },
+    {
+     "montant": 16.2,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "sans engagement (forfait flexible)",
+     "source": "gw-fr-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "plafond_utilisateurs": 300,
+   "essai": "14 jours, jusqu'à 10 utilisateurs"
+  },
+  "gw-business-plus": {
+   "nom": "Google Workspace Business Plus",
+   "editeur": "Google",
+   "nature": "suite bureautique, Gemini compris",
+   "prix": [
+    {
+     "montant": 21.1,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "avec engagement annuel",
+     "source": "gw-fr-tarifs",
+     "releve": "2026-10-08"
+    },
+    {
+     "montant": 25.3,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "sans engagement (forfait flexible)",
+     "source": "gw-fr-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "plafond_utilisateurs": 300,
+   "essai": "14 jours, jusqu'à 10 utilisateurs"
+  },
+  "chatgpt-business": {
+   "nom": "ChatGPT Business",
+   "ancien_nom": "ChatGPT Team",
+   "editeur": "OpenAI",
+   "nature": "assistant d'IA pour les équipes",
+   "prix": [
+    {
+     "montant": 21,
+     "devise": "EUR",
+     "taxe": "(taxes non précisées)",
+     "engagement": "annuel",
+     "libelle": "facturé à l'année",
+     "source": "oai-fr-chatgpt-tarifs",
+     "releve": "2026-10-08"
+    },
+    {
+     "montant": 26,
+     "devise": "EUR",
+     "taxe": "(taxes non précisées)",
+     "engagement": "mensuel",
+     "libelle": "facturé au mois",
+     "source": "oai-fr-chatgpt-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "sieges": "de 2 à 200",
+   "note": "La page française ne dit pas si la TVA est comprise ; siège Premium à 100 $ par mois à l'année aux États-Unis, 105 € sans période sur la page française"
+  },
+  "claude-team": {
+   "nom": "Claude Team, siège Standard",
+   "editeur": "Anthropic",
+   "nature": "assistant d'IA pour les équipes",
+   "prix": [
+    {
+     "montant": 18,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "facturé à l'année",
+     "source": "ant-fr-tarifs",
+     "releve": "2026-10-08"
+    },
+    {
+     "montant": 21.04,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "facturé au mois",
+     "source": "ant-fr-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "sieges": "de 2 à 150",
+   "essai": "aucun"
+  },
+  "claude-team-premium": {
+   "nom": "Claude Team, siège Premium",
+   "editeur": "Anthropic",
+   "nature": "assistant d'IA pour les équipes, cinq fois plus d'usage",
+   "prix": [
+    {
+     "montant": 90,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "facturé à l'année",
+     "source": "ant-fr-tarifs",
+     "releve": "2026-10-08"
+    },
+    {
+     "montant": 105.23,
+     "devise": "EUR",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "facturé au mois",
+     "source": "ant-fr-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "sieges": "de 2 à 150"
+  },
+  "mistral-vibe-team": {
+   "nom": "Mistral Vibe Team",
+   "ancien_nom": "Le Chat Team",
+   "editeur": "Mistral AI",
+   "nature": "assistant d'IA pour les équipes",
+   "prix": [
+    {
+     "montant": 29.99,
+     "devise": "EUR",
+     "taxe": "TTC",
+     "engagement": null,
+     "libelle": "période de facturation non précisée sur la page",
+     "source": "mis-fr-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "note": "24,99 $ hors taxes sur la page en dollars ; l'aide annonce 20 % de moins à l'année"
+  },
+  "perplexity-enterprise-pro": {
+   "nom": "Perplexity Enterprise Pro",
+   "editeur": "Perplexity",
+   "nature": "recherche sur le web avec sources, pour les équipes",
+   "prix": [
+    {
+     "montant": 34,
+     "devise": "USD",
+     "taxe": "HT",
+     "engagement": "annuel",
+     "libelle": "facturé à l'année (400 $ par an)",
+     "source": "ppx-faq-facturation",
+     "releve": "2026-10-08"
+    },
+    {
+     "montant": 40,
+     "devise": "USD",
+     "taxe": "HT",
+     "engagement": "mensuel",
+     "libelle": "facturé au mois",
+     "source": "ppx-tarifs",
+     "releve": "2026-10-08"
+    }
+   ],
+   "note": "Prix en dollars seulement sur les pages lues depuis la France"
+  }
+ }
+}

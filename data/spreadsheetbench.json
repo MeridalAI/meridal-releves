@@ -1,0 +1,311 @@
+{
+ "retrieved": "2026-10-08",
+ "source": {
+  "publisher": "SpreadsheetBench (Renmin University of China et al.)",
+  "url": "https://spreadsheetbench.github.io/",
+  "fichiers": [
+   "https://spreadsheetbench.github.io/data/leaderboard-v1-full.json",
+   "https://spreadsheetbench.github.io/data/leaderboard-v2-full.json"
+  ],
+  "papier": "https://arxiv.org/abs/2406.14991"
+ },
+ "methode": {
+  "v1": "912 questions réelles tirées de forums Excel ; chaque solution est vérifiée sur plusieurs classeurs de test, comme un juge en ligne (papier, NeurIPS 2024).",
+  "v2": "321 tâches d'entreprise (gabarits, modèles financiers, débogage, visualisation) ; une tâche ne compte que si toutes les cellules demandées sont justes et qu'aucune autre n'a changé.",
+  "verifie": "Vérifié : résultat obtenu par l'équipe de SpreadsheetBench avec l'accès fourni par l'organisation. Non vérifié : résultat publié par un tiers, par exemple OpenAI ou Microsoft."
+ },
+ "colonnes": [
+  "model",
+  "organization",
+  "score",
+  "verified",
+  "date",
+  "scaffold"
+ ],
+ "v1_full": [
+  {
+   "model": "Qingqiu Agent",
+   "organization": "Kingsoft Office",
+   "url": "https://www.wps.cn/",
+   "verified": true,
+   "score": 83.11,
+   "date": "2026-06-23"
+  },
+  {
+   "model": "JT AlphaData",
+   "organization": "CMCC JIUTIAN",
+   "url": "",
+   "verified": true,
+   "score": 77.85,
+   "date": "2026-08-15"
+  },
+  {
+   "model": "WPS AI (Seed 2.0)",
+   "organization": "Kingsoft Office",
+   "url": "https://www.wps.cn/",
+   "verified": true,
+   "score": 73.46,
+   "date": "2026-06-16"
+  },
+  {
+   "model": "Gemini in Google Sheets",
+   "organization": "Google",
+   "url": "https://workspace.google.com/",
+   "verified": true,
+   "score": 70.48,
+   "date": "2026-03-10"
+  },
+  {
+   "model": "Univer",
+   "organization": "Univer",
+   "url": "https://univer.ai/",
+   "verified": true,
+   "score": 68.86,
+   "date": "2025-11-18"
+  },
+  {
+   "model": "灵犀",
+   "organization": "Kingsoft Office",
+   "url": "https://lingxi.wps.cn",
+   "verified": true,
+   "score": 66.89,
+   "date": "2025-12-28"
+  },
+  {
+   "model": "Bluebox",
+   "organization": "Bluebox Labs",
+   "url": "https://blue-box.co/",
+   "verified": true,
+   "score": 62.9,
+   "date": "2025-10-28"
+  },
+  {
+   "model": "Shortcut.ai",
+   "organization": "Shortcut.ai",
+   "url": "https://www.tryshortcut.ai",
+   "verified": true,
+   "score": 59.25,
+   "date": "2025-10-16"
+  },
+  {
+   "model": "Copilot in Excel (Agent Mode)",
+   "organization": "Microsoft",
+   "url": "https://www.microsoft.com",
+   "verified": false,
+   "score": 57.2,
+   "date": "2025-09-29"
+  },
+  {
+   "model": "Catalyst",
+   "organization": "Catalyst",
+   "url": "https://catalyst.samuelolubukun.com/",
+   "verified": true,
+   "score": 48.57,
+   "date": "2026-08-30"
+  },
+  {
+   "model": "ChatGPT Agent w/ .xlsx",
+   "organization": "OpenAI",
+   "url": "https://openai.com",
+   "verified": false,
+   "score": 45.5,
+   "date": "2025-07-17"
+  },
+  {
+   "model": "Claude Files Opus 4.1",
+   "organization": "Anthropic",
+   "url": "https://www.anthropic.com",
+   "verified": false,
+   "score": 42.9,
+   "date": "2025-09-29"
+  },
+  {
+   "model": "ChatGPT Agent",
+   "organization": "OpenAI",
+   "url": "https://openai.com",
+   "verified": false,
+   "score": 35.3,
+   "date": "2025-07-17"
+  },
+  {
+   "model": "OpenAI o3",
+   "organization": "OpenAI",
+   "url": "https://openai.com",
+   "verified": false,
+   "score": 23.3,
+   "date": "2025-07-17"
+  }
+ ],
+ "v2_full": [
+  {
+   "model": "arito",
+   "scaffold": "arito",
+   "organization": "arito",
+   "url": "https://arito.ai",
+   "verified": true,
+   "score": 54.51,
+   "date": "2026-09-13",
+   "subscores": {
+    "Template": 62.89,
+    "Fin.Model": 67.0,
+    "Debug": 29.0,
+    "Visualization": 74.86
+   }
+  },
+  {
+   "model": "WPS AI",
+   "scaffold": "WPS AI",
+   "organization": "Kingsoft Office",
+   "url": "https://www.wps.cn/",
+   "verified": true,
+   "score": 50.86,
+   "date": "2026-08-29",
+   "subscores": {
+    "Template": 76.29,
+    "Fin.Model": 56.0,
+    "Debug": 16.0,
+    "Visualization": 71.94
+   }
+  },
+  {
+   "model": "Claude Opus 4.6",
+   "scaffold": "SWE-agent",
+   "organization": "Anthropic",
+   "url": "https://www.anthropic.com",
+   "verified": true,
+   "score": 34.89,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 52.58,
+    "Fin.Model": 34.0,
+    "Debug": 12.0,
+    "Visualization": 62.5
+   }
+  },
+  {
+   "model": "Decide Agent 2.0",
+   "scaffold": "Decide Agent 2.0",
+   "organization": "Decide",
+   "url": "https://trydecide.ai",
+   "verified": true,
+   "score": 33.81,
+   "date": "2026-08-25",
+   "subscores": {
+    "Template": 62.89,
+    "Fin.Model": 36.0,
+    "Debug": 0.0,
+    "Visualization": 48.05
+   }
+  },
+  {
+   "model": "GPT-5.2",
+   "scaffold": "SWE-agent",
+   "organization": "OpenAI",
+   "url": "https://www.openai.com",
+   "verified": true,
+   "score": 26.79,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 35.05,
+    "Fin.Model": 33.0,
+    "Debug": 8.0,
+    "Visualization": 45.83
+   }
+  },
+  {
+   "model": "Gemini 3.1 Pro",
+   "scaffold": "SWE-agent",
+   "organization": "Google",
+   "url": "https://gemini.google.com/",
+   "verified": true,
+   "score": 23.68,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 28.87,
+    "Fin.Model": 31.0,
+    "Debug": 7.0,
+    "Visualization": 41.67
+   }
+  },
+  {
+   "model": "GLM-5.0",
+   "scaffold": "SWE-agent",
+   "organization": "Zhipu.AI",
+   "url": "https://www.zhipuai.cn",
+   "verified": true,
+   "score": 17.14,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 17.53,
+    "Fin.Model": 22.0,
+    "Debug": 7.0,
+    "Visualization": 37.5
+   }
+  },
+  {
+   "model": "Deepseek-V3.2",
+   "scaffold": "SWE-agent",
+   "organization": "DeepSeek",
+   "url": "https://www.deepseek.com",
+   "verified": true,
+   "score": 15.58,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 25.77,
+    "Fin.Model": 7.0,
+    "Debug": 10.0,
+    "Visualization": 33.33
+   }
+  },
+  {
+   "model": "Kimi K2.5",
+   "scaffold": "SWE-agent",
+   "organization": "Moonshot",
+   "url": "https://www.moonshot.cn",
+   "verified": true,
+   "score": 14.64,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 18.56,
+    "Fin.Model": 15.0,
+    "Debug": 4.0,
+    "Visualization": 41.67
+   }
+  },
+  {
+   "model": "Qwen3.5-397B-A17B",
+   "scaffold": "SWE-agent",
+   "organization": "Alibaba",
+   "url": "https://qwen.ai/",
+   "verified": true,
+   "score": 11.22,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 17.53,
+    "Fin.Model": 10.0,
+    "Debug": 3.0,
+    "Visualization": 25.0
+   }
+  },
+  {
+   "model": "MiniMax M2.5",
+   "scaffold": "SWE-agent",
+   "organization": "MiniMax",
+   "url": "https://www.minimax.io",
+   "verified": true,
+   "score": 7.17,
+   "date": "2026-03-26",
+   "subscores": {
+    "Template": 7.22,
+    "Fin.Model": 8.0,
+    "Debug": 4.0,
+    "Visualization": 16.67
+   }
+  }
+ ],
+ "lacunes": [
+  "Le classement ne dit pas quelle version de chaque produit a été mesurée ; plusieurs produits ont changé depuis leur date.",
+  "Copilot dans Excel (57,2 %), ChatGPT Agent et Claude Files ne sont pas vérifiés : chiffres publiés par Microsoft et OpenAI ; Microsoft dit avoir mesuré lui-même Claude et Shortcut pour son annonce (Microsoft Excel Blog, 29 septembre 2025)."
+ ],
+ "nature": "classement public d'un banc d'essai universitaire ; scores en pourcentage de tâches réussies"
+}

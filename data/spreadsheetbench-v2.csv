@@ -1,0 +1,12 @@
+model,scaffold,organization,url,verified,score,date,subscores
+arito,arito,arito,https://arito.ai,True,54.51,2026-09-13,"{""Template"": 62.89, ""Fin.Model"": 67.0, ""Debug"": 29.0, ""Visualization"": 74.86}"
+WPS AI,WPS AI,Kingsoft Office,https://www.wps.cn/,True,50.86,2026-08-29,"{""Template"": 76.29, ""Fin.Model"": 56.0, ""Debug"": 16.0, ""Visualization"": 71.94}"
+Claude Opus 4.6,SWE-agent,Anthropic,https://www.anthropic.com,True,34.89,2026-03-26,"{""Template"": 52.58, ""Fin.Model"": 34.0, ""Debug"": 12.0, ""Visualization"": 62.5}"
+Decide Agent 2.0,Decide Agent 2.0,Decide,https://trydecide.ai,True,33.81,2026-08-25,"{""Template"": 62.89, ""Fin.Model"": 36.0, ""Debug"": 0.0, ""Visualization"": 48.05}"
+GPT-5.2,SWE-agent,OpenAI,https://www.openai.com,True,26.79,2026-03-26,"{""Template"": 35.05, ""Fin.Model"": 33.0, ""Debug"": 8.0, ""Visualization"": 45.83}"
+Gemini 3.1 Pro,SWE-agent,Google,https://gemini.google.com/,True,23.68,2026-03-26,"{""Template"": 28.87, ""Fin.Model"": 31.0, ""Debug"": 7.0, ""Visualization"": 41.67}"
+GLM-5.0,SWE-agent,Zhipu.AI,https://www.zhipuai.cn,True,17.14,2026-03-26,"{""Template"": 17.53, ""Fin.Model"": 22.0, ""Debug"": 7.0, ""Visualization"": 37.5}"
+Deepseek-V3.2,SWE-agent,DeepSeek,https://www.deepseek.com,True,15.58,2026-03-26,"{""Template"": 25.77, ""Fin.Model"": 7.0, ""Debug"": 10.0, ""Visualization"": 33.33}"
+Kimi K2.5,SWE-agent,Moonshot,https://www.moonshot.cn,True,14.64,2026-03-26,"{""Template"": 18.56, ""Fin.Model"": 15.0, ""Debug"": 4.0, ""Visualization"": 41.67}"
+Qwen3.5-397B-A17B,SWE-agent,Alibaba,https://qwen.ai/,True,11.22,2026-03-26,"{""Template"": 17.53, ""Fin.Model"": 10.0, ""Debug"": 3.0, ""Visualization"": 25.0}"
+MiniMax M2.5,SWE-agent,MiniMax,https://www.minimax.io,True,7.17,2026-03-26,"{""Template"": 7.22, ""Fin.Model"": 8.0, ""Debug"": 4.0, ""Visualization"": 16.67}"

@@ -1,0 +1,531 @@
+{
+ "releve": "2026-10-07",
+ "regle": "Hébergeurs d'une application Python, relevés le 7 octobre 2026 sur les pages des éditeurs, de l'ANSSI (catalogue du 15 septembre 2026) et du Sénat (apprendre/recherches/2026-10-07-deploiement-europe.json). Prix hors taxe quand l'éditeur le dit ; sinon tels qu'affichés.",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non publié"
+ },
+ "colonnes": [
+  {
+   "id": "siege",
+   "nom": "Siège"
+  },
+  {
+   "id": "region",
+   "nom": "Région en France"
+  },
+  {
+   "id": "depart",
+   "nom": "Pour démarrer"
+  },
+  {
+   "id": "snc",
+   "nom": "SecNumCloud"
+  },
+  {
+   "id": "savoir",
+   "nom": "À savoir"
+  }
+ ],
+ "sources": {
+  "cc-mentions": {
+   "titre": "Clever Cloud, Mentions légales",
+   "url": "https://www.clever.cloud/fr/mentions-legales/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "cc-cli": {
+   "titre": "Clever Tools, Applications",
+   "url": "https://www.clever.cloud/developers/doc/manage/cli/applications/",
+   "date_page": "2026-09-11",
+   "lue": "2026-10-07"
+  },
+  "cc-prix": {
+   "titre": "Clever Cloud, API des prix (zone par, EUR)",
+   "url": "https://api.clever-cloud.com/v4/billing/price-system?zone_id=par&currency=EUR",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "cc-snc": {
+   "titre": "Clever Cloud, SecNumCloud: Trusted Cloud?",
+   "url": "https://www.clever.cloud/secnumcloud-trusted-cloud/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "scw-cli": {
+   "titre": "Scaleway CLI, scw container",
+   "url": "https://cli.scaleway.com/container/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "scw-prix": {
+   "titre": "Scaleway, Serverless Pricing",
+   "url": "https://www.scaleway.com/en/pricing/serverless/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "scw-snc": {
+   "titre": "Scaleway, SecNumCloud",
+   "url": "https://www.scaleway.com/en/secnumcloud/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "scw-secrets": {
+   "titre": "Scaleway, Secure a container",
+   "url": "https://www.scaleway.com/en/docs/serverless-containers/how-to/secure-a-container/",
+   "date_page": "2025-09-01",
+   "lue": "2026-10-07"
+  },
+  "ovh-ai": {
+   "titre": "OVHcloud, AI Deploy, caractéristiques et limites",
+   "url": "https://docs.ovhcloud.com/fr/guides/public-cloud/ai-machine-learning/ai-deploy-capabilities",
+   "date_page": "2026-08-27",
+   "lue": "2026-10-07"
+  },
+  "ovh-eol": {
+   "titre": "OVHcloud, End of Life, Web PaaS",
+   "url": "https://community.ovhcloud.com/t/end-of-life-eol-web-paas/3526",
+   "date_page": "2024-10-02",
+   "lue": "2026-10-07"
+  },
+  "ovh-prix": {
+   "titre": "OVHcloud, catalogue Public Cloud (API)",
+   "url": "https://eu.api.ovh.com/1.0/order/catalog/public/cloud?ovhSubsidiary=FR",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "anssi-cat": {
+   "titre": "ANSSI, Catalogue des produits et services qualifiés, 15 septembre 2026",
+   "url": "https://messervices.cyber.gouv.fr/visas/catalogue-produits-services-profils-de-protection-sites-certifies-qualifies-agrees-anssi.pdf",
+   "date_page": "2026-09-15",
+   "lue": "2026-10-07"
+  },
+  "anssi-qual": {
+   "titre": "ANSSI, Prestataires SecNumCloud en cours de qualification",
+   "url": "https://cyber.sites.beta.gouv.fr/offre-de-service/solutions-certifiees-et-qualifiees/services-de-securite-evalue/solutions-en-cours-de-qualification/prestataires-secnumcloud/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "sca-regions": {
+   "titre": "Scalingo, régions",
+   "url": "https://doc.scalingo.com/platform/internals/regions",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "sca-prix": {
+   "titre": "Scalingo, tarifs",
+   "url": "https://scalingo.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "az-regions": {
+   "titre": "Microsoft Learn, List of Azure regions",
+   "url": "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+   "date_page": "2026-09-23",
+   "lue": "2026-10-07"
+  },
+  "az-prix": {
+   "titre": "Azure Retail Prices API, App Service, francecentral",
+   "url": "https://prices.azure.com/api/retail/prices?currencyCode=EUR&$filter=serviceName eq 'Azure App Service' and armRegionName eq 'francecentral'",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "senat": {
+   "titre": "Sénat, commission d'enquête sur la commande publique, juin 2025",
+   "url": "https://www.senat.fr/compte-rendu-commissions/20250609/ce_commande_publique.html",
+   "date_page": "2025-06-09",
+   "lue": "2026-10-07"
+  },
+  "gcp-run": {
+   "titre": "Google Cloud, Cloud Run pricing",
+   "url": "https://cloud.google.com/run/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "gcp-secrets": {
+   "titre": "Google Cloud, Choose a secret replication policy",
+   "url": "https://docs.cloud.google.com/secret-manager/docs/choosing-replication",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07"
+  },
+  "gcp-logs": {
+   "titre": "Google Cloud, Regionalize your logs",
+   "url": "https://docs.cloud.google.com/logging/docs/regionalized-logs",
+   "date_page": "2026-10-06",
+   "lue": "2026-10-07"
+  },
+  "gcp-region": {
+   "titre": "Google Cloud, Déployer une application Python sur Cloud Run",
+   "url": "https://docs.cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service?hl=fr",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07"
+  },
+  "aws-regions": {
+   "titre": "AWS, Regions",
+   "url": "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "aws-apprunner": {
+   "titre": "AWS, Service Availability Updates",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
+   "date_page": "2026-03-31",
+   "lue": "2026-10-07"
+  },
+  "aws-express": {
+   "titre": "AWS, Amazon ECS Express Mode",
+   "url": "https://docs.aws.amazon.com/AmazonECS/latest/developerguide/express-service-overview.html",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "aws-fargate": {
+   "titre": "AWS, Fargate pricing",
+   "url": "https://aws.amazon.com/fargate/pricing/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "scw-mentions": {
+   "titre": "Scaleway, Mentions légales",
+   "url": "https://www.scaleway.com/fr/mentions-legales/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ent-ovh": {
+   "titre": "Recherche d'entreprises (État), OVH",
+   "url": "https://recherche-entreprises.api.gouv.fr/search?q=OVH",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ent-scalingo": {
+   "titre": "Recherche d'entreprises (État), Scalingo",
+   "url": "https://recherche-entreprises.api.gouv.fr/search?q=SCALINGO",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "sca-logs": {
+   "titre": "Scalingo, journaux",
+   "url": "https://doc.scalingo.com/platform/app/logs",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "az-societe": {
+   "titre": "Déclaration de confidentialité Microsoft",
+   "url": "https://www.microsoft.com/fr-fr/privacy/privacystatement",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "gcp-societe": {
+   "titre": "Avis de confidentialité de Google Cloud",
+   "url": "https://cloud.google.com/terms/cloud-privacy-notice?hl=fr",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "aws-societe": {
+   "titre": "AWS Customer Agreement",
+   "url": "https://aws.amazon.com/agreement/",
+   "date_page": null,
+   "lue": "2026-10-07"
+  }
+ },
+ "lignes": [
+  {
+   "id": "clever",
+   "outil": "Clever Cloud",
+   "offre": "application Python, déployée par git",
+   "cases": {
+    "siege": {
+     "texte": "Nantes, France",
+     "etat": "bon",
+     "sources": [
+      "cc-mentions"
+     ]
+    },
+    "region": {
+     "texte": "Paris par défaut (zone par)",
+     "etat": "bon",
+     "sources": [
+      "cc-cli"
+     ]
+    },
+    "depart": {
+     "texte": "Instance pico : 0,00625 € de l'heure ; crédits offerts à l'inscription, sans carte",
+     "etat": null,
+     "sources": [
+      "cc-prix"
+     ]
+    },
+    "snc": {
+     "texte": "Non qualifié ; l'éditeur dit s'y engager",
+     "etat": "attention",
+     "sources": [
+      "anssi-cat",
+      "cc-snc"
+     ]
+    },
+    "savoir": {
+     "texte": "Pas de gestionnaire de secrets dédié trouvé : les variables d'environnement en tiennent lieu",
+     "etat": "attention",
+     "sources": [
+      "cc-cli"
+     ]
+    }
+   }
+  },
+  {
+   "id": "scaleway",
+   "outil": "Scaleway",
+   "offre": "conteneurs sans serveur",
+   "cases": {
+    "siege": {
+     "texte": "Paris, France",
+     "etat": "bon",
+     "sources": [
+      "scw-mentions"
+     ]
+    },
+    "region": {
+     "texte": "Paris (fr-par) par défaut",
+     "etat": "bon",
+     "sources": [
+      "scw-cli"
+     ]
+    },
+    "depart": {
+     "texte": "Gratuit sous 200 000 vCPU-secondes et 400 000 Go-secondes par mois ; puis 0,00001 € la vCPU-seconde, hors taxe",
+     "etat": null,
+     "sources": [
+      "scw-prix"
+     ]
+    },
+    "snc": {
+     "texte": "En cours de qualification",
+     "etat": "attention",
+     "sources": [
+      "anssi-qual"
+     ]
+    },
+    "savoir": {
+     "texte": "Un conteneur est public par défaut ; ses secrets ne sont pas ceux du gestionnaire de secrets",
+     "etat": "attention",
+     "sources": [
+      "scw-cli",
+      "scw-secrets"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ovh",
+   "outil": "OVHcloud",
+   "offre": "AI Deploy, à partir d'une image Docker",
+   "cases": {
+    "siege": {
+     "texte": "Roubaix, France",
+     "etat": "bon",
+     "sources": [
+      "ent-ovh"
+     ]
+    },
+    "region": {
+     "texte": "Gravelines (GRA)",
+     "etat": "bon",
+     "sources": [
+      "ovh-ai"
+     ]
+    },
+    "depart": {
+     "texte": "0,033 € de l'heure hors taxe pour 1 vCPU, facturé à la minute",
+     "etat": null,
+     "sources": [
+      "ovh-prix"
+     ]
+    },
+    "snc": {
+     "texte": "Qualifiés : des offres d'infrastructure (IaaS), pas AI Deploy",
+     "etat": "attention",
+     "sources": [
+      "anssi-cat"
+     ]
+    },
+    "savoir": {
+     "texte": "Web PaaS, l'ancienne offre de déploiement simple, est fermé depuis le 31 janvier 2025",
+     "etat": "attention",
+     "sources": [
+      "ovh-eol"
+     ]
+    }
+   }
+  },
+  {
+   "id": "scalingo",
+   "outil": "Scalingo",
+   "offre": "application Python, déployée par git",
+   "cases": {
+    "siege": {
+     "texte": "Strasbourg, France",
+     "etat": "bon",
+     "sources": [
+      "ent-scalingo"
+     ]
+    },
+    "region": {
+     "texte": "Paris, sur Outscale ; une région SecNumCloud sur demande",
+     "etat": "bon",
+     "sources": [
+      "sca-regions"
+     ]
+    },
+    "depart": {
+     "texte": "Conteneur S : 7,20 € hors taxe pour 30 jours",
+     "etat": null,
+     "sources": [
+      "sca-prix"
+     ]
+    },
+    "snc": {
+     "texte": "La plateforme n'est pas qualifiée ; l'infrastructure Outscale l'est, jusqu'au 30 novembre 2026",
+     "etat": "attention",
+     "sources": [
+      "anssi-cat"
+     ]
+    },
+    "savoir": {
+     "texte": "Garde les journaux un an",
+     "etat": null,
+     "sources": [
+      "sca-logs"
+     ]
+    }
+   }
+  },
+  {
+   "id": "azure",
+   "outil": "Microsoft Azure",
+   "offre": "App Service",
+   "cases": {
+    "siege": {
+     "texte": "Redmond, États-Unis",
+     "etat": "attention",
+     "sources": [
+      "az-societe"
+     ]
+    },
+    "region": {
+     "texte": "Paris (francecentral)",
+     "etat": "bon",
+     "sources": [
+      "az-regions"
+     ]
+    },
+    "depart": {
+     "texte": "Plan F1 gratuit ; B1 Linux : 0,0158 € de l'heure",
+     "etat": null,
+     "sources": [
+      "az-prix"
+     ]
+    },
+    "snc": {
+     "texte": "Non qualifié ; « Cloud de Confiance Bleu », de Bleu SAS, en cours de qualification",
+     "etat": "attention",
+     "sources": [
+      "anssi-qual"
+     ]
+    },
+    "savoir": {
+     "texte": "Devant le Sénat, en juin 2025, Microsoft France n'a pas pu garantir que des données ne seraient jamais transmises aux autorités américaines",
+     "etat": "attention",
+     "sources": [
+      "senat"
+     ]
+    }
+   }
+  },
+  {
+   "id": "gcp",
+   "outil": "Google Cloud",
+   "offre": "Cloud Run",
+   "cases": {
+    "siege": {
+     "texte": "Mountain View, États-Unis",
+     "etat": "attention",
+     "sources": [
+      "gcp-societe"
+     ]
+    },
+    "region": {
+     "texte": "Paris (europe-west9)",
+     "etat": "bon",
+     "sources": [
+      "gcp-region"
+     ]
+    },
+    "depart": {
+     "texte": "Gratuit sous 180 000 vCPU-secondes et 2 millions de requêtes par mois ; prix publiés en dollars",
+     "etat": null,
+     "sources": [
+      "gcp-run"
+     ]
+    },
+    "snc": {
+     "texte": "Non qualifié ; « S3NS », offre de Thales, qualifiée jusqu'au 17 décembre 2028",
+     "etat": "attention",
+     "sources": [
+      "anssi-cat"
+     ]
+    },
+    "savoir": {
+     "texte": "Par défaut, les secrets sont répliqués dans le monde et les journaux rangés en zone mondiale",
+     "etat": "attention",
+     "sources": [
+      "gcp-secrets",
+      "gcp-logs"
+     ]
+    }
+   }
+  },
+  {
+   "id": "aws",
+   "outil": "AWS",
+   "offre": "ECS Express Mode",
+   "cases": {
+    "siege": {
+     "texte": "Seattle, États-Unis ; contrat EMEA au Luxembourg",
+     "etat": "attention",
+     "sources": [
+      "aws-societe"
+     ]
+    },
+    "region": {
+     "texte": "Paris (eu-west-3)",
+     "etat": "bon",
+     "sources": [
+      "aws-regions"
+     ]
+    },
+    "depart": {
+     "texte": "Fargate : 0,0486 $ par vCPU-heure, plus le répartiteur de charge",
+     "etat": null,
+     "sources": [
+      "aws-fargate"
+     ]
+    },
+    "snc": {
+     "texte": "Non qualifié",
+     "etat": "attention",
+     "sources": [
+      "anssi-cat"
+     ]
+    },
+    "savoir": {
+     "texte": "App Runner, le service simple, est fermé aux nouveaux clients depuis le 30 avril 2026",
+     "etat": "attention",
+     "sources": [
+      "aws-apprunner",
+      "aws-express"
+     ]
+    }
+   }
+  }
+ ]
+}

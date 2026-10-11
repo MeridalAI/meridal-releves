@@ -1,0 +1,14 @@
+modele,editeur,id_vectara,taux_pct,note
+Finix S1 32B,Ant Group,antgroup/finix_s1_32b,1.8,le plus bas du classement
+GPT-6 Sol,OpenAI,openai/gpt-6-sol,6.5,
+Gemma 4 31B,Google,google/gemma-4-31b-it,7.4,
+DeepSeek V4 Pro,DeepSeek,deepseek-ai/DeepSeek-V4-Pro,8.6,
+GPT-6 Astra,OpenAI,openai/gpt-6-astra,8.7,
+Claude Haiku 4.5,Anthropic,anthropic/claude-haiku-4-5-20251001,9.8,
+"Gemini 3.1 Pro, en aperçu",Google,google/gemini-3.1-pro-preview,10.4,
+Claude Opus 4.6,Anthropic,anthropic/claude-opus-4-6,12.2,
+GPT-5.6 Sol,OpenAI,openai/gpt-5.6-sol,12.4,
+gpt-oss-120b,OpenAI,openai/gpt-oss-120b,14.2,
+"Grok 4.1 Fast, avec raisonnement",xAI,xai-org/grok-4-1-fast-reasoning,19.2,
+"Mistral Medium, août 2025",Mistral AI,mistralai/mistral-medium-2508,22.7,
+Ministral 3 3B,Mistral AI,mistralai/ministral-3-3b-2512,24.2,le plus haut du classement

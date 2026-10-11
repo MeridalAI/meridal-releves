@@ -1,0 +1,321 @@
+{
+ "releve": "2026-10-08",
+ "regle": "Ce qui arrête une automatisation, ses nouvelles tentatives, son historique et ses alertes, outil par outil, relevés le 8 octobre 2026 dans la documentation des éditeurs (apprendre/recherches/2026-10-08-automatisation.json).",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non relevé, ou non trouvé"
+ },
+ "colonnes": [
+  {
+   "id": "arret",
+   "nom": "Ce qui l'arrête"
+  },
+  {
+   "id": "essais",
+   "nom": "Les nouvelles tentatives"
+  },
+  {
+   "id": "histo",
+   "nom": "L'historique"
+  },
+  {
+   "id": "alerte",
+   "nom": "L'alerte en cas d'erreur"
+  }
+ ],
+ "sources": {
+  "CS1": {
+   "titre": "Microsoft Learn, Vue d'ensemble des flux d'agent (Copilot Studio)",
+   "url": "https://learn.microsoft.com/fr-fr/microsoft-copilot-studio/flows-overview",
+   "date_page": "2026-09-07",
+   "lue": "2026-10-08"
+  },
+  "G3": {
+   "titre": "Google (Aide Workspace Studio), En savoir plus sur les limites de Google Workspace Studio",
+   "url": "https://support.google.com/workspace-studio/answer/16765942?hl=fr",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "G4": {
+   "titre": "Google (Aide Workspace Studio), Résoudre les problèmes liés aux flux",
+   "url": "https://support.google.com/workspace-studio/answer/16430806?hl=fr",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "M1": {
+   "titre": "Make (Celonis), Make Pricing & Subscription Packages",
+   "url": "https://www.make.com/en/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "M5": {
+   "titre": "Make Help Center, Error handlers (Help Center)",
+   "url": "https://help.make.com/error-handlers",
+   "date_page": "2026-09-08",
+   "lue": "2026-10-08"
+  },
+  "M6": {
+   "titre": "Make Help Center, Retry error handler (Help Center)",
+   "url": "https://help.make.com/retry-error-handler",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "M7": {
+   "titre": "Make Help Center, Incomplete executions (Help Center)",
+   "url": "https://help.make.com/incomplete-executions",
+   "date_page": "2026-10-08",
+   "lue": "2026-10-08"
+  },
+  "N1": {
+   "titre": "n8n, n8n Plans and Pricing (EUR display from a French connection)",
+   "url": "https://n8n.io/pricing/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N11": {
+   "titre": "n8n Docs, Manage execution data (pruning)",
+   "url": "https://docs.n8n.io/deploy/host-n8n/configure-n8n/scaling/manage-execution-data.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N7": {
+   "titre": "n8n Docs, Handle errors gracefully (error workflows)",
+   "url": "https://docs.n8n.io/flow-logic/error-handling/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N8": {
+   "titre": "n8n Docs, Work with nodes (node settings: Retry On Fail, On Error)",
+   "url": "https://docs.n8n.io/workflows/components/nodes/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "PA7": {
+   "titre": "Microsoft Learn, Limites des flux automatisés, planifiés et instantanés",
+   "url": "https://learn.microsoft.com/fr-fr/power-automate/limits-and-config",
+   "date_page": "2026-07-17",
+   "lue": "2026-10-08"
+  },
+  "PA8": {
+   "titre": "Microsoft Learn, Utiliser une gestion robuste des erreurs (Power Automate)",
+   "url": "https://learn.microsoft.com/fr-fr/power-automate/guidance/coding-guidelines/error-handling",
+   "date_page": "2026-04-01",
+   "lue": "2026-10-08"
+  },
+  "Z5": {
+   "titre": "Zapier Help Center, Customize data retention in Zapier",
+   "url": "https://help.zapier.com/hc/en-us/articles/8496327478413",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "Z7": {
+   "titre": "Zapier Help Center, What is replay? (Autoreplay)",
+   "url": "https://help.zapier.com/hc/en-us/articles/19220226086797-What-is-replay",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "lignes": [
+  {
+   "id": "power-automate",
+   "outil": "Power Automate",
+   "offre": "Microsoft, flux de cloud",
+   "cases": {
+    "arret": {
+     "texte": "Coupé après 14 jours d'échecs continus ; peut l'être après 90 jours sans déclenchement, sauf licence Premium",
+     "etat": "attention",
+     "sources": [
+      "PA7"
+     ]
+    },
+    "essais": {
+     "texte": "Jusqu'à 12 nouvelles tentatives, de 7 secondes à environ une heure ; 90 au plus en réglage personnalisé",
+     "etat": "bon",
+     "sources": [
+      "PA7"
+     ]
+    },
+    "histo": {
+     "texte": "30 jours",
+     "etat": "attention",
+     "sources": [
+      "PA7"
+     ]
+    },
+    "alerte": {
+     "texte": "« Exécuter après » : une action quand une étape échoue, une notification par exemple",
+     "etat": "bon",
+     "sources": [
+      "PA8"
+     ]
+    }
+   }
+  },
+  {
+   "id": "copilot-studio",
+   "outil": "Copilot Studio",
+   "offre": "Microsoft, flux d'agent",
+   "cases": {
+    "arret": {
+     "texte": "Capacité prépayée épuisée : les nouveaux passages sont bloqués",
+     "etat": "attention",
+     "sources": [
+      "CS1"
+     ]
+    },
+    "essais": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "histo": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "alerte": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "n8n",
+   "outil": "n8n",
+   "offre": "en ligne ou sur vos serveurs",
+   "cases": {
+    "arret": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "essais": {
+     "texte": "« Retry On Fail » par étape ; « On Error » : arrêter, continuer, ou suivre une sortie d'erreur",
+     "etat": "bon",
+     "sources": [
+      "N8"
+     ]
+    },
+    "histo": {
+     "texte": "7 jours en Starter, 30 en Pro, sans limite en Enterprise ; sur vos serveurs, 14 jours ou 10 000 exécutions",
+     "etat": "attention",
+     "sources": [
+      "N1",
+      "N11"
+     ]
+    },
+    "alerte": {
+     "texte": "Un enchaînement d'erreur, qui démarre sur l'échec et prévient par courriel ou par Slack",
+     "etat": "bon",
+     "sources": [
+      "N7"
+     ]
+    }
+   }
+  },
+  {
+   "id": "make",
+   "outil": "Make",
+   "offre": "Celonis",
+   "cases": {
+    "arret": {
+     "texte": "Crédits épuisés : les scénarios s'arrêtent ; alertes à 75 % et 90 %",
+     "etat": "attention",
+     "sources": [
+      "M1"
+     ]
+    },
+    "essais": {
+     "texte": "Exécutions incomplètes désactivées par défaut ; une fois activées, reprise des erreurs de connexion ; gestionnaire Retry",
+     "etat": "attention",
+     "sources": [
+      "M7",
+      "M6"
+     ]
+    },
+    "histo": {
+     "texte": "7, 30 ou 60 jours selon l'offre",
+     "etat": "attention",
+     "sources": [
+      "M1"
+     ]
+    },
+    "alerte": {
+     "texte": "Des gestionnaires d'erreur : Skip, Retry, Resume, Commit, Rollback",
+     "etat": "bon",
+     "sources": [
+      "M5"
+     ]
+    }
+   }
+  },
+  {
+   "id": "zapier",
+   "outil": "Zapier",
+   "offre": "Zapier Inc.",
+   "cases": {
+    "arret": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "essais": {
+     "texte": "Autoreplay, en offre payante : 5 tentatives, de 5 minutes à 6 heures d'écart",
+     "etat": "bon",
+     "sources": [
+      "Z7"
+     ]
+    },
+    "histo": {
+     "texte": "De 29 à 69 jours",
+     "etat": "attention",
+     "sources": [
+      "Z5"
+     ]
+    },
+    "alerte": {
+     "texte": "Un courriel d'erreur, seulement après la dernière tentative",
+     "etat": "attention",
+     "sources": [
+      "Z7"
+     ]
+    }
+   }
+  },
+  {
+   "id": "workspace-studio",
+   "outil": "Workspace Studio",
+   "offre": "Google",
+   "cases": {
+    "arret": {
+     "texte": "Une limite d'exécutions par jour ; 25 flux, 20 étapes chacun",
+     "etat": "attention",
+     "sources": [
+      "G3"
+     ]
+    },
+    "essais": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "histo": {
+     "texte": "Un onglet d'activité, avec les erreurs ; durée non trouvée",
+     "etat": "inconnu",
+     "sources": [
+      "G4"
+     ]
+    },
+    "alerte": {
+     "texte": "S'arrête sur un contenu malveillant ou une tentative d'injection détectée",
+     "etat": "bon",
+     "sources": [
+      "G4"
+     ]
+    }
+   }
+  }
+ ]
+}

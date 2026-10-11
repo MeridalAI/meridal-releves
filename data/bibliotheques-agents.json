@@ -1,0 +1,640 @@
+{
+ "releve": "2026-10-08",
+ "regle": "Dix bibliothèques pour construire un agent, relevées le 8 octobre 2026 sur leurs dépôts, leur documentation et les registres PyPI et npm (apprendre/recherches/2026-10-08-dev-avance.json).",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non publié"
+ },
+ "colonnes": [
+  {
+   "id": "quoi",
+   "nom": "Ce qu'elle fait"
+  },
+  {
+   "id": "lang",
+   "nom": "Langages"
+  },
+  {
+   "id": "version",
+   "nom": "Version"
+  },
+  {
+   "id": "licence",
+   "nom": "Licence"
+  },
+  {
+   "id": "etat",
+   "nom": "État"
+  }
+ ],
+ "sources": {
+  "G-crewAIInc-crewAI": {
+   "titre": "GitHub API repository metadata - crewAIInc/crewAI",
+   "url": "https://api.github.com/repos/crewAIInc/crewAI",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "G-google-adk-python": {
+   "titre": "GitHub API repository metadata - google/adk-python",
+   "url": "https://api.github.com/repos/google/adk-python",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "G-openai-openai-agents-python": {
+   "titre": "GitHub API repository metadata - openai/openai-agents-python",
+   "url": "https://api.github.com/repos/openai/openai-agents-python",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-npm-claude-agent-sdk": {
+   "titre": "npm registry - @anthropic-ai/claude-agent-sdk",
+   "url": "https://registry.npmjs.org/@anthropic-ai%2Fclaude-agent-sdk",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-npm-mastra-core": {
+   "titre": "npm registry - @mastra/core",
+   "url": "https://registry.npmjs.org/@mastra%2Fcore",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-npm-openai-agents": {
+   "titre": "npm registry - @openai/agents",
+   "url": "https://registry.npmjs.org/@openai%2Fagents",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-agent-framework": {
+   "titre": "PyPI JSON API - agent-framework",
+   "url": "https://pypi.org/pypi/agent-framework/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-claude-agent-sdk": {
+   "titre": "PyPI JSON API - claude-agent-sdk",
+   "url": "https://pypi.org/pypi/claude-agent-sdk/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-crewai": {
+   "titre": "PyPI JSON API - crewai",
+   "url": "https://pypi.org/pypi/crewai/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-google-adk": {
+   "titre": "PyPI JSON API - google-adk",
+   "url": "https://pypi.org/pypi/google-adk/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-langgraph": {
+   "titre": "PyPI JSON API - langgraph",
+   "url": "https://pypi.org/pypi/langgraph/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-llama-index": {
+   "titre": "PyPI JSON API - llama-index",
+   "url": "https://pypi.org/pypi/llama-index/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-openai-agents": {
+   "titre": "PyPI JSON API - openai-agents",
+   "url": "https://pypi.org/pypi/openai-agents/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-pydantic-ai": {
+   "titre": "PyPI JSON API - pydantic-ai",
+   "url": "https://pypi.org/pypi/pydantic-ai/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P-pypi-smolagents": {
+   "titre": "PyPI JSON API - smolagents",
+   "url": "https://pypi.org/pypi/smolagents/json",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-adk-readme": {
+   "titre": "google/adk-python README (ADK 2.0)",
+   "url": "https://github.com/google/adk-python/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-claude-sdk-overview": {
+   "titre": "Agent SDK overview - Claude Code Docs",
+   "url": "https://code.claude.com/docs/en/agent-sdk/overview.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-claude-sdk-readme": {
+   "titre": "anthropics/claude-agent-sdk-python README",
+   "url": "https://github.com/anthropics/claude-agent-sdk-python/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-crewai-readme": {
+   "titre": "crewAIInc/crewAI README",
+   "url": "https://github.com/crewAIInc/crewAI/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-langgraph-readme": {
+   "titre": "langchain-ai/langgraph README",
+   "url": "https://github.com/langchain-ai/langgraph/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-llamaindex-agent": {
+   "titre": "LlamaIndex - Building an agent",
+   "url": "https://developers.llamaindex.ai/python/framework/understanding/agent/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-llamaindex-readme": {
+   "titre": "run-llama/llama_index README",
+   "url": "https://github.com/run-llama/llama_index/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-llamaindexts-readme": {
+   "titre": "run-llama/LlamaIndexTS README (archived repo)",
+   "url": "https://github.com/run-llama/LlamaIndexTS/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-maf-overview": {
+   "titre": "Microsoft Agent Framework overview - Microsoft Learn",
+   "url": "https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-maf-readme": {
+   "titre": "microsoft/agent-framework README",
+   "url": "https://github.com/microsoft/agent-framework/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-mastra-license": {
+   "titre": "mastra-ai/mastra LICENSE.md",
+   "url": "https://github.com/mastra-ai/mastra/blob/main/LICENSE.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-mastra-readme": {
+   "titre": "mastra-ai/mastra README",
+   "url": "https://github.com/mastra-ai/mastra/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-oai-agents-readme": {
+   "titre": "openai/openai-agents-python README",
+   "url": "https://github.com/openai/openai-agents-python/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-pydanticai-readme": {
+   "titre": "pydantic/pydantic-ai README",
+   "url": "https://github.com/pydantic/pydantic-ai/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-smolagents-readme": {
+   "titre": "huggingface/smolagents README",
+   "url": "https://github.com/huggingface/smolagents/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "lignes": [
+  {
+   "id": "openai-agents",
+   "outil": "OpenAI Agents SDK",
+   "offre": "OpenAI",
+   "cases": {
+    "lang": {
+     "texte": "Python, TypeScript",
+     "etat": null,
+     "sources": [
+      "S-oai-agents-readme"
+     ]
+    },
+    "version": {
+     "texte": "0.23.1 en Python, 0.19.0 en TypeScript ; octobre 2026",
+     "etat": null,
+     "sources": [
+      "P-pypi-openai-agents",
+      "P-npm-openai-agents"
+     ]
+    },
+    "licence": {
+     "texte": "MIT",
+     "etat": "bon",
+     "sources": [
+      "G-openai-openai-agents-python"
+     ]
+    },
+    "etat": {
+     "texte": "Actif ; ouvert aux modèles d'autres éditeurs, plus d'une centaine",
+     "etat": "bon",
+     "sources": [
+      "S-oai-agents-readme"
+     ]
+    },
+    "quoi": {
+     "texte": "Un cadre léger, pour un ou plusieurs agents",
+     "etat": null,
+     "sources": [
+      "S-oai-agents-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "claude-agent-sdk",
+   "outil": "Claude Agent SDK",
+   "offre": "Anthropic",
+   "cases": {
+    "lang": {
+     "texte": "Python, TypeScript",
+     "etat": null,
+     "sources": [
+      "S-claude-sdk-overview"
+     ]
+    },
+    "version": {
+     "texte": "0.2.164 en Python, classée alpha ; 0.3.293 en TypeScript",
+     "etat": null,
+     "sources": [
+      "P-pypi-claude-agent-sdk",
+      "P-npm-claude-agent-sdk"
+     ]
+    },
+    "licence": {
+     "texte": "Dépôt Python sous MIT ; l'usage relève des conditions commerciales d'Anthropic",
+     "etat": "attention",
+     "sources": [
+      "S-claude-sdk-overview"
+     ]
+    },
+    "etat": {
+     "texte": "Alpha ; fait tourner le programme de Claude Code, avec une clé d'API",
+     "etat": "attention",
+     "sources": [
+      "S-claude-sdk-readme",
+      "S-claude-sdk-overview"
+     ]
+    },
+    "quoi": {
+     "texte": "Les outils, la boucle et la gestion du contexte de Claude Code, en bibliothèque",
+     "etat": null,
+     "sources": [
+      "S-claude-sdk-overview"
+     ]
+    }
+   }
+  },
+  {
+   "id": "google-adk",
+   "outil": "Agent Development Kit",
+   "offre": "Google",
+   "cases": {
+    "lang": {
+     "texte": "Python, Java, Kotlin, Go, TypeScript",
+     "etat": null,
+     "sources": [
+      "S-adk-readme"
+     ]
+    },
+    "version": {
+     "texte": "2.11.0 en Python ; version 2 depuis mai 2026",
+     "etat": null,
+     "sources": [
+      "P-pypi-google-adk"
+     ]
+    },
+    "licence": {
+     "texte": "Apache 2.0",
+     "etat": "bon",
+     "sources": [
+      "G-google-adk-python"
+     ]
+    },
+    "etat": {
+     "texte": "Actif ; pensé pour Gemini, ouvert aux autres modèles",
+     "etat": "bon",
+     "sources": [
+      "S-adk-readme"
+     ]
+    },
+    "quoi": {
+     "texte": "Un cadre où l'agent s'écrit en code, déployable partout",
+     "etat": null,
+     "sources": [
+      "S-adk-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "maf",
+   "outil": "Agent Framework",
+   "offre": "Microsoft",
+   "cases": {
+    "lang": {
+     "texte": ".NET, Python ; Go à part",
+     "etat": null,
+     "sources": [
+      "S-maf-readme"
+     ]
+    },
+    "version": {
+     "texte": "1.21.0 ; version 1.0 depuis avril 2026",
+     "etat": null,
+     "sources": [
+      "P-pypi-agent-framework"
+     ]
+    },
+    "licence": {
+     "texte": "MIT",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-agent-framework"
+     ]
+    },
+    "etat": {
+     "texte": "Stable ; successeur de Semantic Kernel et d'AutoGen",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-agent-framework",
+      "S-maf-overview"
+     ]
+    },
+    "quoi": {
+     "texte": "Des agents et des enchaînements de plusieurs agents, pour la production",
+     "etat": null,
+     "sources": [
+      "S-maf-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "langgraph",
+   "outil": "LangGraph",
+   "offre": "LangChain",
+   "cases": {
+    "lang": {
+     "texte": "Python, TypeScript",
+     "etat": null,
+     "sources": [
+      "P-pypi-langgraph"
+     ]
+    },
+    "version": {
+     "texte": "1.2.14 en Python ; version 1.0 depuis octobre 2025",
+     "etat": null,
+     "sources": [
+      "P-pypi-langgraph"
+     ]
+    },
+    "licence": {
+     "texte": "MIT",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-langgraph"
+     ]
+    },
+    "etat": {
+     "texte": "Stable",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-langgraph"
+     ]
+    },
+    "quoi": {
+     "texte": "Un moteur bas niveau pour des agents longs : état, reprise, validation humaine, mémoire",
+     "etat": null,
+     "sources": [
+      "S-langgraph-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "crewai",
+   "outil": "CrewAI",
+   "offre": "CrewAI",
+   "cases": {
+    "lang": {
+     "texte": "Python, de 3.10 à 3.13",
+     "etat": null,
+     "sources": [
+      "P-pypi-crewai"
+     ]
+    },
+    "version": {
+     "texte": "1.15.25 ; octobre 2026",
+     "etat": null,
+     "sources": [
+      "P-pypi-crewai"
+     ]
+    },
+    "licence": {
+     "texte": "MIT",
+     "etat": "bon",
+     "sources": [
+      "G-crewAIInc-crewAI"
+     ]
+    },
+    "etat": {
+     "texte": "Actif",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-crewai"
+     ]
+    },
+    "quoi": {
+     "texte": "Des équipes d'agents à rôles, et des flux pilotés par événements",
+     "etat": null,
+     "sources": [
+      "S-crewai-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "pydantic-ai",
+   "outil": "Pydantic AI",
+   "offre": "Pydantic",
+   "cases": {
+    "lang": {
+     "texte": "Python",
+     "etat": null,
+     "sources": [
+      "P-pypi-pydantic-ai"
+     ]
+    },
+    "version": {
+     "texte": "2.54.0 ; version 2 depuis juin 2026",
+     "etat": null,
+     "sources": [
+      "P-pypi-pydantic-ai"
+     ]
+    },
+    "licence": {
+     "texte": "MIT",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-pydantic-ai"
+     ]
+    },
+    "etat": {
+     "texte": "Stable",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-pydantic-ai"
+     ]
+    },
+    "quoi": {
+     "texte": "Des agents à outils, avec des sorties typées et contrôlées",
+     "etat": null,
+     "sources": [
+      "S-pydanticai-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mastra",
+   "outil": "Mastra",
+   "offre": "Mastra",
+   "cases": {
+    "lang": {
+     "texte": "TypeScript",
+     "etat": null,
+     "sources": [
+      "S-mastra-readme"
+     ]
+    },
+    "version": {
+     "texte": "@mastra/core 1.75.0 ; octobre 2026",
+     "etat": null,
+     "sources": [
+      "P-npm-mastra-core"
+     ]
+    },
+    "licence": {
+     "texte": "Apache 2.0, sauf les dossiers ee/, sous une licence d'entreprise",
+     "etat": "attention",
+     "sources": [
+      "S-mastra-readme",
+      "S-mastra-license"
+     ]
+    },
+    "etat": {
+     "texte": "Actif",
+     "etat": "bon",
+     "sources": [
+      "P-npm-mastra-core"
+     ]
+    },
+    "quoi": {
+     "texte": "Applications et agents d'IA en TypeScript",
+     "etat": null,
+     "sources": [
+      "S-mastra-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "smolagents",
+   "outil": "smolagents",
+   "offre": "Hugging Face",
+   "cases": {
+    "lang": {
+     "texte": "Python",
+     "etat": null,
+     "sources": [
+      "P-pypi-smolagents"
+     ]
+    },
+    "version": {
+     "texte": "1.26.0 ; mai 2026",
+     "etat": null,
+     "sources": [
+      "P-pypi-smolagents"
+     ]
+    },
+    "licence": {
+     "texte": "Apache 2.0",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-smolagents"
+     ]
+    },
+    "etat": {
+     "texte": "Pas de version depuis mai 2026 ; le dépôt reste actif",
+     "etat": "attention",
+     "sources": [
+      "P-pypi-smolagents"
+     ]
+    },
+    "quoi": {
+     "texte": "Environ mille lignes ; un agent qui écrit ses actions en code",
+     "etat": null,
+     "sources": [
+      "S-smolagents-readme"
+     ]
+    }
+   }
+  },
+  {
+   "id": "llamaindex",
+   "outil": "LlamaIndex",
+   "offre": "LlamaIndex",
+   "cases": {
+    "lang": {
+     "texte": "Python ; la version TypeScript est abandonnée",
+     "etat": null,
+     "sources": [
+      "S-llamaindexts-readme"
+     ]
+    },
+    "version": {
+     "texte": "0.14.25 ; septembre 2026",
+     "etat": null,
+     "sources": [
+      "P-pypi-llama-index"
+     ]
+    },
+    "licence": {
+     "texte": "MIT",
+     "etat": "bon",
+     "sources": [
+      "P-pypi-llama-index"
+     ]
+    },
+    "etat": {
+     "texte": "L'éditeur a reporté sa priorité sur LlamaParse ; le cadre reste disponible",
+     "etat": "attention",
+     "sources": [
+      "S-llamaindex-readme"
+     ]
+    },
+    "quoi": {
+     "texte": "Des agents à outils, autour des documents",
+     "etat": null,
+     "sources": [
+      "S-llamaindex-agent"
+     ]
+    }
+   }
+  }
+ ]
+}

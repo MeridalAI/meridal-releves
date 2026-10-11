@@ -1,0 +1,520 @@
+{
+ "releve": "2026-10-07",
+ "regle": "Limites et conditions relevées sur les pages d'aide des éditeurs le 7 octobre 2026 (apprendre/recherches/2026-10-07-documents-outils.json). Une case vide n'est pas publiée sur les pages lues.",
+ "etats": {
+  "bon": "Favorable",
+  "attention": "À savoir",
+  "inconnu": "Non publié"
+ },
+ "colonnes": [
+  {
+   "id": "documents",
+   "nom": "Combien de documents"
+  },
+  {
+   "id": "taille",
+   "nom": "Taille"
+  },
+  {
+   "id": "a-jour",
+   "nom": "Mise à jour"
+  },
+  {
+   "id": "droits",
+   "nom": "Droits et partage"
+  },
+  {
+   "id": "offre",
+   "nom": "Offre"
+  }
+ ],
+ "sources": {
+  "s1": {
+   "titre": "Get started with Microsoft Copilot Notebooks",
+   "url": "https://support.microsoft.com/en-US/Microsoft-365-Copilot/get-started-with-microsoft-365-copilot-notebooks",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s2": {
+   "titre": "Add references to your Microsoft Copilot Notebook",
+   "url": "https://support.microsoft.com/en-US/Microsoft-365-Copilot/add-references-to-your-microsoft-365-copilot-notebook",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s3": {
+   "titre": "Frequently asked questions about Microsoft Copilot Notebooks",
+   "url": "https://support.microsoft.com/en-US/Microsoft-365-Copilot/frequently-asked-questions-about-microsoft-365-copilot-notebooks",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s5": {
+   "titre": "How Microsoft Copilot Notebooks works",
+   "url": "https://support.microsoft.com/en-US/Microsoft-365-Copilot/how-microsoft-365-copilot-notebooks-works",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s7": {
+   "titre": "Overview of Copilot Pages and Copilot Notebooks permissions (Microsoft Learn)",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/loop/cpcn-permission?view=o365-worldwide",
+   "date_page": "2026-05-14",
+   "lue": "2026-10-07"
+  },
+  "s8": {
+   "titre": "Get started with agents in SharePoint",
+   "url": "https://support.microsoft.com/en-US/SharePoint/copilot-in-sharepoint/get-started-with-agents-in-sharepoint",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s9": {
+   "titre": "Create an agent in SharePoint",
+   "url": "https://support.microsoft.com/en-us/SharePoint/copilot-in-sharepoint/create-an-agent-in-sharepoint",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s10": {
+   "titre": "Frequently asked questions about agents in SharePoint and the rich text editor",
+   "url": "https://support.microsoft.com/en-us/sharepoint/copilot-in-sharepoint/frequently-asked-questions-about-copilot-in-sharepoint",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s12": {
+   "titre": "Optimize content retrieval (Microsoft Learn, declarative agents)",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/optimize-content-retrieval",
+   "date_page": "2025-09-12",
+   "lue": "2026-10-07"
+  },
+  "s13": {
+   "titre": "File upload in Microsoft Copilot",
+   "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/file-upload-in-microsoft-copilot",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s29": {
+   "titre": "Add or discover new sources for your notebook (Gemini Notebook Help)",
+   "url": "https://support.google.com/gemininotebook/answer/16215270?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s32": {
+   "titre": "Use Gemini Notebook with a work or school Google account",
+   "url": "https://support.google.com/gemininotebook/answer/16337734?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s35": {
+   "titre": "Create a notebook in Gemini Notebook",
+   "url": "https://support.google.com/gemininotebook/answer/16206563?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s40": {
+   "titre": "Use Gems in Gemini Apps",
+   "url": "https://support.google.com/gemini/answer/15146780?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s42": {
+   "titre": "Share a Gem from Gemini Apps",
+   "url": "https://support.google.com/gemini/answer/16504957?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s43": {
+   "titre": "Upload & analyze files in Gemini Apps",
+   "url": "https://support.google.com/gemini/answer/14903178?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s44": {
+   "titre": "About the transition from Gems to skills",
+   "url": "https://support.google.com/gemini/answer/18560919?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s46": {
+   "titre": "Projects in ChatGPT",
+   "url": "https://help.openai.com/en/articles/10169521-projects-in-chatgpt",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07"
+  },
+  "s48": {
+   "titre": "Uploading files and audio to ChatGPT",
+   "url": "https://help.openai.com/en/articles/8555545-file-uploads-faq",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-07"
+  },
+  "s57": {
+   "titre": "Retrieval augmented generation (RAG) for projects",
+   "url": "https://support.claude.com/en/articles/11473015-retrieval-augmented-generation-rag-for-projects",
+   "date_page": "2026-09-10",
+   "lue": "2026-10-07"
+  },
+  "s59": {
+   "titre": "How can I create and manage projects?",
+   "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+   "date_page": "2026-09-30",
+   "lue": "2026-10-07"
+  },
+  "s60": {
+   "titre": "Manage project visibility and sharing",
+   "url": "https://support.claude.com/en/articles/9519189-manage-project-visibility-and-sharing",
+   "date_page": "2026-09-24",
+   "lue": "2026-10-07"
+  },
+  "s61": {
+   "titre": "Upload files to Claude",
+   "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude",
+   "date_page": "2026-07-23",
+   "lue": "2026-10-07"
+  },
+  "s62": {
+   "titre": "Use Google Workspace connectors",
+   "url": "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+   "date_page": "2026-10-01",
+   "lue": "2026-10-07"
+  },
+  "s67": {
+   "titre": "Add context with Libraries (Mistral Docs, Vibe Work)",
+   "url": "https://docs.mistral.ai/vibe/work/libraries",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s72": {
+   "titre": "Mistral pricing",
+   "url": "https://mistral.ai/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s73": {
+   "titre": "What are Projects? (Perplexity Help Center)",
+   "url": "https://www.perplexity.ai/help-center/en/articles/10352961-what-are-projects",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s74": {
+   "titre": "Enterprise file limits (Perplexity Help Center)",
+   "url": "https://www.perplexity.ai/help-center/en/articles/12009761-enterprise-file-limits",
+   "date_page": null,
+   "lue": "2026-10-07"
+  }
+ },
+ "lignes": [
+  {
+   "id": "copilot-notebooks",
+   "outil": "Copilot Notebooks",
+   "offre": "Microsoft 365",
+   "cases": {
+    "documents": {
+     "texte": "300 références utilisées avec la licence Copilot, 50 sans",
+     "etat": null,
+     "sources": [
+      "s2"
+     ]
+    },
+    "taille": null,
+    "a-jour": {
+     "texte": "Oui : les réponses suivent les fichiers",
+     "etat": "bon",
+     "sources": [
+      "s2"
+     ]
+    },
+    "droits": {
+     "texte": "Seulement ce que la personne peut ouvrir ; tout membre peut modifier ; pas d'invités",
+     "etat": "bon",
+     "sources": [
+      "s2",
+      "s3",
+      "s7"
+     ]
+    },
+    "offre": {
+     "texte": "Licence Copilot ou Copilot Chat, avec SharePoint ou OneDrive",
+     "etat": null,
+     "sources": [
+      "s1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "agent-sharepoint",
+   "outil": "Agent SharePoint",
+   "offre": "Microsoft 365",
+   "cases": {
+    "documents": {
+     "texte": "20 sources par agent : sites, bibliothèques, dossiers ou fichiers",
+     "etat": null,
+     "sources": [
+      "s10"
+     ]
+    },
+    "taille": {
+     "texte": "Microsoft conseille des fichiers de moins de 36 000 caractères",
+     "etat": "attention",
+     "sources": [
+      "s12"
+     ]
+    },
+    "a-jour": null,
+    "droits": {
+     "texte": "Jamais ce que la personne ne peut pas ouvrir",
+     "etat": "bon",
+     "sources": [
+      "s10"
+     ]
+    },
+    "offre": {
+     "texte": "Licence Copilot, ou facturation à l'usage",
+     "etat": null,
+     "sources": [
+      "s8"
+     ]
+    }
+   }
+  },
+  {
+   "id": "gemini-notebook",
+   "outil": "Gemini Notebook (anciennement NotebookLM)",
+   "offre": "Google Workspace",
+   "cases": {
+    "documents": {
+     "texte": "50 sources en Business Starter ; 300 en Business Standard et Plus",
+     "etat": null,
+     "sources": [
+      "s32"
+     ]
+    },
+    "taille": {
+     "texte": "500 000 mots ou 200 Mo par source",
+     "etat": null,
+     "sources": [
+      "s29"
+     ]
+    },
+    "a-jour": {
+     "texte": "Fichiers Drive resynchronisés toutes les quelques minutes",
+     "etat": "bon",
+     "sources": [
+      "s29"
+     ]
+    },
+    "droits": {
+     "texte": "Le droit de lire le fichier Drive est exigé ; partage en lecteur ou éditeur",
+     "etat": "bon",
+     "sources": [
+      "s29",
+      "s35"
+     ]
+    },
+    "offre": {
+     "texte": "Compris dans les éditions Business",
+     "etat": null,
+     "sources": [
+      "s32"
+     ]
+    }
+   }
+  },
+  {
+   "id": "gem",
+   "outil": "Gem",
+   "offre": "Google Workspace",
+   "cases": {
+    "documents": null,
+    "taille": {
+     "texte": "100 Mo par fichier",
+     "etat": null,
+     "sources": [
+      "s43"
+     ]
+    },
+    "a-jour": {
+     "texte": "Fichiers Drive pris dans leur dernière version",
+     "etat": "bon",
+     "sources": [
+      "s40"
+     ]
+    },
+    "droits": {
+     "texte": "Qui reçoit le Gem voit ses consignes et ses fichiers",
+     "etat": "attention",
+     "sources": [
+      "s42"
+     ]
+    },
+    "offre": {
+     "texte": "Compris ; les Gems deviennent des « skills » en 2027 pour les comptes professionnels",
+     "etat": "attention",
+     "sources": [
+      "s44"
+     ]
+    }
+   }
+  },
+  {
+   "id": "projet-chatgpt",
+   "outil": "Projet ChatGPT",
+   "offre": "ChatGPT Business",
+   "cases": {
+    "documents": {
+     "texte": "40 fichiers en Business",
+     "etat": null,
+     "sources": [
+      "s46"
+     ]
+    },
+    "taille": {
+     "texte": "512 Mo par document ; 2 millions de tokens par fichier texte",
+     "etat": null,
+     "sources": [
+      "s48"
+     ]
+    },
+    "a-jour": {
+     "texte": "Non : un fichier ajouté est une copie ; un lien Google Drive ne se synchronise pas",
+     "etat": "attention",
+     "sources": [
+      "s46"
+     ]
+    },
+    "droits": {
+     "texte": "Tous les membres du projet voient et téléchargent ses fichiers",
+     "etat": "attention",
+     "sources": [
+      "s46"
+     ]
+    },
+    "offre": {
+     "texte": "Toutes les offres ; partage en équipe en Business",
+     "etat": null,
+     "sources": [
+      "s46"
+     ]
+    }
+   }
+  },
+  {
+   "id": "projet-claude",
+   "outil": "Projet Claude",
+   "offre": "Claude Team",
+   "cases": {
+    "documents": {
+     "texte": "Sans nombre fixé ; au-delà de la fenêtre de contexte, recherche dans les documents sur les offres payantes, jusqu'à dix fois plus",
+     "etat": null,
+     "sources": [
+      "s61",
+      "s57"
+     ]
+    },
+    "taille": {
+     "texte": "30 Mo par fichier",
+     "etat": null,
+     "sources": [
+      "s61"
+     ]
+    },
+    "a-jour": {
+     "texte": "Les Google Docs se synchronisent depuis Drive, dans un projet privé ; un fichier envoyé reste une copie",
+     "etat": "attention",
+     "sources": [
+      "s62"
+     ]
+    },
+    "droits": {
+     "texte": "Partage en lecture ou en modification, en Team et Enterprise",
+     "etat": "bon",
+     "sources": [
+      "s60"
+     ]
+    },
+    "offre": {
+     "texte": "Toutes les offres ; partage en Team et Enterprise",
+     "etat": null,
+     "sources": [
+      "s59"
+     ]
+    }
+   }
+  },
+  {
+   "id": "bibliotheque-mistral",
+   "outil": "Bibliothèque Mistral Vibe",
+   "offre": "Vibe Team",
+   "cases": {
+    "documents": {
+     "texte": "100 fichiers par envoi ; bibliothèques en nombre libre",
+     "etat": null,
+     "sources": [
+      "s67"
+     ]
+    },
+    "taille": {
+     "texte": "100 Mo par fichier ; 30 Go par personne en Team",
+     "etat": null,
+     "sources": [
+      "s67",
+      "s72"
+     ]
+    },
+    "a-jour": null,
+    "droits": {
+     "texte": "Privée par défaut ; partage en collaborateur ou lecteur",
+     "etat": "bon",
+     "sources": [
+      "s67"
+     ]
+    },
+    "offre": {
+     "texte": "Limitée en Free ; Pro et Team",
+     "etat": null,
+     "sources": [
+      "s72"
+     ]
+    }
+   }
+  },
+  {
+   "id": "projet-perplexity",
+   "outil": "Projet Perplexity",
+   "offre": "Perplexity Enterprise",
+   "cases": {
+    "documents": {
+     "texte": "5 000 fichiers, 2,5 Go en tout",
+     "etat": null,
+     "sources": [
+      "s74"
+     ]
+    },
+    "taille": {
+     "texte": "100 Mo par fichier",
+     "etat": null,
+     "sources": [
+      "s74"
+     ]
+    },
+    "a-jour": {
+     "texte": "Non : les fichiers importés sont des copies, qui ne suivent pas l'original",
+     "etat": "attention",
+     "sources": [
+      "s74"
+     ]
+    },
+    "droits": {
+     "texte": "Restreint par défaut ; chaque membre connecte son propre compte",
+     "etat": "bon",
+     "sources": [
+      "s73"
+     ]
+    },
+    "offre": {
+     "texte": "Toutes les offres",
+     "etat": null,
+     "sources": [
+      "s74"
+     ]
+    }
+   }
+  }
+ ]
+}

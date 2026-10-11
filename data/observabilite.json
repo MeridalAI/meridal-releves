@@ -1,0 +1,279 @@
+{
+ "releve": "2026-10-08",
+ "regle": "Cinq outils pour garder les traces des appels à un modèle, relevés le 8 octobre 2026 sur leurs pages de prix, leur documentation et leurs dépôts (apprendre/recherches/2026-10-08-dev-avance.json). Prix en dollars, tels qu'affichés ; chaque outil compte une unité différente.",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non relevé, ou non confirmé"
+ },
+ "colonnes": [
+  {
+   "id": "licence",
+   "nom": "Licence et installation"
+  },
+  {
+   "id": "ou",
+   "nom": "Où vont les traces"
+  },
+  {
+   "id": "gratuit",
+   "nom": "Offre gratuite"
+  },
+  {
+   "id": "prix",
+   "nom": "Premier prix"
+  }
+ ],
+ "sources": {
+  "G-Helicone-helicone": {
+   "titre": "GitHub API repository metadata - Helicone/helicone",
+   "url": "https://api.github.com/repos/Helicone/helicone",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-arize-pricing": {
+   "titre": "Arize pricing",
+   "url": "https://arize.com/pricing/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-dd-pricing": {
+   "titre": "Datadog pricing - LLM / Agent Observability",
+   "url": "https://www.datadoghq.com/pricing/?product=llm-observability",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-dd-sites": {
+   "titre": "Getting Started with Datadog Sites",
+   "url": "https://docs.datadoghq.com/getting_started/site/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-helicone-mintlify": {
+   "titre": "Helicone is joining Mintlify",
+   "url": "https://www.helicone.ai/blog/joining-mintlify",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-helicone-pricing": {
+   "titre": "Helicone pricing",
+   "url": "https://www.helicone.ai/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-langfuse-oss": {
+   "titre": "Why is Langfuse Open Source? - Langfuse",
+   "url": "https://langfuse.com/docs/open-source",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-langfuse-pricing": {
+   "titre": "Pricing - Langfuse",
+   "url": "https://langfuse.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-langfuse-readme": {
+   "titre": "langfuse/langfuse README",
+   "url": "https://github.com/langfuse/langfuse/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-langsmith-pricing": {
+   "titre": "LangSmith pricing (langchain.com/pricing)",
+   "url": "https://www.langchain.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-phoenix-readme": {
+   "titre": "Arize-ai/phoenix README",
+   "url": "https://github.com/Arize-ai/phoenix/blob/main/README.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S-phoenix-selfhost": {
+   "titre": "Phoenix self-hosting docs",
+   "url": "https://arize.com/docs/phoenix/self-hosting",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "lignes": [
+  {
+   "id": "langfuse",
+   "outil": "Langfuse",
+   "offre": "racheté par ClickHouse, reste libre",
+   "cases": {
+    "licence": {
+     "texte": "MIT hors des modules ee/ ; toutes les fonctions sans limite d'usage",
+     "etat": "bon",
+     "sources": [
+      "S-langfuse-oss"
+     ]
+    },
+    "ou": {
+     "texte": "En ligne : Europe par défaut, États-Unis ou Japon ; ou sur vos serveurs, même sans internet",
+     "etat": "bon",
+     "sources": [
+      "S-langfuse-readme",
+      "S-langfuse-pricing",
+      "S-langfuse-oss"
+     ]
+    },
+    "gratuit": {
+     "texte": "Hobby : 50 000 unités par mois, 30 jours de données, 2 utilisateurs",
+     "etat": null,
+     "sources": [
+      "S-langfuse-pricing"
+     ]
+    },
+    "prix": {
+     "texte": "Core : 29 $ par mois pour 100 000 unités, puis 8 $ les 100 000",
+     "etat": null,
+     "sources": [
+      "S-langfuse-pricing"
+     ]
+    }
+   }
+  },
+  {
+   "id": "langsmith",
+   "outil": "LangSmith",
+   "offre": "LangChain",
+   "cases": {
+    "licence": {
+     "texte": "Service fermé ; installation chez vous en offre Enterprise seulement",
+     "etat": "attention",
+     "sources": [
+      "S-langsmith-pricing"
+     ]
+    },
+    "ou": {
+     "texte": "Le nuage de LangChain, aux États-Unis ou en Europe",
+     "etat": "bon",
+     "sources": [
+      "S-langsmith-pricing"
+     ]
+    },
+    "gratuit": {
+     "texte": "Developer : 1 personne, 5 000 traces par mois",
+     "etat": null,
+     "sources": [
+      "S-langsmith-pricing"
+     ]
+    },
+    "prix": {
+     "texte": "Plus : 39 $ par personne et par mois, 10 000 traces ; 5 $ les 1 000 traces de plus",
+     "etat": null,
+     "sources": [
+      "S-langsmith-pricing"
+     ]
+    }
+   }
+  },
+  {
+   "id": "phoenix",
+   "outil": "Phoenix",
+   "offre": "Arize",
+   "cases": {
+    "licence": {
+     "texte": "Elastic License 2.0 : gratuite à installer, sans limite de fonctions, mais pas une licence libre au sens de l'OSI",
+     "etat": "attention",
+     "sources": [
+      "S-phoenix-readme",
+      "S-phoenix-selfhost"
+     ]
+    },
+    "ou": {
+     "texte": "Sur vos serveurs, même sans internet ; Arize AX en ligne, région non trouvée",
+     "etat": "attention",
+     "sources": [
+      "S-phoenix-selfhost"
+     ]
+    },
+    "gratuit": {
+     "texte": "Arize AX Free : 25 000 spans par mois, 15 jours de conservation",
+     "etat": null,
+     "sources": [
+      "S-arize-pricing"
+     ]
+    },
+    "prix": {
+     "texte": "Arize AX Pro : 50 $ par mois pour 50 000 spans, 30 jours",
+     "etat": null,
+     "sources": [
+      "S-arize-pricing"
+     ]
+    }
+   }
+  },
+  {
+   "id": "datadog",
+   "outil": "Datadog",
+   "offre": "Agent Observability",
+   "cases": {
+    "licence": {
+     "texte": "Service fermé",
+     "etat": "attention",
+     "sources": [
+      "S-dd-pricing"
+     ]
+    },
+    "ou": {
+     "texte": "Un site européen en Allemagne existe ; le produit d'IA n'y est pas confirmé",
+     "etat": "inconnu",
+     "sources": [
+      "S-dd-sites"
+     ]
+    },
+    "gratuit": {
+     "texte": "40 000 spans de modèle par mois, 15 jours",
+     "etat": null,
+     "sources": [
+      "S-dd-pricing"
+     ]
+    },
+    "prix": {
+     "texte": "Pro : de 160 $ à 240 $ par mois pour 100 000 spans de modèle ; seuls ceux-là sont facturés",
+     "etat": null,
+     "sources": [
+      "S-dd-pricing"
+     ]
+    }
+   }
+  },
+  {
+   "id": "helicone",
+   "outil": "Helicone",
+   "offre": "racheté par Mintlify",
+   "cases": {
+    "licence": {
+     "texte": "Apache 2.0",
+     "etat": "bon",
+     "sources": [
+      "G-Helicone-helicone"
+     ]
+    },
+    "ou": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "gratuit": {
+     "texte": "Hobby : 10 000 requêtes",
+     "etat": null,
+     "sources": [
+      "S-helicone-pricing"
+     ]
+    },
+    "prix": {
+     "texte": "En maintenance depuis son rachat : sécurité et correctifs seulement",
+     "etat": "attention",
+     "sources": [
+      "S-helicone-mintlify"
+     ]
+    }
+   }
+  }
+ ]
+}

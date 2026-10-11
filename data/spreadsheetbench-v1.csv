@@ -1,0 +1,15 @@
+model,organization,url,verified,score,date
+Qingqiu Agent,Kingsoft Office,https://www.wps.cn/,True,83.11,2026-06-23
+JT AlphaData,CMCC JIUTIAN,,True,77.85,2026-08-15
+WPS AI (Seed 2.0),Kingsoft Office,https://www.wps.cn/,True,73.46,2026-06-16
+Gemini in Google Sheets,Google,https://workspace.google.com/,True,70.48,2026-03-10
+Univer,Univer,https://univer.ai/,True,68.86,2025-11-18
+灵犀,Kingsoft Office,https://lingxi.wps.cn,True,66.89,2025-12-28
+Bluebox,Bluebox Labs,https://blue-box.co/,True,62.9,2025-10-28
+Shortcut.ai,Shortcut.ai,https://www.tryshortcut.ai,True,59.25,2025-10-16
+Copilot in Excel (Agent Mode),Microsoft,https://www.microsoft.com,False,57.2,2025-09-29
+Catalyst,Catalyst,https://catalyst.samuelolubukun.com/,True,48.57,2026-08-30
+ChatGPT Agent w/ .xlsx,OpenAI,https://openai.com,False,45.5,2025-07-17
+Claude Files Opus 4.1,Anthropic,https://www.anthropic.com,False,42.9,2025-09-29
+ChatGPT Agent,OpenAI,https://openai.com,False,35.3,2025-07-17
+OpenAI o3,OpenAI,https://openai.com,False,23.3,2025-07-17

@@ -1,0 +1,681 @@
+{
+ "releve": "2026-10-08",
+ "regle": "Dix outils d'automatisation, relevés le 8 octobre 2026 sur leurs pages de prix et leur documentation (apprendre/recherches/2026-10-08-automatisation.json). Prix tels qu'affichés depuis la France, dans la devise de la page, hors taxe quand la page le dit ; aucune conversion. Chaque outil compte une unité différente.",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non publié, ou non trouvé"
+ },
+ "colonnes": [
+  {
+   "id": "prix",
+   "nom": "Premier prix et unité comptée"
+  },
+  {
+   "id": "ia",
+   "nom": "Étapes d'IA"
+  },
+  {
+   "id": "ue",
+   "nom": "Données en Europe"
+  },
+  {
+   "id": "serveurs",
+   "nom": "Sur vos serveurs"
+  },
+  {
+   "id": "validation",
+   "nom": "Validation par une personne"
+  }
+ ],
+ "sources": {
+  "A1": {
+   "titre": "Activepieces, Activepieces Pricing",
+   "url": "https://www.activepieces.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "A2": {
+   "titre": "Activepieces (GitHub repository), Activepieces LICENSE (MIT Expat outside ee directories)",
+   "url": "https://github.com/activepieces/activepieces/blob/main/LICENSE",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "A3": {
+   "titre": "Activepieces, Approval (Legacy) integration",
+   "url": "https://www.activepieces.com/pieces/approval",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "A5": {
+   "titre": "Activepieces Docs, Security & Data Practices (Activepieces docs)",
+   "url": "https://www.activepieces.com/docs/admin-guide/security/practices",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "CS1": {
+   "titre": "Microsoft Learn, Vue d'ensemble des flux d'agent (Copilot Studio)",
+   "url": "https://learn.microsoft.com/fr-fr/microsoft-copilot-studio/flows-overview",
+   "date_page": "2026-09-07",
+   "lue": "2026-10-08"
+  },
+  "CS2": {
+   "titre": "Microsoft Learn, Taux de facturation et gestion (Copilot Studio)",
+   "url": "https://learn.microsoft.com/fr-fr/microsoft-copilot-studio/requirements-messages-management",
+   "date_page": "2026-08-03",
+   "lue": "2026-10-08"
+  },
+  "CS3": {
+   "titre": "Microsoft Learn, Approbations en plusieurs étapes et IA dans les flux d'agent (version préliminaire)",
+   "url": "https://learn.microsoft.com/fr-fr/microsoft-copilot-studio/flows-advanced-approvals",
+   "date_page": "2026-08-25",
+   "lue": "2026-10-08"
+  },
+  "CS4": {
+   "titre": "Microsoft Learn, Demander des informations dans le cadre de révisions par des humains dans des flux d'assistant",
+   "url": "https://learn.microsoft.com/fr-fr/microsoft-copilot-studio/flows-request-for-information",
+   "date_page": "2026-08-03",
+   "lue": "2026-10-08"
+  },
+  "CS5": {
+   "titre": "Microsoft, Tarification Microsoft 365 Copilot – Copilot Studio (fr-FR)",
+   "url": "https://www.microsoft.com/fr-fr/microsoft-365-copilot/pricing/copilot-studio",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "G1": {
+   "titre": "Google (Aide Workspace Studio), Premiers pas avec Google Workspace Studio",
+   "url": "https://support.google.com/workspace-studio/answer/16444479?hl=fr",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "G2": {
+   "titre": "Google (Aide Workspace Studio), Gérer les demandes d'approbation de flux",
+   "url": "https://support.google.com/workspace-studio/answer/17516423?hl=fr",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "G4": {
+   "titre": "Google (Aide Workspace Studio), Résoudre les problèmes liés aux flux",
+   "url": "https://support.google.com/workspace-studio/answer/16430806?hl=fr",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "G5": {
+   "titre": "Google, About AI usage limits (Google Workspace Admin)",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/about-ai-usage-limits",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "I1": {
+   "titre": "IFTTT, Plans & Pricing - IFTTT",
+   "url": "https://ifttt.com/plans",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "M1": {
+   "titre": "Make (Celonis), Make Pricing & Subscription Packages",
+   "url": "https://www.make.com/en/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "M2": {
+   "titre": "Make Help Center, Credits (Help Center)",
+   "url": "https://help.make.com/credits",
+   "date_page": "2026-10-08",
+   "lue": "2026-10-08"
+  },
+  "M3": {
+   "titre": "Make Help Center, Organizations (Help Center)",
+   "url": "https://help.make.com/organizations",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "M8": {
+   "titre": "Make Apps Documentation, Human in the Loop (Make Enterprise app)",
+   "url": "https://apps.make.com/human-in-the-loop-enterprise",
+   "date_page": "2026-10-07",
+   "lue": "2026-10-08"
+  },
+  "N1": {
+   "titre": "n8n, n8n Plans and Pricing (EUR display from a French connection)",
+   "url": "https://n8n.io/pricing/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N10": {
+   "titre": "n8n Docs, Gateway credits",
+   "url": "https://docs.n8n.io/deploy/use-n8n-cloud/gateway-credits.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N12": {
+   "titre": "n8n Docs, n8n documentation index (llms.txt): list of chat model nodes",
+   "url": "https://docs.n8n.io/llms.txt",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N2": {
+   "titre": "n8n (GitHub repository), n8n LICENSE.md (Sustainable Use License 1.0)",
+   "url": "https://github.com/n8n-io/n8n/blob/master/LICENSE.md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N3": {
+   "titre": "n8n Docs, Compare editions (Community, Registered Community, Business, Enterprise)",
+   "url": "https://docs.n8n.io/hosting/community-edition-features/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N4": {
+   "titre": "n8n Docs, Human-in-the-loop for tools",
+   "url": "https://docs.n8n.io/advanced-ai/human-in-the-loop-tools/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "N5": {
+   "titre": "n8n Docs, Gmail node: Message Operations (Send and Wait for Approval)",
+   "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.gmail/message-operations/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P1": {
+   "titre": "Pipedream, Pipedream pricing",
+   "url": "https://pipedream.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "P2": {
+   "titre": "Pipedream Docs, Privacy and Security (Pipedream docs)",
+   "url": "https://pipedream.com/docs/privacy-and-security",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "PA1": {
+   "titre": "Microsoft, Tarification Power Automate (fr-FR)",
+   "url": "https://www.microsoft.com/fr-fr/power-platform/products/power-automate/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "PA10": {
+   "titre": "Microsoft Learn, Utiliser votre invite dans Power Automate (AI Builder)",
+   "url": "https://learn.microsoft.com/fr-fr/ai-builder/use-a-custom-prompt-in-flow",
+   "date_page": "2026-01-14",
+   "lue": "2026-10-08"
+  },
+  "PA11": {
+   "titre": "Microsoft Learn, Présentation des licences (AI Builder)",
+   "url": "https://learn.microsoft.com/fr-fr/ai-builder/administer-licensing",
+   "date_page": "2026-09-08",
+   "lue": "2026-10-08"
+  },
+  "PA3": {
+   "titre": "Microsoft Learn, Licences Power Automate en détail (licences initiales / seeded)",
+   "url": "https://learn.microsoft.com/fr-fr/power-platform/admin/power-automate-licensing/deep-dive-on-specific-license",
+   "date_page": "2026-09-22",
+   "lue": "2026-10-08"
+  },
+  "PA4": {
+   "titre": "Microsoft Learn, Commencez avec les approbations de Power Automate",
+   "url": "https://learn.microsoft.com/fr-fr/power-automate/get-started-approvals",
+   "date_page": "2026-04-30",
+   "lue": "2026-10-08"
+  },
+  "PA5": {
+   "titre": "Microsoft Learn, Copilot dans Power Automate",
+   "url": "https://learn.microsoft.com/fr-fr/power-automate/copilot-overview",
+   "date_page": "2026-08-18",
+   "lue": "2026-10-08"
+  },
+  "PA6": {
+   "titre": "Microsoft Learn, Présentation des régions Power Automate",
+   "url": "https://learn.microsoft.com/fr-fr/power-automate/regions-overview",
+   "date_page": "2026-08-19",
+   "lue": "2026-10-08"
+  },
+  "PB1": {
+   "titre": "Pabbly, Pabbly Connect pricing",
+   "url": "https://www.pabbly.com/connect/pricing/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "Z1": {
+   "titre": "Zapier, Zapier Plans & Pricing (EUR currency selected, 750 and 2K task tiers, monthly and yearly)",
+   "url": "https://zapier.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "Z10": {
+   "titre": "Zapier Help Center, Collect data for your workflow with Human in the Loop",
+   "url": "https://help.zapier.com/hc/en-us/articles/38731264910733",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "Z3": {
+   "titre": "Zapier, Task usage rates",
+   "url": "https://zapier.com/pricing/rates",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "Z4": {
+   "titre": "Zapier Help Center, Request approval to keep your workflow running with Human in the Loop",
+   "url": "https://help.zapier.com/hc/en-us/articles/38731463206029",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "Z6": {
+   "titre": "Zapier, Data Privacy Overview (URL /fr/, content in English)",
+   "url": "https://zapier.com/fr/legal/data-privacy",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "lignes": [
+  {
+   "id": "power-automate",
+   "outil": "Power Automate",
+   "offre": "Microsoft, flux de cloud",
+   "cases": {
+    "prix": {
+     "texte": "Compris dans Microsoft 365 avec les connecteurs standard, 6 000 actions par jour ; Premium : 13,00 € HT par utilisateur et par mois, à l'année",
+     "etat": null,
+     "sources": [
+      "PA3",
+      "PA1"
+     ]
+    },
+    "ia": {
+     "texte": "Copilot construit les flux ; l'étape « Exécuter une invite » utilise GPT ; des crédits Copilot à acheter dès le 1er novembre 2026",
+     "etat": null,
+     "sources": [
+      "PA5",
+      "PA10",
+      "PA11"
+     ]
+    },
+    "ue": {
+     "texte": "Régions France Centre et France Sud ; Copilot passe par la Suède et la Suisse, sauf réglage",
+     "etat": "attention",
+     "sources": [
+      "PA6"
+     ]
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "Connecteur Approbations : « Démarrer et attendre une approbation » ; la personne peut corriger le texte de l'IA",
+     "etat": "bon",
+     "sources": [
+      "PA4",
+      "PA10"
+     ]
+    }
+   }
+  },
+  {
+   "id": "copilot-studio",
+   "outil": "Copilot Studio",
+   "offre": "Microsoft, flux d'agent",
+   "cases": {
+    "prix": {
+     "texte": "La page affiche 173,30 € HT en préachat de crédits Copilot, sans en dire la quantité ; 13 crédits pour 100 actions",
+     "etat": null,
+     "sources": [
+      "CS5",
+      "CS2"
+     ]
+    },
+    "ia": {
+     "texte": "Texte généré : 1, 15 ou 100 crédits pour 10 réponses, selon le modèle",
+     "etat": null,
+     "sources": [
+      "CS2"
+     ]
+    },
+    "ue": {
+     "texte": "Les régions de Power Platform ; non détaillé pour Copilot Studio",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "« Humain dans la boucle » : approbations et « Demander des informations » ; approbations en plusieurs étapes en préversion",
+     "etat": "bon",
+     "sources": [
+      "CS1",
+      "CS3",
+      "CS4"
+     ]
+    }
+   }
+  },
+  {
+   "id": "workspace-studio",
+   "outil": "Workspace Studio",
+   "offre": "Google",
+   "cases": {
+    "prix": {
+     "texte": "Compris dans les éditions Workspace éligibles, de Business Starter à Enterprise Plus ; 25 flux de 20 étapes ; limites appliquées dès le 1er novembre 2026",
+     "etat": null,
+     "sources": [
+      "G1",
+      "G5"
+     ]
+    },
+    "ia": {
+     "texte": "Des étapes Gemini, résumés et brouillons ; le flux s'arrête s'il détecte une injection",
+     "etat": null,
+     "sources": [
+      "G1",
+      "G4"
+     ]
+    },
+    "ue": {
+     "texte": "Lieu des flux non trouvé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "Une règle d'administration peut exiger une approbation avant « Envoyer un e-mail » ; un refus saute l'étape",
+     "etat": "bon",
+     "sources": [
+      "G2"
+     ]
+    }
+   }
+  },
+  {
+   "id": "n8n",
+   "outil": "n8n",
+   "offre": "n8n GmbH",
+   "cases": {
+    "prix": {
+     "texte": "Starter : 20 € par mois à l'année, 2 500 exécutions ; une exécution compte tout l'enchaînement",
+     "etat": null,
+     "sources": [
+      "N1"
+     ]
+    },
+    "ia": {
+     "texte": "Les modèles de nombreux éditeurs, avec vos clés ; ou des crédits de passerelle en Starter et Pro",
+     "etat": null,
+     "sources": [
+      "N12",
+      "N10"
+     ]
+    },
+    "ue": {
+     "texte": "En ligne : à Francfort, en Allemagne",
+     "etat": "bon",
+     "sources": [
+      "N1"
+     ]
+    },
+    "serveurs": {
+     "texte": "Oui : édition communautaire gratuite, sous une licence d'usage interne",
+     "etat": "bon",
+     "sources": [
+      "N2",
+      "N3"
+     ]
+    },
+    "validation": {
+     "texte": "Revue humaine avant qu'un agent lance un outil ; « Send and Wait for Approval »",
+     "etat": "bon",
+     "sources": [
+      "N4",
+      "N5"
+     ]
+    }
+   }
+  },
+  {
+   "id": "make",
+   "outil": "Make",
+   "offre": "Celonis",
+   "cases": {
+    "prix": {
+     "texte": "Core : 9 $ par mois à l'année, 10 000 crédits ; une action de module, un crédit",
+     "etat": null,
+     "sources": [
+      "M1"
+     ]
+    },
+    "ia": {
+     "texte": "Des crédits selon les tokens, ou votre propre clé en offre payante",
+     "etat": null,
+     "sources": [
+      "M2"
+     ]
+    },
+    "ue": {
+     "texte": "Union européenne ou États-Unis, choisi à la création, sans retour possible",
+     "etat": "bon",
+     "sources": [
+      "M3"
+     ]
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "« Human in the Loop » : en offre Enterprise seulement, en bêta fermée",
+     "etat": "attention",
+     "sources": [
+      "M8"
+     ]
+    }
+   }
+  },
+  {
+   "id": "zapier",
+   "outil": "Zapier",
+   "offre": "Zapier Inc.",
+   "cases": {
+    "prix": {
+     "texte": "Professional : 18,28 € HT par mois à l'année, 750 tâches ; une tâche, une action réussie",
+     "etat": null,
+     "sources": [
+      "Z1"
+     ]
+    },
+    "ia": {
+     "texte": "1, 3 ou 5 tâches par étape d'IA ; 1 avec votre propre modèle",
+     "etat": null,
+     "sources": [
+      "Z3"
+     ]
+    },
+    "ue": {
+     "texte": "Aux États-Unis seulement ; pas de stockage limité à l'Union",
+     "etat": "attention",
+     "sources": [
+      "Z6"
+     ]
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "Human in the Loop : approuver, refuser ou corriger ; Collect Data",
+     "etat": "bon",
+     "sources": [
+      "Z4",
+      "Z10"
+     ]
+    }
+   }
+  },
+  {
+   "id": "activepieces",
+   "outil": "Activepieces",
+   "offre": "Activepieces Inc.",
+   "cases": {
+    "prix": {
+     "texte": "Plus : 20 $ par mois, 10 000 crédits ; une exécution, un crédit",
+     "etat": null,
+     "sources": [
+      "A1"
+     ]
+    },
+    "ia": {
+     "texte": "2, 10 ou 20 crédits par étape d'IA ; 1 avec vos clés",
+     "etat": null,
+     "sources": [
+      "A1"
+     ]
+    },
+    "ue": {
+     "texte": "En ligne : à Francfort, en Allemagne",
+     "etat": "bon",
+     "sources": [
+      "A1",
+      "A5"
+     ]
+    },
+    "serveurs": {
+     "texte": "Oui : édition communautaire, licence MIT hors des modules « ee »",
+     "etat": "bon",
+     "sources": [
+      "A2"
+     ]
+    },
+    "validation": {
+     "texte": "« Approval (Legacy) » : attendre une approbation, ou envoyer des liens d'approbation",
+     "etat": "attention",
+     "sources": [
+      "A3"
+     ]
+    }
+   }
+  },
+  {
+   "id": "pipedream",
+   "outil": "Pipedream",
+   "offre": "Pipedream, Inc.",
+   "cases": {
+    "prix": {
+     "texte": "Startup : 99 $ par mois à l'année, 10 000 crédits ; un crédit par 30 secondes de calcul",
+     "etat": null,
+     "sources": [
+      "P1"
+     ]
+    },
+    "ia": {
+     "texte": "Une couche d'intégration pour les agents d'IA",
+     "etat": null,
+     "sources": [
+      "P1"
+     ]
+    },
+    "ue": {
+     "texte": "Chez AWS, dans l'est des États-Unis",
+     "etat": "attention",
+     "sources": [
+      "P2"
+     ]
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "Non documentée",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "pabbly",
+   "outil": "Pabbly Connect",
+   "offre": "Pabbly",
+   "cases": {
+    "prix": {
+     "texte": "Standard : 16 $ par mois à l'année, 10 000 tâches ; des offres à vie, payées une fois",
+     "etat": null,
+     "sources": [
+      "PB1"
+     ]
+    },
+    "ia": {
+     "texte": "Un assistant d'IA ; un serveur MCP",
+     "etat": null,
+     "sources": [
+      "PB1"
+     ]
+    },
+    "ue": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "« Human in Loop » : une pause pour approbation",
+     "etat": "bon",
+     "sources": [
+      "PB1"
+     ]
+    }
+   }
+  },
+  {
+   "id": "ifttt",
+   "outil": "IFTTT",
+   "offre": "IFTTT",
+   "cases": {
+    "prix": {
+     "texte": "Pro : 2,99 $ par mois, 20 Applets, exécutions illimitées",
+     "etat": null,
+     "sources": [
+      "I1"
+     ]
+    },
+    "ia": {
+     "texte": "Des services d'IA en Pro+, 8,99 $ par mois",
+     "etat": null,
+     "sources": [
+      "I1"
+     ]
+    },
+    "ue": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "serveurs": {
+     "texte": "Non",
+     "etat": null,
+     "sources": []
+    },
+    "validation": {
+     "texte": "Non documentée",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  }
+ ]
+}

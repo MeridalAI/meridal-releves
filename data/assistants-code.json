@@ -1,0 +1,1270 @@
+{
+ "releve": "2026-10-09",
+ "regle": "Seize assistants de code, relevés les 8 et 9 octobre 2026 sur les pages de prix, de données et de documentation des éditeurs, et sur GitHub (apprendre/recherches/2026-10-08-assistants-code.json et 2026-10-09-assistants-code-marche.json). Prix en dollars, hors taxes sauf mention, par personne et par mois.",
+ "etats": {
+  "bon": "Un avantage",
+  "attention": "À savoir",
+  "inconnu": "Non publié"
+ },
+ "colonnes": [
+  {
+   "id": "forme",
+   "nom": "Forme"
+  },
+  {
+   "id": "equipe",
+   "nom": "Offre d'équipe"
+  },
+  {
+   "id": "donnees",
+   "nom": "Vos données"
+  },
+  {
+   "id": "europe",
+   "nom": "Europe ou chez vous"
+  },
+  {
+   "id": "contexte",
+   "nom": "Fichier de contexte"
+  },
+  {
+   "id": "defaut",
+   "nom": "L'agent, par défaut"
+  }
+ ],
+ "sources": {
+  "S10": {
+   "titre": "Data usage - Claude Code Docs",
+   "url": "https://code.claude.com/docs/en/data-usage",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S13": {
+   "titre": "Claude Code on Amazon Bedrock - Claude Code Docs",
+   "url": "https://code.claude.com/docs/en/amazon-bedrock",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S14": {
+   "titre": "Claude Code on Google Cloud's Agent Platform - Claude Code Docs",
+   "url": "https://code.claude.com/docs/en/google-vertex-ai",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S16": {
+   "titre": "Feature availability - Claude Code Docs",
+   "url": "https://code.claude.com/docs/en/feature-availability",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S18": {
+   "titre": "Plans & Pricing | Claude",
+   "url": "https://claude.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S22": {
+   "titre": "Data residency - Claude Platform Docs",
+   "url": "https://platform.claude.com/docs/en/manage-claude/data-residency",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S3": {
+   "titre": "Choose a permission mode - Claude Code Docs",
+   "url": "https://code.claude.com/docs/en/permission-modes",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S31": {
+   "titre": "Models & Pricing - Cursor Docs",
+   "url": "https://cursor.com/docs/models-and-pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S32": {
+   "titre": "Team Pricing - Cursor Docs",
+   "url": "https://cursor.com/docs/account/teams/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S33": {
+   "titre": "Privacy and Data Governance - Cursor Docs",
+   "url": "https://cursor.com/docs/enterprise/privacy-and-data-governance",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S34": {
+   "titre": "Privacy and data - Cursor Help",
+   "url": "https://cursor.com/help/security-and-privacy/privacy",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S37": {
+   "titre": "Rules - Cursor Docs",
+   "url": "https://cursor.com/docs/rules",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S41": {
+   "titre": "CLI Installation - Cursor Docs",
+   "url": "https://cursor.com/docs/cli/installation",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S50": {
+   "titre": "Plans for GitHub Copilot - GitHub Docs",
+   "url": "https://docs.github.com/en/copilot/get-started/plans",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S52": {
+   "titre": "Usage-based billing for organizations and enterprises - GitHub Docs",
+   "url": "https://docs.github.com/en/copilot/concepts/billing-and-usage/organizations-and-enterprises/billing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S63": {
+   "titre": "Adding GitHub Copilot cloud agent to your organization - GitHub Docs",
+   "url": "https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-for-organization/add-copilot-cloud-agent",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S69": {
+   "titre": "GitHub Copilot Trust Center - FAQ",
+   "url": "https://copilot.github.trust.page/faq",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S7": {
+   "titre": "How Claude remembers your project (memory) - Claude Code Docs",
+   "url": "https://code.claude.com/docs/en/memory",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S70": {
+   "titre": "Adding repository custom instructions for GitHub Copilot - GitHub Docs",
+   "url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-repository-instructions",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S72": {
+   "titre": "Installing GitHub Copilot CLI - GitHub Docs",
+   "url": "https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S80": {
+   "titre": "Codex CLI - ChatGPT docs (learn.chatgpt.com)",
+   "url": "https://learn.chatgpt.com/docs/codex/cli",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S81": {
+   "titre": "Pricing (ChatGPT Work and Codex) - ChatGPT docs",
+   "url": "https://learn.chatgpt.com/docs/pricing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S82": {
+   "titre": "Agent approvals & security - ChatGPT docs",
+   "url": "https://learn.chatgpt.com/docs/agent-approvals-security",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S83": {
+   "titre": "Custom instructions with AGENTS.md - ChatGPT docs",
+   "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S90": {
+   "titre": "Data controls in ChatGPT | OpenAI Help Center",
+   "url": "https://help.openai.com/en/articles/7730893-data-controls-faq",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "ag-enterprise": {
+   "titre": "Google Antigravity: Enterprise",
+   "url": "https://antigravity.google/docs/enterprise",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "ag-gcli-migration": {
+   "titre": "Antigravity CLI: Migrating from Gemini CLI",
+   "url": "https://antigravity.google/docs/cli/gcli-migration",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "ag-permissions": {
+   "titre": "Google Antigravity: Permissions",
+   "url": "https://antigravity.google/docs/permissions",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "ag-pricing": {
+   "titre": "Google Antigravity - Pricing",
+   "url": "https://antigravity.google/pricing",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "ag-terms": {
+   "titre": "Google Antigravity Additional Terms of Service",
+   "url": "https://antigravity.google/terms",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "aider-conventions": {
+   "titre": "Aider: Specifying coding conventions",
+   "url": "https://aider.chat/docs/usage/conventions.html",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "aider-git": {
+   "titre": "Aider: Git integration",
+   "url": "https://aider.chat/docs/git.html",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "cline-autoapprove": {
+   "titre": "Cline Docs: Auto Approve & YOLO Mode",
+   "url": "https://docs.cline.bot/features/auto-approve",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "cline-pricing": {
+   "titre": "Cline pricing",
+   "url": "https://cline.bot/pricing",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "cline-rules": {
+   "titre": "Cline Docs: Cline Rules",
+   "url": "https://docs.cline.bot/features/cline-rules",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "devin-blog-desktop": {
+   "titre": "Windsurf is now Devin Desktop",
+   "url": "https://devin.ai/blog/windsurf-is-now-devin-desktop",
+   "date_page": "2026-06-02",
+   "lue": "2026-10-09"
+  },
+  "devin-pricing": {
+   "titre": "Plans and Pricing | Devin",
+   "url": "https://devin.ai/pricing",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "devin-rules": {
+   "titre": "Devin Docs: Rules & AGENTS.md (Devin CLI)",
+   "url": "https://docs.devin.ai/cli/extensibility/rules.md",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "devin-security": {
+   "titre": "Devin Docs: Security at Cognition",
+   "url": "https://docs.devin.ai/admin/security.md",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "gca-datagov": {
+   "titre": "How Gemini products in Google Cloud use your data",
+   "url": "https://cloud.google.com/gemini/docs/discover/data-governance",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "gca-locations": {
+   "titre": "Gemini Code Assist serving locations",
+   "url": "https://cloud.google.com/gemini/docs/locations",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "gca-pricing": {
+   "titre": "Gemini Code Assist for teams and businesses (pricing)",
+   "url": "https://codeassist.google/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "gemcli-config": {
+   "titre": "Gemini CLI: Configuration reference",
+   "url": "https://geminicli.com/docs/reference/configuration/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "gemcli-geminimd": {
+   "titre": "Gemini CLI: Provide context with GEMINI.md files",
+   "url": "https://geminicli.com/docs/cli/gemini-md/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "gh-aider": {
+   "titre": "GitHub API: Aider-AI/aider (repo, releases, commits)",
+   "url": "https://github.com/Aider-AI/aider",
+   "date_page": "2026-05-22",
+   "lue": "2026-10-09"
+  },
+  "gh-cline": {
+   "titre": "GitHub API: cline/cline (repo + releases)",
+   "url": "https://github.com/cline/cline/releases",
+   "date_page": "2026-10-08",
+   "lue": "2026-10-09"
+  },
+  "gh-mistral-vibe": {
+   "titre": "GitHub API: mistralai/mistral-vibe (README, repo, latest release)",
+   "url": "https://github.com/mistralai/mistral-vibe",
+   "date_page": "2026-10-06",
+   "lue": "2026-10-09"
+  },
+  "jb-ai-enterprise": {
+   "titre": "JetBrains AI Enterprise (IDE Services)",
+   "url": "https://www.jetbrains.com/ide-services/ai-enterprise/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "jb-air": {
+   "titre": "JetBrains Air",
+   "url": "https://www.jetbrains.com/air/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "jb-datapolicy": {
+   "titre": "JetBrains Product Data Collection and Usage Notice (v1.6)",
+   "url": "https://www.jetbrains.com/help/ai/data-collection-and-use-policy.html",
+   "date_page": "2026-07-07",
+   "lue": "2026-10-09"
+  },
+  "jb-price-org-y": {
+   "titre": "JetBrains AI Plans & Pricing (organizations, yearly)",
+   "url": "https://www.jetbrains.com/ai-ides/buy/?section=commercial&billing=yearly",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "junie-allowlist": {
+   "titre": "Junie CLI: Action Allowlist",
+   "url": "https://junie.jetbrains.com/docs/action-allowlist-junie-cli.html",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "junie-cli": {
+   "titre": "Junie CLI: Quickstart",
+   "url": "https://junie.jetbrains.com/docs/junie-cli.html",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "junie-guidelines": {
+   "titre": "Junie: Guidelines and memory",
+   "url": "https://junie.jetbrains.com/docs/guidelines-and-memory.html",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "kilo-pricing": {
+   "titre": "Kilo Code pricing",
+   "url": "https://kilo.ai/pricing",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "kiro-changelog": {
+   "titre": "Kiro: Changelog",
+   "url": "https://kiro.dev/changelog/",
+   "date_page": "2026-10-05",
+   "lue": "2026-10-09"
+  },
+  "kiro-dataprot": {
+   "titre": "Kiro: Data protection",
+   "url": "https://kiro.dev/docs/privacy-and-security/data-protection/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "kiro-permissions": {
+   "titre": "Kiro: Permissions",
+   "url": "https://kiro.dev/docs/permissions/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "kiro-pricing": {
+   "titre": "Kiro: Pricing",
+   "url": "https://kiro.dev/pricing/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "kiro-steering": {
+   "titre": "Kiro: Steering (incl. AGENTS.md)",
+   "url": "https://kiro.dev/docs/steering/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "mistral-optout": {
+   "titre": "Mistral Help: Can I opt out of my input or output data being used for training?",
+   "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+   "date_page": "2026-09-03",
+   "lue": "2026-10-09"
+  },
+  "mistral-pricing": {
+   "titre": "Pricing | Mistral",
+   "url": "https://mistral.ai/pricing",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "mistral-storage": {
+   "titre": "Mistral Help: Where do you store my data or my Organization's data?",
+   "url": "https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data",
+   "date_page": "2026-08-12",
+   "lue": "2026-10-09"
+  },
+  "mistral-train": {
+   "titre": "Mistral Help: Do you use my user data to train your AI models?",
+   "url": "https://help.mistral.ai/en/articles/347617-do-you-use-my-user-data-to-train-your-artificial-intelligence-models",
+   "date_page": "2026-08-31",
+   "lue": "2026-10-09"
+  },
+  "mistral-vibe": {
+   "titre": "Mistral Vibe (formerly Le Chat) product page",
+   "url": "https://mistral.ai/products/vibe",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "opencode-go": {
+   "titre": "OpenCode Go",
+   "url": "https://opencode.ai/go",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "opencode-home": {
+   "titre": "OpenCode: The open source AI coding agent",
+   "url": "https://opencode.ai/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "opencode-permissions": {
+   "titre": "OpenCode Docs: Permissions",
+   "url": "https://opencode.ai/docs/permissions/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "opencode-rules": {
+   "titre": "OpenCode Docs: Rules",
+   "url": "https://opencode.ai/docs/rules/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "opencode-zen": {
+   "titre": "OpenCode Docs: Zen",
+   "url": "https://opencode.ai/docs/zen/",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "tabnine-deployment": {
+   "titre": "Tabnine Docs: Deployment Options",
+   "url": "https://docs.tabnine.com/main/welcome/readme/architecture/deployment-options.md",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "tabnine-privacy": {
+   "titre": "Tabnine Docs: Privacy",
+   "url": "https://docs.tabnine.com/main/welcome/readme/privacy.md",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "zed-instructions": {
+   "titre": "Zed Docs: Instructions (AGENTS.md)",
+   "url": "https://zed.dev/docs/ai/instructions.html",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "zed-pricing": {
+   "titre": "Zed: Pricing",
+   "url": "https://zed.dev/pricing",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "zed-privacy": {
+   "titre": "Zed Docs: AI privacy and security",
+   "url": "https://zed.dev/docs/ai/privacy-and-security",
+   "date_page": null,
+   "lue": "2026-10-09"
+  },
+  "zed-toolperm": {
+   "titre": "Zed Docs: Tool permissions",
+   "url": "https://zed.dev/docs/ai/tool-permissions.html",
+   "date_page": null,
+   "lue": "2026-10-09"
+  }
+ },
+ "lignes": [
+  {
+   "id": "claude-code",
+   "outil": "Claude Code",
+   "offre": "Anthropic",
+   "cases": {
+    "forme": {
+     "texte": "Terminal, éditeurs, application de bureau",
+     "etat": null,
+     "sources": [
+      "S16"
+     ]
+    },
+    "equipe": {
+     "texte": "Team : 20 $ à l'année, 25 $ au mois ; 100 $ en siège Premium",
+     "etat": null,
+     "sources": [
+      "S18"
+     ]
+    },
+    "donnees": {
+     "texte": "Pas d'entraînement ; 30 jours de conservation",
+     "etat": "bon",
+     "sources": [
+      "S10"
+     ]
+    },
+    "europe": {
+     "texte": "Pas chez Anthropic ; par Amazon Bedrock ou Google Cloud, en région européenne",
+     "etat": "attention",
+     "sources": [
+      "S22",
+      "S13",
+      "S14"
+     ]
+    },
+    "contexte": {
+     "texte": "CLAUDE.md ; lit AGENTS.md à défaut",
+     "etat": null,
+     "sources": [
+      "S7"
+     ]
+    },
+    "defaut": {
+     "texte": "Mode auto : un modèle examine les actions à votre place",
+     "etat": "attention",
+     "sources": [
+      "S3"
+     ]
+    }
+   }
+  },
+  {
+   "id": "codex",
+   "outil": "Codex",
+   "offre": "OpenAI",
+   "cases": {
+    "forme": {
+     "texte": "Terminal, éditeur, application, cloud",
+     "etat": null,
+     "sources": [
+      "S80"
+     ]
+    },
+    "equipe": {
+     "texte": "Dans ChatGPT Business : 20 $ à l'année, 25 $ au mois",
+     "etat": null,
+     "sources": [
+      "S81"
+     ]
+    },
+    "donnees": {
+     "texte": "Pas d'entraînement par défaut en Business",
+     "etat": "bon",
+     "sources": [
+      "S90"
+     ]
+    },
+    "europe": {
+     "texte": "Lieu des données réglable en Enterprise et Edu",
+     "etat": "attention",
+     "sources": [
+      "S81"
+     ]
+    },
+    "contexte": {
+     "texte": "AGENTS.md",
+     "etat": null,
+     "sources": [
+      "S83"
+     ]
+    },
+    "defaut": {
+     "texte": "Dans un dossier git, modifie et lance des commandes sans demander, sans réseau",
+     "etat": "attention",
+     "sources": [
+      "S82"
+     ]
+    }
+   }
+  },
+  {
+   "id": "github-copilot",
+   "outil": "GitHub Copilot",
+   "offre": "GitHub",
+   "cases": {
+    "forme": {
+     "texte": "Éditeurs, github.com, terminal",
+     "etat": null,
+     "sources": [
+      "S50",
+      "S72"
+     ]
+    },
+    "equipe": {
+     "texte": "Business 19 $, Enterprise 39 $, crédits compris ; usage payant au-delà activé par défaut",
+     "etat": "attention",
+     "sources": [
+      "S50",
+      "S52"
+     ]
+    },
+    "donnees": {
+     "texte": "Pas d'entraînement ; rien de gardé pour la complétion et le chat de l'éditeur",
+     "etat": "bon",
+     "sources": [
+      "S69"
+     ]
+    },
+    "europe": {
+     "texte": "Données de l'agent dans la région avec GitHub Enterprise Cloud et résidence des données",
+     "etat": "attention",
+     "sources": [
+      "S69"
+     ]
+    },
+    "contexte": {
+     "texte": ".github/copilot-instructions.md ; lit AGENTS.md",
+     "etat": null,
+     "sources": [
+      "S70"
+     ]
+    },
+    "defaut": {
+     "texte": "Agent de code coupé par défaut en Business et Enterprise",
+     "etat": "bon",
+     "sources": [
+      "S63"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cursor",
+   "outil": "Cursor",
+   "offre": "Cursor",
+   "cases": {
+    "forme": {
+     "texte": "Éditeur propre, terminal",
+     "etat": null,
+     "sources": [
+      "S41"
+     ]
+    },
+    "equipe": {
+     "texte": "Teams 40 $, 120 $ en siège Premium ; usage à la demande activé par défaut",
+     "etat": "attention",
+     "sources": [
+      "S32"
+     ]
+    },
+    "donnees": {
+     "texte": "Mode confidentialité activé par défaut en équipe : pas d'entraînement, rien de gardé chez les fournisseurs",
+     "etat": "bon",
+     "sources": [
+      "S33",
+      "S34"
+     ]
+    },
+    "europe": {
+     "texte": "États-Unis ; Europe et Islande sur demande, 10 % plus cher",
+     "etat": "attention",
+     "sources": [
+      "S33",
+      "S31"
+     ]
+    },
+    "contexte": {
+     "texte": "Règles .mdc dans .cursor/rules ; lit AGENTS.md",
+     "etat": null,
+     "sources": [
+      "S37"
+     ]
+    },
+    "defaut": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "gemini-code-assist",
+   "outil": "Gemini Code Assist",
+   "offre": "Google",
+   "cases": {
+    "forme": {
+     "texte": "Extensions VS Code et JetBrains ; Gemini CLI",
+     "etat": null,
+     "sources": [
+      "gca-pricing"
+     ]
+    },
+    "equipe": {
+     "texte": "Standard 19 $ à l'année, 22,80 $ au mois ; Enterprise 45 $ et 54 $",
+     "etat": null,
+     "sources": [
+      "gca-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "Pas d'entraînement ; demandes et réponses non conservées",
+     "etat": "bon",
+     "sources": [
+      "gca-datagov"
+     ]
+    },
+    "europe": {
+     "texte": "Non : servi partout, la région ne se choisit pas",
+     "etat": "attention",
+     "sources": [
+      "gca-locations"
+     ]
+    },
+    "contexte": {
+     "texte": "GEMINI.md ; AGENTS.md par réglage",
+     "etat": null,
+     "sources": [
+      "gemcli-geminimd"
+     ]
+    },
+    "defaut": {
+     "texte": "Gemini CLI demande avant chaque outil ; mode agent de l'éditeur en préversion",
+     "etat": "bon",
+     "sources": [
+      "gemcli-config",
+      "gca-pricing"
+     ]
+    }
+   }
+  },
+  {
+   "id": "antigravity",
+   "outil": "Antigravity",
+   "offre": "Google",
+   "cases": {
+    "forme": {
+     "texte": "Application de bureau, terminal, éditeur, extensions",
+     "etat": null,
+     "sources": [
+      "ag-enterprise"
+     ]
+    },
+    "equipe": {
+     "texte": "Par Gemini Enterprise, à partir de 30 $ par siège",
+     "etat": null,
+     "sources": [
+      "ag-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "Conditions de Google Cloud en entreprise ; en compte personnel, vos échanges servent à Google",
+     "etat": "attention",
+     "sources": [
+      "ag-terms"
+     ]
+    },
+    "europe": {
+     "texte": "Point d'accès européen en entreprise",
+     "etat": "bon",
+     "sources": [
+      "ag-enterprise"
+     ]
+    },
+    "contexte": {
+     "texte": "GEMINI.md et AGENTS.md",
+     "etat": null,
+     "sources": [
+      "ag-gcli-migration"
+     ]
+    },
+    "defaut": {
+     "texte": "Commandes lancées seules dans un bac à sable sans réseau ; la documentation se contredit sur ce défaut",
+     "etat": "attention",
+     "sources": [
+      "ag-permissions"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mistral-vibe",
+   "outil": "Mistral Vibe",
+   "offre": "Mistral AI, France",
+   "cases": {
+    "forme": {
+     "texte": "Terminal, sous licence libre ; éditeurs ; web",
+     "etat": null,
+     "sources": [
+      "mistral-vibe"
+     ]
+    },
+    "equipe": {
+     "texte": "Team : 24,99 $ hors taxes",
+     "etat": null,
+     "sources": [
+      "mistral-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "Entraînement par défaut, sauf si l'administrateur le coupe pour l'organisation ; jamais en Enterprise",
+     "etat": "attention",
+     "sources": [
+      "mistral-optout",
+      "mistral-train"
+     ]
+    },
+    "europe": {
+     "texte": "Données dans l'Union européenne par défaut ; modèles open weight installables chez vous",
+     "etat": "bon",
+     "sources": [
+      "mistral-storage"
+     ]
+    },
+    "contexte": {
+     "texte": "AGENTS.md",
+     "etat": null,
+     "sources": [
+      "gh-mistral-vibe"
+     ]
+    },
+    "defaut": {
+     "texte": "Modifications de fichiers acceptées ; le reste demande",
+     "etat": "attention",
+     "sources": [
+      "gh-mistral-vibe"
+     ]
+    }
+   }
+  },
+  {
+   "id": "devin-desktop",
+   "outil": "Devin Desktop, ex-Windsurf",
+   "offre": "Cognition",
+   "cases": {
+    "forme": {
+     "texte": "Éditeur propre avec agents ; agent dans le cloud",
+     "etat": null,
+     "sources": [
+      "devin-blog-desktop"
+     ]
+    },
+    "equipe": {
+     "texte": "80 $ par équipe, plus 40 $ par développeur",
+     "etat": null,
+     "sources": [
+      "devin-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "Entraînement possible par défaut ; en Teams, seul un administrateur peut le refuser",
+     "etat": "attention",
+     "sources": [
+      "devin-security"
+     ]
+    },
+    "europe": {
+     "texte": "Déploiement dédié en Enterprise ; aucune région européenne annoncée",
+     "etat": "attention",
+     "sources": [
+      "devin-pricing"
+     ]
+    },
+    "contexte": {
+     "texte": "AGENTS.md",
+     "etat": null,
+     "sources": [
+      "devin-rules"
+     ]
+    },
+    "defaut": {
+     "texte": "Non relevé pour l'agent local",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "kiro",
+   "outil": "Kiro",
+   "offre": "Amazon Web Services",
+   "cases": {
+    "forme": {
+     "texte": "Éditeur propre, terminal, web",
+     "etat": null,
+     "sources": [
+      "kiro-changelog"
+     ]
+    },
+    "equipe": {
+     "texte": "De 20 $ à 200 $ par personne, selon les crédits",
+     "etat": null,
+     "sources": [
+      "kiro-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "En entreprise, rien ne sert à améliorer le service ; en individuel, sauf refus",
+     "etat": "bon",
+     "sources": [
+      "kiro-dataprot"
+     ]
+    },
+    "europe": {
+     "texte": "En entreprise, calcul en Europe et données dans la région du profil ; certains modèles calculés ailleurs",
+     "etat": "attention",
+     "sources": [
+      "kiro-dataprot"
+     ]
+    },
+    "contexte": {
+     "texte": "Fichiers .kiro/steering ; AGENTS.md",
+     "etat": null,
+     "sources": [
+      "kiro-steering"
+     ]
+    },
+    "defaut": {
+     "texte": "Sans réglage, seules les lectures passent ; le reste demande",
+     "etat": "bon",
+     "sources": [
+      "kiro-permissions"
+     ]
+    }
+   }
+  },
+  {
+   "id": "jetbrains",
+   "outil": "JetBrains AI et Junie",
+   "offre": "JetBrains, Pays-Bas",
+   "cases": {
+    "forme": {
+     "texte": "Dans les éditeurs JetBrains ; Junie aussi en terminal",
+     "etat": null,
+     "sources": [
+      "jb-air",
+      "junie-cli"
+     ]
+    },
+    "equipe": {
+     "texte": "AI Pro 20 $ par personne ; AI Ultimate 60 $",
+     "etat": null,
+     "sources": [
+      "jb-price-org-y"
+     ]
+    },
+    "donnees": {
+     "texte": "Licence d'organisation : collecte détaillée interdite par défaut ; données gardées dans l'Espace économique européen",
+     "etat": "bon",
+     "sources": [
+      "jb-datapolicy"
+     ]
+    },
+    "europe": {
+     "texte": "Installation chez vous possible en AI Enterprise",
+     "etat": "bon",
+     "sources": [
+      "jb-ai-enterprise"
+     ]
+    },
+    "contexte": {
+     "texte": "AGENTS.md, pour Junie",
+     "etat": null,
+     "sources": [
+      "junie-guidelines"
+     ]
+    },
+    "defaut": {
+     "texte": "Junie demande avant les commandes et les outils MCP",
+     "etat": "bon",
+     "sources": [
+      "junie-allowlist"
+     ]
+    }
+   }
+  },
+  {
+   "id": "zed",
+   "outil": "Zed",
+   "offre": "Zed Industries",
+   "cases": {
+    "forme": {
+     "texte": "Éditeur libre, avec agent",
+     "etat": null,
+     "sources": [
+      "zed-pricing"
+     ]
+    },
+    "equipe": {
+     "texte": "Business : 30 $ par siège",
+     "etat": null,
+     "sources": [
+      "zed-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "Fournisseurs engagés à ne pas entraîner ; Zed ne garde rien, sauf partage de votre part",
+     "etat": "bon",
+     "sources": [
+      "zed-privacy"
+     ]
+    },
+    "europe": {
+     "texte": "Avec vos propres clés, le fournisseur de votre choix, ou un modèle local",
+     "etat": null,
+     "sources": [
+      "zed-pricing"
+     ]
+    },
+    "contexte": {
+     "texte": "AGENTS.md ; aussi .rules et CLAUDE.md",
+     "etat": null,
+     "sources": [
+      "zed-instructions"
+     ]
+    },
+    "defaut": {
+     "texte": "Valeur par défaut non publiée sur la page lue",
+     "etat": "inconnu",
+     "sources": [
+      "zed-toolperm"
+     ]
+    }
+   }
+  },
+  {
+   "id": "cline",
+   "outil": "Cline",
+   "offre": "Cline Bot, logiciel libre",
+   "cases": {
+    "forme": {
+     "texte": "Extension VS Code, terminal, application",
+     "etat": null,
+     "sources": [
+      "gh-cline"
+     ]
+    },
+    "equipe": {
+     "texte": "Gratuit ; vous ne payez que le modèle",
+     "etat": null,
+     "sources": [
+      "cline-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "Celles du fournisseur de modèle choisi",
+     "etat": null,
+     "sources": [
+      "cline-pricing"
+     ]
+    },
+    "europe": {
+     "texte": "Tout fournisseur, ou un modèle chez vous",
+     "etat": "bon",
+     "sources": [
+      "cline-pricing"
+     ]
+    },
+    "contexte": {
+     "texte": ".clinerules ; lit AGENTS.md",
+     "etat": null,
+     "sources": [
+      "cline-rules"
+     ]
+    },
+    "defaut": {
+     "texte": "Approbation par catégorie ; la documentation conseille de laisser modifications et commandes en demande",
+     "etat": "bon",
+     "sources": [
+      "cline-autoapprove"
+     ]
+    }
+   }
+  },
+  {
+   "id": "opencode",
+   "outil": "OpenCode",
+   "offre": "logiciel libre",
+   "cases": {
+    "forme": {
+     "texte": "Terminal, application de bureau, extension",
+     "etat": null,
+     "sources": [
+      "opencode-home"
+     ]
+    },
+    "equipe": {
+     "texte": "Gratuit ; offres de modèles en option, de 10 $ à 40 $",
+     "etat": null,
+     "sources": [
+      "opencode-go"
+     ]
+    },
+    "donnees": {
+     "texte": "Celles du fournisseur ; certains modèles gratuits entraînent",
+     "etat": "attention",
+     "sources": [
+      "opencode-zen"
+     ]
+    },
+    "europe": {
+     "texte": "Modèles hébergés aux États-Unis et en Europe ; ou tout fournisseur",
+     "etat": "bon",
+     "sources": [
+      "opencode-zen"
+     ]
+    },
+    "contexte": {
+     "texte": "AGENTS.md",
+     "etat": null,
+     "sources": [
+      "opencode-rules"
+     ]
+    },
+    "defaut": {
+     "texte": "La plupart des actions passent sans demander",
+     "etat": "attention",
+     "sources": [
+      "opencode-permissions"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kilo-code",
+   "outil": "Kilo Code",
+   "offre": "Anaconda, logiciel libre",
+   "cases": {
+    "forme": {
+     "texte": "Extensions VS Code et JetBrains, terminal",
+     "etat": null,
+     "sources": [
+      "kilo-pricing"
+     ]
+    },
+    "equipe": {
+     "texte": "Teams : 15 $ par personne, modèles en plus",
+     "etat": null,
+     "sources": [
+      "kilo-pricing"
+     ]
+    },
+    "donnees": {
+     "texte": "Celles du fournisseur de modèle choisi",
+     "etat": null,
+     "sources": [
+      "kilo-pricing"
+     ]
+    },
+    "europe": {
+     "texte": "Vos propres clés, tout modèle",
+     "etat": null,
+     "sources": [
+      "kilo-pricing"
+     ]
+    },
+    "contexte": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "defaut": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "aider",
+   "outil": "Aider",
+   "offre": "logiciel libre",
+   "cases": {
+    "forme": {
+     "texte": "Terminal ; aucune version publiée sur GitHub depuis août 2025",
+     "etat": "attention",
+     "sources": [
+      "gh-aider"
+     ]
+    },
+    "equipe": {
+     "texte": "Gratuit, sous licence Apache 2.0 ; vous payez le modèle",
+     "etat": null,
+     "sources": [
+      "gh-aider"
+     ]
+    },
+    "donnees": {
+     "texte": "Celles du fournisseur de modèle choisi",
+     "etat": null,
+     "sources": []
+    },
+    "europe": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "contexte": {
+     "texte": "Aucun fichier lu d'office ; CONVENTIONS.md avec --read",
+     "etat": null,
+     "sources": [
+      "aider-conventions"
+     ]
+    },
+    "defaut": {
+     "texte": "Enregistre chaque changement dans git, sans demander",
+     "etat": "attention",
+     "sources": [
+      "aider-git"
+     ]
+    }
+   }
+  },
+  {
+   "id": "tabnine",
+   "outil": "Tabnine",
+   "offre": "Tricentis",
+   "cases": {
+    "forme": {
+     "texte": "Extension d'éditeur reliée à un serveur Tabnine",
+     "etat": null,
+     "sources": [
+      "tabnine-privacy"
+     ]
+    },
+    "equipe": {
+     "texte": "Page des prix inaccessible le 9 octobre 2026",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "donnees": {
+     "texte": "Ni entraînement ni conservation",
+     "etat": "bon",
+     "sources": [
+      "tabnine-privacy"
+     ]
+    },
+    "europe": {
+     "texte": "Installation chez vous, jusqu'à un réseau isolé",
+     "etat": "bon",
+     "sources": [
+      "tabnine-deployment"
+     ]
+    },
+    "contexte": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "defaut": {
+     "texte": "Non relevé",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  }
+ ]
+}

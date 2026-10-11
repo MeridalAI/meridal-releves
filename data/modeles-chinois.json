@@ -1,0 +1,387 @@
+{
+ "releve": "2026-10-08",
+ "regle": "Où vont vos données selon la façon de se servir d'un modèle chinois, relevé le 8 octobre 2026 sur les politiques de confidentialité et conditions des éditeurs, les catalogues des hébergeurs et les fiches de Hugging Face (apprendre/recherches/2026-10-08-chine-europe.json). Une case vide de source : la page n'a pas été lue.",
+ "etats": {
+  "bon": "En Europe, ou chez vous",
+  "attention": "Hors d'Europe, ou sous conditions",
+  "inconnu": "Non publié, ou non trouvé"
+ },
+ "colonnes": [
+  {
+   "id": "app",
+   "nom": "L'application de l'éditeur"
+  },
+  {
+   "id": "api",
+   "nom": "L'API de l'éditeur"
+  },
+  {
+   "id": "heb",
+   "nom": "Un hébergeur en Europe"
+  },
+  {
+   "id": "local",
+   "nom": "Vos serveurs"
+  }
+ ],
+ "sources": {
+  "S01": {
+   "titre": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd., DeepSeek Privacy Policy",
+   "url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S02": {
+   "titre": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd., DeepSeek Terms of Use",
+   "url": "https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S03": {
+   "titre": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd., DeepSeek Open Platform Terms of Service",
+   "url": "https://cdn.deepseek.com/policies/en-US/deepseek-open-platform-terms-of-service.html",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S04": {
+   "titre": "NTH POWER GLOBAL TECH SINGAPORE PTE. LTD. (Qwen), Qwen Privacy Policy",
+   "url": "https://qwen.ai/privacypolicy",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S05": {
+   "titre": "Alibaba Cloud, Regions and endpoints - Alibaba Cloud Model Studio",
+   "url": "https://www.alibabacloud.com/help/en/model-studio/regions",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S06": {
+   "titre": "Alibaba Cloud, [Model Studio] Frankfurt Region Now Available",
+   "url": "https://www.alibabacloud.com/en/notice/model_studio_frankfurt_region_now_available_700",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S07": {
+   "titre": "Beijing Moonshot Technology Co., Ltd., Kimi Privacy Policy (kimi.com)",
+   "url": "https://www.kimi.com/user/agreement/userPrivacy?version=v2",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S08": {
+   "titre": "MOONSHOT AI PTE. LTD., Kimi OpenPlatform Privacy Policy",
+   "url": "https://platform.kimi.ai/docs/agreement/userprivacy",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S09": {
+   "titre": "JINGSHENG HENGXING TECHNOLOGY PTE.LTD (Z.ai), Z.ai Privacy Policy and API Data Processing Addendum",
+   "url": "https://docs.z.ai/legal-agreement/privacy-policy",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S10": {
+   "titre": "Nanonoble Pte. Ltd. (MiniMax), MiniMax API Platform Privacy Policy",
+   "url": "https://platform.minimax.io/protocol/privacy-policy",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S11": {
+   "titre": "BytePlus (ByteDance), BytePlus ModelArk data processing",
+   "url": "https://docs.byteplus.com/en/docs/ModelArk/BytePlus_ModelArk_Data_Processing",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S12": {
+   "titre": "BytePlus (ByteDance), ModelArk Region availability",
+   "url": "https://docs.byteplus.com/docs/ModelArk/2191806",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S13": {
+   "titre": "Hugging Face, Hugging Face Hub API, model metadata (Seed-OSS-36B-Instruct, DeepSeek-V4-Pro, Kimi-K3, GLM-5.3, MiniMax-M3, Qwen-Drive-1.0-4B)",
+   "url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-V4-Pro",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S14": {
+   "titre": "Amazon Web Services, Amazon Bedrock adds 18 fully managed open weight models",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-bedrock-fully-managed-open-weight-models/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S15": {
+   "titre": "Amazon Web Services, Qwen3 models are now available fully managed in Amazon Bedrock",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/qwen3-models-fully-managed-amazon-bedrock/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S16": {
+   "titre": "Amazon Web Services, DeepSeek-V3.1 model now available fully managed in Amazon Bedrock",
+   "url": "https://aws.amazon.com/about-aws/whats-new/2025/09/deepseek-v3-1-model-fully-managed-amazon-bedrock/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S17": {
+   "titre": "Amazon Web Services, AWS Weekly Roundup (February 16, 2026)",
+   "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-m8azn-instances-new-open-weights-models-in-amazon-bedrock-and-more-february-16-2026/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S19": {
+   "titre": "Microsoft, DeepSeek R1 is now available on Azure AI Foundry and GitHub",
+   "url": "https://azure.microsoft.com/en-us/blog/deepseek-r1-is-now-available-on-azure-ai-foundry-and-github/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S21": {
+   "titre": "Scaleway, Generative APIs supported models",
+   "url": "https://www.scaleway.com/en/docs/generative-apis/reference-content/supported-models/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S22": {
+   "titre": "Scaleway, Generative APIs FAQ",
+   "url": "https://www.scaleway.com/en/docs/generative-apis/faq/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S24": {
+   "titre": "OVHcloud, AI Endpoints catalog",
+   "url": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S26": {
+   "titre": "Mistral AI, In-region inference, open models, and new European infrastructure for sovereign AI.",
+   "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+   "date_page": null,
+   "lue": "2026-10-08"
+  },
+  "S27": {
+   "titre": "Mistral AI, Models overview (Mistral docs)",
+   "url": "https://docs.mistral.ai/models/overview",
+   "date_page": null,
+   "lue": "2026-10-08"
+  }
+ },
+ "lignes": [
+  {
+   "id": "deepseek",
+   "outil": "DeepSeek",
+   "offre": "Hangzhou DeepSeek, Chine",
+   "cases": {
+    "app": {
+     "texte": "Stockées en Chine, sous droit chinois ; vos échanges entraînent les modèles, sauf refus",
+     "etat": "attention",
+     "sources": [
+      "S01",
+      "S02"
+     ]
+    },
+    "api": {
+     "texte": "Droit chinois ; aucune région européenne trouvée",
+     "etat": "attention",
+     "sources": [
+      "S03"
+     ]
+    },
+    "heb": {
+     "texte": "Scaleway, à Paris ; Amazon Bedrock, à Londres et Stockholm ; Microsoft Foundry",
+     "etat": "bon",
+     "sources": [
+      "S21",
+      "S22",
+      "S16",
+      "S19"
+     ]
+    },
+    "local": {
+     "texte": "Open weight, licence MIT pour V4-Pro",
+     "etat": "bon",
+     "sources": [
+      "S13"
+     ]
+    }
+   }
+  },
+  {
+   "id": "qwen",
+   "outil": "Qwen",
+   "offre": "Alibaba",
+   "cases": {
+    "app": {
+     "texte": "Stockées et traitées à Singapour ; des contenus anonymisés servent à l'entraînement",
+     "etat": "attention",
+     "sources": [
+      "S04"
+     ]
+    },
+    "api": {
+     "texte": "Francfort depuis mars 2026 ; le calcul reste en Europe si l'on choisit le périmètre UE",
+     "etat": "attention",
+     "sources": [
+      "S05",
+      "S06"
+     ]
+    },
+    "heb": {
+     "texte": "Scaleway et OVHcloud, en France ; Amazon Bedrock, en Irlande, à Londres, Milan et Stockholm",
+     "etat": "bon",
+     "sources": [
+      "S21",
+      "S24",
+      "S15"
+     ]
+    },
+    "local": {
+     "texte": "Open weight, licence Apache 2.0 pour le modèle lu",
+     "etat": "bon",
+     "sources": [
+      "S13"
+     ]
+    }
+   }
+  },
+  {
+   "id": "kimi",
+   "outil": "Kimi",
+   "offre": "Moonshot AI",
+   "cases": {
+    "app": {
+     "texte": "Stockées en Chine ; refuser l'entraînement passe par le service client",
+     "etat": "attention",
+     "sources": [
+      "S07"
+     ]
+    },
+    "api": {
+     "texte": "Serveurs à Singapour ; aucune région européenne trouvée",
+     "etat": "attention",
+     "sources": [
+      "S08"
+     ]
+    },
+    "heb": {
+     "texte": "Amazon Bedrock, régions non précisées dans les annonces lues",
+     "etat": "attention",
+     "sources": [
+      "S14",
+      "S17"
+     ]
+    },
+    "local": {
+     "texte": "Open weight, licence propre à l'éditeur pour K3, à lire",
+     "etat": "attention",
+     "sources": [
+      "S13"
+     ]
+    }
+   }
+  },
+  {
+   "id": "glm",
+   "outil": "GLM",
+   "offre": "Zhipu, sous la marque Z.ai",
+   "cases": {
+    "app": {
+     "texte": "Non publié dans les pages lues",
+     "etat": "inconnu",
+     "sources": [
+      "S09"
+     ]
+    },
+    "api": {
+     "texte": "Traitées à Singapour, en temps réel, sans être gardées, selon l'avenant de l'éditeur",
+     "etat": "attention",
+     "sources": [
+      "S09"
+     ]
+    },
+    "heb": {
+     "texte": "Mistral AI et Scaleway, en France ; Amazon Bedrock",
+     "etat": "bon",
+     "sources": [
+      "S26",
+      "S27",
+      "S21",
+      "S17"
+     ]
+    },
+    "local": {
+     "texte": "Open weight, licence propre à l'éditeur pour GLM-5.3, à lire",
+     "etat": "attention",
+     "sources": [
+      "S13"
+     ]
+    }
+   }
+  },
+  {
+   "id": "minimax",
+   "outil": "MiniMax",
+   "offre": "MiniMax",
+   "cases": {
+    "app": {
+     "texte": "Non lu",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "api": {
+     "texte": "Stockées aux États-Unis ; lieu du calcul non précisé ; transferts possibles dans le groupe",
+     "etat": "attention",
+     "sources": [
+      "S10"
+     ]
+    },
+    "heb": {
+     "texte": "Amazon Bedrock ; Scaleway, en instance dédiée seulement",
+     "etat": "bon",
+     "sources": [
+      "S14",
+      "S17",
+      "S21"
+     ]
+    },
+    "local": {
+     "texte": "Open weight, licence propre à l'éditeur pour M3, à lire",
+     "etat": "attention",
+     "sources": [
+      "S13"
+     ]
+    }
+   }
+  },
+  {
+   "id": "seed",
+   "outil": "Seed",
+   "offre": "ByteDance",
+   "cases": {
+    "app": {
+     "texte": "Doubao et Cici : non lus",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "api": {
+     "texte": "BytePlus ModelArk : Malaisie, Indonésie ou Union européenne ; une région à Dublin",
+     "etat": "attention",
+     "sources": [
+      "S11",
+      "S12"
+     ]
+    },
+    "heb": {
+     "texte": "Aucun hébergeur européen trouvé",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "local": {
+     "texte": "Open weight, licence Apache 2.0 pour Seed-OSS-36B",
+     "etat": "bon",
+     "sources": [
+      "S13"
+     ]
+    }
+   }
+  }
+ ]
+}

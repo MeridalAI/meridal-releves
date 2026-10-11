@@ -1,0 +1,360 @@
+{
+ "releve": "2026-10-07",
+ "regle": "Ce que chaque outil lit dans un fichier, relevé sur les pages d'aide des éditeurs le 7 octobre 2026 (apprendre/recherches/2026-10-07-preparer-documents.json). « Non publié » : l'éditeur ne le dit pas dans les pages lues ; à essayer avant de compter dessus.",
+ "etats": {
+  "bon": "Pris en charge",
+  "attention": "À savoir",
+  "inconnu": "Non publié"
+ },
+ "colonnes": [
+  {
+   "id": "images",
+   "nom": "Images d'un PDF"
+  },
+  {
+   "id": "scans",
+   "nom": "PDF scanné"
+  },
+  {
+   "id": "tableaux",
+   "nom": "Tableaux et classeurs"
+  },
+  {
+   "id": "proteges",
+   "nom": "Fichiers protégés"
+  }
+ ],
+ "sources": {
+  "s02": {
+   "titre": "File formats supported by Microsoft Copilot",
+   "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/file-formats-supported-by-microsoft-365-copilot",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s09": {
+   "titre": "Add content to Microsoft Copilot Chat prompts",
+   "url": "https://support.microsoft.com/en-US/Microsoft-365-Copilot/add-content-to-microsoft-365-copilot-chat-prompts",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s10": {
+   "titre": "Add knowledge sources to an agent in Agent Builder",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-builder-add-knowledge",
+   "date_page": "2026-09-30",
+   "lue": "2026-10-07"
+  },
+  "s11": {
+   "titre": "Optimize content retrieval (declarative agents)",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/optimize-content-retrieval",
+   "date_page": "2025-09-12",
+   "lue": "2026-10-07"
+  },
+  "s20": {
+   "titre": "Considerations for Microsoft Purview to manage Microsoft 365 Copilot",
+   "url": "https://learn.microsoft.com/en-us/purview/ai-m365-copilot-considerations",
+   "date_page": "2026-06-30",
+   "lue": "2026-10-07"
+  },
+  "s23": {
+   "titre": "Upload files as a knowledge source, Microsoft Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-add-file-upload",
+   "date_page": "2026-09-29",
+   "lue": "2026-10-07"
+  },
+  "s24": {
+   "titre": "Unstructured data as a knowledge source, Microsoft Copilot Studio",
+   "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-unstructured-data",
+   "date_page": "2026-08-26",
+   "lue": "2026-10-07"
+  },
+  "s31": {
+   "titre": "Add or discover new sources for your notebook (Gemini Notebook Help)",
+   "url": "https://support.google.com/gemininotebook/answer/16215270?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s32": {
+   "titre": "Frequently asked questions, Gemini Notebook Help",
+   "url": "https://support.google.com/gemininotebook/answer/16269187?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s44": {
+   "titre": "Visual Retrieval with PDFs FAQ (OpenAI)",
+   "url": "https://help.openai.com/en/articles/10416312",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s50": {
+   "titre": "Upload files to Claude",
+   "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude",
+   "date_page": "2026-07-23",
+   "lue": "2026-10-07"
+  },
+  "s56": {
+   "titre": "Work with Files and Canvas (Mistral Vibe Work)",
+   "url": "https://docs.mistral.ai/vibe/work/files-and-canvas",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "s62": {
+   "titre": "Enterprise file limits (Perplexity)",
+   "url": "https://www.perplexity.ai/help-center/en/articles/12009761-enterprise-file-limits",
+   "date_page": null,
+   "lue": "2026-10-07"
+  }
+ },
+ "lignes": [
+  {
+   "id": "copilot",
+   "outil": "Microsoft Copilot",
+   "offre": "conversation et bloc-notes",
+   "cases": {
+    "images": {
+     "texte": "Répond sur les images d'un fichier Word ou PowerPoint ; rien de publié pour un PDF",
+     "etat": "attention",
+     "sources": [
+      "s09"
+     ]
+    },
+    "scans": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "tableaux": {
+     "texte": "Excel et CSV lus pour l'analyse ; découper les classeurs chargés de formules",
+     "etat": "attention",
+     "sources": [
+      "s02"
+     ]
+    },
+    "proteges": {
+     "texte": "Le texte d'un fichier chiffré seulement avec le droit d'extraction ; jamais un fichier à double chiffrement",
+     "etat": "bon",
+     "sources": [
+      "s20"
+     ]
+    }
+   }
+  },
+  {
+   "id": "agents-m365",
+   "outil": "Agents Microsoft",
+   "offre": "Agent Builder, agents SharePoint",
+   "cases": {
+    "images": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "scans": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "tableaux": {
+     "texte": "En 2025, Microsoft écrivait qu'ils ne lisaient pas les tableaux du contenu SharePoint ; Excel, mieux sur une seule feuille",
+     "etat": "attention",
+     "sources": [
+      "s11",
+      "s10"
+     ]
+    },
+    "proteges": {
+     "texte": "Un fichier à double chiffrement se dépose sans erreur, mais n'est pas lu",
+     "etat": "attention",
+     "sources": [
+      "s10"
+     ]
+    }
+   }
+  },
+  {
+   "id": "studio",
+   "outil": "Copilot Studio",
+   "offre": "connaissances d'un agent",
+   "cases": {
+    "images": {
+     "texte": "Seulement les images d'un PDF qui portent un texte de remplacement",
+     "etat": "attention",
+     "sources": [
+      "s23"
+     ]
+    },
+    "scans": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "tableaux": {
+     "texte": "Excel, CSV et listes SharePoint",
+     "etat": "bon",
+     "sources": [
+      "s23",
+      "s24"
+     ]
+    },
+    "proteges": {
+     "texte": "Fichiers chiffrés ou protégés par mot de passe refusés ; étiquetés Confidentiel ignorés",
+     "etat": "attention",
+     "sources": [
+      "s23",
+      "s24"
+     ]
+    }
+   }
+  },
+  {
+   "id": "gemini-notebook",
+   "outil": "Gemini Notebook",
+   "offre": "Google Workspace",
+   "cases": {
+    "images": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "scans": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "tableaux": {
+     "texte": "Google Sheets jusqu'à 100 000 tokens",
+     "etat": "attention",
+     "sources": [
+      "s31"
+     ]
+    },
+    "proteges": {
+     "texte": "Un PDF protégé contre la copie ne s'importe pas",
+     "etat": "attention",
+     "sources": [
+      "s32"
+     ]
+    }
+   }
+  },
+  {
+   "id": "chatgpt",
+   "outil": "ChatGPT",
+   "offre": "projets, offre Business",
+   "cases": {
+    "images": {
+     "texte": "Non : un PDF de projet est lu en texte seul ; la lecture des images est réservée à Enterprise, hors projets",
+     "etat": "attention",
+     "sources": [
+      "s44"
+     ]
+    },
+    "scans": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "tableaux": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "proteges": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "claude",
+   "outil": "Claude",
+   "offre": "projets",
+   "cases": {
+    "images": {
+     "texte": "Texte seul dans un projet ; dans une conversation, images et graphiques des PDF de 100 pages au plus",
+     "etat": "attention",
+     "sources": [
+      "s50"
+     ]
+    },
+    "scans": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "tableaux": {
+     "texte": "Excel seulement avec l'exécution de code activée",
+     "etat": "attention",
+     "sources": [
+      "s50"
+     ]
+    },
+    "proteges": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "mistral",
+   "outil": "Mistral Vibe",
+   "offre": "Vibe Work",
+   "cases": {
+    "images": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "scans": {
+     "texte": "Pages scannées lues quand on les envoie comme images dans la conversation",
+     "etat": "attention",
+     "sources": [
+      "s56"
+     ]
+    },
+    "tableaux": {
+     "texte": "CSV et Excel lus directement dans la conversation",
+     "etat": "bon",
+     "sources": [
+      "s56"
+     ]
+    },
+    "proteges": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  },
+  {
+   "id": "perplexity",
+   "outil": "Perplexity",
+   "offre": "projets",
+   "cases": {
+    "images": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "scans": {
+     "texte": "Seuls les fichiers dont le texte est lisible sont lus",
+     "etat": "attention",
+     "sources": [
+      "s62"
+     ]
+    },
+    "tableaux": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "proteges": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    }
+   }
+  }
+ ]
+}

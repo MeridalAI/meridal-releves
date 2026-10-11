@@ -1,0 +1,682 @@
+{
+ "releve": "2026-10-07",
+ "regle": "Chaque case résume des faits relevés à la source (apprendre/recherches/, 7 octobre 2026), avec ses sources ; une case vide n'a pas été relevée ou n'est pas publiée. L'état d'une case : bon (ce qu'une PME souhaite par défaut), attention (à régler ou à savoir), inconnu (non publié ou contradictoire).",
+ "colonnes": [
+  {
+   "id": "entrainement",
+   "nom": "Entraînement sur vos échanges"
+  },
+  {
+   "id": "conservation",
+   "nom": "Conservation"
+  },
+  {
+   "id": "lieu",
+   "nom": "Lieu de stockage"
+  },
+  {
+   "id": "partage",
+   "nom": "Partage par lien"
+  },
+  {
+   "id": "commentaires",
+   "nom": "Avis envoyé (pouce)"
+  }
+ ],
+ "sources": {
+  "ms-confidentialite": {
+   "titre": "Data, Privacy, and Security for Microsoft Copilot",
+   "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy",
+   "date_page": "2026-08-18",
+   "lue": "2026-10-07"
+  },
+  "ms-retention-copilot": {
+   "titre": "Learn about retention for Copilot and AI apps",
+   "url": "https://learn.microsoft.com/en-us/purview/retention-policies-copilot",
+   "date_page": "2025-09-26",
+   "lue": "2026-10-07"
+  },
+  "ms-routage-flexible": {
+   "titre": "Flex routing (EU and EFTA)",
+   "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/copilot-flex-routing",
+   "date_page": "2026-09-29",
+   "lue": "2026-10-07"
+  },
+  "ms-commentaires": {
+   "titre": "Manage Microsoft feedback for your organization",
+   "url": "https://learn.microsoft.com/en-us/privacy/microsoft-365/feedback/feedback-manage",
+   "date_page": "2026-10-06",
+   "lue": "2026-10-07"
+  },
+  "g-privacy-hub": {
+   "titre": "Generative AI in Google Workspace Privacy Hub",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/generative-ai-in-google-workspace-privacy-hub",
+   "date_page": "2026-10-06",
+   "lue": "2026-10-07"
+  },
+  "g-application": {
+   "titre": "Turn the Gemini App on or off",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-the-gemini-app-on-or-off",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "g-historique-ws": {
+   "titre": "Find & manage your Gemini in Workspace conversation history",
+   "url": "https://support.google.com/a/users/answer/16880047?hl=en",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "g-partage": {
+   "titre": "Turn conversation sharing on or off",
+   "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-conversation-sharing-on-or-off",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "g-regions": {
+   "titre": "Choose a geographic location for your data (data regions)",
+   "url": "https://knowledge.workspace.google.com/admin/compliance/choose-a-geographic-location-for-your-data",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "g-perso": {
+   "titre": "Gemini Apps Privacy Hub",
+   "url": "https://support.google.com/gemini/answer/13594961?hl=fr",
+   "date_page": "2026-09-24",
+   "lue": "2026-10-07"
+  },
+  "oai-entreprise": {
+   "titre": "Enterprise privacy at OpenAI",
+   "url": "https://openai.com/enterprise-privacy/",
+   "date_page": "2026-01-08",
+   "lue": "2026-10-07"
+  },
+  "oai-tarifs": {
+   "titre": "ChatGPT Pricing",
+   "url": "https://chatgpt.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "oai-conservation": {
+   "titre": "Chat and file retention in ChatGPT",
+   "url": "https://help.openai.com/en/articles/8983778-chat-and-file-retention-in-chatgpt",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "oai-residence": {
+   "titre": "Data residency and inference residency for ChatGPT",
+   "url": "https://help.openai.com/en/articles/9903489",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "oai-consommateurs": {
+   "titre": "How OpenAI handles data in consumer services",
+   "url": "https://help.openai.com/en/articles/7039943",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "oai-liens": {
+   "titre": "Shared links",
+   "url": "https://help.openai.com/en/articles/7925741",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "oai-business-partage": {
+   "titre": "Managing data, sharing, and privacy in ChatGPT Business",
+   "url": "https://help.openai.com/en/articles/8798634",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "oai-amelioration": {
+   "titre": "How your data is used to improve model performance",
+   "url": "https://help.openai.com/en/articles/5722486",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ant-entrainement": {
+   "titre": "Is my data used for model training? (offres commerciales)",
+   "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training",
+   "date_page": "2026-08-18",
+   "lue": "2026-10-07"
+  },
+  "ant-conservation": {
+   "titre": "How long do you store my data? (offres personnelles)",
+   "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data",
+   "date_page": "2026-07-01",
+   "lue": "2026-10-07"
+  },
+  "ant-conditions-2025": {
+   "titre": "Updates to Consumer Terms and Privacy Policy",
+   "url": "https://www.anthropic.com/news/updates-to-our-consumer-terms",
+   "date_page": "2025-08-28",
+   "lue": "2026-10-07"
+  },
+  "ant-retention-entreprise": {
+   "titre": "Configure custom data retention controls for Enterprise plans",
+   "url": "https://support.claude.com/en/articles/10440198-configure-custom-data-retention-controls-for-enterprise-plans",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ant-tarifs": {
+   "titre": "Plans & pricing, Claude",
+   "url": "https://claude.com/pricing",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ant-serveurs": {
+   "titre": "Where are your servers located?",
+   "url": "https://privacy.claude.com/en/articles/7996890-where-are-your-servers-located-do-you-host-your-models-on-eu-servers",
+   "date_page": "2026-06-15",
+   "lue": "2026-10-07"
+  },
+  "ant-liens-publics": {
+   "titre": "Public links for shared chats",
+   "url": "https://support.claude.com/en/articles/16762437-public-links-for-shared-chats",
+   "date_page": "2026-09-04",
+   "lue": "2026-10-07"
+  },
+  "ant-projets": {
+   "titre": "Control project sharing for your organization",
+   "url": "https://support.claude.com/en/articles/9927533-control-project-sharing-for-your-organization",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "mis-entrainement": {
+   "titre": "Do you use my user data to train your Artificial Intelligence models?",
+   "url": "https://help.mistral.ai/en/articles/347617-do-you-use-my-user-data-to-train-your-artificial-intelligence-models",
+   "date_page": "2026-08-31",
+   "lue": "2026-10-07"
+  },
+  "mis-desactiver": {
+   "titre": "Can I opt out of my input or output data being used for training?",
+   "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+   "date_page": "2026-09-03",
+   "lue": "2026-10-07"
+  },
+  "mis-confidentialite": {
+   "titre": "Privacy Policy, Mistral AI",
+   "url": "https://legal.mistral.ai/terms/privacy-policy",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "mis-espaces": {
+   "titre": "Workspaces in Vibe",
+   "url": "https://docs.mistral.ai/admin/workspaces/workspaces-in-vibe",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "mis-stockage": {
+   "titre": "Where do you store my data or my Organization's data?",
+   "url": "https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data",
+   "date_page": "2026-08-12",
+   "lue": "2026-10-07"
+  },
+  "ppx-entreprise": {
+   "titre": "Data retention and privacy for Enterprise organizations",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11187708-data-retention-and-privacy-for-enterprise-organizations-and-users",
+   "date_page": "2026-10-05",
+   "lue": "2026-10-07"
+  },
+  "ppx-collecte": {
+   "titre": "Data Collection at Perplexity",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11564572-data-collection-at-perplexity",
+   "date_page": null,
+   "lue": "2026-10-07"
+  },
+  "ppx-retention-entreprise": {
+   "titre": "Data Retention for Enterprise",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11652701-data-retention-for-enterprise",
+   "date_page": "2026-09-07",
+   "lue": "2026-10-07"
+  },
+  "ppx-fichiers": {
+   "titre": "Security and Privacy with File Uploads",
+   "url": "https://www.perplexity.ai/help-center/en/articles/10354810-security-and-privacy-with-file-uploads",
+   "date_page": "2026-09-14",
+   "lue": "2026-10-07"
+  },
+  "ppx-sessions": {
+   "titre": "What is a Session?",
+   "url": "https://www.perplexity.ai/help-center/en/articles/10354769-what-is-a-thread",
+   "date_page": "2026-09-28",
+   "lue": "2026-10-07"
+  },
+  "ppx-roles": {
+   "titre": "Enterprise roles and permissions",
+   "url": "https://www.perplexity.ai/help-center/en/articles/11187754-enterprise-roles-and-permissions",
+   "date_page": null,
+   "lue": "2026-10-07"
+  }
+ },
+ "lignes": [
+  {
+   "id": "m365",
+   "outil": "Microsoft 365 Copilot",
+   "offre": "compte professionnel, avec ou sans licence",
+   "onglet": "microsoft",
+   "cases": {
+    "entrainement": {
+     "texte": "Non",
+     "etat": "bon",
+     "sources": [
+      "ms-confidentialite"
+     ]
+    },
+    "conservation": {
+     "texte": "Dans la boîte de chaque utilisateur ; durée non publiée sans stratégie de rétention",
+     "etat": "attention",
+     "sources": [
+      "ms-retention-copilot"
+     ]
+    },
+    "lieu": {
+     "texte": "En Europe pour une organisation française, sauf le routage flexible, les modèles d'Anthropic et les requêtes envoyées à Bing",
+     "etat": "attention",
+     "sources": [
+      "ms-routage-flexible",
+      "ms-confidentialite"
+     ]
+    },
+    "partage": null,
+    "commentaires": {
+     "texte": "Peuvent joindre des journaux et des exemples de contenu, lus par Microsoft",
+     "etat": "attention",
+     "sources": [
+      "ms-commentaires"
+     ]
+    }
+   }
+  },
+  {
+   "id": "gemini-ws",
+   "outil": "Gemini",
+   "offre": "Google Workspace",
+   "onglet": "google",
+   "cases": {
+    "entrainement": {
+     "texte": "Non, et pas de relecture humaine",
+     "etat": "bon",
+     "sources": [
+      "g-privacy-hub"
+     ]
+    },
+    "conservation": {
+     "texte": "Application Gemini : 18 mois (3, 18 ou 36 mois, ou rien) ; dans Gmail, Docs ou Sheets : sans limite tant que l'administrateur n'a pas fixé de suppression",
+     "etat": "attention",
+     "sources": [
+      "g-application",
+      "g-historique-ws"
+     ]
+    },
+    "lieu": {
+     "texte": "En Europe si l'administrateur la choisit (Business Standard et Plus) ; le traitement en Europe exige Enterprise Plus",
+     "etat": "attention",
+     "sources": [
+      "g-regions"
+     ]
+    },
+    "partage": {
+     "texte": "Lien public désactivé par défaut ; partage par Drive activé",
+     "etat": "bon",
+     "sources": [
+      "g-partage"
+     ]
+    },
+    "commentaires": {
+     "texte": "Gardés jusqu'à 18 mois, sans servir à entraîner les modèles de Workspace",
+     "etat": "bon",
+     "sources": [
+      "g-privacy-hub"
+     ]
+    }
+   }
+  },
+  {
+   "id": "gemini-perso",
+   "outil": "Gemini",
+   "offre": "compte Google personnel",
+   "onglet": "google",
+   "cases": {
+    "entrainement": {
+     "texte": "Oui, avec relecture humaine d'une partie des échanges, tant que « Conserver l'activité » est activé",
+     "etat": "attention",
+     "sources": [
+      "g-perso"
+     ]
+    },
+    "conservation": {
+     "texte": "18 mois par défaut ; jusqu'à 3 ans pour un échange relu par une personne, même effacé",
+     "etat": "attention",
+     "sources": [
+      "g-perso"
+     ]
+    },
+    "lieu": null,
+    "partage": null,
+    "commentaires": {
+     "texte": "Un avis rend l'échange utilisable pour améliorer les modèles, même activité désactivée",
+     "etat": "attention",
+     "sources": [
+      "g-perso"
+     ]
+    }
+   }
+  },
+  {
+   "id": "chatgpt-equipe",
+   "outil": "ChatGPT",
+   "offre": "Business, Enterprise",
+   "onglet": "openai",
+   "cases": {
+    "entrainement": {
+     "texte": "Non, sauf si l'organisation l'accepte",
+     "etat": "bon",
+     "sources": [
+      "oai-entreprise"
+     ]
+    },
+    "conservation": {
+     "texte": "Jusqu'à suppression, puis effacées sous 30 jours ; en Enterprise, durée fixée par l'administrateur",
+     "etat": "attention",
+     "sources": [
+      "oai-conservation",
+      "oai-entreprise"
+     ]
+    },
+    "lieu": {
+     "texte": "Enterprise : Europe possible pour un nouvel espace ; Business : pas de choix",
+     "etat": "attention",
+     "sources": [
+      "oai-residence"
+     ]
+    },
+    "partage": {
+     "texte": "Liens lisibles dans l'espace seulement ; Business ne peut pas les désactiver",
+     "etat": "bon",
+     "sources": [
+      "oai-liens",
+      "oai-business-partage"
+     ]
+    },
+    "commentaires": null
+   }
+  },
+  {
+   "id": "chatgpt-perso",
+   "outil": "ChatGPT",
+   "offre": "Free, Go, Plus, Pro",
+   "onglet": "openai",
+   "cases": {
+    "entrainement": {
+     "texte": "Oui, sauf si l'utilisateur le désactive",
+     "etat": "attention",
+     "sources": [
+      "oai-tarifs"
+     ]
+    },
+    "conservation": {
+     "texte": "Jusqu'à suppression ; discussions supprimées ou temporaires effacées sous 30 jours",
+     "etat": "attention",
+     "sources": [
+      "oai-conservation"
+     ]
+    },
+    "lieu": {
+     "texte": "Aux États-Unis et ailleurs dans le monde",
+     "etat": "attention",
+     "sources": [
+      "oai-consommateurs"
+     ]
+    },
+    "partage": {
+     "texte": "Un lien partagé est lisible par quiconque l'a",
+     "etat": "attention",
+     "sources": [
+      "oai-liens"
+     ]
+    },
+    "commentaires": {
+     "texte": "Un avis rend la conversation entière utilisable pour l'entraînement, même après refus",
+     "etat": "attention",
+     "sources": [
+      "oai-amelioration"
+     ]
+    }
+   }
+  },
+  {
+   "id": "claude-equipe",
+   "outil": "Claude",
+   "offre": "Team, Enterprise",
+   "onglet": "anthropic",
+   "cases": {
+    "entrainement": {
+     "texte": "Non par défaut",
+     "etat": "bon",
+     "sources": [
+      "ant-entrainement",
+      "ant-tarifs"
+     ]
+    },
+    "conservation": {
+     "texte": "Gardées pour l'historique ; en Enterprise, sans limite par défaut, durée réglable (30 jours au moins)",
+     "etat": "attention",
+     "sources": [
+      "ant-retention-entreprise",
+      "ant-tarifs"
+     ]
+    },
+    "lieu": {
+     "texte": "Stockage aux États-Unis ; calcul possible aux États-Unis, en Europe, en Asie et en Australie",
+     "etat": "attention",
+     "sources": [
+      "ant-serveurs"
+     ]
+    },
+    "partage": {
+     "texte": "Dans l'organisation seulement ; projets ouverts à toute l'organisation activés par défaut",
+     "etat": "attention",
+     "sources": [
+      "ant-liens-publics",
+      "ant-projets"
+     ]
+    },
+    "commentaires": {
+     "texte": "La conversation entière gardée jusqu'à 5 ans, utilisable pour l'entraînement",
+     "etat": "attention",
+     "sources": [
+      "ant-entrainement"
+     ]
+    }
+   }
+  },
+  {
+   "id": "claude-perso",
+   "outil": "Claude",
+   "offre": "Free, Pro, Max",
+   "onglet": "anthropic",
+   "cases": {
+    "entrainement": {
+     "texte": "Selon le choix fait à l'inscription ; modifiable à tout moment",
+     "etat": "attention",
+     "sources": [
+      "ant-conditions-2025",
+      "ant-tarifs"
+     ]
+    },
+    "conservation": {
+     "texte": "Effacées 30 jours après suppression si l'entraînement est refusé ; jusqu'à 5 ans, anonymisées, s'il est accepté",
+     "etat": "attention",
+     "sources": [
+      "ant-conservation",
+      "ant-conditions-2025"
+     ]
+    },
+    "lieu": null,
+    "partage": {
+     "texte": "Lien public, lisible sans compte",
+     "etat": "attention",
+     "sources": [
+      "ant-liens-publics"
+     ]
+    },
+    "commentaires": {
+     "texte": "La conversation entière gardée jusqu'à 5 ans, utilisable pour l'entraînement",
+     "etat": "attention",
+     "sources": [
+      "ant-entrainement"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mistral-equipe",
+   "outil": "Mistral Vibe (anciennement Le Chat)",
+   "offre": "Team, Enterprise",
+   "onglet": "mistral",
+   "cases": {
+    "entrainement": {
+     "texte": "Enterprise : non par défaut ; Team : les pages de Mistral se contredisent",
+     "etat": "inconnu",
+     "sources": [
+      "mis-entrainement",
+      "mis-desactiver"
+     ]
+    },
+    "conservation": {
+     "texte": "Jusqu'à suppression ; durée réglable par espace de travail (de 30 jours à 1 an)",
+     "etat": "attention",
+     "sources": [
+      "mis-confidentialite",
+      "mis-espaces"
+     ]
+    },
+    "lieu": {
+     "texte": "En Europe par défaut",
+     "etat": "bon",
+     "sources": [
+      "mis-stockage"
+     ]
+    },
+    "partage": null,
+    "commentaires": {
+     "texte": "Un avis avec commentaire autorise l'entraînement, quelle que soit l'offre",
+     "etat": "attention",
+     "sources": [
+      "mis-entrainement"
+     ]
+    }
+   }
+  },
+  {
+   "id": "mistral-perso",
+   "outil": "Mistral Vibe (anciennement Le Chat)",
+   "offre": "Free, Pro",
+   "onglet": "mistral",
+   "cases": {
+    "entrainement": {
+     "texte": "Oui, sauf si l'utilisateur le désactive",
+     "etat": "attention",
+     "sources": [
+      "mis-entrainement"
+     ]
+    },
+    "conservation": {
+     "texte": "Jusqu'à suppression",
+     "etat": "attention",
+     "sources": [
+      "mis-confidentialite"
+     ]
+    },
+    "lieu": {
+     "texte": "En Europe par défaut",
+     "etat": "bon",
+     "sources": [
+      "mis-stockage"
+     ]
+    },
+    "partage": null,
+    "commentaires": {
+     "texte": "Un avis avec commentaire autorise l'entraînement",
+     "etat": "attention",
+     "sources": [
+      "mis-entrainement"
+     ]
+    }
+   }
+  },
+  {
+   "id": "perplexity-equipe",
+   "outil": "Perplexity",
+   "offre": "Enterprise Pro, Enterprise Max",
+   "onglet": "perplexity",
+   "cases": {
+    "entrainement": {
+     "texte": "Jamais",
+     "etat": "bon",
+     "sources": [
+      "ppx-entreprise"
+     ]
+    },
+    "conservation": {
+     "texte": "Sessions gardées jusqu'à suppression ; fichiers joints effacés après 7 jours ; durée réglable à partir de 50 postes",
+     "etat": "attention",
+     "sources": [
+      "ppx-sessions",
+      "ppx-retention-entreprise"
+     ]
+    },
+    "lieu": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "partage": {
+     "texte": "Privé par défaut ; partage public réglable par l'administrateur",
+     "etat": "bon",
+     "sources": [
+      "ppx-sessions",
+      "ppx-roles"
+     ]
+    },
+    "commentaires": null
+   }
+  },
+  {
+   "id": "perplexity-perso",
+   "outil": "Perplexity",
+   "offre": "Free, Pro, Max",
+   "onglet": "perplexity",
+   "cases": {
+    "entrainement": {
+     "texte": "Oui, sauf si l'utilisateur le désactive",
+     "etat": "attention",
+     "sources": [
+      "ppx-collecte"
+     ]
+    },
+    "conservation": {
+     "texte": "Sessions gardées jusqu'à suppression ; fichiers joints 30 jours",
+     "etat": "attention",
+     "sources": [
+      "ppx-sessions",
+      "ppx-fichiers"
+     ]
+    },
+    "lieu": {
+     "texte": "Non publié",
+     "etat": "inconnu",
+     "sources": []
+    },
+    "partage": {
+     "texte": "Privé par défaut ; un lien public montre aussi les fichiers joints",
+     "etat": "attention",
+     "sources": [
+      "ppx-sessions",
+      "ppx-fichiers"
+     ]
+    },
+    "commentaires": null
+   }
+  }
+ ]
+}

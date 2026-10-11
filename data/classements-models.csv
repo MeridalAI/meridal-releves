@@ -1,0 +1,29 @@
+id,name,provider,release_date,open_weights,note
+gpt-6-astra,GPT-6 Astra,OpenAI,2026-09-03,False,
+gpt-6-1-sol,GPT-6.1 Sol,OpenAI,2026-09-29,False,
+gpt-6-luna,GPT-6 Luna,OpenAI,2026-09-22,False,
+gpt-5-6-terra,GPT-5.6 Terra,OpenAI,2026-07-09,False,
+gpt-oss-120b,gpt-oss-120b,OpenAI,2025-08-05,True,
+claude-opus-5-5,Claude Opus 5.5,Anthropic,2026-09-22,False,
+claude-sonnet-5-5,Claude Sonnet 5.5,Anthropic,2026-09-28,False,
+claude-fable-5-1,Claude Fable 5.1,Anthropic,2026-09-01,False,
+claude-opus-5,Claude Opus 5,Anthropic,2026-07-24,False,Marked deprecated/superseded on Artificial Analysis (replaced by Claude Opus 5.5).
+claude-haiku-5-5,Claude Haiku 5.5,Anthropic,2026-10-07,False,"Released 2026-10-07 (Claude Platform release notes). Only Artificial Analysis had results on 2026-10-08; not yet on LMArena (snapshot 2026-10-02), Epoch AI, ARC Prize, Vals.ai or OSWorld 2.0."
+claude-haiku-4-5,Claude Haiku 4.5,Anthropic,2025-10-15,False,Release date 2025-10-15 per Artificial Analysis and Epoch AI (API id claude-haiku-4-5-20251001). Labelled 'Legacy' by Anthropic since Claude Haiku 5.5 (2026-10-07).
+gemini-4-argon,Gemini 4 Argon,Google,2026-09-30,False,Very recent (2026-09-30); LMArena score is marked preliminary.
+gemini-3-8-flash,Gemini 3.8 Flash,Google,2026-09-02,False,
+gemini-3-1-pro,Gemini 3.1 Pro (Preview),Google,2026-02-19,False,Still a preview model; superseded in Google line-up by Gemini 4 Argon and Gemini 3.8 Flash.
+gemini-3-5-flash-lite,Gemini 3.5 Flash-Lite,Google,2026-07-21,False,
+gemma-4-31b,Gemma 4 31B,Google,2026-04-02,True,
+muse-spark-1-3,Muse Spark 1.3,Meta,2026-09-02,False,
+grok-4-7,Grok 4.7,xAI (shown as SpaceXAI on leaderboards),2026-09-21,False,"Artificial Analysis and LMArena list the creator as ""SpaceXAI""; Epoch AI and ARC Prize list xAI."
+mistral-large-4,Mistral Large 4 (Preview),Mistral AI,2026-10-06,False,Preview released on 2026-10-06 per Artificial Analysis; very few third-party results yet.
+mistral-medium-3-5,Mistral Medium 3.5,Mistral AI,2026-04-29,True,Release date per Artificial Analysis (Epoch AI: 2026-04-28).
+deepseek-v4-1-flash,DeepSeek V4.1 Flash,DeepSeek,2026-09-10,True,
+deepseek-v4-pro-0813,DeepSeek V4 Pro (0813),DeepSeek,2026-08-13,True,
+qwen3-8-max,Qwen3.8 Max (0902),Alibaba (Qwen),2026-09-02,False,"Refresh of Qwen 3.8 Max (first released 2026-08-02 per Epoch AI). Vals.ai rows labelled ""Qwen 3.8 Max"" may refer to the earlier version."
+qwen3-8-27b,Qwen3.8 27B,Alibaba (Qwen),2026-08-14,True,
+kimi-k3,Kimi K3,Moonshot AI,2026-07-16,True,
+glm-5-3,GLM-5.3,Zhipu AI (Z.ai),2026-08-18,True,"Release date per Artificial Analysis (2026-08-18); Epoch AI lists 2026-08-14 and classes it closed weights, while AA and LMArena (MIT licence) list open weights."
+minimax-m3,MiniMax-M3,MiniMax,2026-06-01,True,
+mimo-v2-6-pro,MiMo-V2.6-Pro,Xiaomi,2026-09-21,True,Release date per Artificial Analysis.
