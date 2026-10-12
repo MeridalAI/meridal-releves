@@ -61,7 +61,7 @@ claude mcp add --transport http meridal https://meridal.fr/mcp
 
 ## Qui publie
 
-Meridal est un cabinet de conseil et de formation à l'IA pour les PME, édité par Oscar Grima, entreprise individuelle. Meridal vend du conseil : c'est un intérêt, et vous pouvez le peser en lisant ces relevés. Chaque relevé donne ses sources, vérifiables sans passer par Meridal.
+Meridal est un cabinet de conseil et de formation à l'IA pour les PME, édité par Oscar Grima. Meridal vend du conseil : c'est un intérêt, et vous pouvez le peser en lisant ces relevés. Chaque relevé donne ses sources, vérifiables sans passer par Meridal.
 
 ## Limites
 
