@@ -47,7 +47,7 @@ Le texte de la licence est dans `LICENSE`.
 
 ## Citer
 
-> Meridal, *Relevés de la rubrique Apprendre*, version 2026-10-09. https://meridal.fr/apprendre/releves-en-telechargement/
+> Meridal, *Relevés de la rubrique Apprendre*, version 2026-10-09. https://doi.org/10.5281/zenodo.23334642. https://meridal.fr/apprendre/releves-en-telechargement/
 
 Un fichier `CITATION.cff` est fourni : GitHub en tire un bouton « Cite this repository ».
 
